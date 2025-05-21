@@ -1,0 +1,143 @@
+[
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "このグラフに関連する理論を説明し、このグラフが何を説明しようとしているのかを教えてください。",
+        "reference_answer": "あなたが提供したグラフは、実在気体の挙動を記述するファン・デル・ワールスの状態方程式に通常関連付けられる一連の等温線を表示しているようです。ファン・デル・ワールスの方程式は理想気体の法則を改善したもので、気体分子が占める体積とそれらの間の引力を考慮に入れています。  \nグラフは異なる温度（T_r）に対応する異なる曲線を示しており、T_rは還元温度です。還元温度は熱力学と統計力学で使用される無次元量で、物質の実際の温度を臨界温度（T_c）と比較するものであり、T_r = T/T_cです。\n\n線は、一定温度での体積に伴う気体の圧力の変化を表しています。曲線の形状は実在気体の特徴的な挙動を示しています：\n- 高温（T_r = 9/8、臨界温度以上）では、気体はほぼ理想的に振る舞い、体積が増加するにつれて圧力が連続的に減少します。\n- 臨界温度（T_r = 1）では、等温線は体積の変化に対して圧力が比較的鈍感な範囲で変曲点を示します。この点は気体の臨界点に対応し、気体と液体の相が同じ密度で区別できない状態です。\n- 臨界温度以下（T_r < 1）では、等温線は気体が液体に凝縮する負の傾斜の領域を示します。この領域は物理的に不安定であり、相転移が起こる場所です。破線で示された領域は実際には観察されず、システムは気体から液体相またはその逆に直接移動し、グラフの水平線で表されます（ここでは明確に見られませんが、一般にマクスウェルの等面積則として知られています）。\n\nこのグラフは、特に臨界点付近での実在気体の非理想的な挙動とその相転移を説明しようとしています。これは、理想気体の法則では捉えられない実在気体が理想気体の挙動からどのように逸脱するかを視覚的に表現しています。  \n",
+        "score_rubric": {
+            "criteria": "Does the response show completeness and accuracy in explaining the van der Waals equation, reduced temperature, critical temperature, and real gas behavior as depicted in the graph?",
+            "score1_description": "The response does not mention the van der Waals equation, reduced temperature, critical temperature, or real gas behavior, missing all key points.",
+            "score2_description": "The response briefly mentions one of the key points but lacks detail and accuracy.",
+            "score3_description": "The response includes some of the key points with a basic explanation but omits others or lacks clarity.",
+            "score4_description": "The response covers most of the key points with accuracy but may lack detail on one of the elements.",
+            "score5_description": "The response accurately and thoroughly explains all key points, providing a complete understanding of the graph."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the van der Waals equation and its relevance to real gases?",
+            "Does the response explain the concept of reduced temperature (T_r) and its use in the graph?",
+            "Does the response detail the significance of the critical temperature and the inflection point on the isotherms?",
+            "Does the response describe how the graph illustrates the deviation of real gas behavior from ideal gas behavior, especially near the critical point?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Van_der_Waals_equation"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "こちらは天文学の授業で出会ったグラフですが、解釈の仕方がわかりません。何に関連しているのか、そしてそれが何を伝えているのか説明してもらえますか？",
+        "reference_answer": "提供されたグラフは、天体の見かけの明るさが時間とともに周期的に変動する様子を示しているようです。このパターンはセファイド変光星の特徴です。\n\nセファイド変光星は、外層の脈動により明るさが規則的に変化する星の一種です。グラフはこれらの明るさの変動を10日間にわたって示しています。セファイド変光星の重要な特徴は、その脈動周期が固有の光度と直接関係していることであり、これは周期-光度関係として知られています。この関係は天文学において重要であり、天文学者がセファイド変光星までの距離を決定し、それによってそれらが存在する遠方の銀河までの距離を測定し、宇宙の規模を測るのに役立ちます。\n\nグラフは以下を伝えることを意図しています：\n- セファイド変光星の明るさの変化の周期的な性質。\n- 明るさのピーク間の規則的な時間間隔（周期）。\n- 時間に伴う明るさの変動の振幅。\n\nこの周期的データは、星の絶対等級を計算し、その結果として地球からの距離を求めるために使用されます。これは20世紀初頭にヘンリエッタ・スワン・リービットによって発見された周期-光度関係を利用しています。これらの星は天文学的距離を測定するための「標準光源」として役立ちます。 ",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of the Cepheid variable star light curves and their astronomical significance?",
+            "score1_description": "The response does not recognize the graph as a Cepheid variable light curve nor its relevance in astronomy.",
+            "score2_description": "The response identifies the graph as related to star brightness but fails to connect it to Cepheid variables or their importance in distance measurement.",
+            "score3_description": "The response correctly identifies the graph as a Cepheid variable light curve but only partially explains its significance in astronomy.",
+            "score4_description": "The response identifies the graph as a Cepheid variable light curve and explains its importance in distance measurement but does not mention Henrietta Swan Leavitt's contribution.",
+            "score5_description": "The response accurately identifies the Cepheid variable light curve, explains the period-luminosity relationship, the concept of \"standard candles,\" and acknowledges Henrietta Swan Leavitt's work."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the graph as showing the light curve of a Cepheid variable star?",
+            "Does the response explain the significance of the period-luminosity relationship for these stars?",
+            "Does the response describe the use of Cepheid variables as \"standard candles\" in determining astronomical distances?",
+            "Does the response mention the historical importance of Henrietta Swan Leavitt's work in discovering the period-luminosity relationship?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "このグラフに関連する理論を明確にし、このグラフが伝えようとしているメッセージを説明してください。",
+        "reference_answer": "グラフは黒体放射のプランクの法則を描写し、短波長で観測された黒体スペクトルを説明できなかったレイリー・ジーンズの古典理論と比較しています。この失敗は「紫外線の破局」として知られる現象を引き起こしました。\n\nプランクの法則は、理想的な黒体が特定の温度で異なる波長でどのようにエネルギーを放射するかを説明します。グラフでは、3000 K、4000 K、5000 Kの曲線が、これらの温度での黒体の異なる波長での放射強度を示しています。これらの曲線は、温度が上昇するにつれて放射のピークが短波長に移動することを示しています。このシフトは、プランクの法則から導き出された結果であるヴィーンの変位法則によるもので、異なる温度の黒体放射曲線は温度に反比例する波長でピークに達することを示しています。\n\n「古典理論（5000 K）」の線は、レイリー・ジーンズの法則による予測を表しており、長波長（赤外線）ではプランクの法則と一致しますが、短波長（紫外線）では大きく異なり、非物理的に大きな放射の放出を予測します。この不一致は量子力学の発展につながり、プランクはエネルギーの量子化の概念を導入しました。\n\nグラフは以下を伝えることを意図しています：\n- 異なる温度での黒体のスペクトル放射分布。\n- 温度が上昇するにつれてピーク放射が短波長に移動すること。\n- 短波長での挙動を説明できなかった古典物理学の失敗と、プランクの法則によって説明される量子理論の成功。  \n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of Planck's law and its significance in describing black-body radiation?",
+            "score1_description": "The response does not recognize Planck's law, the Rayleigh-Jeans law, Wien's displacement law, or the ultraviolet catastrophe.",
+            "score2_description": "The response mentions Planck's law but fails to address its relationship with the classical theory or Wien's law.",
+            "score3_description": "The response explains Planck's law and touches on the ultraviolet catastrophe but does not clearly describe Wien's displacement law or the historical context of quantum mechanics.",
+            "score4_description": "The response provides a good explanation of Planck's law and Wien's displacement law but lacks detail on the failure of the classical theory or the development of quantum mechanics.",
+            "score5_description": "The response comprehensively explains Planck's law, its contrast with classical theory, Wien's displacement law, and the historical significance of the ultraviolet catastrophe leading to quantum mechanics."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Planck's law of black-body radiation?",
+            "Does the response explain the discrepancy between Planck's law and classical theory, specifically the Rayleigh-Jeans law?",
+            "Does the response describe Wien's displacement law and its relation to the shift in peak wavelength with temperature?",
+            "Does the response mention the historical context of the \"ultraviolet catastrophe\" and its role in the development of quantum mechanics?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Planck%27s_law#:~:text=Planck's%20law%20describes%20the%20unique,cavity%20with%20rigid%20opaque%20walls."
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "このグラフが何を説明しようとしているのか、そしてどの理論に関連しているのかを説明してください。",
+        "reference_answer": "あなたが提供したグラフは、さまざまなマイクロプロセッサのトランジスタ数の傾向を時間とともに示す散布図です。この傾向はムーアの法則に関連しており、これはインテルの共同創設者であるゴードン・ムーアが1965年に行った観察です。ムーアは、マイクロチップ上のトランジスタの数が約2年ごとに倍増することを指摘し、これはプロセッサの計算能力も同じ期間で倍増すると緩やかに解釈されています。\n\nグラフは1970年代から2020年代に向かって、さまざまなマイクロプロセッサをタイムライン上にプロットしています。トランジスタ数を表すy軸は対数スケールになっており、これはマイクロチップのトランジスタ数の成長のように、いくつかの桁にわたるデータを扱う場合に一般的です。\n\nこのグラフが伝えようとしているメッセージには以下が含まれます：\n- ムーアの法則に従って、チップに収めることができるトランジスタの数の指数関数的な増加。\n- マイクロプロセッサの複雑さと能力の増加によって示される技術の進歩。\n- シリコンベースのチップ技術の物理的限界に向かうにつれて、この成長の可能な傾向と限界。\n\nこのグラフは半導体産業の進歩を視覚的に表現したものであり、デジタル技術の急速な進歩を示すためによく使用されます。",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the association between the graph and Moore's Law?",
+            "score1_description": "The response does not mention Moore's Law or its connection to the graph.",
+            "score2_description": "The response mentions Moore's Law but does not explain its significance or its relation to the graph.",
+            "score3_description": "The response explains Moore's Law and mentions the logarithmic scale but lacks clarity in describing the exponential growth trend.",
+            "score4_description": "The response comprehensively discusses Moore's Law, the logarithmic scale, and the exponential growth trend in transistor counts over time, with some discussion of implications and potential limits.",
+            "score5_description": "The response demonstrates a thorough understanding by explaining Moore's Law, the logarithmic scale, the exponential growth trend, its significance for microprocessors, and the implications of the graph's trend for future technology."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the association of the graph with Moore's Law?",
+            "Does the response explain the significance of the y-axis being on a logarithmic scale?",
+            "Does the response indicate the exponential growth trend in transistor counts on microchips over time?",
+            "Does the response discuss the implications of this trend for the advancement of microprocessor technology?",
+            "Does the response mention the potential limits of silicon-based technology as suggested by the graph?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Moore's_law#/media/File:Moore's_Law_Transistor_Count_1970-2020.png"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "このグラフの結果は何を示していますか？ 人間の好みに言語モデルを合わせるための最適なアルゴリズムは何ですか？",
+        "reference_answer": "提供されたグラフは、3つの異なるアルゴリズム—KTO、DPO、IPO—の性能を、「ベータ」とラベル付けされたパラメータのさまざまな値に対して比較しています。使用されている性能指標は「MTベンチスコア」で、これはおそらく機械翻訳や他の性能指標のベンチマークスコアを意味していると思われます。\n\nグラフから得られるいくつかの洞察は次のとおりです：\n1. **KTOアルゴリズム**：このアルゴリズムはベータ=0で最高のMTベンチスコアから始まりますが、ベータが増加するにつれて性能が低下し、ベータ=0.4以降で安定します。\n2. **DPOアルゴリズム**：DPOアルゴリズムはベータ=0でKTOより低いスコアから始まりますが、ベータ値全体でより安定した性能を維持し、ベータ=0.4付近でわずかに上昇した後、再び低下します。\n3. **IPOアルゴリズム**：IPOアルゴリズムはベータ=0で最も低いスコアから始まります。わずかに上昇し、ベータ=0.2でピークに達し、その後ベータが増加するにつれて全体的に下降傾向を示し、ベータ=0.8で最も低いスコアに終わります。\n\nグラフから推測できることは：\n- すべてのベータ値において最良のアルゴリズムは存在しません。\n- ベータ=0では、KTOが最も性能の良いアルゴリズムです。\n- ベータ=0.4では、DPOが最も安定しており、KTOと同様の性能を示します。\n- KTOは、より高いベータ値（ベータ=0.6以上）において他のアルゴリズムに比べて高いスコアを維持するため、最良のアルゴリズムのように見えます。\n\n「最良」のアルゴリズムは、人間の好みに合わせるためにどのベータ値が最も重要とされるかによって異なります。低いベータ値がより重要であれば、ベータ=0のKTOやベータ=0.2のIPOが好まれるかもしれません。ベータ値の範囲で性能を維持することが目標であれば、その安定性のためにDPOが最良と考えられるかもしれません。より高いベータ値を考慮する場合、再びKTOが好まれるアルゴリズムかもしれません。 ",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive analysis of algorithm performance relative to the Beta parameter?",
+            "score1_description": "The response does not acknowledge the relationship between algorithm performance and the Beta parameter.",
+            "score2_description": "The response mentions the Beta parameter but fails to connect it clearly to algorithm performance variations.",
+            "score3_description": "The response identifies algorithm performance trends for a limited range of Beta values but does not cover the full spectrum.",
+            "score4_description": "The response provides a good analysis of algorithm performance over most of the Beta range but may lack details for specific points.",
+            "score5_description": "The response offers a detailed and nuanced analysis of how each algorithm's performance varies across the entire range of Beta values."
+        },
+        "atomic_checklist": [
+            "Does the response include information on how the performance of each algorithm varies with the parameter Beta?",
+            "Does the response identify which algorithm performs best at the initial Beta value (Beta=0)?",
+            "Does the response highlight the algorithm that shows the most stability across different Beta values?",
+            "Does the response specify which algorithm is best for higher Beta values (from Beta=0.6 and above)?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://huggingface.co/blog/pref-tuning"
+            }
+        ]
+    }
+]

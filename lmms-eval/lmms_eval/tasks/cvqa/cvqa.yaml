@@ -1,0 +1,31 @@
+dataset_path: afaji/cvqa
+dataset_name: default
+task: "cvqa"
+dataset_kwargs:
+  token: True
+test_split: test
+output_type: generate_until
+doc_to_visual: !function utils.cvqa_doc_to_visual
+doc_to_text: !function utils.cvqa_doc_to_text
+doc_to_target: !function utils.cvqa_doc_to_target
+generation_kwargs:
+  max_new_tokens: 16
+  temperature: 0
+  do_sample: False
+metric_list:
+  - metric: cvqa_passthrough
+    aggregation: !function utils.cvqa_test_aggregation_result
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+process_results: !function utils.cvqa_process_results
+metadata:
+  - version: 0.0
+
+model_specific_prompt_kwargs:
+  default:
+    format: default
+    translated: False 
+model_specific_generation_kwargs:
+  llava:
+    image_aspect_ratio: original

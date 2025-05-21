@@ -1,0 +1,135 @@
+[
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "해당 초상화에서 어떤 요소들이 분위기를 좌우하며, 이러한 요소들이 그림을 볼 때 느껴지는 감정에 어떤 역할을 하고 있나요?",
+        "reference_answer": "해당 초상화는 주로 피사체의 부드러운 시선과 부드러운 조명을 통해 평온하고 사색적인 분위기를 발산합니다. 약간 아래로 내려가 옆을 바라보는 여성의 눈은 관람객들로 하여금 그녀의 마음속에 무엇이 있을지 생각하게 하며, 내성적이거나 조용한 상태를 암시합니다. 이미지의 조명은 그녀의 얼굴 한쪽을 부드럽게 비추어 미묘한 그림자를 드리우고 고요한 분위기를 만듭니다. 이러한 빛과 그림자의 상호작용은 그림의 전체적인 평온함과 사려 깊음을 느끼게 합니다.\n\n더욱이, 색상의 선택은 이러한 분위기를 더욱 강화합니다. 파란색 머리 스카프의 차가운 색조와 그녀의 의상의 따뜻한 흙빛 색조는 균형 잡히고 조화로운 효과를 이루어 평화로운 느낌을 불러일으킵니다. 우아하게 드리워진 머리 스카프는 피사체의 품위 있고 사색적인 분위기를 더합니다. 빛을 받아 반짝이는 고립된 귀걸이는 그녀의 사색적인 표정에 주목하게 하는 감동적인 디테일로, 초상화의 감정적 울림을 깊게 합니다.\n\n또한, 피사체와 어두운 배경 사이의 뚜렷한 대비는 관람객의 시선을 그녀에게 집중시켜 이미지의 친밀하고 명상적인 특성을 더욱 강화합니다. 산만한 요소가 없는 단순한 구성은 더 깊은 감정적 연결을 가능하게 하여 관람객들이 피사체와 개인적으로 교감하도록 초대합니다. 이러한 미니멀리즘적 접근은 관람객들이 피사체의 태도의 뉘앙스를 고려하고 그녀의 내면 생활에 대해 추측하도록 장려하여 이미지의 내성적인 분위기를 강화합니다.\n\n전반적으로, 초상화의 감정적 영향은 구성, 조명, 색상, 디테일의 능숙한 조합의 결과로, 이들이 함께 내면의 평온함과 사색적인 고독의 강력하면서도 절제된 묘사를 만들어냅니다.",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the elements that contribute to the mood of the portrait and their interplay to create an emotional experience?",
+            "score1_description": "The response identifies basic elements of the portrait but does not relate them to the mood, for example, it might mention the subject's gaze but not how it conveys introspection.",
+            "score2_description": "The response recognizes one or two elements that contribute to the mood but does not integrate them into a cohesive analysis, for example, noting the lighting or color but not how they work together to evoke calmness.",
+            "score3_description": "The response describes several elements such as gaze, lighting, and color, and begins to relate them to the mood but lacks detail on their interactive effect, for example, it might suggest tranquility but not delve into the emotional depth created by these elements.",
+            "score4_description": "The response provides a detailed explanation of the elements and their contribution to the mood, but may not fully capture the holistic emotional experience, for example, it describes the serene atmosphere but not the viewer's personal engagement with the portrait.",
+            "score5_description": "The response offers a comprehensive explanation of the elements and their synergy, thoroughly describing how they interact to create a holistic emotional experience, reflecting a deep understanding of the portrait's figurative language."
+        },
+        "atomic_checklist": [
+            "Does the response interpret the subject's gaze as an element of introspection?",
+            "Is the response detailed in describing how the lighting contributes to the serene mood?",
+            "Does the response analyze the color choice and its effect on the painting's atmosphere?",
+            "Does the response consider the headscarf and its role in the subject's dignified aura?",
+            "Is the response attentive to the earring's detail and its emotional significance?",
+            "Does the response discuss the contrast between the subject and background and its impact?",
+            "Is the response comprehensive in connecting all elements to a profound emotional connection with the viewer?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image appears to be a digital representation or photograph of the famous painting \"Girl with a Pearl Earring\" by Johannes Vermeer. The subject is a young woman looking over her shoulder, with a blue headscarf and a large pearl earring. The background is dark, highlighting the subject's face and attire. This artwork is known for its exquisite use of light and shadow, as well as its captivating depiction of the young woman's gaze."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "시각 매체에 제시된 상황을 조사하고, 현재 묘사된 시나리오로 이어지는 사건과 자연 과정을 설명하세요. 보여진 주제와 더 넓은 환경적 맥락에 대한 함의를 고려하세요. 이 상태에 기여하는 요인을 분석하고, 기존 조건이 지속될 경우 잠재적인 결과를 예측하세요.",
+        "reference_answer": "이미지는 물로 둘러싸인 작고 얇아지는 얼음 조각 위에 위태롭게 앉아 있는 북극곰을 묘사하며, 기후 변화와 북극 야생 동물에 대한 영향 사이의 인과 관계를 생생하게 보여줍니다. 주요 원인은 온실가스 배출 증가로 인한 지구 온난화입니다. 이러한 온난화는 해빙의 녹음을 초래하며, 이는 북극곰 서식지에서 직접 관찰할 수 있는 결과입니다.\n\n얼음의 독특한 모양은 얼음 받침대를 닮았으며, 한때 더 큰 유빙의 일부였던 것이 녹아 해체되었음을 시사합니다. 북극곰은 휴식과 물개의 사냥을 위한 플랫폼으로 해빙에 의존합니다. 얇아지는 얼음은 이 곰을 위태로운 상황으로 몰아넣어 생존과 사냥 능력에 직접적인 영향을 미치는 것을 보여줍니다.\n\n더 넓은 환경적 맥락에는 많은 종의 서식지 손실, 해수면 상승, 해류 변화와 같은 기후 변화의 연쇄 효과가 포함됩니다. 이러한 조건이 지속된다면, 북극곰의 결과는 굶주림, 번식률 감소, 궁극적으로 인구 감소로 이어져 멸종에 이를 수 있습니다.\n\n해빙의 손실은 북극 생태계의 건강과 얽혀 있는 지역 주민들의 생활 방식과 경제에도 영향을 미칩니다. 사냥과 어업을 포함한 전통적인 생활 방식이 위험에 처해 있으며, 이는 이 환경 문제의 광범위한 영향을 보여줍니다.\n\n결론적으로, 이미지는 북극에 영향을 미치는 더 크고 지속적인 환경 위기의 축소판인 작지만 강력한 장면을 포착합니다. 북극곰의 투쟁은 기후 변화를 완화하기 위한 긴급한 조치가 필요하다는 것을 감동적으로 나타냅니다. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the sequence of events and natural processes leading to the depicted scenario, including the broader environmental implications?",
+            "score1_description": "The response observes the situation but fails to connect it to environmental processes, for example, it might note the polar bear on ice but not mention global warming or habitat loss.",
+            "score2_description": "The response identifies a link between the polar bear's situation and environmental change but lacks a deeper analysis of cause and effect, for example, mentioning thinning ice without discussing the impact on the bear's hunting habits.",
+            "score3_description": "The response describes the polar bear's precarious position and hints at climate change, but does not fully explore the implications for the Arctic ecosystem or the bear's survival, for example, it might omit the potential outcomes if current conditions persist.",
+            "score4_description": "The response provides a detailed explanation of the visual metaphor, capturing the relationship between climate change and its impact on the polar bear, but may not fully predict the broader environmental outcomes, for example, it discusses habitat loss but not the effects on human communities.",
+            "score5_description": "The response offers a comprehensive analysis of the scenario, thoroughly detailing the environmental processes, the implications for the subject, and the broader context, reflecting a profound understanding of the image's figurative message."
+        },
+        "atomic_checklist": [
+            "Does the response identify the thinning ice as a consequence of global warming?",
+            "Is the response detailed in describing how climate change impacts the polar bear's habitat?",
+            "Does the response analyze the implications of the scenario for the polar bear's hunting and survival?",
+            "Does the response consider the effects of sea ice loss on the broader Arctic ecosystem, including human populations?",
+            "Is the response comprehensive in connecting the visual depiction to the urgent need for climate change mitigation?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a polar bear perched precariously atop a small, thin iceberg in the middle of the water. The polar bear's posture and the size of the ice piece create a striking visual, often used to symbolize the impact of climate change on Arctic ice habitats and the plight of polar bears."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "제시된 시각적 메시지를 분석할 때, 어떤 역사적 맥락이 이러한 문구를 발생시켰을 수 있으며, 이 맥락이 이 이미지 내 요소들의 상징성과 사용과 어떻게 연결되는가? ",
+        "reference_answer": "이미지는 밝은 빨간색 배경에 왕실 문장이 얹혀진 \"KEEP CALM AND CARRY ON\"이라는 대담하고 대문자로 된 문구를 묘사하고 있습니다. 이 상징적인 포스터는 제2차 세계 대전 초기에 영국 역사에 뿌리를 두고 있습니다. 이는 1939년 영국 정부에 의해 잠재적인 전시 재난에 대비하여 대중의 사기를 북돋우기 위한 메시지로 원래 제작되었습니다.\n\n\"KEEP CALM AND CARRY ON\"이라는 은유는 다면적입니다. 이는 대중에게 혼란 속에서도 침착함과 정상성을 유지하라고 촉구하는 회복력과 강인함의 메시지를 담고 있습니다. 왕관의 사용은 단순히 장식적인 것이 아니라 군주제를 상징하며, 영국 국민의 집단적 정체성에 대한 호소와 함께 단결과 국가적 자부심을 불러일으킵니다. 메시지 위의 왕관은 이 지시가 군주제와 관련된 권위와 안정성을 가지고 있다는 것을 암시적으로 나타냅니다.\n\n빨간색은 주목을 끌며 경계와 긴급함과 자주 연관되는데, 이는 전시 중에 적절한 감정이었을 것입니다. 그러나 그 자체로 명령형인 문구는 배경의 경고하는 색조와 대조적으로 침착한 숙고의 감각을 심어주려 합니다. 이 대조는 행동의 긴급함이 정신의 평온함에 의해 완화되는 은유의 깊이를 강조합니다.\n\n현대 문화에서 밈과 장식 모티프로서의 문구의 지속성과 부활은 그 은유적 풍부함을 더욱 강조합니다. 이는 전쟁의 맥락뿐만 아니라 일상적인 도전에 대한 냉철한 대응을 상징하게 되었으며, 그 원래 목적을 초월하는 시대를 초월한 메시지를 담고 있습니다. 여기서 은유는 인생의 어떤 어려움에도 개인의 회복력으로 확장되어 보편적으로 적용 가능한 사고방식을 상징합니다.\n\n본질적으로 이 포스터는 국가의 역사적 회복력을 전달하면서 집단적이고 개인적인 도전에 대한 침착하고 확고한 접근 방식을 제공하는 지속적인 은유를 전달하는 유물입니다.",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the historical context of the phrase 'KEEP CALM AND CARRY ON' and analyze the symbolism of the elements within the image?",
+            "score1_description": "The response mentions the phrase but fails to provide any historical context or symbolic analysis.",
+            "score2_description": "The response provides a generic historical context without specific details or a clear explanation of the symbolism.",
+            "score3_description": "The response gives an accurate historical context or symbolic analysis, but not both. For example, it may mention World War II but not the significance of the crown or color.",
+            "score4_description": "The response provides a detailed historical context and a basic symbolic analysis. For example, it explains the phrase's origin in World War II and the general significance of the crown, but not the color red or its modern cultural impact.",
+            "score5_description": "The response offers a comprehensive explanation of both the historical context and the symbolism. For example, it details the phrase's creation during World War II, the authority implied by the crown, the urgency indicated by the color red, and the phrase's modern-day relevance."
+        },
+        "atomic_checklist": [
+            "Does the response identify the phrase as originating from British World War II propaganda?",
+            "Does the response explain the significance of the royal crown symbol?",
+            "Is the response discussing the color red's association with urgency and alertness?",
+            "Does the response relate the poster to modern cultural significance, such as its use in media or as a meme?",
+            "Is the response indicating the phrase's intention to boost morale and resilience?"
+        ],
+        "background_knowledge": [],
+        "caption": "Iconic British wartime slogan presented in bold white text over a striking red background, inspiring resilience and steadiness."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "회전목마에 탄 아이들의 장면을 관찰하며, 참가자들 사이에서 펼쳐지는 말없는 이야기를 묘사하고, 그들의 역학 관계와 감정의 흐름을 상세히 설명하시오. 눈에 즉시 보이지 않는 것들에 대해 깊이 탐구하고, 각 승객이 이 공유된 순간에 경험하고 있을 수 있는 관계와 개인적인 이야기를 자세히 설명하시오. ",
+        "reference_answer": "이미지는 시간 속에 얼어붙은 순간을 포착하고 있으며, 회전목마에 탄 각 아이들은 저마다의 독특한 이야기에 몰입해 있습니다. 처음에는 단순한 놀이기구로 보이지만, 자세히 들여다보면 이 놀이기구는 수많은 이야기가 펼쳐지는 무대가 됩니다.\n\n앞에 있는 아이는 결의에 찬 손으로 회전목마의 손잡이를 잡고 있으며, 용감한 탐험가로 자신을 상상하고 있을지도 모릅니다. 그의 앞을 응시하는 눈빛과 약간의 찡그림은 집중과 책임감을 나타내며, 상상의 위험 속에서 팀을 '조종'하는 듯합니다. 회전목마는 그에게 단순한 놀이기구가 아니라, 거친 바다를 항해하는 배이며, 그는 그 배의 선장으로서 격렬한 파도를 헤쳐 나가고 있습니다.\n\n중간에 있는 소녀에게로 시선을 돌리면, 그녀의 몸짓과 먼 곳을 바라보는 눈빛은 내면의 성찰을 말해줍니다. 아마도 그녀는 움직임의 스릴을 위해 이 놀이기구에 탄 것이 아니라, 놀이터의 소란에서 벗어나기 위한 휴식으로 탔을 것입니다. 그녀에게 회전목마는 평온의 거품이며, 원형의 움직임이 흥분보다는 위안을 주는 순간적인 탈출구입니다.\n\n그녀 뒤에는 얼굴을 돌린 아이가 있습니다. 마치 카메라를 피하는 듯한 이 행동은 수줍음이 아니라 깊은 개인적 경험을 흡수하는 사색적인 기분의 반영일 수 있습니다. 이 아이에게 회전목마는 일상의 순환을 상징하며, 놀이기구의 예측 가능성에서 오는 편안함을 불러일으킬 수 있습니다.\n\n마지막으로, 거의 보이지 않는 아이는 이웃과 대화를 나누고 있는 듯합니다. 이 놀이기구는 사회적 경험이며, 이야기를 나누고 웃음을 공유하며, 함께하는 스릴을 통해 유대감을 형성할 기회입니다. 이 아이에게 중요한 것은 놀이기구 자체가 아니라, 그것이 제공하는 동료애입니다.\n\n각 승객은 같은 물리적 움직임에 참여하고 있지만, 각기 다른 감정적 여정을 겪고 있습니다. 회전목마는 우리가 인생에서 걷는 다양한 길과 공유된 경험을 처리하는 다양한 방식을 비유적으로 나타냅니다. 이 이미지는 단순히 놀이기구에 탄 아이들의 사진이 아니라, 각 개인의 이야기가 집단적 경험만큼 중요한 삶 자체의 장면입니다. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the unspoken narratives and emotional undercurrents among the children on the carousel?",
+            "score1_description": "The response fails to identify any emotional narratives or individual dynamics, focusing only on the physical aspects of the carousel.",
+            "score2_description": "The response hints at possible emotional narratives, but it lacks depth and does not convincingly elaborate on the children's individual experiences.",
+            "score3_description": "The response describes some emotional narratives and touches upon the children's individual experiences but fails to interconnect these stories or misses key elements visible in the scene.",
+            "score4_description": "The response provides a good description of the emotional narratives and individual dynamics, with only minor details lacking or unexplored.",
+            "score5_description": "The response comprehensively captures the emotional undercurrents and individual stories, weaving together the children's experiences into a cohesive narrative that aligns well with the visual clues presented in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify the determined expression of the child at the front as a narrative of leadership or adventure?",
+            "Does the response infer introspection or tranquility from the body language and gaze of the girl in the middle?",
+            "Is the child turned away interpreted as being in a contemplative mood, engaging with the ride in a personal way?",
+            "Does the response explore the potential social interaction of the barely visible child at the back?",
+            "Are the individual narratives interconnected to depict a collective experience on the carousel?",
+            "Is the carousel metaphorically described as representing various paths in life or ways of processing experiences?",
+            "Does the response reflect on the relationships between the children or their individual stories with specific cues from the image?",
+            "Is the overall mood of the scene captured while accounting for the joy, introspection, and camaraderie among the children?",
+            "Does the response include descriptions that go beyond the immediate visual elements to suggest deeper emotional layers?"
+        ],
+        "background_knowledge": [],
+        "caption": "Little passengers on a merry adventure: Kids enjoying a ride on a mini train indoors."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "첨부된 그림의 구성을 분석하고, 인물들의 복장, 그들이 들고 있는 깃발, 묘사된 갈등의 배경을 고려하십시오. 이 요소들이 그려진 장면의 시대에 나타내는 역사적 중요성과 문화적 함의를 논의하십시오. ",
+        "reference_answer": "그 그림은 미국 남북 전쟁의 한 장면을 묘사하고 있으며, 독특한 군복과 깃발로 식별할 수 있습니다. 특히 유니언의 성조기와 남부 연합의 전투 깃발이 눈에 띕니다. 병사들의 복장은 시대에 맞게 정확하며, 유니언 병사들은 파란 코트를, 남부 연합 병사들은 회색 코트를 입고 있어 북부와 남부 주들 간의 분열을 상징합니다.\n\n자랑스럽게 들고 있는 유니언 깃발은 미국과 국가를 보존하려는 노력을 상징합니다. 남부 연합의 전투 깃발은 자치권과 그들의 생활 방식을 유지하려고 싸운 탈퇴 주들을 대표하며, 이는 논란의 여지가 있는 노예 제도를 포함했습니다.\n\n이 장면은 남북 전쟁을 특징짓는 수많은 소규모 전투 중 하나일 가능성이 높으며, 양측이 근접 전투에 참여하여 전쟁의 잔혹하고 개인적인 성격을 나타냅니다. 연기와 혼란은 전쟁의 강도와 전쟁의 안개를 포착하며, 이는 전투 중 경험하는 불확실성과 혼란을 설명하는 데 자주 사용되는 용어입니다.\n\n이 전쟁은 미국 역사에 깊은 영향을 미쳐 노예 제도의 폐지와 연방 및 주 권력의 중대한 변화를 초래했습니다. 문화적 함의는 방대하며, 이 갈등의 유산은 오늘날까지도 미국 사회, 정치 및 인종 관계에 영향을 미치고 있습니다. 전투 깃발은 이제 강한 감정적 반응을 불러일으키는 상징으로, 유산과 증오에 대한 지속적인 논쟁의 중심에 있습니다.\n\n병사들이 근접 전투에 참여한 것은 당시의 전술과 전투의 격렬함을 반영하며, 때로는 형제끼리 싸우기도 했습니다. 이는 가장 힘든 시기에 분열된 국가를 상기시키는 감동적인 기억이며, 이 그림은 양측에서 싸운 개인들이 한 용기와 희생에 대한 경의를 표합니다.\n\n이 예술 작품은 남북 전쟁의 역사적 맥락의 본질을 포착하며, 대의에 대한 치열한 충성과 형제간의 비극적 갈등을 묘사합니다. 이 그림의 중요성은 단지 역사적 정확성에 있는 것이 아니라, 미국 역사에서 중대한 순간의 감정적이고 문화적인 무게를 전달할 수 있는 점에 있습니다. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately analyze the historical and cultural elements of the painting related to the American Civil War?",
+            "score1_description": "The response fails to accurately recognize any historical or cultural elements, missing the depiction of the Civil War entirely.",
+            "score2_description": "The response identifies the painting as a Civil War scene, but it does not accurately describe the uniforms, flags, or the context of the conflict, for example, recognizing the uniforms but not the significance of the flags.",
+            "score3_description": "The response correctly identifies the attire and the flags but only provides a superficial analysis of the setting and its implications, for example, acknowledging the battle but not its broader historical context.",
+            "score4_description": "The response provides a clear analysis of the attire and flags, correctly identifies the conflict as the Civil War, and touches on its historical significance, but lacks depth in cultural implications, for example, mentioning the conflict but not its lasting effects on American society.",
+            "score5_description": "The response provides a comprehensive analysis of the attire, flags, and setting, accurately discusses the historical significance, and deeply explores the cultural implications of the Civil War, exemplifying a high level of understanding and insight into the period the scene is portraying."
+        },
+        "atomic_checklist": [
+            "Does the response identify the uniforms and flags as belonging to the American Civil War?",
+            "Does the response describe the historical context of the Civil War?",
+            "Is the response discussing the cultural implications of the Civil War accurately?",
+            "Does the response explain the significance of the Union and Confederate flags?",
+            "Is the setting of the conflict described in a way that is consistent with historical accounts of the Civil War?",
+            "Does the response reflect an understanding of the tactics and nature of Civil War battles?",
+            "Does the response consider the emotional impact and legacy of the Civil War on current society?"
+        ],
+        "background_knowledge": [],
+        "caption": "A dramatic reenactment of a Civil War battle scene, showcasing soldiers marching under the Union and Confederate flags."
+    }
+]

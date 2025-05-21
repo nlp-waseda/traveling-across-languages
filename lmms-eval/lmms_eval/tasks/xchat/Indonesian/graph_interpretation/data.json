@@ -1,0 +1,143 @@
+[
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "Tolong jelaskan teori apa yang terkait dengan grafik ini dan apa yang grafik ini coba jelaskan. ",
+        "reference_answer": "Grafik yang Anda berikan tampaknya menampilkan serangkaian isoterm yang biasanya terkait dengan persamaan keadaan van der Waals, yang menggambarkan perilaku gas nyata. Persamaan van der Waals adalah perbaikan dari hukum gas ideal dan memperhitungkan volume yang ditempati oleh molekul gas dan tarik-menarik di antara mereka.\n\nGrafik menunjukkan kurva-kurva berbeda, masing-masing sesuai dengan suhu berbeda (T_r), di mana T_r adalah suhu tereduksi. Suhu tereduksi adalah kuantitas tanpa dimensi yang digunakan dalam termodinamika dan mekanika statistik, yang membandingkan suhu aktual zat dengan suhu kritisnya (T_c), sehingga T_r = T/T_c.\n\nGaris-garis tersebut mewakili bagaimana tekanan gas bervariasi dengan volume pada suhu konstan. Bentuk kurva menggambarkan perilaku karakteristik gas nyata:\n- Pada suhu tinggi (T_r = 9/8, di atas suhu kritis), gas berperilaku hampir ideal, dengan tekanan yang terus menurun seiring peningkatan volume.\n- Pada suhu kritis (T_r = 1), isoterm menunjukkan titik infleksi di mana tekanan relatif tidak sensitif terhadap perubahan volume dalam rentang tertentu. Titik ini sesuai dengan titik kritis gas, di mana fase gas dan cair memiliki kepadatan yang sama dan tidak dapat dibedakan.\n- Di bawah suhu kritis (T_r < 1), isoterm menunjukkan daerah dengan kemiringan negatif di mana gas mengembun menjadi cairan. Daerah ini secara fisik tidak stabil dan merupakan tempat terjadinya transisi fase. Daerah yang ditandai dengan garis putus-putus tidak diamati dalam praktik karena sistem bergerak langsung dari fase gas ke fase cair atau sebaliknya, yang diwakili oleh garis horizontal datar dalam grafik (tidak terlihat jelas di sini tetapi umumnya dikenal sebagai aturan area sama Maxwell).\n\nGrafik ini mencoba menjelaskan perilaku non-ideal gas nyata dan transisi fase mereka, terutama di dekat titik kritis. Ini secara visual mewakili bagaimana gas nyata menyimpang dari perilaku gas ideal, yang tidak ditangkap oleh hukum gas ideal. ",
+        "score_rubric": {
+            "criteria": "Does the response show completeness and accuracy in explaining the van der Waals equation, reduced temperature, critical temperature, and real gas behavior as depicted in the graph?",
+            "score1_description": "The response does not mention the van der Waals equation, reduced temperature, critical temperature, or real gas behavior, missing all key points.",
+            "score2_description": "The response briefly mentions one of the key points but lacks detail and accuracy.",
+            "score3_description": "The response includes some of the key points with a basic explanation but omits others or lacks clarity.",
+            "score4_description": "The response covers most of the key points with accuracy but may lack detail on one of the elements.",
+            "score5_description": "The response accurately and thoroughly explains all key points, providing a complete understanding of the graph."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the van der Waals equation and its relevance to real gases?",
+            "Does the response explain the concept of reduced temperature (T_r) and its use in the graph?",
+            "Does the response detail the significance of the critical temperature and the inflection point on the isotherms?",
+            "Does the response describe how the graph illustrates the deviation of real gas behavior from ideal gas behavior, especially near the critical point?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Van_der_Waals_equation"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "Berikut adalah grafik yang saya dapatkan dari kelas astronomi dan saya tidak mengerti bagaimana cara mengiterpretasikannya. Apakah kamu bisa menjelaskan ini tentang apa dan apa yang ditujukkan?",
+        "reference_answer": "Grafik yang Anda berikan tampaknya menunjukkan osilasi periodik dalam kecerahan tampak dari sebuah objek astronomi seiring waktu. Pola ini merupakan ciri khas dari bintang variabel Cepheid.\n\nVariabel Cepheid adalah jenis bintang yang menunjukkan pola perubahan kecerahan secara teratur akibat pulsasi di lapisan luarnya. Grafik menunjukkan variasi kecerahan ini selama sepuluh hari. Karakteristik utama dari variabel Cepheid adalah bahwa periode pulsasinya berhubungan langsung dengan luminositas intrinsiknya, hubungan yang dikenal sebagai hubungan periode-luminositas. Hubungan ini sangat penting dalam astrofisika karena memungkinkan astronom untuk menentukan jarak ke variabel Cepheid, dan dengan demikian, ke galaksi-galaksi jauh di mana mereka berada, sehingga membantu mengukur skala alam semesta.\n\nGrafik ini dimaksudkan untuk menyampaikan:\n- Sifat periodik dari perubahan kecerahan bintang variabel Cepheid.\n- Interval waktu yang teratur (periode) antara puncak kecerahan.\n- Amplitudo variasi kecerahan seiring waktu.\n\nData periodik ini digunakan untuk menghitung magnitudo absolut bintang, dan karenanya jaraknya dari Bumi, dengan memanfaatkan hubungan periode-luminositas yang ditemukan oleh Henrietta Swan Leavitt pada awal abad ke-20. Bintang-bintang ini berfungsi sebagai \"lilin standar\" untuk mengukur jarak astronomis. ",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of the Cepheid variable star light curves and their astronomical significance?",
+            "score1_description": "The response does not recognize the graph as a Cepheid variable light curve nor its relevance in astronomy.",
+            "score2_description": "The response identifies the graph as related to star brightness but fails to connect it to Cepheid variables or their importance in distance measurement.",
+            "score3_description": "The response correctly identifies the graph as a Cepheid variable light curve but only partially explains its significance in astronomy.",
+            "score4_description": "The response identifies the graph as a Cepheid variable light curve and explains its importance in distance measurement but does not mention Henrietta Swan Leavitt's contribution.",
+            "score5_description": "The response accurately identifies the Cepheid variable light curve, explains the period-luminosity relationship, the concept of \"standard candles,\" and acknowledges Henrietta Swan Leavitt's work."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the graph as showing the light curve of a Cepheid variable star?",
+            "Does the response explain the significance of the period-luminosity relationship for these stars?",
+            "Does the response describe the use of Cepheid variables as \"standard candles\" in determining astronomical distances?",
+            "Does the response mention the historical importance of Henrietta Swan Leavitt's work in discovering the period-luminosity relationship?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "Tolong jelaskan teori mana yang terkait dengan grafik ini dan gambarkan pesan yang ingin disampaikan oleh grafik ini. ",
+        "reference_answer": "Grafik tersebut menggambarkan hukum Planck tentang radiasi benda hitam dan membandingkannya dengan teori klasik Rayleigh-Jeans, yang gagal menggambarkan spektrum benda hitam yang diamati pada panjang gelombang yang lebih pendek, yang mengarah pada apa yang dikenal sebagai \"bencana ultraviolet.\"\n\nHukum Planck menjelaskan bagaimana benda hitam ideal memancarkan energi pada panjang gelombang yang berbeda pada suhu tertentu. Dalam grafik tersebut, kurva untuk 3000 K, 4000 K, dan 5000 K menunjukkan intensitas radiasi pada panjang gelombang yang berbeda untuk benda hitam pada suhu tersebut. Kurva-kurva ini menunjukkan bahwa seiring dengan meningkatnya suhu, puncak radiasi yang dipancarkan bergeser ke panjang gelombang yang lebih pendek. Pergeseran ini sesuai dengan hukum perpindahan Wien, hasil yang diturunkan dari hukum Planck, yang menyatakan bahwa kurva radiasi benda hitam untuk suhu yang berbeda mencapai puncaknya pada panjang gelombang yang berbanding terbalik dengan suhu.\n\nGaris 'Teori klasik (5000 K)' mewakili prediksi oleh hukum Rayleigh-Jeans, yang sejalan dengan hukum Planck pada panjang gelombang yang lebih panjang (inframerah) tetapi sangat berbeda pada panjang gelombang yang lebih pendek (ultraviolet), di mana ia memprediksi emisi radiasi yang sangat besar secara tidak fisik. Ketidaksesuaian ini menyebabkan perkembangan mekanika kuantum, dengan Planck memperkenalkan konsep kuantisasi energi.\n\nGrafik ini dimaksudkan untuk menyampaikan:\n- Distribusi radiansi spektral benda hitam pada suhu yang berbeda.\n- Pergeseran puncak emisi ke arah panjang gelombang yang lebih pendek seiring dengan meningkatnya suhu.\n- Kegagalan fisika klasik untuk menggambarkan perilaku pada panjang gelombang pendek dan keberhasilan teori kuantum seperti yang dijelaskan oleh hukum Planck. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of Planck's law and its significance in describing black-body radiation?",
+            "score1_description": "The response does not recognize Planck's law, the Rayleigh-Jeans law, Wien's displacement law, or the ultraviolet catastrophe.",
+            "score2_description": "The response mentions Planck's law but fails to address its relationship with the classical theory or Wien's law.",
+            "score3_description": "The response explains Planck's law and touches on the ultraviolet catastrophe but does not clearly describe Wien's displacement law or the historical context of quantum mechanics.",
+            "score4_description": "The response provides a good explanation of Planck's law and Wien's displacement law but lacks detail on the failure of the classical theory or the development of quantum mechanics.",
+            "score5_description": "The response comprehensively explains Planck's law, its contrast with classical theory, Wien's displacement law, and the historical significance of the ultraviolet catastrophe leading to quantum mechanics."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Planck's law of black-body radiation?",
+            "Does the response explain the discrepancy between Planck's law and classical theory, specifically the Rayleigh-Jeans law?",
+            "Does the response describe Wien's displacement law and its relation to the shift in peak wavelength with temperature?",
+            "Does the response mention the historical context of the \"ultraviolet catastrophe\" and its role in the development of quantum mechanics?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Planck%27s_law#:~:text=Planck's%20law%20describes%20the%20unique,cavity%20with%20rigid%20opaque%20walls."
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "Jelaskan apa yang coba dijelaskan oleh grafik ini dan teori apa yang terkait dengannya. ",
+        "reference_answer": "Grafik yang Anda berikan adalah diagram pencar yang tampaknya menggambarkan tren jumlah transistor dari berbagai mikroprosesor seiring waktu. Tren ini terkait dengan Hukum Moore, yang merupakan pengamatan yang dibuat oleh Gordon Moore, salah satu pendiri Intel, pada tahun 1965. Moore mencatat bahwa jumlah transistor pada sebuah mikrochip kira-kira berlipat ganda setiap dua tahun, yang secara longgar diartikan sebagai kekuatan komputasi untuk prosesor akan berlipat ganda dalam jangka waktu yang sama.\n\nGrafik ini memplot berbagai mikroprosesor pada garis waktu yang dimulai dari tahun 1970-an dan meluas hingga tahun 2020-an. Sumbu y, yang mewakili jumlah transistor, berada pada skala logaritmik, yang umum digunakan ketika berurusan dengan data yang mencakup beberapa urutan besaran, seperti halnya pertumbuhan jumlah transistor dalam mikrochip.\n\nPesan yang coba disampaikan oleh grafik ini meliputi:\n- Pertumbuhan eksponensial dalam jumlah transistor yang dapat dipasang pada sebuah chip, mengikuti Hukum Moore.\n- Kemajuan teknologi seiring waktu yang ditunjukkan oleh peningkatan kompleksitas dan kemampuan mikroprosesor.\n- Tren dan batasan yang mungkin dari pertumbuhan ini saat kita bergerak menuju batas fisik teknologi chip berbasis silikon.\n\nGrafik ini adalah representasi visual dari kemajuan industri semikonduktor dan sering digunakan untuk menggambarkan kemajuan pesat teknologi digital. ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the association between the graph and Moore's Law?",
+            "score1_description": "The response does not mention Moore's Law or its connection to the graph.",
+            "score2_description": "The response mentions Moore's Law but does not explain its significance or its relation to the graph.",
+            "score3_description": "The response explains Moore's Law and mentions the logarithmic scale but lacks clarity in describing the exponential growth trend.",
+            "score4_description": "The response comprehensively discusses Moore's Law, the logarithmic scale, and the exponential growth trend in transistor counts over time, with some discussion of implications and potential limits.",
+            "score5_description": "The response demonstrates a thorough understanding by explaining Moore's Law, the logarithmic scale, the exponential growth trend, its significance for microprocessors, and the implications of the graph's trend for future technology."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the association of the graph with Moore's Law?",
+            "Does the response explain the significance of the y-axis being on a logarithmic scale?",
+            "Does the response indicate the exponential growth trend in transistor counts on microchips over time?",
+            "Does the response discuss the implications of this trend for the advancement of microprocessor technology?",
+            "Does the response mention the potential limits of silicon-based technology as suggested by the graph?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Moore's_law#/media/File:Moore's_Law_Transistor_Count_1970-2020.png"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "Apa yang ditunjukkan oleh hasil dalam grafik ini? Apa algoritma terbaik untuk menyelaraskan model bahasa dengan preferensi manusia? ",
+        "reference_answer": "Grafik yang Anda berikan membandingkan kinerja tiga algoritma berbeda—KTO, DPO, dan IPO—terhadap nilai-nilai yang bervariasi dari parameter yang diberi label \"Beta.\" Metode pengukuran kinerja yang digunakan adalah \"MT Bench Score,\" yang mungkin merupakan semacam skor benchmarking untuk penerjemahan mesin atau metrik kinerja lainnya.\n\nBerikut adalah beberapa wawasan yang dapat diambil dari grafik tersebut:\n1. **Algoritma KTO**: Algoritma ini memulai dengan MT Bench Score tertinggi pada Beta=0 tetapi menunjukkan penurunan kinerja seiring meningkatnya Beta, sebelum stabil setelah Beta=0,4.\n2. **Algoritma DPO**: Algoritma DPO dimulai dengan skor lebih rendah dibandingkan KTO pada Beta=0 tetapi mempertahankan kinerja yang lebih stabil di seluruh nilai Beta, mengalami sedikit peningkatan sekitar Beta=0,4 sebelum menurun kembali.\n3. **Algoritma IPO**: Algoritma IPO memulai dengan skor terendah pada Beta=0. Skor ini meningkat sedikit, mencapai puncak pada Beta=0,2, dan kemudian menunjukkan tren penurunan umum seiring meningkatnya Beta, berakhir dengan skor terendah pada Beta=0,8.\n\nDari grafik tersebut, kita dapat menyimpulkan bahwa:\n- Tidak ada satu algoritma pun yang terbaik di seluruh nilai Beta.\n- Pada Beta=0, KTO adalah algoritma dengan kinerja terbaik.\n- Pada Beta=0,4, DPO tampaknya paling stabil dan berkinerja serupa dengan KTO.\n- KTO tampaknya menjadi algoritma terbaik untuk nilai Beta yang lebih tinggi (dari Beta=0,6 dan seterusnya) karena mempertahankan skor yang lebih tinggi relatif terhadap algoritma lainnya.\n\nAlgoritma \"terbaik\" akan bergantung pada nilai Beta mana yang dianggap paling penting untuk penyelarasan dengan preferensi manusia. Ketika Beta=0, maka DPO akan lebih baik namun untuk nilai diatas Beta=0,1, maka KTO akan lebih baik dibanding kedua algoritma lainnya.",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive analysis of algorithm performance relative to the Beta parameter?",
+            "score1_description": "The response does not acknowledge the relationship between algorithm performance and the Beta parameter.",
+            "score2_description": "The response mentions the Beta parameter but fails to connect it clearly to algorithm performance variations.",
+            "score3_description": "The response identifies algorithm performance trends for a limited range of Beta values but does not cover the full spectrum.",
+            "score4_description": "The response provides a good analysis of algorithm performance over most of the Beta range but may lack details for specific points.",
+            "score5_description": "The response offers a detailed and nuanced analysis of how each algorithm's performance varies across the entire range of Beta values."
+        },
+        "atomic_checklist": [
+            "Does the response include information on how the performance of each algorithm varies with the parameter Beta?",
+            "Does the response identify which algorithm performs best at the initial Beta value (Beta=0)?",
+            "Does the response highlight the algorithm that shows the most stability across different Beta values?",
+            "Does the response specify which algorithm is best for higher Beta values (from Beta=0.6 and above)?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://huggingface.co/blog/pref-tuning"
+            }
+        ]
+    }
+]

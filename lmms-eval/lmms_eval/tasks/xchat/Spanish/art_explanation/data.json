@@ -1,0 +1,146 @@
+[
+  {
+    "capability": "vision",
+    "task": "art_explanation",
+    "instance_idx": 0,
+    "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+    "input": "Explicar lo que es asombroso de esta obra maestra como si se lo estuvieras explicando a un niño de 5 años. ¡Pero no intentes pasar por alto ningún detalle sólo porque el oyente sea joven! Imagina que alguien ha creado un dibujo tan bonito que parece que puede cobrar vida en cualquier momento. Los colores son tan brillantes que parecen caramelos, y cada parte del dibujo tiene una historia que contar. Es como si el artista hubiera usado un pincel mágico para hacer que todo se vea perfecto. Además, hay pequeños detalles escondidos en el dibujo que puedes descubrir si miras de cerca, como un juego de buscar y encontrar. Todo esto hace que la obra maestra sea muy especial y emocionante de ver. ",
+    "reference_answer": "Imagina que tienes una gran caja de crayones y decides dibujar el cielo nocturno. Pero en lugar de solo un cielo oscuro y pequeñas, pequeñas estrellas, haces que todo el cielo baile y gire con muchos azules y verdes, y las estrellas parecen grandes luciérnagas brillantes. Y no solo coloreas dentro de las líneas; haces que los colores vayan por todas partes, con líneas gruesas y retorcidas que se mueven como olas en el océano.\n\n¡Esta imagen es así! Está hecha por alguien que vio la noche de su propia manera especial. Usó pintura para hacer que el cielo pareciera que se mueve, y las estrellas son tan brillantes y centelleantes que iluminan todo. Es como si pudiera sentir el viento y ver los sonidos, y puso ese sentimiento en el lienzo para que nosotros también pudiéramos sentirlo. ¿No es genial que con colores e imaginación, puedas hacer una imagen que se sienta viva y llena de magia? ",
+    "score_rubric": {
+      "criteria": "Does this response show a clear and imaginative description of the painting's colors, patterns, and emotional effect suitable for a 5-year-old?",
+      "score1_description": "The response does not effectively describe the colors or patterns, and fails to convey the emotional effect of the painting.",
+      "score2_description": "The response offers a basic description of the colors or patterns, but lacks detail and does not capture the painting's emotional effect.",
+      "score3_description": "The response describes colors and patterns in a simple manner and attempts to relate the painting's emotional effect, though not fully engaging a young child's perspective.",
+      "score4_description": "The response vividly describes the colors and patterns with some emotional context that is accessible to a 5-year-old.",
+      "score5_description": "The response provides a rich, detailed description of the painting's dynamic colors, lively patterns, and emotional impact, capturing a 5-year-old's imagination."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the use of vibrant colors to create a dynamic night sky?",
+      "Does the response describe how the stars are depicted unusually bright and lively?",
+      "Does the response mention the use of swirling patterns to convey movement?",
+      "Does the response explain the emotional impact the painting might have, in terms relatable to a 5-year-old?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://www.moma.org/collection/works/79802"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "art_explanation",
+    "instance_idx": 1,
+    "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+    "input": "¿Quién es esta persona? ¿Qué impacto tuvo en nosotros viviendo en el siglo XXI? ",
+    "reference_answer": "La persona en la imagen parece ser Wolfgang Amadeus Mozart, un compositor altamente influyente y prolífico de la era Clásica.\n\nEl impacto de Mozart en nosotros, que vivimos en el siglo XXI, es sustancial y multifacético:\n1. **Influencia Musical**: Sus composiciones son algunas de las más importantes en la música clásica, y su estilo ha influido en innumerables compositores y músicos que vinieron después de él. Sus obras todavía se interpretan y graban ampliamente, formando una parte importante del repertorio de los músicos clásicos de todo el mundo.\n2. **Impacto Cultural**: La música de Mozart ha permeado la cultura popular. Sus piezas se utilizan frecuentemente en películas, programas de televisión, comerciales e incluso como tonos de llamada, llevando la música clásica a una amplia audiencia.\n3. **Valor Educativo**: Su vida y obras se estudian extensamente en la educación musical, proporcionando una base para la enseñanza de la teoría musical, la composición y la historia.\n4. **Innovación en la Música**: Empujó los límites de la composición musical de su tiempo, expandiendo el potencial de sinfonías, óperas, música de cámara y conciertos, influyendo en la estructura y complejidad de la música bien en el futuro.\n5. **Inspiración**: Más allá de la música, la creatividad de Mozart y su vida como un prodigio que compuso desde una edad muy temprana continúan inspirando a personas en varios campos a perseguir sus propios esfuerzos creativos. ",
+    "score_rubric": {
+      "criteria": "Does this response show an understanding of Mozart's historical significance and his enduring influence on music and culture up to the 21st century?",
+      "score1_description": "The response fails to identify Mozart or acknowledge any aspect of his influence on modern music and culture.",
+      "score2_description": "The response recognizes Mozart as a Classical era composer but offers little detail on his impact in the 21st century.",
+      "score3_description": "The response notes Mozart's continued relevance in music performance today but misses broader cultural and educational impacts.",
+      "score4_description": "The response describes Mozart's influence on both classical music performance and cultural media, with some mention of educational value.",
+      "score5_description": "The response comprehensively covers Mozart's historical role, his music's pervasiveness in contemporary media, and his impact on music education and innovation."
+    },
+    "atomic_checklist": [
+      "Does the response include information on Mozart's role as a composer in the Classical era?",
+      "Does the response mention the continued performance and recording of his work in the 21st century?",
+      "Does the response highlight the cultural presence of Mozart's music in modern media such as films and television?",
+      "Does the response address the educational significance of Mozart in music theory and history?",
+      "Does the response discuss Mozart's influence on the innovation and structure of various musical forms?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Appearance_and_character_of_Wolfgang_Amadeus_Mozart"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "art_explanation",
+    "instance_idx": 2,
+    "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+    "input": "¿Dónde se encuentra el retrato original de esto? ¿Podrías también explicar por qué terminó estando allí (por ejemplo, explicando el contexto histórico)? ",
+    "reference_answer": "El retrato que has proporcionado parece ser \"Marie-Antoinette à la Rose\" de Élisabeth Louise Vigée Le Brun, una renombrada pintora francesa. El retrato original de María Antonieta se encuentra en el Palacio de Versalles, Francia.\n\nEsta pintura de María Antonieta, como muchas otras de Vigée Le Brun, terminó en el Palacio de Versalles debido a la importancia histórica del sujeto, la propia María Antonieta, quien fue la última reina de Francia antes de la Revolución Francesa. Versalles fue la residencia real principal de Francia desde 1682, bajo Luis XIV, hasta el inicio de la Revolución Francesa en 1789, bajo Luis XVI. Fue el centro del poder político en Francia durante ese período.\n\nMaría Antonieta fue una importante mecenas de las artes, y Vigée Le Brun se convirtió en su pintora favorita. Varios retratos de la reina fueron encargados por la monarquía para ayudar a mejorar su imagen entre la población. Después de la caída de la monarquía durante la Revolución Francesa, muchas posesiones reales, incluidas obras de arte, fueron inventariadas y eventualmente pasaron a formar parte de colecciones nacionales. El Palacio de Versalles se convirtió más tarde en un museo y sitio histórico, preservando el legado de la historia real de Francia, incluidos los retratos de la familia real. ",
+    "score_rubric": {
+      "criteria": "Does this response show detailed knowledge of the painting's current location and the historical reasons for its placement?",
+      "score1_description": "The response does not indicate the current location of the portrait or provide any historical context.",
+      "score2_description": "The response vaguely mentions the portrait's location but lacks detail and historical background.",
+      "score3_description": "The response correctly identifies the portrait's location and gives a basic explanation of its historical significance.",
+      "score4_description": "The response clearly states the portrait's location at the Palace of Versailles and includes relevant historical context regarding Marie-Antoinette and the French Revolution.",
+      "score5_description": "The response provides a comprehensive explanation of the portrait's location, the artist's connection to Marie-Antoinette, and a detailed account of the historical events that led to the painting's placement in the Palace of Versailles."
+    },
+    "atomic_checklist": [
+      "Does the response include the location of the original portrait, specifically the Palace of Versailles in France?",
+      "Does the response mention the artist, Élisabeth Louise Vigée Le Brun?",
+      "Does the response explain Marie-Antoinette's role as a patron of the arts and her influence on the commissioning of the portrait?",
+      "Does the response address the historical context of the French monarchy's fall and how royal possessions were handled post-revolution?",
+      "Does the response describe the transformation of the Palace of Versailles into a museum and its significance in housing such portraits?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "Marie Antoinette with a Rose, also known as Marie-Antoinette with the Rose (French: Marie-Antoinette dit « à la Rose »), is an oil painting by the French artist Élisabeth Vigée Le Brun. It was painted in 1783, and is in the collection of the Palace of Versailles. As of November 2022, it is hanging in the ante-dining room of the Petit Trianon.\n\nÉlisabeth Vigée Le Brun, the court painter of Queen Marie Antoinette of France, painted Marie Antoinette with a Rose in 1783, six years prior to the outbreak of French Revolution and ten years prior to the eventual beheading of Louis XVI and the queen. Vigée Le Brun was enrolled at the Académie Royale de Peinture et de Sculpture on 31 May 1783 and in the same year she was commissioned by Marie Antoinette to present a portrait of herself for the upcoming Salon.[2] She portrayed the queen wearing a dress that looked like a chemise.\n\nThe first portrait, in a chemise, seems to have been lost, but the artist produced five subsequent versions with variations in costume, for example with a hat or in a muslin dress.",
+        "reference_url": "https://en.wikipedia.org/wiki/Marie_Antoinette_with_a_Rose#:~:text=Marie Antoinette with a Rose%2C also known as Marie-Antoinette,of the Palace of Versailles."
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "art_explanation",
+    "instance_idx": 3,
+    "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+    "input": "¿Puedrías explicar sobre este arte? ¿Qué lo hace tan diferente del arte tradicional? ",
+    "reference_answer": "La obra de arte que has mostrado es de Roy Lichtenstein, una figura destacada en el movimiento del Arte Pop. Esta pieza en particular se conoce como \"Drowning Girl,\" que creó en 1963. Está elaborada en el estilo característico de Lichtenstein que emula el proceso de impresión de puntos Ben-Day de los cómics. Aquí está lo que la distingue del arte tradicional:\n\n1. **Estilo**: A diferencia de las técnicas de pintura tradicionales que podrían centrarse en el realismo o la belleza clásica, el trabajo de Lichtenstein abraza una estética comercial y de producción en masa. Su uso de colores audaces, contornos gruesos y patrones de puntos contrasta marcadamente con el trabajo de pincel y la textura que podrías encontrar en períodos artísticos anteriores.\n\n2. **Tema**: El arte tradicional a menudo representaba temas históricos, religiosos, mitológicos o de alta sociedad, mientras que \"Drowning Girl\" se basa en un panel de cómic, representando la cultura popular y temas cotidianos.\n\n3. **Ironía y Parodia**: El trabajo de Lichtenstein a menudo incluye un sentido de ironía o parodia. \"Drowning Girl,\" con su leyenda melodramática, refleja una visión satírica de las cualidades de telenovela de los cómics románticos de la época.\n\n4. **Comentario Cultural**: Esta pieza, como gran parte del Arte Pop, comenta sobre la sociedad contemporánea, particularmente la influencia de los medios de comunicación masivos, la publicidad y el consumismo, una dirección que el arte tradicional típicamente no tomaba.\n\nLa diferencia entre esta obra y el arte tradicional radica en su audaz desafío a lo que se consideraba \"arte elevado,\" abrazando en cambio la imaginería de la cultura popular y las estéticas comerciales. \n\n",
+    "score_rubric": {
+      "criteria": "Does this response show an insightful understanding of Roy Lichtenstein's \"Drowning Girl\" and its divergence from traditional art?",
+      "score1_description": "The response does not identify the artist or the unique characteristics that distinguish the artwork from traditional art.",
+      "score2_description": "The response recognizes Roy Lichtenstein as the artist but offers minimal detail on the distinct features of \"Drowning Girl\" or how it contrasts with traditional art.",
+      "score3_description": "The response identifies the artwork and artist, notes the Ben-Day dots style, but only partially addresses the parody and cultural commentary elements.",
+      "score4_description": "The response clearly identifies the artwork and artist, describes the Ben-Day dots and pop culture elements, and touches on the artwork's irony and societal commentary.",
+      "score5_description": "The response provides a comprehensive analysis of \"Drowning Girl,\" including details on the Ben-Day dots style, pop culture subject matter, use of parody, cultural commentary, and its challenge to \"high art\" conventions."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the distinctive Ben-Day dots style used by Roy Lichtenstein?",
+      "Does the response explain how the subject matter differs from traditional art by focusing on pop culture?",
+      "Does the response mention the use of irony and parody in contrast to traditional art's often serious themes?",
+      "Does the response discuss the cultural commentary aspect of the artwork, reflecting on mass media and consumerism?",
+      "Does the response address how Lichtenstein's work challenges traditional notions of \"high art\"?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Pop_art"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "art_explanation",
+    "instance_idx": 4,
+    "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+    "input": "Quiero tener una obra maestra similar a esta exhibida en mi sala de estar. ¿Cómo debería explicarlo a una persona que vende múltiples obras maestras? No estoy seguro de cómo podría elaborar esto. ",
+    "reference_answer": "Al hablar con un comerciante de arte o propietario de una galería sobre adquirir una pieza similar a la de la imagen, describirás tanto los elementos estilísticos como temáticos que te interesan. Aquí te mostramos cómo podrías explicar tus preferencias:\n\n1. **Estilo**: Menciona que estás buscando una pieza que encarne el estilo del Expresionismo Abstracto, caracterizado por la pincelada enérgica y gestual, colores vibrantes y un sentido de espontaneidad.\n\n2. **Composición**: Especifica que buscas una pintura con una composición compleja y en capas, posiblemente con una mezcla de elementos figurativos y formas abstractas entrelazadas.\n\n3. **Paleta de Colores**: Expresa tu interés en una paleta de colores rica y variada, con el potencial de tener tanto alto contraste como armonía dentro de la complejidad del diseño.\n\n4. **Impacto Emocional**: Transmite que te atrae el arte que tiene un fuerte impacto emocional o dramático, tal vez con un sentido de movimiento o caos.\n\n5. **Tamaño**: Indica el tamaño de la pintura que estás buscando, asegurándote de que encaje en el espacio de tu sala de estar y haga la declaración audaz que deseas.\n\nAl proporcionar estos detalles, un vendedor de arte puede entender mejor tus necesidades y guiarte hacia una obra maestra que se adapte a tu sala de estar y gusto personal. ",
+    "score_rubric": {
+      "criteria": "Does this response show clear communication of the desired artistic elements for a masterpiece to be displayed in the living room?",
+      "score1_description": "The response does not specify any of the desired artistic elements for the artwork.",
+      "score2_description": "The response vaguely mentions abstract elements but lacks detail on style, composition, color, emotional impact, and size.",
+      "score3_description": "The response includes general descriptions of style and color but does not fully articulate the desired composition, emotional impact, or specific size requirements.",
+      "score4_description": "The response clearly identifies the desired abstract expressionist style, rich color palette, and emotional impact, with some mention of size and composition preferences.",
+      "score5_description": "The response provides a detailed and specific description of all desired elements including style, composition, color palette, emotional impact, and size requirements for the artwork."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the desired abstract expressionist style with energetic and gestural brushwork?",
+      "Does the response mention the preference for a complex and layered composition that may include both figurative and abstract elements?",
+      "Does the response specify the interest in a rich and diverse color palette with the potential for both contrast and harmony?",
+      "Does the response convey the importance of the artwork having a strong emotional or dramatic impact?",
+      "Does the response indicate the size requirements for the painting to ensure it fits well in the living room space?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://around.uoregon.edu/content/new-exhibit-looks-american-west-through-modern-art"
+      }
+    ]
+  }
+]

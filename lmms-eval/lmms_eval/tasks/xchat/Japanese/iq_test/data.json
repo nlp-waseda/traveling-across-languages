@@ -1,0 +1,110 @@
+[
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "提供された画像の「？」に最も適した選択肢（A～F）を推測してください。答えを書く前に、パターンを分析して考えを詳しく述べてください。",
+        "reference_answer": "指示は、画像内の「？」に最も適したオプションを推測するよう求めています。\n\n各行には、3つの画像の間に共通点があります。\n- 最初の行には、正方形の頂点に配置された4つの点があります。\n- 2番目の行には、四方に突き出た星の変形である鉄十字があります。\n- 同様に、3番目の行には、中央に別のオブジェクトを囲む正方形があるはずです。\n\n各列には、3つの画像の間に共通点があります。\n- 最初の列には、中央に配置された円があります。\n- 2番目の列には、中央に配置されたプラス記号があります。\n- 同様に、3番目の列には、中央に回転した正方形があるはずです。\n\nこれらの観察に基づいて、「？」に最も適したオブジェクトは、中央に回転した正方形とそれを囲む大きな正方形を持つべきです。\nしたがって、答えはEです。",
+        "score_rubric": {
+            "criteria": "Does the response include a reasoning process that identifies the patterns and selects the correct answer for a visual pattern recognition problem?",
+            "score1_description": "The response lacks any recognition of the patterns, does not explain, and selects an incorrect answer without justification.",
+            "score2_description": "The response demonstrates minimal recognition of the patterns, offers a flawed explanation, and selects an answer with weak justification. Even if the answer is correct, a score of 2 should be given if the reasoning process within the response is not comprehensive enough.",
+            "score3_description": "The response shows some recognition of the patterns, provides a partial explanation (e.g., identifying only the patterns for the column or row), and may select a partially correct answer or a correct answer with an incomplete justification.",
+            "score4_description": "The response displays substantial recognition of the patterns, gives a mostly complete explanation, and selects the correct answer with good justification.",
+            "score5_description": "The response demonstrates excellent recognition of the patterns, provides a comprehensive and detailed explanation, and selects the correct answer with strong, well-justified reasoning."
+        },
+        "atomic_checklist": [
+            "Does the reasoning process encompass an analysis of the commonality for each row?",
+            "Does the reasoning process encompass an analysis of the commonality for each column?",
+            "Based on the analysis for each row and column, does the response succeed at inferring to the most probable answer which is E?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "画像にある「？」の位置に最も適切に続く選択肢（AからFの中から）を決定しなさい。答えを提示する前に、パターンを調べて推論を説明しなさい。 ",
+        "reference_answer": "指示は、画像内の「？」を正しく埋める選択肢を推測することを求めています。  \n「ways」と「yaws」という2つの単語を見ると、両方の単語には共通の文字が含まれています。この問題を解く1つの方法として、各文字が特定の数字に対応している可能性があります。  \nしたがって、「w=5」、「a=3」、「y=8」、「s=6」となります。すると、「yaws」は「8356」になります。したがって、答えはFです。  \n",
+        "score_rubric": {
+            "criteria": "Does the response recognize character-to-number mapping in a pattern recognition task and apply it to determine the correct sequence?",
+            "score1_description": "The response shows no understanding of character-to-number mapping, fails to recognize the pattern, and incorrectly completes the sequence with no logical explanation.",
+            "score2_description": "The response demonstrates limited understanding of the pattern, attempts character-to-number mapping with significant errors, and arrives at an incorrect sequence with flawed reasoning.",
+            "score3_description": "The response exhibits partial understanding of the pattern (e.g., wrong mapping for certain characters), performs the character-to-number mapping with minor errors, and proposes a sequence that is close to correct but with insufficient reasoning.",
+            "score4_description": "The response reflects a good understanding of the pattern, correctly applies character-to-number mapping, and identifies the right sequence with minor lapses in the reasoning process (e.g., fail to recounstruct the correct digit for \"yaws\").",
+            "score5_description": "The response shows excellent comprehension of the pattern, accurately maps characters to numbers, and flawlessly determines the correct sequence with a clear and logical explanation."
+        },
+        "atomic_checklist": [
+            "Does the response recognize that \"ways\" and \"yaws\" have the same characters in different order?",
+            "Does the response recognize that each character corresponds to a digit?",
+            "Does the response use the mapping between the character and digit to assemble the corresponding number for \"yaws\"?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "画像に示されている「？」の場所にどの選択肢（AからF）が正確に続くかを判断してください。選択を明らかにする前に、設定されたパターンを調べて推論を詳述してください。",
+        "reference_answer": "指示は、画像の「？」を正確に完成させるオプションを決定することを要求しています。天秤は両端に7kgの重りを示しています。重りが同一であり、天秤の中心から等距離に配置されていることから、画像の「？」は同じ距離、つまり90cmを表していると推測できます。したがって、答えはFです。",
+        "score_rubric": {
+            "criteria": "Does the response apply logical reasoning to deduce the correct distance measurement?",
+            "score1_description": "The response shows no understanding of balance principles, does not recognize the equal weights, and incorrectly suggests a distance without any logical basis.",
+            "score2_description": "The response demonstrates a basic grasp of balance but incorrectly assumes the distances, leading to a wrong answer that lacks clear reasoning related to the scale's equilibrium.",
+            "score3_description": "The response recognizes the need for balance and the equal weights but is only somewhat correct in determining the distance, with an explanation that indicates partial understanding of the scale's functioning.",
+            "score4_description": "The response correctly identifies that the weights are equal and should be equidistant from the center, arriving at a nearly correct distance with reasoning that has minor inaccuracies.",
+            "score5_description": "The response accurately understands the concept of balance, recognizes that the weights are equal and equidistant from the center, and deduces the correct distance of 90cm with a well-reasoned explanation, resulting in the correct answer F."
+        },
+        "atomic_checklist": [
+            "Does the response understand that the two objects in the scale has the same weight (7kg)?",
+            "Does the response recognize that the two objects would be positioned equidistant from the scale's center (90cm)?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "提示された画像の「？」に正しく当てはまる選択肢（AからFの範囲）を特定してください。選択を明らかにする前に、確立されたパターンの分析を通じてあなたの思考過程を説明してください。",
+        "reference_answer": "提供された画像の「？」に入る正しい数字を特定するためには、提示された数字の列を分析し、パターンを特定する必要があります。画像にある数字は次の通りです：4, 5, 7, 10, 14, 19, 25, 32。\n\nこれらの数字の間の差は、次に進むにつれて増加しています：\n- 5と4の差は1です。\n- 7と5の差は2です。\n- 10と7の差は3です。\n- 14と10の差は4です。\n- 19と14の差は5です。\n- 25と19の差は6です。\n- 32と25の差は7です。\n\nこれは、各数字が前の数字に1から始まり、毎回1ずつ増加する数を加えて得られるパターンを示唆しています。\n\n32の次の数字を見つけるためには、8を加えます（最後の増加が7だったため）。\n\nしたがって、列の次の数字は32 + 8 = 40です。したがって、画像の「？」に入る正しい選択肢はCです。 ",
+        "score_rubric": {
+            "criteria": "Does the response recognize numerical patterns and correctly apply them to identify a missing number in a sequence?",
+            "score1_description": "The response does not recognize any pattern, cannot calculate the differences between numbers, and selects an incorrect answer without any valid reasoning.",
+            "score2_description": "The response shows a limited recognition of the pattern, makes calculation errors in the differences, and chooses an incorrect answer with a flawed justification.",
+            "score3_description": "The response correctly identifies the pattern but makes a minor error in applying it, leading to a close but incorrect answer, with an explanation showing partial understanding.",
+            "score4_description": "The response identifies and applies the pattern correctly but fails to match the result with the appropriate answer option, resulting in a nearly correct response.",
+            "score5_description": "The response accurately recognizes the pattern, applies it correctly to calculate the missing number, and precisely matches the result to the correct answer option with a clear and logical explanation."
+        },
+        "atomic_checklist": [
+            "Does the response calculate the difference between consecutive numbers in the sequence?",
+            "Does the response identify the pattern of incrementally increasing differences?",
+            "Does the response apply the identified pattern to predict the next number correctly?",
+            "Does the response match the calculated number to the correct answer option provided in the image?",
+            "Does the response verify that the pattern hold for all given numbers in the sequence before the missing number?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "表示された画像を使用して構成できる可能性のある正しい選択肢（AからF）を選択してください。選択を開示する前に、示されたパターンを検討してその理由を詳述してください。 ",
+        "reference_answer": "このパズルを解くには、色付きの正方形が平面上でどのように配置され、3Dの箱に折りたたまれるかを視覚化する必要があります。各色付きの正方形は箱の面を表しています。正方形が立方体に折りたたまれると、正方形の各辺が立方体の辺となり、平面上で接続されたすべての正方形は3Dの形でも接続されたままでなければなりません。提供された選択肢を分析しましょう：\n1. **上面（灰色）：** 灰色の正方形は中央にあるので、箱の上面になります。\n2. **側面：** 灰色の正方形を囲む色付きの正方形が箱の側面になります。\n3. **底面：** 箱の底面は展開図には見えませんが、灰色の正方形の反対側にあるはずです。\n\n次に、接続された側面を見てみましょう：\n- マゼンタの正方形は、灰色の正方形の一方の側に、緑の正方形の別の側に接続されています。\n- シアンの正方形はマゼンタの正方形の反対側にあるはずです。なぜなら、これらは接続されていないからです。\n- オレンジの正方形は灰色の正方形に接続され、緑の正方形の反対側にあります。\n- 茶色と紫の正方形は残りの側面で、茶色の正方形は灰色と緑の正方形の両方に接続されているため、マゼンタの正方形に隣接しています。\n\nこれらの考慮事項をもとに、展開図を各選択肢と比較して、このパターンから形成できるものを見つけましょう。\n検討した結果、選択肢**E**が正しい選択であることが明らかです。その理由は次のとおりです：\n- 灰色の正方形が箱の上面を形成し、選択肢Eで正しいです。\n- マゼンタと緑の正方形は互いに反対側にあり、選択肢Eでも同様です。\n- シアンの正方形はマゼンタの正方形に隣接しておらず、選択肢Eでの位置と一致します。\n- オレンジの正方形は緑の正方形の反対側で灰色に隣接しており、選択肢Eで見られるように一致しています。\n- 茶色の正方形は灰色と緑の正方形の両方に隣接しており、選択肢Eで正しく表現されています。\n\nしたがって、画像から形成される正しい箱は選択肢**E**に示されているものです。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately perform spatial reasoning in mapping the 2D pattern to the 3D cube?",
+            "score1_description": "The explanation shows no understanding of spatial relationships; colors and positions are randomly assigned without following the logic of cube assembly.",
+            "score2_description": "The explanation demonstrates a minimal recognition of spatial relationships, but more than one major error in the mapping process leads to incorrect conclusions.",
+            "score3_description": "The explanation correctly identifies some spatial relationships, but minor errors in mapping or inconsistent logic result in an inaccurate representation of the cube.",
+            "score4_description": "The explanation displays a clear understanding of spatial relationships with only negligible errors, leading to a mostly accurate representation of the cube.",
+            "score5_description": "The explanation demonstrates precise and accurate spatial reasoning, with all colors and positions mapped correctly, resulting in a perfect representation of the 3D cube from the 2D pattern."
+        },
+        "atomic_checklist": [
+            "Does the explanation directly map each colored square in the unfolded pattern to a corresponding face on the 3D cube?",
+            "Are the adjacency relationships between the squares in the unfolded pattern correctly translated into adjacent faces on the cube?",
+            "Is there a clear rationale for identifying which squares are opposite each other on the cube, based on their positions in the unfolded pattern?",
+            "Does the reasoning process include a step that systematically excludes incorrect folding options based on the adjacency and opposite faces criteria?",
+            "Is the explanation consistent with the visual-spatial properties of a cube, such as the number of faces and the rule that each face must be connected to four other faces?"
+        ]
+    }
+]

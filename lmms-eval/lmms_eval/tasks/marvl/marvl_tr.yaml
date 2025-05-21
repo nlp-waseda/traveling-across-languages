@@ -1,0 +1,31 @@
+dataset_path: neulab/PangeaBench-marvl
+dataset_name: default
+dataset_kwargs:
+  token: True
+task: "marvl_tr"
+test_split: tr
+output_type: generate_until
+doc_to_visual: !function utils.marvl_doc_to_visual
+doc_to_text: !function utils.marvl_doc_to_text
+doc_to_target: !function utils.marvl_doc_to_target
+generation_kwargs:
+  max_new_tokens: 16
+  temperature: 0
+  top_p: 1.0
+  num_beams: 1
+  do_sample: false
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+process_results: !function utils.marvl_process_result
+metadata:
+  - version: 0.0
+  
+model_specific_prompt_kwargs:
+  default:
+    hypothesis_prompt: "Hypothesis: "
+    is_our_model: True
+    

@@ -1,0 +1,141 @@
+[
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "भविष्य में, जहाँ पृथ्वी की संरचना में नाटकीय रूप से परिवर्तन हुआ है, खोजकर्ताओं की एक टीम ग्रह की नई तत्वीय संरचना को समझने के लिए एक मिशन पर निकल रही है। वर्तमान तत्वीय वितरण का एक स्नैपशॉट दिखाने वाले पाई चार्ट का उपयोग करते हुए, टीम को एक कथा तैयार करनी होगी जो तत्वीय प्रचुरता में बदलाव और ग्रह की भूविज्ञान और जैवमंडल पर संभावित प्रभावों को समझाए। ",
+        "reference_answer": "कहानी तब शुरू होती है जब खोजकर्ता पाई चार्ट का विश्लेषण करते हैं, जो यह दर्शाता है कि ऑक्सीजन, जो अब भी सबसे प्रचुर तत्व है, पृथ्वी की पपड़ी की संरचना में घटकर 47% रह गई है। टीम का अनुमान है कि बड़े पैमाने पर ज्वालामुखी विस्फोटों की एक श्रृंखला ने ऊपरी पपड़ी में सिलिकॉन और एल्यूमीनियम की बड़ी मात्रा को शामिल कर दिया है, जिससे संतुलन बदल गया है। सिलिकॉन, जो अब 28% है, ने व्यापक नए क्वार्ट्ज-समृद्ध भूवैज्ञानिक संरचनाएँ बनाई हैं, जिससे परिदृश्य मौलिक रूप से बदल गया है।\n\nइन परिवर्तनों के व्यापक प्रभाव हैं। एल्यूमीनियम में 8% की वृद्धि से पता चलता है कि मिट्टी के खनिज अधिक व्यापक हो गए हैं, जिससे मिट्टी की उर्वरता और जल धारण क्षमता प्रभावित होती है। इससे पौधों के समुदायों में बदलाव हो सकता है, क्योंकि वे प्रजातियाँ जो सिलिकॉन-समृद्ध मिट्टी में पनपती हैं, अधिक प्रभावी हो सकती हैं। 5% पर लोहे का महत्व बना रहता है, क्योंकि यह खनिजों के निर्माण के लिए एक महत्वपूर्ण तत्व है जो चुंबकीय क्षेत्र को बनाए रखने के लिए आवश्यक है, जो जैवमंडल को हानिकारक सौर विकिरण से बचाता है।\n\nटीम अन्य तत्वों जैसे सोडियम और पोटैशियम की उपस्थिति पर भी ध्यान देती है, जो जीवन प्रक्रियाओं के लिए आवश्यक हैं, और उनकी थोड़ी वृद्धि कई जीवों में परासरण विनियमन को प्रभावित कर सकती है। कहानी इस बात पर विचार करती है कि इन तत्वों की बढ़ी हुई उपस्थिति समुद्री और स्थलीय जीवन को कैसे प्रभावित कर सकती है, जिससे संभावित रूप से नए विकासवादी मार्ग बन सकते हैं।\n\nखोजकर्ता इस निष्कर्ष पर पहुँचते हैं कि हालाँकि पृथ्वी की पपड़ी में महत्वपूर्ण परिवर्तन हुए हैं, यह एक गतिशील प्रणाली बनी रहती है। तत्वों की संरचना में बदलाव ग्रह के चल रहे भूवैज्ञानिक विकास का हिस्सा हैं, जो इसके जीवन-समर्थक मेंटल की हमेशा बदलती प्रकृति को दर्शाते हैं। उनका अनुमान है कि इन परिवर्तनों का अध्ययन करने से न केवल पृथ्वी के अतीत बल्कि उसके भविष्य में भी अंतर्दृष्टि प्राप्त होगी, जिससे इस बदले हुए विश्व में मानवता के अनुकूलन और फलने-फूलने के प्रयासों का मार्गदर्शन होगा। ",
+        "score_rubric": {
+            "criteria": "Does the response effectively use the pie chart to construct a narrative explaining shifts in Earth's elemental abundance and its impacts, including addressing the blurred part?",
+            "score1_description": "The response observes changes in the pie chart but fails to construct a narrative or explain the shifts in elemental abundance, and does not attempt to address the blurred part of the pie chart.",
+            "score2_description": "The response begins to construct a narrative and provides superficial explanations for the shifts in elemental abundance but does not clarify or make assumptions about the blurred part of the pie chart.",
+            "score3_description": "The response constructs a plausible narrative and explains some shifts in elemental abundance, including a basic attempt to address the blurred part of the pie chart, but the explanation lacks detail or is speculative.",
+            "score4_description": "The response provides a detailed narrative that explains most of the shifts in elemental abundance and includes a reasoned assumption or hypothesis about the blurred part of the pie chart, though it may not be fully substantiated.",
+            "score5_description": "The response constructs a comprehensive narrative that thoroughly explains the shifts in elemental abundance, convincingly discusses their impacts, and provides a clear and logical explanation or hypothesis for the blurred part of the pie chart."
+        },
+        "atomic_checklist": [
+            "Does the response identify a decrease in oxygen and an increase in silicon and aluminum from the pie chart?",
+            "Does the response hypothesize a geological event, like volcanic eruptions, to explain the elemental shifts?",
+            "Is the response discussing the potential formation of new quartz-rich geological formations?",
+            "Does the response consider the impact of elemental shifts on soil fertility and water retention?",
+            "Does the response evaluate the implications of changes in elemental makeup on plant communities?",
+            "Is the response contemplating the role of iron in maintaining the Earth's magnetic field?",
+            "Does the response assess the impact of sodium and potassium on osmoregulation in organisms?",
+            "Is the response contemplating potential evolutionary changes in marine and terrestrial life?",
+            "Does the response discuss the dynamic nature of Earth's geological evolution?",
+            "Is the response predicting future insights into Earth's changes from studying these shifts?",
+            "Does the response address the blurred part of the pie chart, indicating 3.6%?"
+        ],
+        "background_knowledge": [],
+        "caption": "Composition of the Earth's Crust Visualized in a Pie Chart"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "हाल ही में सांस्कृतिक अभिव्यक्तियों और कार्यस्थल की गतिशीलता पर एक कार्यशाला में, प्रतिभागियों के बीच एक क्षण को कैद करती हुई एक तस्वीर साझा की गई। इस सेटिंग में होने वाली सांस्कृतिक बातचीत और गतिशीलता का वर्णन करें। पोशाक, इशारों, बैठने की व्यवस्था, और अन्य दृश्य संकेतों पर विचार करें जो सांस्कृतिक मानदंडों या कार्यस्थल शिष्टाचार को दर्शा सकते हैं। ",
+        "reference_answer": "यह फोटोग्राफ एक समूह के व्यक्तियों के बीच सकारात्मक बातचीत और साझा समझ के क्षण को कैद करता प्रतीत होता है, संभवतः एक कार्यशाला या टीम-बिल्डिंग सेटिंग के भीतर। प्रतिभागी तालियों या स्वीकृति में लगे हुए हैं, जैसा कि उनके मुस्कुराते चेहरों और ताली बजाते हाथों से संकेत मिलता है। ऐसे इशारे सार्वभौमिक रूप से पुष्टि के भाव के रूप में पहचाने जाते हैं और अक्सर पेशेवर वातावरण में एक अच्छे काम को स्वीकार करने या किसी सहयोगी के योगदान के लिए समर्थन दिखाने के लिए उपयोग किए जाते हैं।\n\nबैठने की व्यवस्था अनौपचारिक और समावेशी है, जिसमें कुर्सियाँ एक घेरे में इकट्ठी हैं, जो एक कार्यशाला या टीम-आधारित गतिविधि का संकेत देती हैं जो प्रतिभागियों के बीच समानता और खुली बातचीत को बढ़ावा देती है। यह सेटअप अक्सर आधुनिक, सहयोगात्मक कार्यस्थलों में उपयोग किया जाता है जो हर टीम सदस्य के इनपुट को महत्व देते हैं और पदानुक्रमित बाधाओं को तोड़ने का प्रयास करते हैं।\n\nव्यक्तियों का पहनावा आकस्मिक और व्यावहारिक है, जो एक समकालीन, संभवतः रचनात्मक या तकनीक-उन्मुख कार्यस्थल को दर्शाता है जहाँ औपचारिक व्यावसायिक पोशाक अनिवार्य नहीं है। इस प्रकार का ड्रेस कोड एक कंपनी संस्कृति को दर्शा सकता है जो पारंपरिक कॉर्पोरेट मानदंडों पर आराम और व्यक्तिगत अभिव्यक्ति को प्राथमिकता देती है।\n\nप्रत्येक व्यक्ति जुड़ाव और उत्साह दिखाता है, जो इस समूह या संगठन के भीतर एक सांस्कृतिक मानदंड को दर्शा सकता है जो सक्रिय भागीदारी और एक-दूसरे के लिए दृश्यमान समर्थन को महत्व देता है। ऐसा व्यवहार एक सकारात्मक कार्यस्थल संस्कृति को बढ़ावा दे सकता है, टीम वर्क और सामूहिक सफलता को प्रोत्साहित कर सकता है।\n\nइसके अलावा, विभिन्न जातीय पृष्ठभूमि के व्यक्तियों के साथ समूह की विविधता एक बहुसांस्कृतिक कार्यस्थल का सुझाव देती है। समूह के सदस्यों के बीच स्पष्ट सहजता और खुशी इस सेटिंग के भीतर सांस्कृतिक संवेदनशीलता और विविधता के प्रति सम्मान का संकेत देती है।\n\nकुल मिलाकर, छवि एक कार्यस्थल को दर्शाती है जो सांस्कृतिक विविधता को अपनाता है, खुली और समानतावादी संचार को बढ़ावा देता है, और अपने सदस्यों के लिए एक सकारात्मक, पुष्टि करने वाला वातावरण प्रदान करता है। यह कार्यस्थल संस्कृति के प्रति एक प्रगतिशील दृष्टिकोण को दर्शाता है, जहाँ विविधता का जश्न मनाया जाता है, और टीम की गतिशीलता समावेशिता और पारस्परिक सम्मान की ओर उन्मुख होती है। ",
+        "score_rubric": {
+            "criteria": "Does the response accurately describe the cultural interactions and dynamics taking place in the photograph?",
+            "score1_description": "The response recognizes individuals in the photograph but fails to interpret cultural interactions or dynamics, for example, noting smiles without relating to cultural expressions or workplace dynamics.",
+            "score2_description": "The response identifies basic gestures such as applause but provides a limited analysis of their cultural or workplace significance, for example, mentioning clapping without discussing its role in affirmation or support.",
+            "score3_description": "The response observes cultural interactions and begins to relate them to workplace dynamics, but the explanation is superficial and lacks insight into attire or seating arrangement, for example, not considering how these reflect cultural norms.",
+            "score4_description": "The response describes cultural interactions and dynamics with attention to gestures, attire, and seating, but may miss deeper implications or the significance of diversity, for example, not fully exploring what the observed ease among diverse individuals implies.",
+            "score5_description": "The response thoroughly analyzes the cultural interactions and dynamics, considering gestures, attire, seating, and diversity, and insightfully relates these to cultural norms and workplace etiquette, demonstrating a comprehensive understanding of the setting."
+        },
+        "atomic_checklist": [
+            "Does the response identify the gestures such as applause and relate them to cultural expressions of affirmation?",
+            "Is the response attentive to the informal and inclusive seating arrangement, suggesting open communication?",
+            "Does the response comment on the casual attire and its reflection of workplace culture?",
+            "Does the response recognize active participation and enthusiasm as valued cultural norms?",
+            "Is the response observant of the diversity of the group and implications for cultural sensitivity?",
+            "Does the response infer that the workplace embraces cultural diversity and egalitarian communication?",
+            "Does the response draw connections between visual cues and the promotion of a positive workplace environment?",
+            "Is the response comprehensive in covering all aspects of cultural interactions and dynamics visible in the photograph?"
+        ],
+        "background_knowledge": [],
+        "caption": "A group of diverse coworkers sharing a joyful moment with applause and smiles in the office."
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "गतिकी और भौतिक सिद्धांतों को ध्यान में रखते हुए, उस क्षण के बाद होने वाली घटनाओं के क्रम का निर्धारण करें जो तस्वीर में कैद किया गया है, विशेष रूप से व्यक्तियों और पर्यावरण के बीच की अंतःक्रियाओं पर जोर देते हुए, विशेष रूप से उन क्रेट्स से बने ढांचे के संदर्भ में। ",
+        "reference_answer": "फोटोग्राफ का विश्लेषण करने पर, ऐसा प्रतीत होता है कि हरे रंग की क्रेट्स का एक टॉवर खतरनाक ऊँचाई तक बनाया गया है और अब एक तरफ खतरनाक रूप से झूल रहा है। एक छात्र टॉवर की ओर हाथ बढ़ा रहा है, संभवतः इसे स्थिर करने के प्रयास में, जबकि अन्य विभिन्न प्रतिक्रियाओं की स्थिति में हैं, मनोरंजन से लेकर घबराहट तक।\n\nटॉवर के स्पष्ट झुकाव और आधार के पास क्रेट्स की स्पष्ट गति को देखते हुए, एक उचित भविष्यवाणी यह होगी कि संरचना कुछ ही क्षणों में गिरने वाली है। टॉवर के निकट छात्र को गिरते समय क्रेट्स से चोट लगने का खतरा है। क्रेट्स स्वयं, उनके वजन और सामग्री के आधार पर, टकराव पर बिखर सकते हैं, जिससे चोट लगने की संभावना है या कम से कम, एक बड़ा गड़बड़ हो सकता है।\n\nव्यक्तियों की प्रतिक्रियाएँ यह सुझाव देती हैं कि यह एक अवांछित घटना थी जो अवकाश के क्षण या ब्रेक के दौरान हुई, संभवतः एक स्कूल या इसी तरह की संस्था में, क्योंकि वर्दी दिखाई दे रही है। संभावना है कि गिरावट अचानक होगी, जिससे तेज आवाज होगी जो अन्य लोगों का ध्यान आकर्षित कर सकती है जो चित्र में नहीं हैं। इससे एक बड़ी भीड़ इकट्ठा हो सकती है, जिससे चोट का अतिरिक्त जोखिम और सफाई के प्रयासों में जटिलता हो सकती है।\n\nसंदर्भ को ध्यान में रखते हुए, यह छात्रों के लिए भौतिकी और सुरक्षा में एक अनौपचारिक पाठ के रूप में भी काम कर सकता है, संरचनाओं में स्थिरता और गुरुत्वाकर्षण केंद्र के महत्व को रेखांकित करते हुए, और इस तरह के उपक्रमों में दूरदर्शिता की कमी के संभावित परिणामों को दर्शाते हुए।\n\nघटना के बाद, सुरक्षा और इन क्रेट्स जैसे सामग्रियों के उचित उपयोग के बारे में चर्चाओं की उम्मीद की जा सकती है, संभवतः इसी तरह की घटनाओं को रोकने के लिए नियमों या दिशानिर्देशों के कार्यान्वयन की ओर ले जाते हुए। यदि घटना को अच्छे हास्य में लिया जाता है और गंभीर चोट के बिना, यह छात्रों के बीच साझा की जाने वाली एक कहानी बन सकती है, उनके सामुदायिक अनुभव की लोककथा में योगदान करते हुए। ",
+        "score_rubric": {
+            "criteria": "Does the response logically predict the sequence of events following the moment captured in the photograph, with emphasis on the structure made of crates?",
+            "score1_description": "The response notes the falling crates but fails to predict specific interactions, for example, it mentions that the crates are toppling but does not discuss the students' likely movements or the crates' path.",
+            "score2_description": "The response predicts that the crates will fall but only provides a generic outcome, for example, it suggests students may react but does not specify how the closest student might move to avoid the fall.",
+            "score3_description": "The response predicts the immediate reaction of the student stabilizing the crates but lacks detail on others' reactions, for example, it might state the student will step back without discussing the potential chain reaction among the others.",
+            "score4_description": "The response provides a detailed prediction of the crates' fall and the students' reactions, but may not fully account for the aftermath, for example, it describes dodging actions but not the consequences of the scattered crates.",
+            "score5_description": "The response offers a comprehensive prediction, detailing the crates' trajectory, each student's likely movements, and the subsequent consequences, such as disruption and noise, reflecting a nuanced understanding of the dynamics."
+        },
+        "atomic_checklist": [
+            "Does the response predict that the student touching the crates will immediately withdraw their hands?",
+            "Is the response specific about the direction in which the crates are likely to fall?",
+            "Does the response anticipate the likely movement of the student directly in the path of the falling crates?",
+            "Does the response predict the reactions of the surrounding students, such as stepping back or trying to catch the crates?",
+            "Is the response detailed about the potential noise and disruption caused by the collapsing crates?",
+            "Does the response consider the possibility of the crates scattering and the safety risks involved?",
+            "Is the response predicting any immediate intervention by onlookers or authorities due to the incident?"
+        ],
+        "background_knowledge": [],
+        "caption": "The Great Crate Catastrophe: When a towering stunt turns into a frantic scramble"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "एक दृश्य चित्रण का विश्लेषण करते समय, जिसमें दृष्टि भ्रम का तत्व शामिल है, उस चित्र से उत्पन्न हो सकने वाली विभिन्न व्याख्याओं का वर्णन करें। उन दृष्टिकोणों पर विचार करें जो प्रकट हो सकते हैं और दृश्य जानकारी से निकाले जा सकने वाले विभिन्न अर्थों पर विस्तार से चर्चा करें। ",
+        "reference_answer": "प्रस्तुत छवि एक अस्पष्ट आकृति का क्लासिक उदाहरण है जिसे कई तरीकों से व्याख्यायित किया जा सकता है। पहली नजर में, सिल्हूट को या तो दो चेहरों के प्रोफाइल के रूप में देखा जा सकता है जो चूमने वाले हैं या एक एकल फूलदान के रूप में जो हल्के पृष्ठभूमि पर केंद्रित है। इस प्रकार की छवि को रुबिन का फूलदान कहा जाता है, जो आकृति-भूमि धारणा का एक उदाहरण है।\n\nअस्पष्टता को हल करने के लिए, व्यक्ति को दो वैध व्याख्याओं के बीच वैकल्पिक करने के लिए आवश्यक दृष्टिकोण में बदलाव पर ध्यान देना चाहिए। जब काले आकार पर ध्यान केंद्रित किया जाता है, तो रूपरेखाएं एक-दूसरे को देखते हुए दो चेहरों के सिल्हूट के समान दिखती हैं। प्रत्येक चेहरे का केंद्रीय किनारा नाक के समकक्ष बनता है, और बाहरी किनारे सिर के पीछे का हिस्सा बनाते हैं। यह व्याख्या काले आकार को आकृति (ध्यान का विषय) और सफेद क्षेत्र को भूमि (पृष्ठभूमि) के रूप में देखने पर निर्भर करती है।\n\nइसके विपरीत, जब कोई व्यक्ति सफेद स्थान को आकृति मानने के लिए अपना ध्यान समायोजित करता है, तो काले आकार पृष्ठभूमि में चले जाते हैं, और एक फूलदान दिखाई देता है। फूलदान की रूपरेखाएं प्रोफाइल के साझा किनारे द्वारा परिभाषित होती हैं। फूलदान के रूप में व्याख्या समरूपता और छवि में केंद्रीय स्थिति द्वारा मजबूत होती है, जो ऐसे वस्तुओं की सामान्य विशेषताएं हैं।\n\nएक सूक्ष्म अवलोकन यह है कि छवि आकृति-भूमि संगठन की संज्ञानात्मक प्रक्रियाओं के साथ खेलती है, जहां हमारी दृश्य प्रणाली यह निर्धारित करती है कि छवि का कौन सा भाग मुख्य विषय (आकृति) है और कौन सा पृष्ठभूमि (भूमि) है। यह छवि द्वि-स्थिर होने के लिए डिज़ाइन की गई है, जिसका अर्थ है कि यह जानबूझकर इन दो व्याख्याओं का समर्थन करती है, और मन उनके बीच स्विच कर सकता है लेकिन दोनों को एक साथ नहीं पकड़ सकता।\n\nइस ऑप्टिकल भ्रम की व्यापक समझ छवि की द्वैत प्रकृति को पहचानने और सराहने में निहित है। यह केवल दो चेहरों या एक फूलदान की तस्वीर नहीं है, बल्कि दृश्य उत्तेजनाओं की विभिन्न व्याख्याओं के बीच मन की क्षमता का प्रदर्शन है। यह समझ दृश्य धारणा की जटिलता और संवेदी जानकारी की व्याख्या में शामिल संज्ञानात्मक प्रसंस्करण की हमारी सराहना को गहरा करती है। ",
+        "score_rubric": {
+            "criteria": "Does the response provide a comprehensive analysis of the optical illusion and its multiple interpretations?",
+            "score1_description": "The response identifies the optical illusion but offers no further interpretation, for example, it might only state the presence of black and white shapes without seeing the profiles or the vase.",
+            "score2_description": "The response recognizes one interpretation of the illusion but not the other, for example, it may describe the vase but not the profiles, or vice versa.",
+            "score3_description": "The response mentions both interpretations but does not elaborate on the figure-ground perception involved, for example, noting the profiles and the vase but not explaining the shift in perspective.",
+            "score4_description": "The response details both interpretations and touches on the cognitive processes involved but may not fully capture the bi-stable nature of the image, for example, it might explain figure-ground organization but not the inability to see both images at once.",
+            "score5_description": "The response thoroughly analyzes the optical illusion, clearly detailing both interpretations, the cognitive processes of figure-ground perception, and the bi-stable nature of the image, reflecting a deep understanding of visual perception."
+        },
+        "atomic_checklist": [
+            "Does the response identify the silhouette as a Rubin's Vase, demonstrating figure-ground perception?",
+            "Is the response clear about the two interpretations of faces and a vase?",
+            "Does the response explain the need to shift perspective to alternate between interpretations?",
+            "Is the response detailed in how the black shape can be seen as the figure with the white as the ground and vice versa?",
+            "Does the response discuss the bi-stable nature of the image, where both interpretations cannot be held simultaneously?",
+            "Does the response elaborate on the complexity of visual perception and cognitive processing in interpreting sensory information?"
+        ],
+        "background_knowledge": [],
+        "caption": "A classic play on perception: Two faces or a vase?"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "एक उत्सव के आयोजन में कैद किए गए दृश्य में उपस्थित लोगों के बीच क्या अंतर्निहित भावनाएँ और बातचीत हो सकती हैं, और ये किस प्रकार व्यापक मानव भावनाओं और सामाजिक गतिशीलताओं को उत्सव के आयोजनों में दर्शाते हैं? ",
+        "reference_answer": "छवि छुट्टी समारोहों के विशिष्ट जीवंत वातावरण को प्रदर्शित करती है, जिसमें व्यक्ति क्रिसमस की टोपी पहने हुए हैं, जो हर्षित मित्रता के दृश्य का सुझाव देते हैं। केंद्रीय पात्र, एक पुरुष और एक महिला, साझा मनोरंजन के क्षण में लगे हुए हैं, जैसा कि महिला की चौड़ी मुस्कान और पुरुष के सूक्ष्म, संतुष्ट भाव से स्पष्ट है। वे दोनों गिलास पकड़े हुए हैं, जो सामाजिक टोस्टिंग और उत्सव के आनंद का संकेत है, जो अवसर की हर्षित भावना को दर्शाता है।\n\nमहिला की आँखें हँसी से चमक रही हैं, जो ऐसे समारोहों के दौरान अक्सर महसूस की जाने वाली खुशी और स्वतंत्रता को दर्शाती हैं। उसका खुला, अभिव्यक्तिपूर्ण चेहरा अपनापन और आनंद का संकेत देता है, जो गर्मजोशी और खुशी के सामूहिक मूड के साथ मेल खाता है। पुरुष का उसके साथ निकटता और शरीर की भाषा के माध्यम से जुड़ाव दूसरों के साथ जुड़ने और जश्न मनाने की मानवीय आवश्यकता को दर्शाता है।\n\nपृष्ठभूमि में, अन्य पार्टी में शामिल लोग भी उत्सव की भावना के सार में समान रूप से डूबे हुए हैं। झिलमिलाती रोशनी के साथ धुंधली पृष्ठभूमि छुट्टी के जादू की चमक का प्रतीक है, और समग्र सुनहरी आभा ऐसा लगता है कि दृश्य की भावनात्मक गर्मजोशी को बढ़ाती है। प्रतिभागी केवल उपस्थित नहीं हैं; वे साझा मानव अनुभव की बुनाई में सक्रिय योगदानकर्ता हैं जो ऐसे आयोजन बुनते हैं।\n\nयह छवि केवल उल्लास के क्षण को नहीं पकड़ती; यह भावनात्मक संबंधों की एक समृद्ध बुनाई को समेटे हुए है जो सार्वभौमिक रूप से प्रतिध्वनित होती है। यह उन साझा मानवीय भावनाओं की याद दिलाती है जिन्हें उत्सव के अवसर उजागर कर सकते हैं, व्यक्तियों को खुशी, मित्रता और सामूहिक उत्सव की मानवीय इच्छा की सामूहिक अभिव्यक्ति में एक साथ लाते हैं। ",
+        "score_rubric": {
+            "criteria": "Does the response insightfully analyze the underlying feelings and interactions at the festive gathering?",
+            "score1_description": "The response briefly acknowledges the festive setting but fails to delve into the emotions or interactions, for example, noting the Christmas hats but not the expressions or body language of joy and camaraderie.",
+            "score2_description": "The response recognizes happiness in the gathering but does not connect it to broader social dynamics, for example, mentioning smiling faces but not the shared amusement or sense of belonging.",
+            "score3_description": "The response describes surface-level interactions and some emotions, such as laughter, but lacks depth in exploring the significance of these in the context of human connection, for example, noting the toasting but not the deeper sense of unity it signifies.",
+            "score4_description": "The response captures most of the emotional essence and social interactions, like engagement and warmth, but may not fully interpret the broader human experience, for example, recognizing close proximity but not fully discussing the collective mood it creates.",
+            "score5_description": "The response provides a comprehensive analysis of the feelings and interactions, deeply understanding the joy, belonging, and human connection present at the event, reflecting on how these elements combine to create a rich, shared human experience."
+        },
+        "atomic_checklist": [
+            "Does the response note the Christmas hats and interpret them as a sign of shared festivity?",
+            "Is the response attentive to the woman's laughter and what it signifies about the mood of the event?",
+            "Does the response discuss the man's body language and its implications for social bonding?",
+            "Does the response mention the social act of toasting and its role in festive indulgence?",
+            "Is the response descriptive of the background ambiance and how it contributes to the festive atmosphere?",
+            "Does the response connect individual expressions to collective emotional warmth and celebration?",
+            "Is the response comprehensive in covering the richness of emotional connections and their universal resonance?"
+        ],
+        "background_knowledge": [],
+        "caption": "Joyful laughter and festive cheer at a sparkling Christmas party."
+    }
+]

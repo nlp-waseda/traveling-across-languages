@@ -1,0 +1,9 @@
+group : maxm
+task:
+  - maxm_en
+  - maxm_fr
+  - maxm_hi
+  - maxm_iw
+  - maxm_ro
+  - maxm_th
+  - maxm_zh

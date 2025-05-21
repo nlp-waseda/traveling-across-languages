@@ -1,0 +1,127 @@
+[
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "沿岸写真プロジェクトの写真を見直していると、通常の説明を超えた画像が浮上しました。それは、海の表面の上に浮かんでいるように見える大型貨物船を示しています。この観察された現象を、視点と光学的錯覚の文脈で説明し、どのようにして大気条件がそのような視覚効果を引き起こすかについて包括的な分析を提供してください。 ",
+        "reference_answer": "写真は、一般にファタ・モルガナとして知られる目を引く視覚的異常を示しています。これは、貨物船の外観を大きく歪める複雑な形の上位蜃気楼です。船は地平線の上に浮かんでいるように見え、水面から空の帯によって分離されています。この錯覚は大気の屈折の結果であり、異なる温度の空気層がそれを通過する光線を異なる角度で曲げる現象です。このシナリオでは、冷たい空気が暖かい空気の下にあるため、船からの光は暖かい空気を通過してより密度の高い冷たい空気に入る際に下方に曲げられます。\n\nこれらの空気層間の温度勾配は非常に急であり、この光学現象のための必要な条件を作り出しています。船から屈折した光は、実際の視線の下から観察者の目に届き、船が実際よりも高い位置にあるように見せます。それは、画像を上方に移動させるレンズを通して見ることに似ています。蜃気楼の明瞭さと強度は、海の穏やかさによって強化され、船の移動した画像のためのほぼ完璧な反射面を提供します。これにより、非常に明確で独特な浮遊効果が生じ、基礎となる科学を理解しなければ非常に不可解に感じられることがあります。\n\n観察者の船からの特定の角度と距離もこの効果に寄与しています。より高い視点から見ると、蜃気楼はおそらくそれほど明らかではないでしょう。さらに、光の条件はちょうど良いようで、太陽がおそらく写真家の背後に位置し、眩しさを軽減し、過度の光散乱なしに蜃気楼を明確に捉えることを可能にしています。\n\n結論として、画像に捉えられた視覚的異常は、光と温度勾配の巧妙な演出であり、物理法則の違反ではありません。これは、大気条件が自然界の認識を劇的に変える方法の魅力的な例として役立ちます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "提供された写真では、どの物理的原理が一時的に停止または違反しているように見えますか？そして、この写真の文脈内でそれはどのように説明されるでしょうか？  \n",
+        "reference_answer": "写真は、スカイダイバーが自由落下している様子を捉え、まるで空中に浮かんでいるかのように見えます。一見すると、スカイダイバーが重力に逆らっているように見えるかもしれませんが、地球に向かって急速に降下している様子は観察されません。しかし、これは写真の文脈によって作られた錯覚です。\n\n実際には、スカイダイバーは重力の完全な影響下にあり、下向きに加速しています。これはスカイダイバーの姿勢からも明らかで、腕と脚を広げて空気抵抗を増やしており、これはスカイダイビングで降下を安定させ、制御するための一般的な方法です。スカイダイバーのスーツと装備は、空気抵抗を管理し、落下速度を制御するために特別に設計されています。\n\n写真はまた、スカイダイバーが地球に対して静止しているかのような印象を与えますが、これはあり得ません。動きのブレや急速な動きを示唆する参照点が見えないため、画像は瞬間を凍結させ、スカイダイバーが浮かんでいるという誤解を与えます。\n\nもう一つ考慮すべき点は、写真がジャンプの初期の瞬間を示していない可能性があることです。この時、スカイダイバーは真の自由落下を体験し、速度ゼロから加速します。代わりに、重力と空気抵抗の力が均衡し、一定の速度に達した瞬間を捉えている可能性があります。\n\nさらに、カメラの角度と雲や飛行機のような目に見える参照点がないため、スカイダイバーの実際の速度と加速度を判断するのは難しいです。実際には、これらの視覚的手がかりがなければ、スカイダイバーの動きに対する私たちの認識は損なわれます。\n\n結論として、スカイダイバーは物理法則に逆らっているように見えますが、実際には重力や空気抵抗を含むすべての物理の原則に従っています。この錯覚は、動的な状況を写真で捉えた結果であり、時間が凍結されると、スカイダイバーの急速な下向きの動きや作用している力についての文脈的な手がかりが取り除かれてしまいます。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "非現実的な現実を否定する芸術作品を分析する文脈において、視覚的要素とその潜在的な意義を、シュルレアリスムの原則を考慮しながら説明してください。 ",
+        "reference_answer": "問題のアートワークは、広大で空っぽの空の下に広がる不毛の風景を特徴とする、シュルレアリスムの典型的な展示です。作品の中心には、溶けて風景の厳しい特徴に垂れ下がるいくつかの時計があります—荒涼とした木、硬直したテーブル、そしてシーン内の無定形の形状です。\n\n溶けた時計は、夢の世界における時間の流動性と主観的な性質を示す深いメタファーであり、現実の生活で経験する時間の厳格で揺るぎない進行とは対照的です。これは、シュルレアリストが無意識の心、夢、そして時間と空間の通常の認識を超えた現実に魅了されていることを示唆しています。\n\nさらに、風景の対照的な要素—枯れた木と青々とした緑の木—は、存在の中の二重性を表しているかもしれません。生命と死、成長と衰退の対比を強調しています。風景の不毛さは、潜在意識の広大な空虚さを象徴している可能性があり、心の内側の働きを探求するシュルレアリスムの芸術における共通のテーマです。\n\nアリの群れがいるオレンジ色の時計は、腐敗と有機生命の経過を示唆し、死の必然性とエントロピーへの絶え間ない進行を厳しく思い出させます。アリはしばしば腐敗と激しい労働と関連付けられ、時間と自然の必然性に対する継続的で認識されない闘争のテーマを強化します。\n\n最後に、背景には穏やかな海と澄んだ地平線が描かれており、意識と無意識の境界—既知と未知—と解釈されるかもしれません。この地平線は、現実の世界とその上の夢の世界を分け、これらの境界を曖昧にし挑戦するシュルレアリストの野心を強調しています。\n\n要するに、このアートワークはシュルレアリスムの要素を使用して、時間、存在、そして無意識の心の謎についての考察を促します。視聴者に現実の論理的な制約を超え、彼らの経験と認識をより流動的で夢のような解釈で考えるよう招待しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "通常の建築を超えた画像を与えられた場合、その構造を説明するだけでなく、その起源と周囲のコミュニティへの影響を語る物語を構築してください。  \n",
+        "reference_answer": "画像は、重力と従来の建築の法則に挑戦するかのように逆さまに配置されたアバンギャルドな構造を示しています。この建物は、場当たり的なデザインの産物ではなく、「インバージョンハウス」として知られる意図的な芸術的声明です。伝統的な建築に対する明確な反抗として立っており、その根元、またはこの場合は尖った先端が地面に埋め込まれ、基礎となる部分が空に持ち上げられています。\n\nその起源の物語は、その外観と同様に型破りです。インバージョンハウスは、期待を覆すというアイデアに触発された風変わりな建築家、エリアナ・コルテスによって考案されました。彼女は、建物の形が逆転できるように、社会的な規範や制約も逆転できると信じていました。この物理的な表現は、革新と変化のメタファーとして機能し、見物人に人生やデザインに対する視点を再評価するよう促します。\n\nエリアナは、彼女のビジョンの実現可能性を確保するためにエンジニアと密接に協力しました。尖った基部は、実際には建物を固定する巧妙に偽装された鋼のサポートであり、上層階は軽量でありながら耐久性のある材料で作られています。構造を強調するように見える赤いライトは、太陽光発電のLEDであり、夜間に建物を照らし、型破りな思考のビーコンを作り出します。\n\nインバージョンハウスはすぐに文化的なランドマークとなりました。そこにはコミュニティアートセンターがあり、さまざまな創造的な分野のクラスやワークショップを提供し、エリアナの創造性と革新をコミュニティに促すというビジョンを実現しています。この建物は単なる構造物ではなく、規範に挑戦し、変化を受け入れ、コミュニティが創造的に考え、生活することを奨励する物語を語る生きた物語です。その存在は地域にルネサンスを引き起こし、地元のビジネスがより大胆なデザインを採用し、アバンギャルドなアートと建築を祝う一連の年次祭りが開催されています。",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "要素が集められた画像を評価する際、これらの要素間の論理的な調和または不和の程度をどのように識別しますか？典型的な家庭用ペットと通常は別の種類の動物に関連する物体を含む写真を考えてみてください。特定できる具体的な矛盾点は何であり、これらの矛盾がどのようにシーンの論理的一貫性を乱すのでしょうか？",
+        "reference_answer": "画像は、猫の周りにいくつかのハートが描かれており、愛情や興味を示していますが、骨は伝統的に犬と関連付けられるものであり、猫とは関係がありません。このシーンは、いくつかの論理的不整合を提示しています。\n\nまず、骨は犬にとっての興味のある古典的なアイテムを表しています。犬は骨を噛むことで知られており、これは遊びの行動であると同時に、獲物のすべての部分を消費しようとする本能的な欲求に根ざしています。しかし、猫は義務的な肉食動物であり、通常は大きな骨を残さない小さな獲物を消費する傾向があります。猫は、犬と同じように骨を遊びや食べ物の対象として関与することは知られていません。\n\n次に、猫の周りのハートは、骨に対する強い愛情や興味を示唆しています。猫はその遊び心や好奇心の一環としてさまざまな物に興味を示しますが、このサイズの骨がそのような反応を引き起こすことは考えにくいです。この描写は、典型的な猫の行動に対する観察者の理解を混乱させる可能性があります。ここで示されている感情的な反応は、猫の自然な本能や行動と一致していません。\n\n最後に、猫の顔の表情や体の位置は、猫が珍しい物体に遭遇したときに期待される典型的な慎重または調査的な姿勢を反映していません。代わりに、猫は満足して愛情深く見え、この物体の文脈を考慮すると不整合が増します。\n\n要約すると、この画像内の論理的不整合は次のとおりです：猫と骨の関連付け、骨に対する不合理なレベルの興味や愛情を示すハート、そしてそのようなシナリオで期待される自然な反応と一致しない猫の表情と姿勢です。これらの要素が組み合わさって、猫の現実的な行動や動物とその典型的な興味の対象との自然な関連性と一致しない、風変わりで論理的に不整合なシーンを作り出しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+    }
+]

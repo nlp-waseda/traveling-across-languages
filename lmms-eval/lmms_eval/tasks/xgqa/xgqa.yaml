@@ -1,0 +1,10 @@
+group: xgqa
+task:
+  - xgqa_bn
+  - xgqa_de
+  - xgqa_en
+  - xgqa_id
+  - xgqa_ko
+  - xgqa_pt
+  - xgqa_ru
+  - xgqa_zh

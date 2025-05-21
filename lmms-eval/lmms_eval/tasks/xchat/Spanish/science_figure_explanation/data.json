@@ -1,0 +1,144 @@
+[
+  {
+    "capability": "vision",
+    "task": "science_figure_explanation",
+    "instance_idx": 0,
+    "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+    "input": "Basado en esta imagen, ¿qué tipo de estrategia de vida sería apropiada si fueras un pato marino? ",
+    "reference_answer": "Si fueras un pato marino en el ecosistema de la Bahía de Chesapeake, como se muestra en la red alimentaria, una estrategia de vida adecuada involucraría varios componentes clave:\n\n1. **Dieta**: Principalmente comerías bivalvos, ya que están indicados como una fuente de alimento para los patos marinos en esta red alimentaria. Los bivalvos incluyen varios tipos de almejas, mejillones y ostras, que son comunes en la Bahía de Chesapeake.\n\n2. **Comportamiento de Forrajeo**: Necesitarías desarrollar estrategias de forrajeo que te permitan localizar y consumir bivalvos de manera eficiente. Esto podría implicar bucear para alcanzar los bivalvos donde viven en el fondo o en el sedimento.\n\n3. **Preferencia de Hábitat**: Dado que los bivalvos a menudo se encuentran en aguas poco profundas donde pueden alimentarse por filtración, como pato marino, probablemente pasarías una cantidad significativa de tiempo en tales hábitats para acceder a tu alimento de manera eficiente.\n\n4. **Conciencia de Depredadores**: La red alimentaria muestra que los patos marinos pueden ser presa de aves piscívoras (que comen peces) más grandes, por lo que necesitarías estar alerta ante depredadores como el águila calva.\n\n5. **Migración Estacional**: Dependiendo del tipo específico de pato marino, podrías migrar estacionalmente, lo que requeriría que sepas cuándo viajar a diferentes áreas para reproducirte o encontrar fuentes de alimento más abundantes.\n\nVivir como un pato marino en este ecosistema significaría adaptarse a las fuentes de alimento disponibles y ser consciente de la posición en la red alimentaria, tanto como consumidor como potencial presa. ",
+    "score_rubric": {
+      "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+      "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+      "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+      "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+      "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+      "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the sea duck's primary diet of bivalves?",
+      "Does the response address the habitat preference for areas where bivalves are found?",
+      "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+      "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "science_figure_explanation",
+    "instance_idx": 1,
+    "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+    "input": "Esta es una figura básica de lo que aprendí en la escuela secundaria. He ingresado a un programa médico como estudiante universitario y debería explicar a un profesor lo que me gustaría aprender más durante la universidad. ¿Podrías ayudarme a añadir más detalles sobre lo que debería buscar y examinar antes de la reunión? ",
+    "reference_answer": "Absolutamente, prepararse para discutir sus aspiraciones educativas con un profesor en un programa médico requiere un análisis más profundo del tema. Dado que la imagen se refiere al sistema digestivo humano, esto es lo que podría querer investigar y examinar con más detalle:\n\n1. **Fisiología y Función**: Comprenda cómo funciona cada parte del sistema digestivo, no solo anatómicamente sino a nivel celular y molecular. Explore temas como la digestión enzimática en el estómago y los intestinos, la absorción de nutrientes en el intestino delgado y el papel del microbioma en el intestino grueso.\n\n2. **Fisiopatología**: Investigue enfermedades y trastornos comunes que afectan el sistema digestivo, como el reflujo ácido, la enfermedad inflamatoria intestinal, la cirrosis hepática y los trastornos pancreáticos. Comprender cómo estas enfermedades alteran la fisiología normal puede ser crucial.\n\n3. **Correlaciones Clínicas**: Investigue cómo se presentan los síntomas en varias enfermedades digestivas y qué métodos de diagnóstico se utilizan para identificarlas. Esto podría incluir aprender sobre la endoscopia, colonoscopia, técnicas de imagen y pruebas de laboratorio.\n\n4. **Nutrición**: Dado que el sistema digestivo es integral para la nutrición, profundice en cómo se digieren y procesan los diferentes nutrientes. Puede querer entender el impacto de la dieta en la salud digestiva y cómo cambian las necesidades nutricionales en estados de enfermedad.\n\n5. **Farmacología**: Investigue cómo afectan varios medicamentos al sistema digestivo, incluidos aquellos utilizados para tratar trastornos digestivos. Esto incluye comprender los mecanismos de acción, efectos secundarios y el uso terapéutico de estos medicamentos.\n\n6. **Intervenciones Quirúrgicas**: Familiarícese con los procedimientos quirúrgicos relacionados con el sistema digestivo, como apendicectomías, cirugías bariátricas o trasplantes de hígado, y cuándo son necesarias estas intervenciones.\n\n7. **Investigación y Avances**: Manténgase actualizado sobre la última investigación en gastroenterología, incluidos nuevos tratamientos, avances en la investigación del microbioma intestinal y tecnologías emergentes en diagnósticos de salud digestiva.\n\n8. **Sistemas Interconectados**: Explore cómo el sistema digestivo interactúa con otros sistemas del cuerpo, como el sistema nervioso (el eje intestino-cerebro) y el sistema inmunológico.\n\nAl examinar estos temas, podrá tener una discusión más informada y detallada con su profesor sobre sus objetivos de aprendizaje en su programa médico. ",
+    "score_rubric": {
+      "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+      "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+      "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+      "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+      "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+      "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the detailed physiology and function of the digestive system?",
+      "Does the response outline the study of pathophysiology related to common digestive diseases?",
+      "Does the response mention the diagnostic methods used for digestive disorders?",
+      "Does the response consider the role of nutrition and diet in digestive health?",
+      "Does the response address the pharmacological treatments available for digestive issues?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "science_figure_explanation",
+    "instance_idx": 2,
+    "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+    "input": "Según esta imagen, ¿cuánto tiempo tardará nuestro sol en comenzar a encogerse? Explica el proceso de lo que sucederá antes de eso en detalle. ¡Agrega información que no esté presente en la imagen también! ",
+    "reference_answer": "La imagen representa el ciclo de vida del Sol, mostrando etapas clave desde su nacimiento hasta el punto en que se convierte en una enana blanca. Según la línea de tiempo presentada, el Sol comenzará a encogerse después de expandirse en una gigante roja, lo cual se marca alrededor de 10 mil millones de años desde su nacimiento.\n\nAntes de que comience a encogerse, esto es lo que sucederá:\n1. **Secuencia Principal**: Actualmente, el Sol está en la fase de secuencia principal de su ciclo de vida, donde ha estado durante aproximadamente 4.5 mil millones de años, y se espera que permanezca en esta fase estable por unos 5 mil millones de años más. Durante este tiempo, el Sol fusiona hidrógeno en helio en su núcleo, liberando energía que alimenta al Sol y proporciona calor y luz al sistema solar.\n2. **Calentamiento Gradual**: Durante los próximos miles de millones de años, el Sol se calentará y brillará gradualmente más a medida que el hidrógeno en el núcleo se consuma y el helio se acumule. El aumento de helio hará que el núcleo se contraiga y las capas exteriores se expandan.\n3. **Fase de Gigante Roja**: Alrededor de 10 mil millones de años después de su nacimiento, el Sol entrará en la fase de gigante roja. La fusión de hidrógeno se moverá a las capas exteriores, y el núcleo se calentará y comenzará a fusionar helio en elementos más pesados como carbono y oxígeno. Las capas exteriores del Sol se expandirán masivamente, posiblemente engullendo los planetas interiores, incluida la Tierra.\n4. **Destello de Helio y Fusión Adicional**: Una vez que el helio en el núcleo se agote, el núcleo se contraerá aún más y las temperaturas aumentarán hasta el punto en que los elementos más pesados puedan fusionarse. Esta etapa se marca por un destello de helio, que es un aumento rápido y dramático en el brillo debido al inicio repentino de la fusión de helio.\n5. **Nebulosa Planetaria**: Después de la fase de gigante roja, el Sol expulsará sus capas exteriores, que se dispersarán en el espacio, creando una nebulosa planetaria. El núcleo quedará como un remanente caliente y denso.\n6. **Enana Blanca**: Finalmente, el núcleo se enfriará y encogerá en una enana blanca, que es la etapa final del ciclo de vida del Sol. Una enana blanca brilla debido al calor residual y ya no realiza reacciones de fusión. Se enfriará gradualmente durante miles de millones de años.\n\nDurante estas etapas, el sistema solar se alterará dramáticamente. La expansión del Sol en una gigante roja probablemente destruirá los planetas interiores y podría dispersar los exteriores. La pérdida de masa del Sol a través de la fase de nebulosa planetaria debilitará su atracción gravitacional, posiblemente liberando a los planetas restantes de sus órbitas.\n\nEl proceso refleja el ciclo de vida típico de una estrella como nuestro Sol, que es una estrella de secuencia principal de tipo G. Las escalas de tiempo y los resultados se basan en modelos astrofísicos y observaciones de estrellas similares en varias etapas de sus ciclos de vida. ",
+    "score_rubric": {
+      "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+      "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+      "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+      "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+      "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+      "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the current main sequence phase and its duration?",
+      "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+      "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+      "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+      "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "science_figure_explanation",
+    "instance_idx": 3,
+    "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+    "input": "Explica para qué es este circuito. ¿Qué tipo de máquinas o dispositivos lo utilizan? Además, ¿cuáles son algunas buenas maneras de intentar hacerlo yo mismo? ",
+    "reference_answer": "El circuito que has mostrado es una representación esquemática de un transistor de unión bipolar (BJT), específicamente un transistor tipo NPN basado en el etiquetado y la dirección de la flecha en el emisor. Los BJTs son componentes fundamentales utilizados para amplificar o conmutar señales electrónicas en circuitos.\n\n**Máquinas o Dispositivos Que Usan Esto:**\n1. **Dispositivos de Amplificación**: Los amplificadores de audio en radios, televisores y altavoces utilizan BJTs para amplificar señales de sonido.\n2. **Sistemas de Conmutación**: Los BJTs se utilizan en circuitos de conmutación, que son fundamentales en la electrónica digital, incluyendo computadoras y teléfonos móviles.\n3. **Sistemas de Regulación**: Los sistemas de regulación de energía, como reguladores de voltaje o fuentes de alimentación, a menudo emplean BJTs.\n4. **Modulación de Señales**: Los dispositivos de comunicación utilizan BJTs para la modulación y demodulación de señales.\n\n**Formas de Intentar Hacer Esto Tú Mismo:**\n1. **Kits Electrónicos**: Compra un kit de electrónica que incluya BJTs y otros componentes para practicar la construcción de circuitos con un enfoque de aprendizaje guiado.\n2. **Prototipado con Breadboard**: Usa una breadboard para insertar y conectar componentes sin soldar, permitiendo una fácil experimentación y aprendizaje.\n3. **Software de Simulación de Circuitos**: Usa software de simulación para crear y probar circuitos con BJTs virtualmente antes de construirlos físicamente.\n4. **Práctica de Soldadura**: Aprende técnicas de soldadura para construir circuitos más permanentes en una placa de circuito impreso (PCB).\n5. **Recursos Educativos**: Sigue tutoriales en línea, cursos o libros de texto que expliquen la teoría y las aplicaciones prácticas de los BJTs.\n\nSiempre asegúrate de tener un buen entendimiento de la electrónica y toma todas las precauciones de seguridad necesarias al trabajar con componentes y herramientas electrónicas. ",
+    "score_rubric": {
+      "criteria": "Does this response show a clear understanding of the function of a NPN transistor and practical methods for experimentation?",
+      "score1_description": "The response does not accurately identify the circuit as a NPN transistor or provide any practical methods for experimentation.",
+      "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as NPN or provide clear applications or methods for building the circuit.",
+      "score3_description": "The response identifies the circuit as a NPN transistor, lists a few applications, but offers limited methods for practical experimentation.",
+      "score4_description": "The response correctly identifies the NPN transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+      "score5_description": "The response provides a detailed identification of the NPN transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the identification of the circuit as a NPN bipolar junction transistor?",
+      "Does the response explain the use of BJTs in amplification and switching applications?",
+      "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+      "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "science_figure_explanation",
+    "instance_idx": 4,
+    "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+    "input": "¿Puedes explicar sobre esta figura? Proporciona una respuesta para un niño de 5 años y una respuesta para un experto en este campo. ",
+    "reference_answer": "Para un niño de 5 años:\nImagina que el océano es como un gran pastel con diferentes capas. La capa superior donde brilla el sol y viven peces como Nemo se llama la \"capa de luz solar.\" No es muy profunda, así que podemos nadar y ver muchas cosas allí. A medida que vas más profundo, donde está más oscuro y el agua es azul y fría, es como entrar en un cuarto sin luces, que llamamos la \"zona de penumbra.\" Aún más profundo está la \"zona de medianoche,\" donde siempre está oscuro y algunos peces tienen que hacer su propia luz, como pequeñas linternas. Luego está la parte plana del fondo, como el fondo del pastel, que es realmente, realmente profunda y súper oscura; se llama el \"abismo.\" Y la parte más profunda, donde pocos han ido, es como la sorpresa escondida en la capa inferior del pastel; llamamos a esto la \"fosa.\"\n\nPara un experto:\nEste diagrama representa la zonificación del ambiente marino basada en la profundidad. Ilustra las diferentes zonas pelágicas, comenzando con la zona Epipelágica, caracterizada por una penetración de luz suficiente para soportar la fotosíntesis. Debajo de esta, tenemos la zona Mesopelágica, donde la luz disminuye y la presión aumenta, afectando las adaptaciones de la fauna residente. Sigue la zona Batipelágica, notable por su oscuridad total y la necesidad de bioluminiscencia y quimiosíntesis como mecanismos de supervivencia. La zona Abisopelágica representa el nivel del mar profundo, caracterizado por presiones extremadamente altas, bajas temperaturas y escasa disponibilidad de alimentos. Finalmente, la zona Hadal corresponde a las fosas oceánicas, con presiones hidrostáticas únicas y características geológicas. Comprender estas zonas es crucial para estudiar la distribución biogeográfica, la ecología de aguas profundas y los gradientes fisicoquímicos que definen la vida en cada zona. ",
+    "score_rubric": {
+      "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+      "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+      "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+      "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+      "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+      "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+    },
+    "atomic_checklist": [
+      "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+      "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+      "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+      "Does the response for an expert mention the biological and ecological significance of each zone?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+      }
+    ]
+  }
+]

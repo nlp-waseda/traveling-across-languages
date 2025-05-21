@@ -1,0 +1,42 @@
+dataset_path: neulab/PangeaBench-xm100
+dataset_kwargs:
+  token: True
+task : "xm100_de"
+group : "xm100"
+test_split: de
+output_type: generate_until
+doc_to_visual: !function utils.xm100_doc_to_visual
+doc_to_text: "Provide a one-sentence caption for the provided image in German."
+doc_to_target: "answer"
+generation_kwargs:
+  max_new_tokens: 128
+  temperature: 0
+  top_p: 0
+  num_beams: 1
+  do_sample: false
+process_results: !function utils.xm100_process_result
+# Note that the metric name can be either a registed metric function (such as the case for GQA) or a key name returned by process_results
+metric_list:
+  - metric: xm100_Bleu_4 
+    aggregation : !function utils.xm100_bleu4
+    higher_is_better : true
+  - metric: xm100_Bleu_3
+    aggregation : !function utils.xm100_bleu3
+    higher_is_better : true
+  - metric: xm100_Bleu_2
+    aggregation : !function utils.xm100_bleu2
+    higher_is_better : true
+  - metric: xm100_Bleu_1
+    aggregation : !function utils.xm100_bleu1
+    higher_is_better : true
+  - metric: xm100_METEOR
+    aggregation : !function utils.xm100_meteor
+    higher_is_better : true
+  - metric: xm100_ROUGE_L
+    aggregation : !function utils.xm100_rougel
+    higher_is_better : true
+  - metric: xm100_CIDEr
+    aggregation : !function utils.xm100_cider
+    higher_is_better : true
+metadata:
+  - version: 0.0

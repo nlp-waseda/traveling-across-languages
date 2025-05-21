@@ -1,0 +1,141 @@
+[
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Di masa depan di mana komposisi Bumi telah berubah banyak, sebuah tim penjelajah memulai misi untuk memahami susunan unsur baru di planet ini. Menggunakan bagan lingkar yang menunjukkan distribusi unsur saat ini, tim tersebut perlu menyusun narasi yang menjelaskan perubahan dalam kelimpahan unsur dan potensi dampak terhadap geologi dan biosfer planet. ",
+        "reference_answer": "Narasi dimulai ketika para penjelajah menganalisis bagan lingkar, yang mengungkapkan bahwa oksigen, meskipun masih merupakan elemen yang paling melimpah, telah menurun menjadi 47% dari komposisi kerak bumi. Tim berhipotesis bahwa serangkaian letusan gunung berapi besar telah mengakibatkan adanya silikon dan aluminium di kerak bumi dalam jumlah besar yang mengubah keseimbangan. Silikon, yang sekarang mencapai 28%, telah membentuk formasi geologi baru yang kaya kuarsa, mengubah lanskap.\n\nPerubahan ini memiliki implikasi yang luas. Peningkatan aluminium menjadi 8% menunjukkan bahwa mineral lempung telah menjadi lebih mudah ditemui, memengaruhi kesuburan tanah dan retensi air. Ini dapat menyebabkan pergeseran dalam komunitas tumbuhan, karena spesies yang berkembang dengan baik di tanah kaya silikon menjadi lebih dominan. Besi, pada 5%, terus menjadi elemen penting untuk pembentukan mineral yang vital untuk mempertahankan medan magnet, yang melindungi biosfer dari radiasi matahari yang berbahaya.\n\nTim juga mencatat keberadaan elemen lain seperti natrium dan kalium, yang penting untuk proses kehidupan, dan peningkatan kecil mereka dapat mempengaruhi osmoregulasi pada banyak organisme. Narasi mempertimbangkan bagaimana peningkatan keberadaan elemen-elemen ini mungkin mempengaruhi kehidupan laut dan darat, berpotensi mengarah pada jalur evolusi baru.\n\nPara penjelajah menyimpulkan bahwa meskipun kerak bumi telah mengalami perubahan signifikan, ia tetap menjadi sistem yang dinamis. Pergeseran dalam susunan elemen adalah bagian dari evolusi geologi planet yang sedang berlangsung, mencerminkan sifat fungsinya sebagai penopang kehidupan terus berubah. Mereka memprediksi bahwa mempelajari perubahan ini tidak hanya akan memberikan wawasan tentang masa lalu Bumi tetapi juga masa depannya, membimbing upaya umat manusia untuk beradaptasi dan berkembang dalam dunia yang berubah ini. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively use the pie chart to construct a narrative explaining shifts in Earth's elemental abundance and its impacts, including addressing the blurred part?",
+            "score1_description": "The response observes changes in the pie chart but fails to construct a narrative or explain the shifts in elemental abundance, and does not attempt to address the blurred part of the pie chart.",
+            "score2_description": "The response begins to construct a narrative and provides superficial explanations for the shifts in elemental abundance but does not clarify or make assumptions about the blurred part of the pie chart.",
+            "score3_description": "The response constructs a plausible narrative and explains some shifts in elemental abundance, including a basic attempt to address the blurred part of the pie chart, but the explanation lacks detail or is speculative.",
+            "score4_description": "The response provides a detailed narrative that explains most of the shifts in elemental abundance and includes a reasoned assumption or hypothesis about the blurred part of the pie chart, though it may not be fully substantiated.",
+            "score5_description": "The response constructs a comprehensive narrative that thoroughly explains the shifts in elemental abundance, convincingly discusses their impacts, and provides a clear and logical explanation or hypothesis for the blurred part of the pie chart."
+        },
+        "atomic_checklist": [
+            "Does the response identify a decrease in oxygen and an increase in silicon and aluminum from the pie chart?",
+            "Does the response hypothesize a geological event, like volcanic eruptions, to explain the elemental shifts?",
+            "Is the response discussing the potential formation of new quartz-rich geological formations?",
+            "Does the response consider the impact of elemental shifts on soil fertility and water retention?",
+            "Does the response evaluate the implications of changes in elemental makeup on plant communities?",
+            "Is the response contemplating the role of iron in maintaining the Earth's magnetic field?",
+            "Does the response assess the impact of sodium and potassium on osmoregulation in organisms?",
+            "Is the response contemplating potential evolutionary changes in marine and terrestrial life?",
+            "Does the response discuss the dynamic nature of Earth's geological evolution?",
+            "Is the response predicting future insights into Earth's changes from studying these shifts?",
+            "Does the response address the blurred part of the pie chart, indicating 3.6%?"
+        ],
+        "background_knowledge": [],
+        "caption": "Composition of the Earth's Crust Visualized in a Pie Chart"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Dalam sebuah lokakarya terbaru tentang ekspresi budaya dan dinamika tempat kerja, sebuah foto dibagikan yang menangkap momen di antara para peserta. Jelaskan interaksi budaya dan dinamika yang kemungkinan terjadi dalam pengaturan ini. Pertimbangkan pakaian, gerakan, pengaturan tempat duduk, dan petunjuk visual lainnya yang mungkin mencerminkan norma budaya atau etiket tempat kerja. ",
+        "reference_answer": "Foto ini tampaknya menangkap momen interaksi positif dan pemahaman bersama di antara sekelompok individu, kemungkinan dalam pengaturan lokakarya atau kegiatan membangun tim. Para peserta terlibat dalam tepuk tangan atau persetujuan, yang ditunjukkan oleh wajah tersenyum dan tangan yang bertepuk. Gerakan seperti ini secara universal diakui sebagai ekspresi afirmasi dan sering digunakan di lingkungan profesional untuk mengakui pekerjaan yang dilakukan dengan baik atau untuk menunjukkan dukungan terhadap kontribusi rekan kerja.\n\nPengaturan tempat duduknya informal dan inklusif, dengan kursi yang dikumpulkan dalam lingkaran, menunjukkan kegiatan lokakarya atau berbasis tim yang mempromosikan kesetaraan dan komunikasi terbuka di antara para peserta. Pengaturan ini sering digunakan di tempat kerja modern yang kolaboratif yang menghargai masukan dari setiap anggota tim dan berusaha untuk menghilangkan hambatan hierarkis.\n\nPakaian individu-individu tersebut kasual dan praktis, mencerminkan tempat kerja kontemporer, mungkin yang kreatif atau berorientasi teknologi, di mana pakaian bisnis formal tidak wajib. Jenis kode berpakaian ini dapat menandakan budaya perusahaan yang memprioritaskan kenyamanan dan ekspresi pribadi daripada norma-norma korporat tradisional.\n\nSetiap individu menunjukkan keterlibatan dan antusiasme, yang mungkin mencerminkan norma budaya dalam kelompok atau organisasi ini yang menghargai partisipasi aktif dan dukungan yang terlihat satu sama lain. Perilaku semacam ini dapat mendorong budaya kerja yang positif, mendorong kerja tim dan kesuksesan kolektif.\n\nSelain itu, keragaman kelompok ini, dengan individu dari latar belakang etnis yang berbeda, menunjukkan tempat kerja multikultural. Kemudahan dan kebahagiaan yang tampak di antara anggota kelompok menunjukkan kepekaan budaya dan penghormatan terhadap keragaman dalam pengaturan ini.\n\nSecara keseluruhan, gambar ini menyampaikan tempat kerja yang merangkul keragaman budaya, memupuk komunikasi yang terbuka dan egaliter, serta mempromosikan lingkungan yang positif dan afirmatif bagi anggotanya. Ini mencerminkan pendekatan progresif terhadap budaya tempat kerja, di mana keragaman dirayakan, dan dinamika tim diarahkan pada inklusivitas dan saling menghormati. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately describe the cultural interactions and dynamics taking place in the photograph?",
+            "score1_description": "The response recognizes individuals in the photograph but fails to interpret cultural interactions or dynamics, for example, noting smiles without relating to cultural expressions or workplace dynamics.",
+            "score2_description": "The response identifies basic gestures such as applause but provides a limited analysis of their cultural or workplace significance, for example, mentioning clapping without discussing its role in affirmation or support.",
+            "score3_description": "The response observes cultural interactions and begins to relate them to workplace dynamics, but the explanation is superficial and lacks insight into attire or seating arrangement, for example, not considering how these reflect cultural norms.",
+            "score4_description": "The response describes cultural interactions and dynamics with attention to gestures, attire, and seating, but may miss deeper implications or the significance of diversity, for example, not fully exploring what the observed ease among diverse individuals implies.",
+            "score5_description": "The response thoroughly analyzes the cultural interactions and dynamics, considering gestures, attire, seating, and diversity, and insightfully relates these to cultural norms and workplace etiquette, demonstrating a comprehensive understanding of the setting."
+        },
+        "atomic_checklist": [
+            "Does the response identify the gestures such as applause and relate them to cultural expressions of affirmation?",
+            "Is the response attentive to the informal and inclusive seating arrangement, suggesting open communication?",
+            "Does the response comment on the casual attire and its reflection of workplace culture?",
+            "Does the response recognize active participation and enthusiasm as valued cultural norms?",
+            "Is the response observant of the diversity of the group and implications for cultural sensitivity?",
+            "Does the response infer that the workplace embraces cultural diversity and egalitarian communication?",
+            "Does the response draw connections between visual cues and the promotion of a positive workplace environment?",
+            "Is the response comprehensive in covering all aspects of cultural interactions and dynamics visible in the photograph?"
+        ],
+        "background_knowledge": [],
+        "caption": "A group of diverse coworkers sharing a joyful moment with applause and smiles in the office."
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mempertimbangkan dinamika dan prinsip fisika yang berlaku, tentukan urutan kejadian yang kemungkinan besar mengikuti kejadian yang tertangkap dalam foto tersebut, dengan penekanan pada interaksi antara individu dan lingkungan, khususnya struktur yang terbuat dari peti. ",
+        "reference_answer": "Menganalisis foto tersebut, tampak bahwa sebuah menara yang terbuat dari peti hijau telah dibangun hingga mencapai ketinggian yang berbahaya dan sekarang bergoyang ke satu sisi. Seorang siswa mencoba meraih menara tersebut, kemungkinan dalam upaya untuk menyetabilkannya, sementara yang lain memiliki reaksi yang berbeda-beda, mulai dari terhibur hingga panik.\n\nMelihat kemiringan menara yang terlihat dan gerakan peti yang di dekat dasar, sebuah prediksi yang masuk akal adalah struktur tersebut tidak jauh dari keruntuhan. Siswa yang berada di dekat dengan menara berisiko terkena peti saat jatuh. Peti itu sendiri, tergantung pada berat dan isinya, bisa berserakan saat terkena benturan, berpotensi menyebabkan cedera atau setidaknya, keberantakan yang cukup besar.\n\nReaksi individu-individu tersebut menunjukkan bahwa ini adalah kejadian yang tidak terduga selama waktu santai atau istirahat, kemungkinan di sekolah atau lembaga serupa jika melihat adanya seragam. Ada kemungkinan bahwa keruntuhan akan tiba-tiba, menciptakan suara keras yang bisa menarik perhatian orang lain yang tidak terlihat di foto. Ini bisa menyebabkan kerumunan yang lebih besar berkumpul, menimbulkan risiko tambahan untuk cedera dan memperumit upaya pembersihan.\n\nMempertimbangkan konteksnya, ini juga bisa menjadi pelajaran dadakan tentang fisika dan keselamatan bagi siswa yang terlibat, menekankan pentingnya stabilitas dan pusat gravitasi dalam struktur, serta potensi konsekuensi dari kurangnya pandangan ke depan dalam usaha semacam itu.\n\nSetelah kejadian, bisa diantisipasi adanya diskusi mengenai keselamatan dan penggunaan yang tepat dari bahan seperti peti ini, yang mungkin mengarah pada penerapan aturan atau pedoman untuk mencegah insiden serupa. Jika insiden ini diterima dengan humor dan tanpa cedera serius, mungkin akan menjadi anekdot yang dibagikan di antara siswa, berkontribusi pada cerita pengalaman bersama mereka. ",
+        "score_rubric": {
+            "criteria": "Does the response logically predict the sequence of events following the moment captured in the photograph, with emphasis on the structure made of crates?",
+            "score1_description": "The response notes the falling crates but fails to predict specific interactions, for example, it mentions that the crates are toppling but does not discuss the students' likely movements or the crates' path.",
+            "score2_description": "The response predicts that the crates will fall but only provides a generic outcome, for example, it suggests students may react but does not specify how the closest student might move to avoid the fall.",
+            "score3_description": "The response predicts the immediate reaction of the student stabilizing the crates but lacks detail on others' reactions, for example, it might state the student will step back without discussing the potential chain reaction among the others.",
+            "score4_description": "The response provides a detailed prediction of the crates' fall and the students' reactions, but may not fully account for the aftermath, for example, it describes dodging actions but not the consequences of the scattered crates.",
+            "score5_description": "The response offers a comprehensive prediction, detailing the crates' trajectory, each student's likely movements, and the subsequent consequences, such as disruption and noise, reflecting a nuanced understanding of the dynamics."
+        },
+        "atomic_checklist": [
+            "Does the response predict that the student touching the crates will immediately withdraw their hands?",
+            "Is the response specific about the direction in which the crates are likely to fall?",
+            "Does the response anticipate the likely movement of the student directly in the path of the falling crates?",
+            "Does the response predict the reactions of the surrounding students, such as stepping back or trying to catch the crates?",
+            "Is the response detailed about the potential noise and disruption caused by the collapsing crates?",
+            "Does the response consider the possibility of the crates scattering and the safety risks involved?",
+            "Is the response predicting any immediate intervention by onlookers or authorities due to the incident?"
+        ],
+        "background_knowledge": [],
+        "caption": "The Great Crate Catastrophe: When a towering stunt turns into a frantic scramble"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Saat menganalisis gambaran visual yang mengandung elemen ilusi optik, jelaskan berbagai interpretasi yang dapat muncul dari gambar tersebut. Pertimbangkan perspektif yang mungkin muncul dan jelaskan makna berbeda yang dapat disimpulkan dari informasi visual yang disajikan. ",
+        "reference_answer": "Gambar yang disajikan adalah contoh klasik dari figur ambigu yang dapat diinterpretasikan dalam berbagai cara. Sekilas, siluet tersebut dapat dilihat sebagai dua wajah dalam profil yang akan berciuman atau sebagai sebuah vas tunggal yang berpusat pada latar belakang terang. Jenis gambar ini dikenal sebagai Vas Rubin, contoh persepsi figure-ground.\n\nUntuk menyelesaikan ambiguitas, seseorang harus memperhatikan perubahan perspektif yang diperlukan untuk bergantian antara dua interpretasi yang valid. Ketika fokus pada bentuk hitam, kontur menyerupai siluet dua wajah yang saling memandang. Tepi tengah setiap wajah membentuk setara dengan hidung, dan tepi luar menciptakan bagian belakang kepala. Interpretasi ini bergantung pada melihat bentuk hitam sebagai figur (objek fokus) dan area putih sebagai latar (background).\n\nSebaliknya, dengan menyesuaikan fokus untuk menganggap ruang putih sebagai figur, bentuk hitam surut ke latar belakang, dan sebuah vas muncul. Kontur vas ditentukan oleh tepi bersama profil tersebut. Interpretasi sebagai vas diperkuat oleh simetri dan posisi sentral dalam gambar, yang merupakan karakteristik umum dari objek semacam itu.\n\nPengamatan yang cerdas adalah bahwa gambar ini bermain dengan proses kognitif dari organisasi figure-ground, di mana sistem visual kita menentukan bagian mana dari gambar yang menjadi subjek utama (figur) dan mana yang menjadi latar (ground). Gambar ini dirancang untuk menjadi bi-stabil, yang berarti bahwa gambar ini secara sengaja mendukung dua interpretasi ini, dan pikiran dapat beralih di antara keduanya tetapi tidak dapat memegang keduanya secara bersamaan.\n\nPemahaman komprehensif tentang ilusi optik ini terletak pada pengenalan dan apresiasi terhadap sifat ganda dari gambar tersebut. Ini bukan sekadar gambar dua wajah atau vas, tetapi sebuah demonstrasi kemampuan pikiran untuk beralih antara berbagai interpretasi dari rangsangan visual. Pemahaman ini memperdalam apresiasi kita terhadap kompleksitas persepsi visual dan pemrosesan kognitif yang terlibat dalam menginterpretasikan informasi sensorik. ",
+        "score_rubric": {
+            "criteria": "Does the response provide a comprehensive analysis of the optical illusion and its multiple interpretations?",
+            "score1_description": "The response identifies the optical illusion but offers no further interpretation, for example, it might only state the presence of black and white shapes without seeing the profiles or the vase.",
+            "score2_description": "The response recognizes one interpretation of the illusion but not the other, for example, it may describe the vase but not the profiles, or vice versa.",
+            "score3_description": "The response mentions both interpretations but does not elaborate on the figure-ground perception involved, for example, noting the profiles and the vase but not explaining the shift in perspective.",
+            "score4_description": "The response details both interpretations and touches on the cognitive processes involved but may not fully capture the bi-stable nature of the image, for example, it might explain figure-ground organization but not the inability to see both images at once.",
+            "score5_description": "The response thoroughly analyzes the optical illusion, clearly detailing both interpretations, the cognitive processes of figure-ground perception, and the bi-stable nature of the image, reflecting a deep understanding of visual perception."
+        },
+        "atomic_checklist": [
+            "Does the response identify the silhouette as a Rubin's Vase, demonstrating figure-ground perception?",
+            "Is the response clear about the two interpretations of faces and a vase?",
+            "Does the response explain the need to shift perspective to alternate between interpretations?",
+            "Is the response detailed in how the black shape can be seen as the figure with the white as the ground and vice versa?",
+            "Does the response discuss the bi-stable nature of the image, where both interpretations cannot be held simultaneously?",
+            "Does the response elaborate on the complexity of visual perception and cognitive processing in interpreting sensory information?"
+        ],
+        "background_knowledge": [],
+        "caption": "A classic play on perception: Two faces or a vase?"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Dalam sebuah pertemuan meriah yang tertangkap, apa yang mungkin menjadi perasaan dan interaksi mendasar antara orang-orang yang hadir, dan bagaimana hal ini mencerminkan emosi manusia yang lebih luas dan dinamika sosial pada acara perayaan? ",
+        "reference_answer": "Gambar tersebut memancarkan suasana semarak yang khas dari perayaan liburan, dengan individu-individu yang mengenakan topi Natal, menunjukkan adegan persahabatan yang ceria. Tokoh-tokoh utama, seorang pria dan wanita, terlibat dalam momen hiburan bersama, sebagaimana dibuktikan oleh senyum lebar wanita tersebut dan ekspresi halus dan puas dari pria tersebut. Mereka berdua memegang gelas, tanda bersulang sosial dan kenikmatan pesta, menunjukkan semangat perayaan yang ramah dari acara tersebut.\n\nMata wanita itu bersinar dengan tawa, mencerminkan kegembiraan dan kebebasan yang sering dirasakan selama pertemuan semacam itu. Wajahnya yang terbuka dan ekspresif menandakan rasa memiliki dan kenikmatan, sifat-sifat yang selaras dengan suasana kolektif kehangatan dan keceriaan. Keterlibatan pria dengan wanita tersebut melalui kedekatan dan bahasa tubuh menunjukkan kebutuhan manusia akan hubungan dan perayaan bersama orang lain.\n\nDi latar belakang, peserta pesta lainnya sama-sama terhanyut dalam esensi semangat perayaan. Latar belakang yang kabur dengan lampu berkelap-kelip melambangkan kilauan keajaiban liburan, dan rona emas secara keseluruhan memberikan cahaya yang tampaknya meningkatkan kehangatan emosional dari adegan tersebut. Para peserta tidak hanya hadir; mereka adalah kontributor aktif dalam jalinan pengalaman manusia bersama yang ditenun oleh acara semacam itu.\n\nGambar ini menangkap lebih dari sekadar momen pesta; ia merangkum jalinan kaya dari hubungan emosional yang secara universal beresonansi. Ini adalah pengingat akan kemanusiaan bersama yang dapat disoroti oleh acara perayaan, membawa individu-individu bersama dalam ekspresi kolektif kegembiraan, persahabatan, dan keinginan manusia untuk perayaan komunal. ",
+        "score_rubric": {
+            "criteria": "Does the response insightfully analyze the underlying feelings and interactions at the festive gathering?",
+            "score1_description": "The response briefly acknowledges the festive setting but fails to delve into the emotions or interactions, for example, noting the Christmas hats but not the expressions or body language of joy and camaraderie.",
+            "score2_description": "The response recognizes happiness in the gathering but does not connect it to broader social dynamics, for example, mentioning smiling faces but not the shared amusement or sense of belonging.",
+            "score3_description": "The response describes surface-level interactions and some emotions, such as laughter, but lacks depth in exploring the significance of these in the context of human connection, for example, noting the toasting but not the deeper sense of unity it signifies.",
+            "score4_description": "The response captures most of the emotional essence and social interactions, like engagement and warmth, but may not fully interpret the broader human experience, for example, recognizing close proximity but not fully discussing the collective mood it creates.",
+            "score5_description": "The response provides a comprehensive analysis of the feelings and interactions, deeply understanding the joy, belonging, and human connection present at the event, reflecting on how these elements combine to create a rich, shared human experience."
+        },
+        "atomic_checklist": [
+            "Does the response note the Christmas hats and interpret them as a sign of shared festivity?",
+            "Is the response attentive to the woman's laughter and what it signifies about the mood of the event?",
+            "Does the response discuss the man's body language and its implications for social bonding?",
+            "Does the response mention the social act of toasting and its role in festive indulgence?",
+            "Is the response descriptive of the background ambiance and how it contributes to the festive atmosphere?",
+            "Does the response connect individual expressions to collective emotional warmth and celebration?",
+            "Is the response comprehensive in covering the richness of emotional connections and their universal resonance?"
+        ],
+        "background_knowledge": [],
+        "caption": "Joyful laughter and festive cheer at a sparkling Christmas party."
+    }
+]

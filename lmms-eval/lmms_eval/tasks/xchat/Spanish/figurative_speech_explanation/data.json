@@ -1,0 +1,135 @@
+[
+  {
+    "capability": "vision",
+    "task": "figurative_speech_explanation",
+    "instance_idx": 0,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al observar un retrato, ¿qué elementos específicos contribuyen al estado de ánimo percibido y cómo interactúan para crear una experiencia emocional holística? ",
+    "reference_answer": "El retrato en cuestión emana un ambiente sereno y contemplativo, transmitido principalmente a través de la mirada suave del sujeto y la iluminación tenue. Los ojos de la mujer, ligeramente bajos y mirando hacia un lado, invitan a los espectadores a reflexionar sobre lo que podría estar pensando, sugiriendo introspección o quietud. La iluminación en la imagen ilumina suavemente un lado de su rostro, proyectando sombras sutiles y creando una atmósfera tranquila. Este juego de luces y sombras contribuye a la sensación general de calma y reflexión del cuadro.\n\nAdemás, la elección de colores realza este estado de ánimo; los tonos fríos del pañuelo azul y los cálidos matices terrosos de su vestimenta logran un efecto equilibrado y armonioso, evocando una sensación de paz. El pañuelo, elegantemente drapeado, añade al aura digna y reflexiva del sujeto. El pendiente aislado, que capta un destello de luz, es un detalle conmovedor que atrae la atención del espectador hacia su expresión contemplativa, profundizando la resonancia emocional del retrato.\n\nAdicionalmente, el fuerte contraste entre el sujeto y el fondo oscuro enfoca la atención del espectador en ella, intensificando aún más la cualidad íntima y meditativa de la imagen. La simplicidad de la composición, desprovista de elementos distractores, permite una conexión emocional más profunda, invitando a los espectadores a interactuar con el sujeto a un nivel personal. Este enfoque minimalista anima a los espectadores a considerar los matices del comportamiento del sujeto y a especular sobre su vida interior, realzando el estado de ánimo introspectivo de la imagen.\n\nEn general, el impacto emocional del retrato es el resultado de la hábil combinación de composición, iluminación, color y detalle, que juntos crean una representación poderosa pero sutil de la tranquilidad interior y la soledad reflexiva. ",
+    "score_rubric": {
+      "criteria": "Does the response effectively describe the elements that contribute to the mood of the portrait and their interplay to create an emotional experience?",
+      "score1_description": "The response identifies basic elements of the portrait but does not relate them to the mood, for example, it might mention the subject's gaze but not how it conveys introspection.",
+      "score2_description": "The response recognizes one or two elements that contribute to the mood but does not integrate them into a cohesive analysis, for example, noting the lighting or color but not how they work together to evoke calmness.",
+      "score3_description": "The response describes several elements such as gaze, lighting, and color, and begins to relate them to the mood but lacks detail on their interactive effect, for example, it might suggest tranquility but not delve into the emotional depth created by these elements.",
+      "score4_description": "The response provides a detailed explanation of the elements and their contribution to the mood, but may not fully capture the holistic emotional experience, for example, it describes the serene atmosphere but not the viewer's personal engagement with the portrait.",
+      "score5_description": "The response offers a comprehensive explanation of the elements and their synergy, thoroughly describing how they interact to create a holistic emotional experience, reflecting a deep understanding of the portrait's figurative language."
+    },
+    "atomic_checklist": [
+      "Does the response interpret the subject's gaze as an element of introspection?",
+      "Is the response detailed in describing how the lighting contributes to the serene mood?",
+      "Does the response analyze the color choice and its effect on the painting's atmosphere?",
+      "Does the response consider the headscarf and its role in the subject's dignified aura?",
+      "Is the response attentive to the earring's detail and its emotional significance?",
+      "Does the response discuss the contrast between the subject and background and its impact?",
+      "Is the response comprehensive in connecting all elements to a profound emotional connection with the viewer?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image appears to be a digital representation or photograph of the famous painting \"Girl with a Pearl Earring\" by Johannes Vermeer. The subject is a young woman looking over her shoulder, with a blue headscarf and a large pearl earring. The background is dark, highlighting the subject's face and attire. This artwork is known for its exquisite use of light and shadow, as well as its captivating depiction of the young woman's gaze."
+  },
+  {
+    "capability": "vision",
+    "task": "figurative_speech_explanation",
+    "instance_idx": 1,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Examine la situación presentada en los medios visuales y articule la secuencia de eventos y procesos naturales que llevan al escenario actual representado. Considere las implicaciones para el sujeto mostrado y el contexto ambiental más amplio. Analice los factores que contribuyen a este estado y prediga posibles resultados si las condiciones existentes persisten. ",
+    "reference_answer": "La imagen muestra un oso polar encaramado precariamente en un pequeño y delgado trozo de hielo rodeado de agua, lo que ilustra vívidamente la relación de causa y efecto entre el cambio climático y su impacto en la fauna del Ártico. La causa principal es el calentamiento global, que resulta del aumento de las emisiones de gases de efecto invernadero. Este calentamiento lleva al derretimiento del hielo marino, cuyo efecto es directamente observable en el hábitat del oso polar.\n\nLa forma inusual del hielo, que se asemeja a un pedestal de hielo, sugiere que alguna vez fue parte de un témpano de hielo más grande que se ha derretido y desintegrado. Los osos polares dependen del hielo marino como plataforma para descansar y cazar focas, su principal fuente de alimento. El adelgazamiento del hielo obliga a este oso a una situación precaria, ilustrando un efecto directo en su capacidad para sobrevivir y cazar.\n\nEl contexto ambiental más amplio incluye los efectos en cascada del cambio climático, como la pérdida de hábitat para muchas especies, el aumento del nivel del mar y la alteración de las corrientes oceánicas. Si estas condiciones persisten, el resultado para el oso polar podría ser grave, llevando a la inanición, tasas de reproducción disminuidas y, en última instancia, un declive en la población, lo que podría resultar en la extinción.\n\nLa pérdida de hielo marino también afecta a las poblaciones humanas locales, cuyas formas de vida y economías están entrelazadas con la salud del ecosistema ártico. Las formas de vida tradicionales, que incluyen la caza y la pesca, están en riesgo, demostrando los efectos de largo alcance de este problema ambiental.\n\nEn conclusión, la imagen captura una escena pequeña pero poderosa que es un microcosmos de la crisis ambiental más grande y continua que afecta al Ártico. La lucha del oso polar es un indicador conmovedor de la urgente necesidad de acciones para mitigar el cambio climático. ",
+    "score_rubric": {
+      "criteria": "Does the response effectively describe the sequence of events and natural processes leading to the depicted scenario, including the broader environmental implications?",
+      "score1_description": "The response observes the situation but fails to connect it to environmental processes, for example, it might note the polar bear on ice but not mention global warming or habitat loss.",
+      "score2_description": "The response identifies a link between the polar bear's situation and environmental change but lacks a deeper analysis of cause and effect, for example, mentioning thinning ice without discussing the impact on the bear's hunting habits.",
+      "score3_description": "The response describes the polar bear's precarious position and hints at climate change, but does not fully explore the implications for the Arctic ecosystem or the bear's survival, for example, it might omit the potential outcomes if current conditions persist.",
+      "score4_description": "The response provides a detailed explanation of the visual metaphor, capturing the relationship between climate change and its impact on the polar bear, but may not fully predict the broader environmental outcomes, for example, it discusses habitat loss but not the effects on human communities.",
+      "score5_description": "The response offers a comprehensive analysis of the scenario, thoroughly detailing the environmental processes, the implications for the subject, and the broader context, reflecting a profound understanding of the image's figurative message."
+    },
+    "atomic_checklist": [
+      "Does the response identify the thinning ice as a consequence of global warming?",
+      "Is the response detailed in describing how climate change impacts the polar bear's habitat?",
+      "Does the response analyze the implications of the scenario for the polar bear's hunting and survival?",
+      "Does the response consider the effects of sea ice loss on the broader Arctic ecosystem, including human populations?",
+      "Is the response comprehensive in connecting the visual depiction to the urgent need for climate change mitigation?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image shows a polar bear perched precariously atop a small, thin iceberg in the middle of the water. The polar bear's posture and the size of the ice piece create a striking visual, often used to symbolize the impact of climate change on Arctic ice habitats and the plight of polar bears."
+  },
+  {
+    "capability": "vision",
+    "task": "figurative_speech_explanation",
+    "instance_idx": 2,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al analizar el mensaje visual presentado, ¿qué contexto histórico podría haber dado lugar a tal frase, y cómo se relaciona este contexto con el simbolismo y el uso de los elementos dentro de esta imagen? ",
+    "reference_answer": "La imagen muestra una frase en negrita y mayúsculas, \"KEEP CALM AND CARRY ON,\" sobre un fondo rojo brillante, coronada por una insignia real. Este icónico cartel tiene raíces en la historia británica, específicamente al comienzo de la Segunda Guerra Mundial. Fue producido originalmente por el gobierno británico en 1939 como un mensaje para elevar la moral, destinado al público en preparación para posibles desastres en tiempos de guerra.\n\nLa metáfora de \"KEEP CALM AND CARRY ON\" es multifacética. Encapsula un mensaje de resiliencia y fortaleza, instando al público a mantener la compostura y la normalidad en medio de la agitación. El uso de la corona real como símbolo no es meramente decorativo; representa la monarquía, evocando un sentido de unidad, orgullo nacional y un llamado a la identidad colectiva del pueblo británico. La corona sobre el mensaje sugiere implícitamente que la directiva viene con la autoridad y la estabilidad asociadas con la monarquía.\n\nEl color rojo es significativo; llama la atención y a menudo se asocia con la alerta y la urgencia, que habrían sido sentimientos pertinentes durante la guerra. Sin embargo, la frase en sí, con su forma imperativa, busca infundir un sentido de calma y deliberación, contrastando con el tono alarmante del fondo. Esta yuxtaposición resalta la profundidad de la metáfora, donde la urgencia en la acción se templa con la calma en el espíritu.\n\nLa perdurabilidad y resurgimiento de la frase en la cultura moderna como meme y motivo decorativo subrayan aún más su riqueza metafórica. Ha llegado a simbolizar una respuesta estoica ante la adversidad, no solo en el contexto de la guerra, sino en los desafíos cotidianos, encapsulando un mensaje atemporal que trasciende su propósito original. La metáfora aquí se extiende a la resiliencia personal frente a cualquier dificultad de la vida, simbolizando una mentalidad universalmente aplicable.\n\nEn esencia, el cartel es un artefacto que comunica la resiliencia histórica de una nación mientras proporciona una metáfora perdurable para un enfoque compuesto y firme ante los desafíos, tanto colectivos como individuales. ",
+    "score_rubric": {
+      "criteria": "Does the response effectively explain the historical context of the phrase 'KEEP CALM AND CARRY ON' and analyze the symbolism of the elements within the image?",
+      "score1_description": "The response mentions the phrase but fails to provide any historical context or symbolic analysis.",
+      "score2_description": "The response provides a generic historical context without specific details or a clear explanation of the symbolism.",
+      "score3_description": "The response gives an accurate historical context or symbolic analysis, but not both. For example, it may mention World War II but not the significance of the crown or color.",
+      "score4_description": "The response provides a detailed historical context and a basic symbolic analysis. For example, it explains the phrase's origin in World War II and the general significance of the crown, but not the color red or its modern cultural impact.",
+      "score5_description": "The response offers a comprehensive explanation of both the historical context and the symbolism. For example, it details the phrase's creation during World War II, the authority implied by the crown, the urgency indicated by the color red, and the phrase's modern-day relevance."
+    },
+    "atomic_checklist": [
+      "Does the response identify the phrase as originating from British World War II propaganda?",
+      "Does the response explain the significance of the royal crown symbol?",
+      "Is the response discussing the color red's association with urgency and alertness?",
+      "Does the response relate the poster to modern cultural significance, such as its use in media or as a meme?",
+      "Is the response indicating the phrase's intention to boost morale and resilience?"
+    ],
+    "background_knowledge": [],
+    "caption": "Iconic British wartime slogan presented in bold white text over a striking red background, inspiring resilience and steadiness."
+  },
+  {
+    "capability": "vision",
+    "task": "figurative_speech_explanation",
+    "instance_idx": 3,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Observando la escena de los niños en un carrusel, describe la historia no contada que se desarrolla, detallando las dinámicas y emociones subyacentes entre los participantes. Profundiza en lo que no es inmediatamente evidente a la vista y elabora sobre las relaciones e historias individuales que cada jinete podría estar experimentando en este momento compartido. ",
+    "reference_answer": "La imagen captura un momento congelado en el tiempo, donde cada niño a bordo del carrusel está inmerso en su propia narrativa única. A primera vista, vemos un simple paseo, pero al examinarlo más de cerca, el paseo se convierte en un escenario para una multitud de historias.\n\nEl niño al frente, agarrando la barra del carrusel con manos decididas, podría estar imaginándose a sí mismo como un valiente explorador, liderando una expedición audaz. Su mirada hacia adelante y el ligero ceño fruncido sugieren concentración y un sentido de responsabilidad mientras 'dirige' a su equipo a través de peligros imaginados. El carrusel no es meramente un paseo para él; es un barco en alta mar, y él es su capitán, navegando a través de las tumultuosas olas del océano.\n\nAl dirigir la atención a la niña en el medio, su lenguaje corporal y mirada distante hablan de introspección. Quizás ella está en este paseo no por la emoción del movimiento, sino como un respiro del bullicio del patio de recreo. Para ella, el carrusel es una burbuja de tranquilidad, un escape momentáneo hacia sus pensamientos donde el movimiento circular calma en lugar de emocionar.\n\nDetrás de ella, hay un niño cuyo rostro está vuelto, casi como si evitara la cámara. Esta acción podría no ser timidez, sino más bien un reflejo de un estado de ánimo contemplativo, absorbiendo la experiencia de una manera profundamente personal. El carrusel para este niño podría representar un ciclo de rutina, evocando una sensación de comodidad en la previsibilidad del paseo.\n\nFinalmente, el último niño, apenas visible, parece estar en conversación con un vecino. Este paseo es una experiencia social, una oportunidad para compartir historias y risas, para unirse en la emoción compartida. No es el paseo en sí lo que importa para este niño, sino la compañía que facilita.\n\nCada jinete, aunque participa en el mismo movimiento físico, está en un viaje emocional diferente. El carrusel se convierte en una metáfora de los variados caminos que tomamos en la vida y las diversas maneras en que procesamos nuestras experiencias compartidas. La imagen no es solo una foto de niños en un paseo; es una instantánea de la vida misma, donde la historia de cada individuo es tan importante como la experiencia colectiva. ",
+    "score_rubric": {
+      "criteria": "Does the response effectively describe the unspoken narratives and emotional undercurrents among the children on the carousel?",
+      "score1_description": "The response fails to identify any emotional narratives or individual dynamics, focusing only on the physical aspects of the carousel.",
+      "score2_description": "The response hints at possible emotional narratives, but it lacks depth and does not convincingly elaborate on the children's individual experiences.",
+      "score3_description": "The response describes some emotional narratives and touches upon the children's individual experiences but fails to interconnect these stories or misses key elements visible in the scene.",
+      "score4_description": "The response provides a good description of the emotional narratives and individual dynamics, with only minor details lacking or unexplored.",
+      "score5_description": "The response comprehensively captures the emotional undercurrents and individual stories, weaving together the children's experiences into a cohesive narrative that aligns well with the visual clues presented in the image."
+    },
+    "atomic_checklist": [
+      "Does the response identify the determined expression of the child at the front as a narrative of leadership or adventure?",
+      "Does the response infer introspection or tranquility from the body language and gaze of the girl in the middle?",
+      "Is the child turned away interpreted as being in a contemplative mood, engaging with the ride in a personal way?",
+      "Does the response explore the potential social interaction of the barely visible child at the back?",
+      "Are the individual narratives interconnected to depict a collective experience on the carousel?",
+      "Is the carousel metaphorically described as representing various paths in life or ways of processing experiences?",
+      "Does the response reflect on the relationships between the children or their individual stories with specific cues from the image?",
+      "Is the overall mood of the scene captured while accounting for the joy, introspection, and camaraderie among the children?",
+      "Does the response include descriptions that go beyond the immediate visual elements to suggest deeper emotional layers?"
+    ],
+    "background_knowledge": [],
+    "caption": "Little passengers on a merry adventure: Kids enjoying a ride on a mini train indoors."
+  },
+  {
+    "capability": "vision",
+    "task": "figurative_speech_explanation",
+    "instance_idx": 4,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Analiza la composición y los elementos de la pintura adjunta, considerando la vestimenta de las figuras, las banderas que llevan y el escenario del conflicto representado. Discute la importancia histórica y las implicaciones culturales que estos elementos representan en el período que la escena está retratando. ",
+    "reference_answer": "La pintura representa una escena de la Guerra Civil Americana, identificable por los uniformes y banderas distintivos, notablemente las Estrellas y Barras de la Unión y la bandera de batalla de la Confederación. La vestimenta de los soldados es precisa para la época, con soldados de la Unión en abrigos azules y confederados en gris, simbolizando la división entre los estados del Norte y del Sur.\n\nLa bandera de la Unión, llevada con orgullo, es un símbolo de los Estados Unidos y los esfuerzos por preservar la nación. La bandera de batalla confederada representa a los estados que se separaron, luchando por su derecho a autogobernarse y mantener su forma de vida, que de manera controvertida incluía la institución de la esclavitud.\n\nLa escena probablemente sea una de las numerosas escaramuzas que caracterizaron la Guerra Civil, con ambos lados participando en combate cuerpo a cuerpo, indicativo de la naturaleza brutal y personal de la guerra. El humo y el caos capturan la intensidad y la niebla de la guerra, un término que a menudo se usa para describir la incertidumbre y confusión experimentadas durante la batalla.\n\nEsta guerra impactó profundamente la historia estadounidense, llevando a la abolición de la esclavitud y cambios significativos en los poderes federales y estatales. Las implicaciones culturales son vastas, ya que los legados de este conflicto continúan influyendo en la sociedad, la política y las relaciones raciales estadounidenses hasta el día de hoy. Las banderas de batalla, ahora símbolos cargados, aún evocan fuertes respuestas emocionales y están en el centro de debates en curso sobre herencia y odio.\n\nEl compromiso de los soldados en espacios reducidos refleja las tácticas de la época y la ferocidad de las batallas, donde a veces hermano luchaba contra hermano. Es un recordatorio conmovedor de una nación dividida en su momento más difícil, y la pintura sirve como un tributo al coraje y los sacrificios hechos por los individuos que lucharon en ambos bandos.\n\nLa obra de arte captura la esencia del contexto histórico de la Guerra Civil, representando la feroz lealtad a las causas y la naturaleza trágica de un conflicto fratricida. La importancia de la pintura radica no solo en su precisión histórica, sino también en su capacidad para transmitir el peso emocional y cultural de un momento crucial en la historia estadounidense. ",
+    "score_rubric": {
+      "criteria": "Does the response accurately analyze the historical and cultural elements of the painting related to the American Civil War?",
+      "score1_description": "The response fails to accurately recognize any historical or cultural elements, missing the depiction of the Civil War entirely.",
+      "score2_description": "The response identifies the painting as a Civil War scene, but it does not accurately describe the uniforms, flags, or the context of the conflict, for example, recognizing the uniforms but not the significance of the flags.",
+      "score3_description": "The response correctly identifies the attire and the flags but only provides a superficial analysis of the setting and its implications, for example, acknowledging the battle but not its broader historical context.",
+      "score4_description": "The response provides a clear analysis of the attire and flags, correctly identifies the conflict as the Civil War, and touches on its historical significance, but lacks depth in cultural implications, for example, mentioning the conflict but not its lasting effects on American society.",
+      "score5_description": "The response provides a comprehensive analysis of the attire, flags, and setting, accurately discusses the historical significance, and deeply explores the cultural implications of the Civil War, exemplifying a high level of understanding and insight into the period the scene is portraying."
+    },
+    "atomic_checklist": [
+      "Does the response identify the uniforms and flags as belonging to the American Civil War?",
+      "Does the response describe the historical context of the Civil War?",
+      "Is the response discussing the cultural implications of the Civil War accurately?",
+      "Does the response explain the significance of the Union and Confederate flags?",
+      "Is the setting of the conflict described in a way that is consistent with historical accounts of the Civil War?",
+      "Does the response reflect an understanding of the tactics and nature of Civil War battles?",
+      "Does the response consider the emotional impact and legacy of the Civil War on current society?"
+    ],
+    "background_knowledge": [],
+    "caption": "A dramatic reenactment of a Civil War battle scene, showcasing soldiers marching under the Union and Confederate flags."
+  }
+]

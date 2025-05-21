@@ -1,0 +1,17 @@
+group: knowrecall
+task:
+  - knowrecall_ar
+  - knowrecall_de
+  - knowrecall_el
+  - knowrecall_en
+  - knowrecall_es
+  - knowrecall_fr
+  - knowrecall_he
+  - knowrecall_it
+  - knowrecall_ja
+  - knowrecall_ko
+  - knowrecall_pt
+  - knowrecall_ru
+  - knowrecall_sr
+  - knowrecall_th
+  - knowrecall_zh

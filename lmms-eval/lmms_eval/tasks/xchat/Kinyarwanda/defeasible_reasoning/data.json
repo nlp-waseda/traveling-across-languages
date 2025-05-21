@@ -1,0 +1,141 @@
+[
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gihe kizaza aho ibirimo ku Isi byahindutse cyane, itsinda ry'abashakashatsi ririmo gutangira ubutumwa bwo kumva ibirimo bishya by'uyu mubumbe. Bakoresheje igishushanyo cyerekana uko ibirimo bihagaze muri iki gihe, itsinda rikeneye gukora inkuru isobanura impinduka mu bwinshi bw'ibyo birimo n'ingaruka zishoboka ku butaka n'ubuzima bw'uyu mubumbe. ",
+        "reference_answer": "Inyandiko itangira ubwo abashakashatsi basuzuma ishusho y'ipaji, igaragaza ko umwuka wa oxygen, nubwo ukiri ikintu cyinshi cyane, wagabanutse ukagera kuri 47% mu bigize ubutaka bw'Isi. Itsinda ryibwira ko urukurikirane rw'iruka ry'ibirunga bikomeye byinjije ingano nini ya silikoni na aluminiyumu mu gice cyo hejuru cy’ubutaka, bikaba byarahinduye umubano. Silikoni, ubu iri kuri 28%, yaremye ibice bishya byinshi by’amabuye ya quartz, ihindura byimazeyo ubutaka.\n\nIzi mpinduka zifite ingaruka zikwira hose. Kwiyongera kwa aluminiyumu kugera kuri 8% byerekana ko ibumba ryabaye ryinshi, bigira ingaruka ku butaka no ku kubika amazi. Ibi bishobora gutera impinduka mu miryango y’ibimera, kuko ubwoko bwibera mu butaka bukize kuri silikoni bushobora kuba bwinshi. Icyuma, kiri kuri 5%, gikomeza kuba ikintu cy'ingenzi mu kurema amabuye y'ingenzi mu kubungabunga imbaraga za magnetike, izirinda ibinyabuzima imirasire y'izuba yangiza.\n\nItsinda rinagaragaza ko hari ibindi bintu nka sodium na potassium, bifite akamaro mu mikorere y’ubuzima, kandi ukwiyongera kwabo guke gushobora kugira ingaruka ku kugenzura amazi mu binyabuzima byinshi. Inyandiko isuzuma uko ukwiyongera kw'ibi bintu bishobora kugira ingaruka ku buzima bwo mu mazi no ku butaka, bishobora gutera inzira nshya z'ivugurura.\n\nAbashakashatsi basoza bavuga ko nubwo ubutaka bw'Isi bwahinduye byinshi, bukomeza kuba uburyo bukora. Impinduka mu bigize ubutaka ni igice cy'iterambere ry'isi ry'ubutaka, ryerekana imiterere ihora ihinduka y'ubutaka bufasha kubaho. Bateganya ko kwiga izi mpinduka bizatanga ubumenyi ku byabaye ku Isi mu bihe byashize ndetse n'ibizaza, bigafasha abantu guhinduka no gutera imbere muri iyi si yahindutse. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively use the pie chart to construct a narrative explaining shifts in Earth's elemental abundance and its impacts, including addressing the blurred part?",
+            "score1_description": "The response observes changes in the pie chart but fails to construct a narrative or explain the shifts in elemental abundance, and does not attempt to address the blurred part of the pie chart.",
+            "score2_description": "The response begins to construct a narrative and provides superficial explanations for the shifts in elemental abundance but does not clarify or make assumptions about the blurred part of the pie chart.",
+            "score3_description": "The response constructs a plausible narrative and explains some shifts in elemental abundance, including a basic attempt to address the blurred part of the pie chart, but the explanation lacks detail or is speculative.",
+            "score4_description": "The response provides a detailed narrative that explains most of the shifts in elemental abundance and includes a reasoned assumption or hypothesis about the blurred part of the pie chart, though it may not be fully substantiated.",
+            "score5_description": "The response constructs a comprehensive narrative that thoroughly explains the shifts in elemental abundance, convincingly discusses their impacts, and provides a clear and logical explanation or hypothesis for the blurred part of the pie chart."
+        },
+        "atomic_checklist": [
+            "Does the response identify a decrease in oxygen and an increase in silicon and aluminum from the pie chart?",
+            "Does the response hypothesize a geological event, like volcanic eruptions, to explain the elemental shifts?",
+            "Is the response discussing the potential formation of new quartz-rich geological formations?",
+            "Does the response consider the impact of elemental shifts on soil fertility and water retention?",
+            "Does the response evaluate the implications of changes in elemental makeup on plant communities?",
+            "Is the response contemplating the role of iron in maintaining the Earth's magnetic field?",
+            "Does the response assess the impact of sodium and potassium on osmoregulation in organisms?",
+            "Is the response contemplating potential evolutionary changes in marine and terrestrial life?",
+            "Does the response discuss the dynamic nature of Earth's geological evolution?",
+            "Is the response predicting future insights into Earth's changes from studying these shifts?",
+            "Does the response address the blurred part of the pie chart, indicating 3.6%?"
+        ],
+        "background_knowledge": [],
+        "caption": "Composition of the Earth's Crust Visualized in a Pie Chart"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu mahugurwa aherutse ku bijyanye n'imyiyerekano y'umuco n'imikorere y'ahantu ho gukorera, ifoto yashyizwe ahagaragara yerekana umwanya hagati y'abitabiriye. Sobanura uburyo bwo guhuza umuco n'imikorere bishobora kuba biri kuba muri iki gikorwa. Tekereza ku myambarire, imyitwarire, uko bicaye, n'ibindi bimenyetso bigaragara bishobora kugaragaza imigenzo y'umuco cyangwa imyitwarire y'ahantu ho gukorera. ",
+        "reference_answer": "Ifoto yerekana umwanya w'ubusabane bwiza n'ubwumvikane hagati y'itsinda ry'abantu, bishoboka ko biri mu mahugurwa cyangwa mu bikorwa byo kubaka ikipe. Abitabiriye barimo gukoma amashyi cyangwa kugaragaza kwemeza, bigaragazwa n'amasura yabo aseka n'amaboko yabo akoma amashyi. Ibyo bikorwa byemerwa ku rwego mpuzamahanga nk'ibimenyetso by'ibyishimo kandi akenshi bikoreshwa mu mirimo y'umwuga mu gushimira akazi kakozwe neza cyangwa kugaragaza gushyigikira umusanzu wa mugenzi wabo.\n\nImyanya y'uko bicaye ni iyoroheje kandi irimo bose, intebe ziteranyirijwe mu ruziga, bigaragaza ibikorwa by’amahugurwa cyangwa by'itsinda bigamije kwimakaza uburinganire n'itumanaho ryo mu rwego rwo hejuru hagati y'abitabiriye. Iyi myanya ikunze gukoreshwa mu mirimo igezweho, ifatanyije ikunda ibitekerezo by'umuntu wese mu itsinda kandi ikagerageza gukuraho inzitizi zishingiye ku nzego.\n\nImyambaro y'aba bantu ni iyoroheje kandi ifatika, igaragaza ahantu h’akazi h’igihe tugezemo, hashobora kuba higanjemo ubuhanzi cyangwa ikoranabuhanga aho imyambaro y'ubucuruzi itari ngombwa. Ubu buryo bwo kwambara bushobora kugaragaza umuco w'ikigo uha agaciro ihumure n'ubwisanzure bw'umuntu kurusha imigenzo ya kera y'ibigo by'ubucuruzi.\n\nBuri muntu agaragaza kwitabira no kwishimira, bishobora kugaragaza umuco w’itsinda cyangwa umuryango uha agaciro uruhare rugaragara no gushyigikirana. Imyitwarire nk'iyi ishobora guteza imbere umuco mwiza w’akazi, ishyigikira ubufatanye n'intsinzi rusange.\n\nByongeye kandi, ubwoko butandukanye bw'itsinda, aho abantu bafite inkomoko zitandukanye, byerekana ahantu h’akazi higanjemo imico itandukanye. Uburyo bworoshye n'ibyishimo mu bagize itsinda byerekana kumva no kubaha imico itandukanye muri iyi miterere.\n\nMuri rusange, ifoto yerekana ahantu h’akazi hiyemeje kwakira imico itandukanye, kwimakaza itumanaho ryoroheje kandi rishingiye ku buringanire, no guteza imbere ibidukikije byiza, byemeza abanyamuryango bayo. Ibi byerekana uburyo bugezweho ku muco w’akazi, aho imico itandukanye ihabwa agaciro, kandi imikorere y’itsinda igamije kwinjiza no kubahana. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately describe the cultural interactions and dynamics taking place in the photograph?",
+            "score1_description": "The response recognizes individuals in the photograph but fails to interpret cultural interactions or dynamics, for example, noting smiles without relating to cultural expressions or workplace dynamics.",
+            "score2_description": "The response identifies basic gestures such as applause but provides a limited analysis of their cultural or workplace significance, for example, mentioning clapping without discussing its role in affirmation or support.",
+            "score3_description": "The response observes cultural interactions and begins to relate them to workplace dynamics, but the explanation is superficial and lacks insight into attire or seating arrangement, for example, not considering how these reflect cultural norms.",
+            "score4_description": "The response describes cultural interactions and dynamics with attention to gestures, attire, and seating, but may miss deeper implications or the significance of diversity, for example, not fully exploring what the observed ease among diverse individuals implies.",
+            "score5_description": "The response thoroughly analyzes the cultural interactions and dynamics, considering gestures, attire, seating, and diversity, and insightfully relates these to cultural norms and workplace etiquette, demonstrating a comprehensive understanding of the setting."
+        },
+        "atomic_checklist": [
+            "Does the response identify the gestures such as applause and relate them to cultural expressions of affirmation?",
+            "Is the response attentive to the informal and inclusive seating arrangement, suggesting open communication?",
+            "Does the response comment on the casual attire and its reflection of workplace culture?",
+            "Does the response recognize active participation and enthusiasm as valued cultural norms?",
+            "Is the response observant of the diversity of the group and implications for cultural sensitivity?",
+            "Does the response infer that the workplace embraces cultural diversity and egalitarian communication?",
+            "Does the response draw connections between visual cues and the promotion of a positive workplace environment?",
+            "Is the response comprehensive in covering all aspects of cultural interactions and dynamics visible in the photograph?"
+        ],
+        "background_knowledge": [],
+        "caption": "A group of diverse coworkers sharing a joyful moment with applause and smiles in the office."
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gusuzuma imiterere n'amahame ya fiziki akora, menya urukurikirane rw'ibintu bishoboka gukurikira igihe cyafashwe mu ifoto, ushyira imbere imikoranire hagati y’abantu n’ibidukikije, by'umwihariko ku nyubako ikozwe mu bikarito. ",
+        "reference_answer": "Gusesengura ifoto, bigaragara ko umunara w'udusanduku tw'icyatsi wubatswe ku burebure buteye inkeke kandi ubu urenda kugwa ku ruhande rumwe. Umunyeshuri arambura ukuboko agana ku munara, ashobora kuba agerageza kuwuhagarika, mu gihe abandi bari mu bihe bitandukanye by'ibitekerezo, kuva ku kwishima kugeza ku guhangayika.\n\nUrebye uko umunara wicaye n'uko udusanduku twimuka hafi y'ibanze, icyifuzo cyumvikana ni uko iyo nyubako iri hafi kugwa. Umunyeshuri uri hafi y'umunara ari mu kaga ko gukubitwa n'udusanduku mu gihe biguye. Udusanduku ubwabwo, bitewe n'uburemere bwatwo n'ibiri imbere, dushobora gusandara mu gihe biguye, bishobora guteza imvune cyangwa byibuze, umwanda ukomeye.\n\nImyitwarire y'abantu igaragaza ko ibi byabaye ibintu bitunguranye mu gihe cyo kuruhuka cyangwa ikiruhuko, bishoboka ko byabereye ku ishuri cyangwa ikigo cyenda gusa nacyo kubera imyambaro y'ishuri. Hari amahirwe ko kugwa bizaba bitunguranye, bikaba byatera urusaku rukomeye rushobora gukurura abandi batagaragara ku ifoto. Ibi bishobora gutuma abantu benshi bateranira hamwe, bikaba byongera ibyago byo gukomereka no gukomera ku bikorwa byo gusukura.\n\nUrebye uko ibintu byifashe, ibi bishobora no kuba isomo ry'ako kanya mu bijyanye n'ubumenyi bw'ibintu n'umutekano ku banyeshuri babigizemo uruhare, bigaragaza akamaro k'umutekano n'ikigo cy'uburemere mu nyubako, ndetse n'ingaruka zishobora guterwa no kubura ubushishozi mu bikorwa nk'ibi.\n\nNyuma y'ibi, umuntu ashobora gutegereza ibiganiro bijyanye n'umutekano n'imikoreshereze ikwiye y'ibikoresho nk'ibi bisanduku, bishobora gutuma hashyirwaho amategeko cyangwa amabwiriza yo kwirinda ibibazo nk'ibi. Niba iki kibazo cyakiriwe mu buryo bwo kwishima kandi nta mvune ikomeye ibaye, gishobora kuba inkuru isangirwa n'abanyeshuri, ikaba igice cy'inkuru zabo z'ubuzima bwabo bwo kumwe. ",
+        "score_rubric": {
+            "criteria": "Does the response logically predict the sequence of events following the moment captured in the photograph, with emphasis on the structure made of crates?",
+            "score1_description": "The response notes the falling crates but fails to predict specific interactions, for example, it mentions that the crates are toppling but does not discuss the students' likely movements or the crates' path.",
+            "score2_description": "The response predicts that the crates will fall but only provides a generic outcome, for example, it suggests students may react but does not specify how the closest student might move to avoid the fall.",
+            "score3_description": "The response predicts the immediate reaction of the student stabilizing the crates but lacks detail on others' reactions, for example, it might state the student will step back without discussing the potential chain reaction among the others.",
+            "score4_description": "The response provides a detailed prediction of the crates' fall and the students' reactions, but may not fully account for the aftermath, for example, it describes dodging actions but not the consequences of the scattered crates.",
+            "score5_description": "The response offers a comprehensive prediction, detailing the crates' trajectory, each student's likely movements, and the subsequent consequences, such as disruption and noise, reflecting a nuanced understanding of the dynamics."
+        },
+        "atomic_checklist": [
+            "Does the response predict that the student touching the crates will immediately withdraw their hands?",
+            "Is the response specific about the direction in which the crates are likely to fall?",
+            "Does the response anticipate the likely movement of the student directly in the path of the falling crates?",
+            "Does the response predict the reactions of the surrounding students, such as stepping back or trying to catch the crates?",
+            "Is the response detailed about the potential noise and disruption caused by the collapsing crates?",
+            "Does the response consider the possibility of the crates scattering and the safety risks involved?",
+            "Is the response predicting any immediate intervention by onlookers or authorities due to the incident?"
+        ],
+        "background_knowledge": [],
+        "caption": "The Great Crate Catastrophe: When a towering stunt turns into a frantic scramble"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gihe usuzuma ishusho igaragara irimo igice cy'uburiganya bw'amaso, sobanura ibisobanuro bitandukanye bishobora kuva kuri iyo shusho. Tekereza ku myumvire ishobora kugaragara kandi usobanure ku bisobanuro bitandukanye umuntu ashobora gukura mu makuru agaragara atanzwe. ",
+        "reference_answer": "Ishusho yerekanywe ni urugero rwiza rw'ishusho ifite ibisobanuro bibiri ishobora gusobanurwa mu buryo bwinshi. Iyo urebye bwa mbere, ishusho ishobora kugaragara nk'amasura abiri mu mpande zombi agiye gusomana cyangwa ikibindi kimwe kiri hagati ku kibanza cy'umucyo. Ubu bwoko bw'ishusho buzwi nka Rubin's Vase, urugero rw'uburyo bwo kubona ishusho n'inyuma yayo.\n\nKugira ngo ukemure urujijo, umuntu agomba kubona impinduka mu buryo bwo kureba bisaba guhinduranya hagati y'ibisobanuro byombi bifite agaciro. Iyo wibanze ku ishusho y'umukara, imiterere yayo isa n'amasura abiri arebana. Urubibi rw'imbere rw'amasura buri wese rugira uruhare nk'uruhanga, kandi impande z'inyuma zikora inyuma y'umutwe. Ubu busobanuro bushingiye ku kureba ishusho y'umukara nk'ishusho (icyo wibandaho) n'ahantu h'umweru nk'inyuma (background).\n\nKu rundi ruhande, iyo uhinduye uburyo bwo kwibanda ugatekereza ahantu h'umweru nk'ishusho, ishusho z'umukara zigaragara nk'inyuma, hanyuma ikibindi kigaragara. Imiterere y'ikibindi isobanurwa n'urubibi rusangiwe rw'amasura. Ubusobanuro bw'ikibindi bukomezwa n'uburinganire n'ikibanza cy'ikibindi mu ishusho, biba ibiranga bisanzwe by'ibintu nk'ibi.\n\nIcyo umuntu abona neza ni uko ishusho ikina n'uburyo bwo gutegura ishusho n'inyuma, aho uburyo bwacu bwo kureba bumenya igice cy'ishusho ari cyo kintu nyamukuru (ishusho) n'ikindi ari inyuma (background). Iyi shusho igenewe kuba ifite ibisobanuro bibiri, bivuze ko igamije gushyigikira ibi bisobanuro byombi, kandi ubwenge bushobora guhinduranya hagati yabyo ariko ntibushobora kubifata byombi icyarimwe.\n\nGusobanukirwa neza ubu buriganya bwo mu maso bushingiye ku kumenya no gushimira kamere ebyiri z'ishusho. Si ishusho y'amasura abiri cyangwa ikibindi gusa, ahubwo ni igaragaza ubushobozi bw'ubwonko bwo guhinduranya hagati y'ibisobanuro bitandukanye by'ibintu byerekana. Ubu busobanuro butuma dushimira uburemere bw'uburyo bwo kureba no gutunganya amakuru y'ubwonko mu gusobanura amakuru y'amaso.\n\n",
+        "score_rubric": {
+            "criteria": "Does the response provide a comprehensive analysis of the optical illusion and its multiple interpretations?",
+            "score1_description": "The response identifies the optical illusion but offers no further interpretation, for example, it might only state the presence of black and white shapes without seeing the profiles or the vase.",
+            "score2_description": "The response recognizes one interpretation of the illusion but not the other, for example, it may describe the vase but not the profiles, or vice versa.",
+            "score3_description": "The response mentions both interpretations but does not elaborate on the figure-ground perception involved, for example, noting the profiles and the vase but not explaining the shift in perspective.",
+            "score4_description": "The response details both interpretations and touches on the cognitive processes involved but may not fully capture the bi-stable nature of the image, for example, it might explain figure-ground organization but not the inability to see both images at once.",
+            "score5_description": "The response thoroughly analyzes the optical illusion, clearly detailing both interpretations, the cognitive processes of figure-ground perception, and the bi-stable nature of the image, reflecting a deep understanding of visual perception."
+        },
+        "atomic_checklist": [
+            "Does the response identify the silhouette as a Rubin's Vase, demonstrating figure-ground perception?",
+            "Is the response clear about the two interpretations of faces and a vase?",
+            "Does the response explain the need to shift perspective to alternate between interpretations?",
+            "Is the response detailed in how the black shape can be seen as the figure with the white as the ground and vice versa?",
+            "Does the response discuss the bi-stable nature of the image, where both interpretations cannot be held simultaneously?",
+            "Does the response elaborate on the complexity of visual perception and cognitive processing in interpreting sensory information?"
+        ],
+        "background_knowledge": [],
+        "caption": "A classic play on perception: Two faces or a vase?"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu ihuriro ry'ibirori ryafashwe, ni izihe ntekerezo n'ubusabane bishobora kuba biri hagati y'abantu bahari, kandi ibi byerekana bite amarangamutima rusange y'abantu n'imikoranire mu mibanire y'abantu mu birori? ",
+        "reference_answer": "Ishusho itanga umwuka w'ubuzima busanzwe bw'ibirori by'iminsi mikuru, aho abantu bambaye ingofero za Noheli, bigaragaza ishusho y'ubucuti bwishimye. Abantu bakuru, umugabo n'umugore, bari mu gihe cyo gusangira ibyishimo, nk'uko bigaragazwa n'umugore ufite inseko nini n'umugabo ufite isura y'ibyishimo byoroheje. Bombi bafite ibirahure, ikimenyetso cyo gusangira no kwishimira ibirori, bigaragaza umwuka w'ubucuti bw'icyo gihe.\n\nAmaso y'umugore areremba n'ibyishimo, agaragaza umunezero n'ubwigenge akenshi biba muri bene ibyo birori. Isura ye ifunguye kandi igaragaza ibyiyumvo byerekana kumva ari mu mwanya we no kwishimira, ibintu bihura n'umwuka rusange w'ubushyuhe n'ibyishimo. Umugabo ukorana na we mu buryo bwo kwegerana n'ibimenyetso by'umubiri bigaragaza ko umuntu akeneye guhura no kwizihiza hamwe n'abandi.\n\nMu ishusho y'inyuma, abandi bari mu birori nabo barimo kwishimira umwuka w'ibirori. Inyuma itagaragara neza ifite amatara amurika igaragaza umucyo w'ubusamagwe bw'iminsi mikuru, kandi umucyo w'umuhondo wose utanga umucyo usa n'uwongera ubushyuhe bw'amarangamutima y'ishusho. Abitabiriye ntibari gusa bahari; ahubwo ni abatanga umusanzu mu rugendo rw'uburambe bw'abantu basangiye ko bene ibyo birori byubaka.\n\nIyi shusho ifata byinshi kurenza umwanya wo kwishimira; ifata urugendo rw'amarangamutima y'ubusabane rusange. Ni urwibutso rw'ubumuntu busangiwe ko ibirori bishobora kugaragaza, bigahuza abantu mu kugaragaza ibyishimo, ubucuti, n'irari ry'umuntu ryo kwizihiza hamwe n'abandi. ",
+        "score_rubric": {
+            "criteria": "Does the response insightfully analyze the underlying feelings and interactions at the festive gathering?",
+            "score1_description": "The response briefly acknowledges the festive setting but fails to delve into the emotions or interactions, for example, noting the Christmas hats but not the expressions or body language of joy and camaraderie.",
+            "score2_description": "The response recognizes happiness in the gathering but does not connect it to broader social dynamics, for example, mentioning smiling faces but not the shared amusement or sense of belonging.",
+            "score3_description": "The response describes surface-level interactions and some emotions, such as laughter, but lacks depth in exploring the significance of these in the context of human connection, for example, noting the toasting but not the deeper sense of unity it signifies.",
+            "score4_description": "The response captures most of the emotional essence and social interactions, like engagement and warmth, but may not fully interpret the broader human experience, for example, recognizing close proximity but not fully discussing the collective mood it creates.",
+            "score5_description": "The response provides a comprehensive analysis of the feelings and interactions, deeply understanding the joy, belonging, and human connection present at the event, reflecting on how these elements combine to create a rich, shared human experience."
+        },
+        "atomic_checklist": [
+            "Does the response note the Christmas hats and interpret them as a sign of shared festivity?",
+            "Is the response attentive to the woman's laughter and what it signifies about the mood of the event?",
+            "Does the response discuss the man's body language and its implications for social bonding?",
+            "Does the response mention the social act of toasting and its role in festive indulgence?",
+            "Is the response descriptive of the background ambiance and how it contributes to the festive atmosphere?",
+            "Does the response connect individual expressions to collective emotional warmth and celebration?",
+            "Is the response comprehensive in covering the richness of emotional connections and their universal resonance?"
+        ],
+        "background_knowledge": [],
+        "caption": "Joyful laughter and festive cheer at a sparkling Christmas party."
+    }
+]

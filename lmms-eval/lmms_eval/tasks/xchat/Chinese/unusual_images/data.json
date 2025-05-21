@@ -1,0 +1,127 @@
+[
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在查看一组海岸摄影项目的照片时，我发现了一张无法用普通解释来描述的图像。它显示了一艘大型货船似乎漂浮在海面之上。请在透视和视觉错觉的背景下描述观察到的现象，并全面分析大气条件如何导致这种视觉效果。 ",
+        "reference_answer": "照片展示了一种引人注目的视觉异常，通常被称为海市蜃楼，这是一种复杂的上层幻影，显著扭曲了货船的外观。船似乎漂浮在地平线上，与水面之间隔着一条天空带。这种幻觉是大气折射的结果，不同温度的空气层以不同的角度弯曲通过它们的光线。在这种情况下，由于冷空气位于暖空气之下，船只的光线在穿过暖空气进入更密集的冷空气时被向下弯曲。\n\n这些空气层之间的温度梯度相当陡峭，创造了这种光学现象所需的条件。来自船只的折射光从实际视线以下到达观察者的眼睛，使船只看起来比实际位置更高。这类似于通过一个将图像向上位移的透镜进行观察。海面的平静增强了海市蜃楼的清晰度和强度，为被位移的船只图像提供了一个近乎完美的反射表面。这导致了一种非常清晰和明显的悬浮效果，如果不了解其背后的科学原理，可能会让人感到困惑。\n\n观察者与船只之间的特定角度和距离也对这种效果有贡献。如果从更高的视角观察，海市蜃楼可能不会那么明显。此外，光线条件似乎恰到好处，太阳可能位于摄影师的背后，减少了眩光，使得可以清晰地捕捉到海市蜃楼，而不会有过多的光散射。\n\n总之，图像中捕捉到的视觉异常是光线和温度梯度的巧妙运用，而不是对物理定律的违反。它作为一个迷人的例子，展示了大气条件如何能够显著改变我们对自然世界的感知",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在所提供的照片中，哪些现象是看上去是违反一般的物理原理的，这在照片的背景下如何解释？",
+        "reference_answer": "照片捕捉到一名跳伞者在自由落体中，似乎悬浮在空中。乍一看，跳伞者似乎在违抗重力，因为我们没有观察到预期中的快速下降。然而，这是一种由照片背景创造的错觉。\n\n实际上，跳伞者完全受到重力的影响，并正在加速向下。这可以从跳伞者的姿势看出，手臂和腿展开以增加空气阻力，这是跳伞中稳定和控制下降的常见做法。跳伞者的服装和设备专门设计用于管理空气阻力和控制下落速度。\n\n照片还给人一种跳伞者相对于地面可能是静止的印象，但这不太可能。由于缺乏可见的运动模糊或可以表明快速运动的参照点，图像冻结了一个瞬间，给人一种误导性的感觉，即跳伞者在悬停。\n\n另一个需要考虑的点是，照片可能没有显示跳伞者跳跃的初始时刻，当时跳伞者会经历真正的自由落体并从零速度加速。相反，它可能捕捉到的是达到终端速度的时刻，此时重力和空气阻力的力量达到平衡，导致速度恒定。\n\n此外，相机角度和缺乏可见的参照点（如云或飞机）使得很难判断跳伞者的实际速度和加速度。实际上，没有这些视觉线索，我们对跳伞者运动的感知受到影响。\n\n总之，虽然跳伞者似乎在违背物理定律，但事实上他们遵循所有物理原理，包括重力和空气阻力。这种错觉是动态情境被摄影捕捉的结果，当冻结在时间中时，剥夺了那些本可以告知我们跳伞者快速向下运动和所受力量的背景线索。",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "给定一张违背传统建筑的图像,请解释其结构并且讲述其起源的故事以及它对周围社区的影响。 ",
+        "reference_answer": "这幅艺术作品是超现实主义的典范，展示了一片荒芜的景观，天空辽阔而空旷。作品的中心是几个钟表，它们融化并悬挂在景观的鲜明特征上——一棵荒凉的树、一张坚硬的桌子，以及场景中的不定形状。\n\n这些融化的钟表是梦境中时间流动性和主观性的深刻隐喻，与清醒生活中时间的刚性、不屈不挠的前进形成对比。这暗示了超现实主义对无意识、梦境以及超越时间和空间普通感知的现实的迷恋。\n\n此外，景观中对比鲜明的元素——一棵枯树与一棵郁郁葱葱的绿树——可能代表存在中的二元性，突出了生与死、成长与衰败的对比。景观的荒芜可能象征着潜意识的广阔空虚，这是超现实艺术中常见的主题，探索心灵的内在运作。\n\n橙色的钟表上爬满蚂蚁，暗示着腐朽和有机生命的流逝，强烈提醒着死亡和向熵的无情推进。蚂蚁通常与腐朽和强烈的劳动联系在一起，强化了对时间和自然不可避免的斗争的主题。\n\n最后，背景中有一片宁静的海洋和清晰的地平线，这可能被解读为意识与潜意识、已知与未知之间的界限。这条地平线将现实世界与上方的梦境分隔开来，强调了超现实主义者模糊和挑战这些界限的雄心。\n\n总之，这幅艺术作品运用超现实元素来引发对时间、存在和无意识心灵之谜的思考。它邀请观众超越现实的逻辑界限，考虑对他们的经历和感知更为流动、梦幻般的解释。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "鉴于一幅挑战传统建筑的图像，构建一个叙述，不仅解释其结构，还讲述其起源的故事及其对周边社区的影响。 ",
+        "reference_answer": "图像展示了一座前卫的建筑，倒置着，似乎在挑战重力定律和传统建筑。这座建筑并不是随意设计的产物，而是一个有目的的艺术声明，被称为“倒置屋”。它与传统建筑形成鲜明对比，其根部——或者在这种情况下，是尖端——埋入地下，而本应是地基的部分则被抬向天空。\n\n其起源的故事与外观一样不寻常。“倒置屋”由一位古怪的建筑师埃莉安娜·科尔特斯构思，她受到将期望颠倒的想法启发。她相信，正如建筑的形式可以被颠倒，社会规范和约束也可以被颠覆。这种物理表现形式作为创新和变革的隐喻，鼓励旁观者重新审视他们对生活和设计的看法。\n\n埃莉安娜与工程师密切合作，以确保她愿景的可行性。尖端实际上是一个巧妙伪装的钢支撑，固定住建筑，而上层则由轻质但耐用的材料制成。似乎为建筑增色的红灯是太阳能LED灯，夜晚照亮建筑，成为非传统思想的灯塔。\n\n“倒置屋”迅速成为文化地标。它设有一个社区艺术中心，提供各种创意学科的课程和工作坊，从而实现埃莉安娜激发社区创造力和创新的愿景。这座建筑不仅仅是一个结构，而是一个活生生的叙述，讲述着挑战常规、拥抱变化以及鼓励社区创新思考和生活的故事。它的存在在该地区引发了一场复兴，当地企业采用更大胆的设计，并举办一系列年度节庆，庆祝前卫艺术和建筑。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在评估一个将元素组合在一起的图像时，如何辨别这些元素之间逻辑和谐或不和谐的程度？比如考虑一幅包含典型家养宠物和通常与另一种动物相关的物体的图片。可以识别出哪些具体的不一致之处，这些不一致又如何破坏场景的逻辑连贯性？",
+        "reference_answer": "图像描绘了一只猫，周围有几个心形，表示喜爱或兴趣，还有一个传统上与狗而不是猫相关的骨头。这个场景呈现出一些逻辑上的不一致。\n\n首先，骨头代表了狗经典的兴趣物品，因为它们以啃咬骨头而闻名，这既是一种玩耍行为，也源于它们本能上想要消耗猎物所有部分的欲望，包括骨头。然而，猫是专性食肉动物，更倾向于捕食较小的猎物，这通常不会留下大骨头。它们不像狗那样以骨头作为玩具或食物。\n\n其次，围绕猫的心形暗示着对骨头的强烈喜爱或兴趣。虽然猫确实会对各种物品表现出兴趣，这是它们玩耍和好奇天性的表现，但这样大小的骨头不太可能引起这样的反应。这种描绘可能会混淆观察者对典型猫行为的理解，因为这里所指的情感反应与猫的自然本能和行为不一致。\n\n最后，猫脸上的表情和身体的姿势并没有反映出猫遇到不寻常物体时通常的谨慎或探究姿态。相反，猫看起来很满足和亲切，这在考虑所呈现物体的背景时增加了不一致性。\n\n总之，这幅图像中的逻辑不一致之处在于：将骨头与猫联系在一起，心形暗示对骨头不合逻辑的兴趣或喜爱，以及猫的表情和姿势与在这种情况下预期的自然反应不符。这些元素共同创造了一个异想天开的场景，但在逻辑上不连贯，与猫的现实行为或动物与其典型兴趣物品之间的自然联系不一致。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+    }
+]

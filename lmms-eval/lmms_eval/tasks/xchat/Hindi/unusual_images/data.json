@@ -1,0 +1,127 @@
+[
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "तटीय फोटोग्राफी परियोजना से तस्वीरों की समीक्षा करते समय, एक छवि सामने आई जो साधारण व्याख्या को चुनौती देती है। यह एक बड़े मालवाहक जहाज को दिखाती है जो समुद्र की सतह के ऊपर तैरता हुआ प्रतीत होता है। परिप्रेक्ष्य और दृष्टिभ्रम के संदर्भ में देखी गई घटना का वर्णन करें, और इस तरह के दृश्य प्रभाव का कारण बनने वाली वायुमंडलीय स्थितियों का व्यापक विश्लेषण प्रदान करें। ",
+        "reference_answer": "फोटोग्राफ एक आकर्षक दृश्य विसंगति प्रस्तुत करता है जिसे आमतौर पर फाटा मोर्गाना के रूप में जाना जाता है, जो एक जटिल प्रकार की श्रेष्ठ मृगतृष्णा है जो मालवाहक जहाज की उपस्थिति को काफी हद तक विकृत कर रही है। जहाज क्षितिज के ऊपर मंडराता हुआ प्रतीत होता है, जो पानी से आकाश के एक पट्टी द्वारा अलग है। यह भ्रम वायुमंडलीय अपवर्तन का परिणाम है, जहां विभिन्न तापमानों पर हवा की परतें उनके माध्यम से गुजरने वाली प्रकाश किरणों को विभिन्न कोणों पर मोड़ती हैं। इस परिदृश्य में ठंडी हवा गर्म हवा के नीचे होती है, इसलिए जहाज से आने वाला प्रकाश गर्म हवा से घनी, ठंडी हवा में प्रवेश करते समय नीचे की ओर मुड़ जाता है।\n\nइन वायु परतों के बीच तापमान का अंतर काफी तीव्र है, जो इस ऑप्टिकल घटना के लिए आवश्यक परिस्थितियाँ बनाता है। जहाज से अपवर्तित प्रकाश पर्यवेक्षक की आँख तक वास्तविक दृष्टि रेखा के नीचे से पहुँचता है, जिससे जहाज अपनी वास्तविक स्थिति से ऊँचा दिखाई देता है। यह ऐसा है जैसे एक लेंस के माध्यम से देखना जो छवि को ऊपर की ओर विस्थापित करता है। समुद्र की शांति द्वारा मृगतृष्णा की स्पष्टता और तीव्रता को बढ़ाया जाता है, जो जहाज की विस्थापित छवि के लिए लगभग एक आदर्श परावर्तक सतह प्रदान करता है। यह एक बहुत स्पष्ट और विशिष्ट मंडराने वाला प्रभाव उत्पन्न करता है, जो बिना अंतर्निहित विज्ञान को समझे काफी उलझन में डाल सकता है।\n\nपर्यवेक्षक की जहाज से विशेष कोण और दूरी भी इस प्रभाव में योगदान करती है। यदि इसे एक ऊँचे दृष्टिकोण से देखा जाए, तो मृगतृष्णा शायद इतनी स्पष्ट नहीं होगी। इसके अलावा, प्रकाश की स्थितियाँ भी बिल्कुल सही प्रतीत होती हैं, संभवतः फोटोग्राफर के पीछे सूर्य की स्थिति के साथ, जिससे चमक कम होती है और मृगतृष्णा की स्पष्ट कैप्चरिंग की अनुमति मिलती है बिना बहुत अधिक प्रकाश के बिखरने के।\n\nअंत में, छवि में कैद की गई दृश्य विसंगति प्रकाश और तापमान के ग्रेडिएंट का एक कुशल खेल है, और भौतिक नियमों का उल्लंघन नहीं है। यह इस बात का एक आकर्षक उदाहरण प्रस्तुत करता है कि कैसे वायुमंडलीय स्थितियाँ हमारे प्राकृतिक दुनिया के प्रति धारणा को नाटकीय रूप से बदल सकती हैं। ",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "प्रदान की गई तस्वीर में, कौन से भौतिक सिद्धांत अस्थायी रूप से निलंबित या उल्लंघित होते प्रतीत होते हैं, और तस्वीर के संदर्भ में इसे कैसे समझाया जा सकता है? ",
+        "reference_answer": "फोटोग्राफ एक स्काइडाइवर को मुक्त गिरावट में कैद करता है, जो हवा में निलंबित प्रतीत होता है। पहली नजर में, ऐसा लग सकता है कि स्काइडाइवर गुरुत्वाकर्षण को चुनौती दे रहा है, क्योंकि हम पृथ्वी की ओर अपेक्षित तेज गिरावट का अवलोकन नहीं करते हैं। हालांकि, यह फोटोग्राफ के संदर्भ द्वारा निर्मित एक भ्रम है।\n\nवास्तव में, स्काइडाइवर पूरी तरह से गुरुत्वाकर्षण के प्रभाव में है और नीचे की ओर तेजी से बढ़ रहा है। यह स्काइडाइवर की मुद्रा से प्रमाणित होता है, जिसमें हाथ और पैर फैले होते हैं ताकि वायु प्रतिरोध बढ़ सके, जो स्काइडाइविंग में अवरोहण को स्थिर और नियंत्रित करने के लिए एक सामान्य अभ्यास है। स्काइडाइवर का सूट और उपकरण विशेष रूप से वायु प्रतिरोध को प्रबंधित करने और गिरने की गति को नियंत्रित करने के लिए डिज़ाइन किए गए हैं।\n\nफोटोग्राफ यह भी प्रभाव देता है कि स्काइडाइवर पृथ्वी के सापेक्ष स्थिर हो सकता है, लेकिन यह असंभव है। दृश्य गति धुंधलापन या संदर्भ बिंदुओं की कमी के कारण जो तेजी से गति का सुझाव दे सकते हैं, छवि समय में एक क्षण को स्थिर करती है, जिससे यह भ्रामक धारणा बनती है कि स्काइडाइवर मंडरा रहा है।\n\nएक और बिंदु पर विचार करना यह है कि फोटोग्राफ शायद कूद के प्रारंभिक क्षणों को नहीं दिखाता है जब स्काइडाइवर वास्तविक मुक्त गिरावट का अनुभव करेगा और शून्य वेग से तेजी प्राप्त करेगा। इसके बजाय, यह संभवतः एक क्षण को कैद करता है जब टर्मिनल वेग प्राप्त हो चुका होता है, जिस बिंदु पर गुरुत्वाकर्षण और वायु प्रतिरोध की ताकतें संतुलन में होती हैं, जिसके परिणामस्वरूप एक स्थिर वेग होता है।\n\nइसके अलावा, कैमरे का कोण और दृश्य संदर्भ बिंदुओं की कमी (जैसे बादल या विमान) स्काइडाइवर की वास्तविक वेग और त्वरण का अनुमान लगाना कठिन बना देते हैं। वास्तव में, इन दृश्य संकेतों के बिना, स्काइडाइवर की गति की हमारी धारणा समझौता हो जाती है।\n\nनिष्कर्ष में, जबकि स्काइडाइवर भौतिक नियमों को चुनौती देता हुआ प्रतीत होता है, वह वास्तव में भौतिकी के सभी सिद्धांतों का पालन कर रहा है, जिसमें गुरुत्वाकर्षण और वायु प्रतिरोध शामिल हैं। यह भ्रम एक गतिशील स्थिति के फोटोग्राफिक कैप्चर का परिणाम है, जो समय में स्थिर होने पर, उन संदर्भ संकेतों को हटा देता है जो अन्यथा हमें स्काइडाइवर की तेजी से नीचे की ओर गति और कार्यरत बलों के बारे में सूचित करते। ",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "किसी कलाकृति का विश्लेषण करते समय जो पारंपरिक वास्तविकता को चुनौती देती है, दृश्य घटकों और उनकी संभावित महत्ता का वर्णन करें, अतियथार्थवाद के सिद्धांतों को ध्यान में रखते हुए। ",
+        "reference_answer": "विवादित कलाकृति अतियथार्थवाद का एक आदर्श प्रदर्शन है, जिसमें एक बंजर परिदृश्य एक विशाल, खाली आकाश के नीचे दर्शाया गया है। इस रचना के केंद्र में कई घड़ियाँ हैं, जो प्रत्येक पिघल रही हैं और परिदृश्य की कठोर विशेषताओं पर लिपटी हुई हैं—एक वीरान पेड़, एक कठोर मेज, और दृश्य के भीतर के अमूर्त आकार।\n\nपिघलती हुई घड़ियाँ सपनों की दुनिया में समय की तरलता और व्यक्तिपरक प्रकृति के लिए एक गहरा रूपक हैं, जो जागृत जीवन में अनुभव किए गए समय की कठोर, अडिग प्रगति के विपरीत है। यह अचेतन मन, सपनों और समय और स्थान की साधारण धारणा से परे वास्तविकता के प्रति अतियथार्थवादी आकर्षण की ओर संकेत करता है।\n\nइसके अलावा, परिदृश्य के विपरीत तत्व—एक मृत पेड़ के साथ एक हरा-भरा पेड़—अस्तित्व के भीतर एक द्वैत का प्रतिनिधित्व कर सकते हैं, जीवन और मृत्यु, विकास और क्षय के विपरीत को उजागर करते हुए। परिदृश्य की बंजरता अवचेतन की विशाल शून्यता का प्रतीक हो सकती है, जो अतियथार्थवादी कला में एक सामान्य विषय है जहाँ मन की आंतरिक कार्यप्रणाली का अन्वेषण किया जाता है।\n\nचींटियों के झुंड के साथ नारंगी घड़ी क्षय और जैविक जीवन के गुजरने का सुझाव देती है, मृत्यु और एंट्रोपी की ओर निरंतर प्रगति की एक कठोर याद दिलाती है। चींटियाँ, जो अक्सर क्षय और गहन श्रम से जुड़ी होती हैं, समय और प्रकृति की अनिवार्यताओं के खिलाफ चल रहे, अज्ञात संघर्ष के विषय को मजबूत करती हैं।\n\nअंत में, पृष्ठभूमि में एक शांत समुद्र और एक स्पष्ट क्षितिज है, जिसे चेतन और अवचेतन—ज्ञात और अज्ञात के बीच की सीमा के रूप में व्याख्यायित किया जा सकता है। यह क्षितिज रेखा वास्तविकता की दुनिया को ऊपर के सपनों के दृश्य से अलग करती है, इन सीमाओं को धुंधला और चुनौती देने की अतियथार्थवादी महत्वाकांक्षा पर जोर देती है।\n\nसंक्षेप में, यह कलाकृति समय, अस्तित्व और अचेतन मन के रहस्यों पर विचार करने के लिए अतियथार्थवादी तत्वों का उपयोग करती है। यह दर्शकों को वास्तविकता की तार्किक सीमाओं से परे जाने और अपने अनुभवों और धारणाओं की अधिक तरल, सपनों जैसी व्याख्या पर विचार करने के लिए आमंत्रित करती है। ",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "एक छवि को ध्यान में रखते हुए जो पारंपरिक वास्तुकला को चुनौती देती है, एक कथा का निर्माण करें जो न केवल इसकी संरचना को समझाए बल्कि इसकी उत्पत्ति की कहानी और आसपास के समुदाय पर इसके प्रभाव को भी बताए। ",
+        "reference_answer": "छवि एक अग्रणी संरचना को प्रदर्शित करती है, जो उलटी खड़ी है, और जो गुरुत्वाकर्षण और पारंपरिक वास्तुकला के नियमों को चुनौती देती प्रतीत होती है। यह इमारत कोई अनियमित डिज़ाइन का उत्पाद नहीं है बल्कि एक उद्देश्यपूर्ण कलात्मक वक्तव्य है, जिसे \"द इनवर्शन हाउस\" के नाम से जाना जाता है। यह पारंपरिक निर्माण के विपरीत खड़ी है, जिसकी जड़ें - या इस मामले में, नुकीला सिरा - ज़मीन में धंसा हुआ है, और जो नींव होनी चाहिए वह आकाश की ओर उठी हुई है।\n\nइसके उद्गम की कहानी इसकी उपस्थिति जितनी ही असामान्य है। इनवर्शन हाउस की परिकल्पना एक सनकी वास्तुकार, एलियाना कॉर्टेज़ ने की थी, जो उम्मीदों को उलट देने के विचार से प्रेरित थीं। उनका मानना था कि जैसे एक इमारत का रूप उलटा किया जा सकता है, वैसे ही सामाजिक मानदंड और बाधाएं भी उलटी की जा सकती हैं। यह भौतिक प्रतिनिधित्व नवाचार और परिवर्तन का रूपक है, जो दर्शकों को जीवन और डिज़ाइन पर अपने दृष्टिकोण का पुनर्मूल्यांकन करने के लिए प्रोत्साहित करता है।\n\nएलियाना ने अपनी दृष्टि की व्यवहार्यता सुनिश्चित करने के लिए इंजीनियरों के साथ निकटता से काम किया। नुकीला आधार वास्तव में एक चतुराई से छुपाया गया स्टील समर्थन है जो इमारत को स्थिर करता है, जबकि ऊपरी मंजिलें हल्के, लेकिन टिकाऊ, सामग्रियों से बनी हैं। जो लाल रोशनी संरचना को उजागर करती प्रतीत होती हैं, वे सौर ऊर्जा से चलने वाली एलईडी हैं, जो रात में इमारत को रोशन करती हैं, और असामान्य विचारों का एक प्रकाशस्तंभ बनाती हैं।\n\nइनवर्शन हाउस जल्दी ही एक सांस्कृतिक स्थल बन गया। इसमें एक सामुदायिक कला केंद्र है, जो विभिन्न रचनात्मक विधाओं में कक्षाएं और कार्यशालाएं प्रदान करता है, इस प्रकार एलियाना की रचनात्मकता और नवाचार को समुदाय में प्रेरित करने की दृष्टि को पूरा करता है। यह इमारत सिर्फ एक संरचना नहीं है बल्कि एक जीवंत कथा है, जो मानदंडों को चुनौती देने, परिवर्तन को अपनाने, और समुदाय को नवाचारी ढंग से सोचने और जीने के लिए प्रोत्साहित करने की कहानी कहती है। इसकी उपस्थिति ने क्षेत्र में एक पुनर्जागरण को जन्म दिया है, जिसमें स्थानीय व्यवसाय अधिक साहसी डिज़ाइन अपनाने लगे हैं और वार्षिक त्योहारों की एक श्रृंखला अग्रणी कला और वास्तुकला का जश्न मना रही है। ",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "किसी छवि का मूल्यांकन करते समय, जहाँ तत्वों को एक साथ लाया गया है, कोई इन तत्वों के बीच तार्किक सामंजस्य या असामंजस्य की डिग्री को कैसे पहचान सकता है? एक चित्र पर विचार करें जिसमें एक सामान्य घरेलू पालतू जानवर और एक वस्तु शामिल है जो आमतौर पर किसी अन्य प्रकार के जानवर से जुड़ी होती है। वे कौन-कौन सी विशेष असंगतियाँ हैं जिन्हें पहचाना जा सकता है, और ये असंगतियाँ दृश्य की तार्किक संगति को कैसे बाधित करती हैं? ",
+        "reference_answer": "छवि में एक बिल्ली को दर्शाया गया है जिसके चारों ओर कई दिल हैं, जो स्नेह या रुचि को दर्शाते हैं, और एक हड्डी है जो पारंपरिक रूप से कुत्तों से जुड़ी होती है, बिल्लियों से नहीं। यह दृश्य कई तार्किक असंगतियों को प्रस्तुत करता है।\n\nपहले, हड्डी कुत्तों के लिए रुचि की एक क्लासिक वस्तु का प्रतिनिधित्व करती है, क्योंकि वे हड्डियों को चबाने के लिए जाने जाते हैं जो कि एक खेल व्यवहार है और उनके शिकार के सभी हिस्सों को, जिसमें हड्डियाँ भी शामिल हैं, उपभोग करने की उनकी स्वाभाविक इच्छा में निहित है। हालांकि, बिल्लियाँ अनिवार्य मांसाहारी होती हैं और छोटे शिकार को खाने के लिए अधिक प्रवृत्त होती हैं, जो आमतौर पर बड़ी हड्डियाँ नहीं छोड़ती। वे हड्डियों के साथ उसी प्रकार से खेलने या खाने के रूप में संलग्न नहीं होतीं जैसे कुत्ते करते हैं।\n\nदूसरे, बिल्ली के चारों ओर के दिल हड्डी की ओर एक मजबूत स्नेह या रुचि का सुझाव देते हैं। जबकि बिल्लियाँ अपनी खेलपूर्ण और जिज्ञासु प्रकृति के हिस्से के रूप में विभिन्न वस्तुओं में रुचि दिखाती हैं, इस आकार की हड्डी से ऐसी प्रतिक्रिया की संभावना नहीं है। यह चित्रण पर्यवेक्षक की सामान्य बिल्ली व्यवहार की समझ को भ्रमित कर सकता है, क्योंकि यहाँ दर्शाई गई भावनात्मक प्रतिक्रिया बिल्ली की प्राकृतिक प्रवृत्तियों और व्यवहारों के साथ सुसंगत नहीं है।\n\nअंत में, बिल्ली के चेहरे की अभिव्यक्ति और उसके शरीर की स्थिति उस सामान्य सतर्क या जाँच-पड़ताल की मुद्रा को नहीं दर्शाती जो किसी को एक बिल्ली से एक असामान्य वस्तु का सामना करते समय उम्मीद हो सकती है। इसके बजाय, बिल्ली संतुष्ट और स्नेही प्रतीत होती है, जो प्रस्तुत वस्तु के संदर्भ पर विचार करते समय असंगति को बढ़ाता है।\n\nसारांश में, इस छवि के भीतर तार्किक असंगतियाँ इस प्रकार हैं: बिल्ली के साथ हड्डी का संबंध, हड्डी की ओर असंगत स्तर की रुचि या स्नेह का संकेत देने वाले दिल, और बिल्ली की अभिव्यक्ति और मुद्रा उस प्राकृतिक प्रतिक्रिया से मेल नहीं खाती जो ऐसे परिदृश्य में अपेक्षित होती है। ये तत्व मिलकर एक कल्पनाशील, फिर भी तार्किक रूप से असंगत दृश्य बनाते हैं जो बिल्लियों के यथार्थवादी व्यवहार या जानवरों और उनकी सामान्य रुचि की वस्तुओं के बीच प्राकृतिक संबंधों के साथ संरेखित नहीं होता। ",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+    }
+]

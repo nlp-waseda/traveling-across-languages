@@ -1,0 +1,135 @@
+[
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Iyo urebye ifoto, ni ibihe bintu byihariye byongera ku mwuka wumvikana, kandi bigenda gute kugira ngo bihuza bikore uburambe bwuzuye bw'amarangamutima? ",
+        "reference_answer": "Ifoto ivugwa isohora umwuka wituje kandi w'ubwenge, cyane cyane binyuze mu kureba kworoheje kw'uwafotowe n'umucyo woroshye. Amaso y'umugore, areba hasi gato kandi areba ku ruhande, atumira abareba kwibaza ku byo yaba atekereza, bikagaragaza kwitekerezaho cyangwa ituze. Umucyo uri ku ifoto umurikira uruhande rumwe rw'isura ye, utanga igicucu gito kandi ugatanga umwuka wituje. Uko gukinisha umucyo n'igicucu byongera kumva ituze n'ubwenge muri iyo shusho.\n\nByongeye kandi, guhitamo amabara byongera uyu mwuka; amabara akonje y'igitambaro cy'umutwe cy'ubururu n'amabara ashyushye y'igitambara cye bigera ku ngaruka y'uburinganire n'ubumwe, bitera kumva ituze. Igitenge cy'umutwe, cyambaye neza, cyongera icyubahiro n'ubwenge bw'uwafotowe. Iherena ryonyine, rifata umucyo, ni ikintu kidasanzwe gikurura amaso y'ureba ku isura y'ubwenge, byongera kumva amarangamutima y'iyo foto.\n\nByongeye kandi, itandukaniro rikomeye hagati y'uwafotowe n'inyuma y'umwijima rituma uwureba amwitaho, bikongera umwimerere n'ubwenge bw'iyo shusho. Uburyo bworoshye bw'iyo shusho, butarimo ibintu bitera urujijo, butuma habaho guhuzwa kw'amarangamutima bikomeye, butumira abareba kugira ngo baganire n'uwafotowe ku giti cyabo. Ubu buryo bw'ubusanzwe butera abareba kwibaza ku myitwarire y'uwafotowe no kwibaza ku buzima bwe bw'imbere, byongera umwuka w'ubwenge muri iyo shusho.\n\nMuri rusange, ingaruka z'amarangamutima y'iyo foto ni umusaruro w'ihuriro ry'ubuhanga bw'igishushanyo, umucyo, ibara, n'ibisobanuro, byose hamwe bikora ishusho ikomeye ariko ituje y'ituze ry'imbere n'ubwigenge bw'ubwenge. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the elements that contribute to the mood of the portrait and their interplay to create an emotional experience?",
+            "score1_description": "The response identifies basic elements of the portrait but does not relate them to the mood, for example, it might mention the subject's gaze but not how it conveys introspection.",
+            "score2_description": "The response recognizes one or two elements that contribute to the mood but does not integrate them into a cohesive analysis, for example, noting the lighting or color but not how they work together to evoke calmness.",
+            "score3_description": "The response describes several elements such as gaze, lighting, and color, and begins to relate them to the mood but lacks detail on their interactive effect, for example, it might suggest tranquility but not delve into the emotional depth created by these elements.",
+            "score4_description": "The response provides a detailed explanation of the elements and their contribution to the mood, but may not fully capture the holistic emotional experience, for example, it describes the serene atmosphere but not the viewer's personal engagement with the portrait.",
+            "score5_description": "The response offers a comprehensive explanation of the elements and their synergy, thoroughly describing how they interact to create a holistic emotional experience, reflecting a deep understanding of the portrait's figurative language."
+        },
+        "atomic_checklist": [
+            "Does the response interpret the subject's gaze as an element of introspection?",
+            "Is the response detailed in describing how the lighting contributes to the serene mood?",
+            "Does the response analyze the color choice and its effect on the painting's atmosphere?",
+            "Does the response consider the headscarf and its role in the subject's dignified aura?",
+            "Is the response attentive to the earring's detail and its emotional significance?",
+            "Does the response discuss the contrast between the subject and background and its impact?",
+            "Is the response comprehensive in connecting all elements to a profound emotional connection with the viewer?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image appears to be a digital representation or photograph of the famous painting \"Girl with a Pearl Earring\" by Johannes Vermeer. The subject is a young woman looking over her shoulder, with a blue headscarf and a large pearl earring. The background is dark, highlighting the subject's face and attire. This artwork is known for its exquisite use of light and shadow, as well as its captivating depiction of the young woman's gaze."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Suzuma uko ibintu byifashe mu mashusho agaragara mu itangazamakuru hanyuma usobanure uko ibintu byagiye bikurikirana ndetse n'uburyo bw'ibisanzwe byagejeje kuri iki kibazo kigaragazwa. Tekereza ku ngaruka ku kintu kigaragazwa ndetse no ku bidukikije muri rusange. Sobanura impamvu zateye iki kibazo kandi uhanure ibyashoboka mu gihe ibihe bihari byakomeza. ",
+        "reference_answer": "Ishusho igaragaza ishyamba ry'inzovu riri hejuru y'agace gato k'urubura ruri gushonga, ruzengurutswe n'amazi, bikagaragaza neza isano iri hagati y'ihindagurika ry'ikirere n'ingaruka zaryo ku buzima bw'inyamaswa zo mu gace ka Arikitike. Intandaro nyamukuru ni ubushyuhe bw'isi, buterwa n'iyiyongera ry'imyuka ihumanya ikirere. Ubu bushyuhe butera ishyanga ry'inyanja gushonga, ingaruka zaryo zikagaragara mu buturo bw'inyamaswa z'inzovu.\n\nImiterere idasanzwe y'urubura, isa n'igishushanyo cy'urubura, isobanura ko ryahoze ari igice kinini cy'urubura cyashonze kigasenyuka. Inzovu zishingira ku rubura rwo mu nyanja nk'ubutaka bwo kuruhukiraho no guhiga amasega, ari byo biribwa byazo by'ingenzi. Urubura rugenda rushonga rushyira iyi nzovu mu kaga, bigaragaza ingaruka z'uburyo butaziguye ku bushobozi bwayo bwo kubaho no guhiga.\n\nMu rwego rusange rw’ibidukikije, harimo ingaruka zikurikirana z’ihindagurika ry’ikirere, nko kubura ubuturo bw’amoko menshi y’inyamaswa, izamuka ry’inyanja, n’ihinduka ry’imigendekere y’amazi y’inyanja. Niba ibi bintu bikomeza, ingaruka ku nzovu zishobora kuba mbi, bigatera inzara, kugabanuka kw’ubushobozi bwo kororoka, kandi bikarangira umubare wazo ugabanutse, bishobora no kuzarangira zishize.\n\nKubura urubura rwo mu nyanja nabyo bigira ingaruka ku baturage baho, imibereho n’ubukungu bwabo bifitanye isano n’ubuzima bw’ubutaka bwa Arikitike. Imibereho y’ubuzima bwa kera, irimo guhiga no kuroba, iri mu kaga, bigaragaza ingaruka z’iki kibazo cy’ibidukikije.\n\nMu gusoza, ishusho ifata agace gato ariko gafite imbaraga, ari ko kagaragaza ikibazo kinini, gikomeje kwibasira ibidukikije byo mu gace ka Arikitike. Intambara y’inzovu ni ikimenyetso gikomeye cy’uburyo bwihutirwa bwo gufata ingamba zo kugabanya ihindagurika ry’ikirere. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the sequence of events and natural processes leading to the depicted scenario, including the broader environmental implications?",
+            "score1_description": "The response observes the situation but fails to connect it to environmental processes, for example, it might note the polar bear on ice but not mention global warming or habitat loss.",
+            "score2_description": "The response identifies a link between the polar bear's situation and environmental change but lacks a deeper analysis of cause and effect, for example, mentioning thinning ice without discussing the impact on the bear's hunting habits.",
+            "score3_description": "The response describes the polar bear's precarious position and hints at climate change, but does not fully explore the implications for the Arctic ecosystem or the bear's survival, for example, it might omit the potential outcomes if current conditions persist.",
+            "score4_description": "The response provides a detailed explanation of the visual metaphor, capturing the relationship between climate change and its impact on the polar bear, but may not fully predict the broader environmental outcomes, for example, it discusses habitat loss but not the effects on human communities.",
+            "score5_description": "The response offers a comprehensive analysis of the scenario, thoroughly detailing the environmental processes, the implications for the subject, and the broader context, reflecting a profound understanding of the image's figurative message."
+        },
+        "atomic_checklist": [
+            "Does the response identify the thinning ice as a consequence of global warming?",
+            "Is the response detailed in describing how climate change impacts the polar bear's habitat?",
+            "Does the response analyze the implications of the scenario for the polar bear's hunting and survival?",
+            "Does the response consider the effects of sea ice loss on the broader Arctic ecosystem, including human populations?",
+            "Is the response comprehensive in connecting the visual depiction to the urgent need for climate change mitigation?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a polar bear perched precariously atop a small, thin iceberg in the middle of the water. The polar bear's posture and the size of the ice piece create a striking visual, often used to symbolize the impact of climate change on Arctic ice habitats and the plight of polar bears."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gusuzuma ubutumwa bw'amashusho bwatanzwe, ni izihe nkomoko z'amateka zishobora kuba zarateye kuvuka kw'iri jambo, kandi ubu buryo buhuza gute n'ikimenyetso n'ikoreshwa ry'ibice biri muri iyi shusho? ",
+        "reference_answer": "Ishusho igaragaza interuro yanditse mu nyuguti nkuru, \"KEEP CALM AND CARRY ON,\" ku ishusho y'umutuku ukomeye, yambitswe ikimenyetso cy’ubwami. Iyi poster y'ikimenyetso ifite imizi mu mateka y’u Bwongereza, by’umwihariko mu ntangiriro z’Intambara ya Kabiri y’Isi Yose. Yabanje gukorwa na leta y’u Bwongereza mu 1939 nk’ubutumwa bwo kongera morali bwagenewe rubanda mu kwitegura ibyago bishoboka by’intambara.\n\nUmugani wa \"KEEP CALM AND CARRY ON\" ufite ubusobanuro bwinshi. Ugaragaza ubutumwa bwo kwihangana no gukomera, usaba rubanda kugumana ituze no gukomeza ibikorwa bisanzwe hagati mu mvururu. Gukoresha ikamba ry’ubwami nk’ikimenyetso si ugushushanya gusa; rihagarariye ubwami, rikangura ubwumvikane, ishema ry’igihugu, no gusaba kwishyira hamwe kw’Abongereza. Ikamba hejuru y’ubutumwa rihwihwisa ko amabwiriza aturuka ku buyobozi n’ituze bijyana n’ubwami.\n\nIbara ry’umutuku rifite agaciro; rikurura amaso kandi akenshi rihuzwa no kuba maso no kwihutira, bikaba byari amarangamutima akwiye mu gihe cy’intambara. Ariko, interuro ubwayo, mu buryo bw’itegeko, igamije gushyiramo ituze ry’ubwitonzi, ihabanye n’icyatsi cy’ubwoba mu ishusho. Iyi mpinduka yerekana ubujyakuzimu bw’umugani, aho kwihutira ibikorwa bihuzwa n’ituze mu mutima.\n\nKuba interuro yarakomeje no kugaruka mu muco w’iki gihe nk’umugani n’icyitegererezo cy’ubwiza byongera kugaragaza ubukire bwayo bw’umugani. Yaje guhagararira igisubizo cy’ubwitonzi ku bibazo, atari mu rwego rw’intambara gusa ahubwo no mu bibazo by’ubuzima bwa buri munsi, igaragaza ubutumwa budashira burenga intego yacyo yambere. Umugani hano uramburwa ku kwihangana mu byago byose by’ubuzima, uhagararira imyumvire ishobora gukoreshwa hose.\n\nMu by’ukuri, iyi poster ni igikoresho gishyikiriza kwihangana kw’amateka y’igihugu mu gihe itanga umugani udashira wo kwitwara neza no gukomera mu bibazo, haba ku rwego rw’igihugu cyangwa ku rwego rw’umuntu ku giti cye. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the historical context of the phrase 'KEEP CALM AND CARRY ON' and analyze the symbolism of the elements within the image?",
+            "score1_description": "The response mentions the phrase but fails to provide any historical context or symbolic analysis.",
+            "score2_description": "The response provides a generic historical context without specific details or a clear explanation of the symbolism.",
+            "score3_description": "The response gives an accurate historical context or symbolic analysis, but not both. For example, it may mention World War II but not the significance of the crown or color.",
+            "score4_description": "The response provides a detailed historical context and a basic symbolic analysis. For example, it explains the phrase's origin in World War II and the general significance of the crown, but not the color red or its modern cultural impact.",
+            "score5_description": "The response offers a comprehensive explanation of both the historical context and the symbolism. For example, it details the phrase's creation during World War II, the authority implied by the crown, the urgency indicated by the color red, and the phrase's modern-day relevance."
+        },
+        "atomic_checklist": [
+            "Does the response identify the phrase as originating from British World War II propaganda?",
+            "Does the response explain the significance of the royal crown symbol?",
+            "Is the response discussing the color red's association with urgency and alertness?",
+            "Does the response relate the poster to modern cultural significance, such as its use in media or as a meme?",
+            "Is the response indicating the phrase's intention to boost morale and resilience?"
+        ],
+        "background_knowledge": [],
+        "caption": "Iconic British wartime slogan presented in bold white text over a striking red background, inspiring resilience and steadiness."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Kwitegereza icyerekezo cy'abana bari ku ruziga, sobanura inkuru itavugwa iboneka, usobanura imbaraga ziri inyuma n'amarangamutima ari hagati y'abitabiriye. Injira mu kintu kitagaragara ako kanya ku jisho kandi usobanure ku mubano n'inkuru z'umuntu ku giti cye buri muntu ushobora kuba arimo kubamo muri iki gihe basangiye. ",
+        "reference_answer": "Ifoto ifata igihe cyahagaze, aho buri mwana uri kuri karuseli yibereye mu nkuru ye yihariye. Ku isura ya mbere, tubona urugendo rworoshye, ariko iyo urebye neza, urwo rugendo ruba urubyiniro rw'inkuru nyinshi.\n\nUmwana uri imbere, afashe umugozi wa karuseli n'intoki zifite intego, ashobora kuba yishyira mu mwanya w'umushakashatsi w'intwari, uyobora urugendo rw'ubutwari. Ukureba kwe imbere n'agasuzuguro gake byerekana kwibanda n'ikintu cyo kumva inshingano nk'uko 'ayobora' ikipe ye mu byago by'ibitekerezo. Karuseli si urugendo gusa kuri we; ni ubwato mu nyanja ndende, kandi ni kapiteni wabwo, uyobora mu mivumba y'inyanja.\n\nUrebye ku mukobwa uri hagati, imvugo y'umubiri we n'ukureba kure byerekana kwiyumvamo. Wenda ari kuri uru rugendo atari ku bw'ubwuzu bw'ubwiyunge ariko nk'akaruhuko k'urusaku rw'ikibuga cy'imikino. Kuri we, karuseli ni umupira w'ituze, guhunga by'igihe gito mu bitekerezo bye aho kugenda mu cyerekezo cy'ikizunguruka bihumuriza aho kubyutsa.\n\nInyuma ye, hari umwana ufite isura yerekeje ahandi, nk'aho yirinda kamera. Iki gikorwa gishobora kuba atari isoni ahubwo ni ishusho y'ubwitonzi, yinjira mu bunararibonye mu buryo bwimbitse bwihariye. Karuseli kuri uyu mwana ishobora guhagararira umuzenguruko w'ubuzima bwa buri munsi, itera kumva umutekano mu buryo bwo kwibona mu rugendo.\n\nMu mpera, umwana wa nyuma, utagaragara neza, asa nk'uri mu kiganiro n'umuturanyi. Uru rugendo ni ubunararibonye bw'imibanire, uburyo bwo gusangira inkuru n'ibisekeje, gukundana ku bw'ubwuzu busangiwe. Si urugendo ubwaryo rufite agaciro kuri uyu mwana ahubwo ni ubucuti rufasha.\n\nBuri muntu, n'ubwo yitabira kugenda kumwe, ari mu rugendo rw'amarangamutima rutandukanye. Karuseli iba ikigereranyo cy'inzira zitandukanye dufata mu buzima n'uburyo butandukanye twumva ubunararibonye dusangiye. Ifoto si ishusho y'abana bari ku rugendo gusa; ni ishusho y'ubuzima ubwaryo, aho inkuru ya buri muntu ifite agaciro nk'uko ubunararibonye busangiwe bufite. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the unspoken narratives and emotional undercurrents among the children on the carousel?",
+            "score1_description": "The response fails to identify any emotional narratives or individual dynamics, focusing only on the physical aspects of the carousel.",
+            "score2_description": "The response hints at possible emotional narratives, but it lacks depth and does not convincingly elaborate on the children's individual experiences.",
+            "score3_description": "The response describes some emotional narratives and touches upon the children's individual experiences but fails to interconnect these stories or misses key elements visible in the scene.",
+            "score4_description": "The response provides a good description of the emotional narratives and individual dynamics, with only minor details lacking or unexplored.",
+            "score5_description": "The response comprehensively captures the emotional undercurrents and individual stories, weaving together the children's experiences into a cohesive narrative that aligns well with the visual clues presented in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify the determined expression of the child at the front as a narrative of leadership or adventure?",
+            "Does the response infer introspection or tranquility from the body language and gaze of the girl in the middle?",
+            "Is the child turned away interpreted as being in a contemplative mood, engaging with the ride in a personal way?",
+            "Does the response explore the potential social interaction of the barely visible child at the back?",
+            "Are the individual narratives interconnected to depict a collective experience on the carousel?",
+            "Is the carousel metaphorically described as representing various paths in life or ways of processing experiences?",
+            "Does the response reflect on the relationships between the children or their individual stories with specific cues from the image?",
+            "Is the overall mood of the scene captured while accounting for the joy, introspection, and camaraderie among the children?",
+            "Does the response include descriptions that go beyond the immediate visual elements to suggest deeper emotional layers?"
+        ],
+        "background_knowledge": [],
+        "caption": "Little passengers on a merry adventure: Kids enjoying a ride on a mini train indoors."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Sobanura uburyo igishushanyo cyakozwe n'ibice bigize igishushanyo cyashyizweho, utekereje ku myambaro y’abantu bagaragara, amabendera bafite, n'aho intambara ibera. Vuga ku kamaro k’amateka n’ingaruka z’umuco ibyo bice bigaragaza mu gihe icyo gishushanyo cyerekana. ",
+        "reference_answer": "Ishusho igaragaza ishusho y'intambara ya gisivili y'Amerika, ishobora kumenyekana kubera imyambaro n'ibendera bitandukanye - cyane cyane ibendera rya Union Stars and Stripes n'ibendera ry'intambara rya Confederacy. Imyambaro y'abasirikare irahuye n'igihe, aho abasirikare ba Union bambaye amakoti y'ubururu naho aba Confederates bambaye amakoti y'icyatsi, bigaragaza itandukaniro riri hagati y'ibihugu byo mu majyaruguru n'ibyo mu majyepfo.\n\nIbendera rya Union, ritwarwa n'icyubahiro, ni ikimenyetso cya Leta Zunze Ubumwe za Amerika n'imbaraga zo kubungabunga igihugu. Ibendera ry'intambara rya Confederacy rihagarariye ibihugu byitandukanyije birwanira uburenganzira bwo kwigenga no kubungabunga imibereho yabo, harimo n'ikibazo cy’ubucakara.\n\nIyi shusho ishobora kuba imwe mu mirwano myinshi yarangaga intambara ya gisivili, aho impande zombi zifatana mu ntambara ya hafi, bigaragaza ubukana n'uburyo bw'intambara bwite. Umwotsi n'akavuyo bifata ubukana n'igihu cy'intambara, ijambo rikoreshwa kenshi gusobanura ukutumvikana n'akavuyo kabonwa mu gihe cy'intambara.\n\nIyi ntambara yagize ingaruka zikomeye ku mateka y'Amerika, ituma habaho ivanwaho ry'ubucakara n'impinduka zikomeye mu bubasha bwa leta n'ubw'ibihugu. Ingaruka ku muco ni nyinshi, kuko umurage w'iyi ntambara ukomeza kugira ingaruka ku muryango nyarwanda, politiki, n'imibanire y'amoko kugeza ubu. Ibendera by'intambara, ubu bimaze kuba ibimenyetso byuzuye, biracyatera amarangamutima akomeye kandi biri mu nkubiri z'ibiganiro ku byerekeye umurage n'urwango.\n\nKwitabira kw'abasirikare mu ntambara ya hafi bigaragaza uburyo bw'igihe n'ubukana bw'intambara, aho rimwe na rimwe abavandimwe barwanaga. Ni urwibutso rukomeye rw'igihugu cyari cyaracitsemo ibice mu bihe byacyo bikomeye, kandi ishusho ikaba ari icyubahiro ku bwitange n'ubutwari bw'abantu barwanye ku mpande zombi.\n\nIyi shusho ifata umwimerere w'ibyabaye mu mateka y'intambara ya gisivili, igaragaza ubudahemuka bukomeye ku mpamvu n'uburyo bw'ubwiyahuzi bw'intambara y'abavandimwe. Akamaro k'iyi shusho ntabwo ari mu kuri kwayo kw'amateka gusa, ahubwo ni mu bushobozi bwayo bwo gutanga uburemere bw'amarangamutima n'umuco w'igihe cy'ingenzi mu mateka y'Amerika. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately analyze the historical and cultural elements of the painting related to the American Civil War?",
+            "score1_description": "The response fails to accurately recognize any historical or cultural elements, missing the depiction of the Civil War entirely.",
+            "score2_description": "The response identifies the painting as a Civil War scene, but it does not accurately describe the uniforms, flags, or the context of the conflict, for example, recognizing the uniforms but not the significance of the flags.",
+            "score3_description": "The response correctly identifies the attire and the flags but only provides a superficial analysis of the setting and its implications, for example, acknowledging the battle but not its broader historical context.",
+            "score4_description": "The response provides a clear analysis of the attire and flags, correctly identifies the conflict as the Civil War, and touches on its historical significance, but lacks depth in cultural implications, for example, mentioning the conflict but not its lasting effects on American society.",
+            "score5_description": "The response provides a comprehensive analysis of the attire, flags, and setting, accurately discusses the historical significance, and deeply explores the cultural implications of the Civil War, exemplifying a high level of understanding and insight into the period the scene is portraying."
+        },
+        "atomic_checklist": [
+            "Does the response identify the uniforms and flags as belonging to the American Civil War?",
+            "Does the response describe the historical context of the Civil War?",
+            "Is the response discussing the cultural implications of the Civil War accurately?",
+            "Does the response explain the significance of the Union and Confederate flags?",
+            "Is the setting of the conflict described in a way that is consistent with historical accounts of the Civil War?",
+            "Does the response reflect an understanding of the tactics and nature of Civil War battles?",
+            "Does the response consider the emotional impact and legacy of the Civil War on current society?"
+        ],
+        "background_knowledge": [],
+        "caption": "A dramatic reenactment of a Civil War battle scene, showcasing soldiers marching under the Union and Confederate flags."
+    }
+]

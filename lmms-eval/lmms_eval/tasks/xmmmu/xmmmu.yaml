@@ -1,0 +1,9 @@
+group: xmmmu
+task:
+- mmmu_Arabic_val
+- mmmu_French_val
+- mmmu_English_val
+- mmmu_Hindi_val
+- mmmu_Indonesian_val
+- mmmu_Japanese_val
+- mmmu_Portuguese_val

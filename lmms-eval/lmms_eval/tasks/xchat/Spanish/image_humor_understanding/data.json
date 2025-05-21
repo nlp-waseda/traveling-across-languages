@@ -1,0 +1,129 @@
+[
+  {
+    "capability": "vision",
+    "task": "image_humor_understanding",
+    "instance_idx": 0,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al examinar una imagen que está destinada a provocar risa o al menos una sonrisa, ¿cuáles son los elementos en ella que contribuyen a su humor? Considera los aspectos visuales, cualquier contexto implícito o conocimiento previo que pueda ser necesario, y la yuxtaposición de diferentes elementos que trabajan juntos para producir el efecto cómico. ",
+    "reference_answer": "El humor en la imagen se deriva de una yuxtaposición de expectativas versus realidad, un recurso cómico común. La mitad superior muestra a un personaje listo para la batalla, implicando fuerza, confianza y preparación, lo que establece la expectativa de competencia. Esta imagen evoca la idea de un modelo de aprendizaje automático que funciona bien con los datos de entrenamiento, donde las condiciones son controladas y predecibles.\n\nEn contraste, la mitad inferior muestra al mismo personaje en un entorno casual, luciendo impasible y desprevenido, con las manos levantadas defensivamente como si dijera \"No puedo lidiar con esto\". Esta es una metáfora visual del mismo modelo fallando al enfrentarse con datos del mundo real—conjunto de datos de prueba—donde las condiciones son impredecibles y variadas. El humor surge de la discrepancia exagerada entre la pose heroica y la realidad decepcionante, lo que refleja una frustración común en el campo del aprendizaje automático, donde los modelos a menudo funcionan excepcionalmente bien con los datos de entrenamiento pero fallan al generalizar a nuevos datos no vistos.\n\nEsta situación es relatable para cualquiera que haya trabajado con modelos predictivos o en situaciones donde el rendimiento bajo condiciones controladas no se traduce a escenarios del mundo real. El uso de un personaje bien conocido en este formato de meme también juega con el conocimiento cultural y las expectativas de la audiencia, lo que amplifica el efecto cómico. ",
+    "score_rubric": {
+      "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of a character's portrayal in different scenarios?",
+      "score1_description": "The response fails to identify any juxtaposition or contrast in the image and does not relate it to humor.",
+      "score2_description": "The response notes a difference in the character's portrayal but does not connect this to the humor related to expectations versus reality in machine learning contexts.",
+      "score3_description": "The response identifies the contrast between the two scenarios but only partially explains how this relates to humor in the context of machine learning model performance.",
+      "score4_description": "The response understands the juxtaposition and relates it to the humor involving machine learning models, but may miss some nuances or the relatability aspect of the humor.",
+      "score5_description": "The response fully grasps the contrast between the character's confident and unprepared portrayals, correctly linking this to the humor about machine learning models' performance and addressing the relatable frustration within the field."
+    },
+    "atomic_checklist": [
+      "Does the response identify the character's confident portrayal in battle as a metaphor for a model's performance on training data?",
+      "Does the response recognize the character's unprepared portrayal in a casual setting as a metaphor for a model's performance on test data?",
+      "Does the response explain the humor arising from the exaggerated discrepancy between the expected competence and the actual performance of machine learning models?",
+      "Does the response mention the relatability of the situation to anyone who has worked with predictive models or in similar contexts?",
+      "Does the response draw on cultural knowledge or audience expectations related to the character to amplify the comedic effect?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image is a humorous meme contrasting the performance of a machine learning model on training data versus its performance on a test dataset. The top half, labeled \"My model on training data,\" shows an individual looking powerful and ready for battle. The bottom half, labeled \"My model on test dataset,\" depicts the same individual appearing defeated and unprepared. The meme uses this visual metaphor to express a common situation in machine learning where a model performs well on the data it was trained on but poorly when evaluated on new, unseen data."
+  },
+  {
+    "capability": "vision",
+    "task": "image_humor_understanding",
+    "instance_idx": 1,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al observar una imagen de un animal representado con emociones humanas en un contexto humorístico, analiza los elementos subyacentes que contribuyen al efecto cómico, considerando cualquier matiz cultural, información de fondo o contexto situacional presente en la imagen. ",
+    "reference_answer": "La imagen presenta a un gato con una expresión notablemente humana de tristeza o decepción, acentuada por los ojos llorosos. El humor surge del antropomorfismo del gato, que es una técnica cómica común donde a los animales se les otorgan rasgos humanos con los que el público puede identificarse. La expresión de este gato se acompaña de un pie de foto que dice: \"Cuando envías un mensaje a un amigo que está en línea y justo después se desconecta\". La situación es un escenario familiar en la comunicación digital, donde las personas pueden sentirse desairadas o ignoradas cuando sus intentos de interacción son aparentemente rechazados por el estado inmediato de desconexión del destinatario. Es una ironía situacional que juega con la expectativa de comunicación instantánea y la etiqueta digital a menudo tácita.\n\nEl efecto cómico se ve aún más realzado por la relevancia cultural de la situación, ya que muchos han experimentado el abrupto final de una conversación en la era digital. La imagen utiliza hábilmente la expresión del gato para exagerar el impacto emocional de tal momento, aprovechando la comprensión compartida de cómo la tecnología afecta nuestras interacciones sociales. El formato de meme en sí, que es una parte integral de la cultura de internet, está diseñado para difundir contenido con el que muchos se pueden identificar, combinando a menudo texto e imágenes para transmitir un humor multifacético. Así, al reconocer la expresión humanizada del gato, la referencia del pie de foto a una interacción común en línea y el lugar del meme dentro de la comunicación digital, uno puede apreciar todo el espectro de humor que esta imagen pretende ofrecer. ",
+    "score_rubric": {
+      "criteria": "Does the response comprehensively analyze the humorous elements present in the image featuring an animal with human-like emotions?",
+      "score1_description": "The response does not recognize the anthropomorphism or the situational context, offering no insight into the humor.",
+      "score2_description": "The response identifies the animal's human-like emotions but fails to connect these to the situational context or the cultural nuances that contribute to the humor.",
+      "score3_description": "The response notes the anthropomorphism and situational context but provides only a basic explanation of how these elements combine to create humor.",
+      "score4_description": "The response gives a good explanation of the humor, recognizing both the anthropomorphism and situational context, yet it might miss finer cultural nuances.",
+      "score5_description": "The response offers a detailed analysis, accurately recognizing the anthropomorphism, situational context, and cultural nuances that all contribute to the humor."
+    },
+    "atomic_checklist": [
+      "Does the response acknowledge the anthropomorphism of the cat and its contribution to the humor?",
+      "Does the response connect the cat's human-like expression to the comedic situation presented in the caption?",
+      "Does the response recognize the situational irony related to the expectations of digital communication?",
+      "Does the response mention the cultural relevance of the abrupt end to a conversation in the digital age as part of the humor?",
+      "Does the response understand the meme format's role in conveying humor within internet culture?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image features a meme with text at the top saying \"When you send a message to a friend who's online and right after that, they go offline,\" accompanied by a picture of a cat with a sad, teary-eyed expression, which humorously conveys feelings of disappointment or betrayal that someone might feel in such a situation. The background appears to show a computer screen, adding context to the online communication theme of the meme."
+  },
+  {
+    "capability": "vision",
+    "task": "image_humor_understanding",
+    "instance_idx": 2,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al examinar la esencia de la alegría y la anticipación capturada en una fotografía, uno debe evocar un relato que no solo extienda una atmósfera alegre, sino que también introduzca un giro fresco e imaginativo a la narrativa. El desafío radica en elevar la diversión sin desviarse del núcleo temático de la instantánea original, que refleja la euforia del tiempo de ocio inminente. Considere este escenario como una continuación de la escapada jovial, donde las burbujas representan las responsabilidades laborales pasajeras que desaparecen, y la expresión del niño es la encarnación del niño interior de cada adulto antes de un descanso. ¿Qué sucede después? ",
+    "reference_answer": "A medida que la última burbuja de responsabilidad estalla, nuestra protagonista se encuentra en un mundo donde la hierba es tan suave como las sillas de oficina y el cielo tan amplio como su horario despejado. En esta tierra, las respuestas automáticas fuera de la oficina se escriben en verso poético, y cada paso deja una huella de alegre desafío contra la rutina monótona.\n\nAquí, conoce a los lugareños: un alegre grupo de espíritus afines, cada uno encarnando la esencia de las virtudes vacacionales. El primero es un caballero vestido con armadura de camisa hawaiana, guarda el sagrado reino de los 'Fines de Semana Largos.' Le cuenta historias de batallas épicas libradas entre las fuerzas de las 'Fechas Límite de Último Minuto' y los 'Aliados de las Siestas de la Tarde.'\n\nLuego, se encuentra con la 'Hechicera de la Espontaneidad,' un ser caprichoso que lanza hechizos que transforman maletines abultados en bolsas de playa llenas de protector solar y novelas. Su risa es una melodía que convierte gráficos y tablas en mapas que conducen a cafés ocultos y atardeceres secretos.\n\nEn el corazón de esta tierra yace el 'Bosque de Correos Electrónicos No Leídos,' donde las notificaciones se transforman en luciérnagas, iluminando caminos hacia pasatiempos olvidados y nuevas aventuras. Cada luciérnaga atrapada le concede un día libre del sonido de la conectividad, un día donde el tiempo se mide en capítulos leídos y millas recorridas.\n\nA medida que el día se convierte en crepúsculo, se encuentra en el 'Banquete del Desapego,' donde el menú ofrece una variedad de platos como 'Rebanadas de Teléfonos Silenciosos' y 'Paz Mental al Vapor.' El banquete continúa hasta que las estrellas salpican el cielo, y la única tarea que queda es contar constelaciones, no calorías.\n\nY mientras la luna asciende, nuestra protagonista se recuesta en una hamaca tejida con hilos de alivio y satisfacción, balanceándose suavemente al ritmo de su propio contento. A lo lejos, suena una canción de cuna, cantada por el 'Coro de Siestas No Planeadas,' invitándola a soñar con días en los que el sol saluda su despertar pausado, y el mundo espera, conteniendo el aliento, para que ella viva primero y trabaje después.\n\nRegresará al reino de las listas de tareas y las alarmas, pero por ahora, es la reina de su tiempo, la soberana de la relajación, y las burbujas continúan flotando, llevándose con ellas el peso de las expectativas, dejando tras de sí un rastro de risas y la dulce promesa de descanso. ",
+    "score_rubric": {
+      "criteria": "Does the model's response effectively continue the narrative of the original image with added humor and imagination?",
+      "score1_description": "The response adds no humor or imagination to the narrative, or it introduces content that is irrelevant or diminishes the original image's theme.",
+      "score2_description": "The response adds minimal humor or imagination to the narrative and may only slightly relate to or expand upon the original image's theme.",
+      "score3_description": "The response adds humor to the narrative that is somewhat expected and lacks a fresh twist, but it still connects to the original image's theme.",
+      "score4_description": "The response adds humor and a creative twist to the narrative that is well-connected to the original image's theme, with minor lapses in originality or thematic consistency.",
+      "score5_description": "The response creatively and humorously expands the narrative, adding fresh and imaginative elements that perfectly align with the original image's theme."
+    },
+    "atomic_checklist": [
+      "Does the response incorporate the essence of joy and anticipation from the original photograph?",
+      "Does the response introduce a fresh and imaginative twist to the narrative?",
+      "Does the response maintain thematic consistency with the euphoria of impending leisure time depicted in the original image?",
+      "Does the response enhance the amusement without straying from the thematic core of the original image?",
+      "Does the response's narrative remain coherent while introducing added humor?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image is a humorous meme with a caption that reads \"Me leaving work the day before vacation\". It features a photo of a little girl in a yellow jacket, joyously playing with bubbles, with an expression of ecstatic glee and abandon on her face. The meme comically relates the child's blissful state to the feeling of excitement and relief many people experience when they are about to start a vacation."
+  },
+  {
+    "capability": "vision",
+    "task": "image_humor_understanding",
+    "instance_idx": 3,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Explica por qué la yuxtaposición de las dos imágenes en el meme podría evocar risa, considerando la desconexión entre la expectativa y la realidad que a menudo se destaca en la cultura popular de los años 90. ",
+    "reference_answer": "El humor en las imágenes yuxtapuestas proviene de la discrepancia entre la expectativa ideal y la realidad cómicamente decepcionante, un tema frecuentemente explotado en la cultura de los años 90, especialmente en lo que respecta a las tendencias de moda y estilo. El lado izquierdo del meme muestra una fotografía de un hombre con un peinado que recuerda a lo que era popular entre los jóvenes galanes de los años 90, un estilo que emanaba un cierto atractivo elegante y de chico cool. Este tipo de imagen se podía encontrar típicamente en revistas para adolescentes o pósters de esa época, representando el pináculo de la apariencia juvenil de moda.\n\nEl lado derecho presenta la realidad, que contrasta marcadamente con la imagen aspiracional del lado izquierdo. Aquí, vemos un retrato escolar de un joven luciendo un peinado similar, pero con menos destreza y estilo, común en los intentos personales de imitar las tendencias populares. El cabello parece demasiado decolorado, desigual y carece del toque profesional visto en la versión idealizada. Esta ejecución exageradamente defectuosa subraya el efecto cómico. La camisa amarilla intensifica el impacto visual al chocar con el cabello decolorado, sumando al humor a través de una combinación de colores que se consideraría un error de moda.\n\nEste meme aprovecha una experiencia universalmente relatable: la decepción de no lograr un aspecto deseado, que aquí se exagera con fines cómicos. Juega con la nostalgia de aquellos que crecieron en los años 90 o están familiarizados con la cultura pop de la época, aprovechando el conocimiento compartido de las tendencias pasadas y la comúnidad de los intentos fallidos de replicarlas. El humor resuena a través de una comprensión de estos símbolos culturales y la experiencia universal de expectativa versus realidad. ",
+    "score_rubric": {
+      "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of idealized expectation and disappointing reality as seen in 1990s popular culture?",
+      "score1_description": "The response does not acknowledge the juxtaposition or the 1990s cultural context, and fails to relate these elements to the humor in the image.",
+      "score2_description": "The response recognizes a contrast between the two images but does not adequately link this to the 1990s cultural context or to the humor derived from failed expectations.",
+      "score3_description": "The response identifies the contrast and has a basic grasp of the 1990s cultural context, but the explanation of humor is superficial and lacks depth.",
+      "score4_description": "The response understands the juxtaposition and the 1990s cultural context, explaining the humor well, but might miss some subtleties or additional humorous elements.",
+      "score5_description": "The response provides a comprehensive explanation of the humor, expertly linking the juxtaposition to the cultural context of the 1990s and the universal experience of expectation versus reality."
+    },
+    "atomic_checklist": [
+      "Does the response identify the juxtaposition of the idealized and the actual as a source of humor?",
+      "Does the response relate the humor to the cultural context of the 1990s, especially concerning fashion and style trends?",
+      "Does the response explain the humor in the context of common experiences with failed expectations?",
+      "Does the response draw on the shared knowledge of 1990s pop culture to explain the meme's comedic effect?",
+      "Is the explanation provided by the response culturally accurate and relevant to the meme's humor?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image is a meme comparing expectations versus reality. On the left, the caption \"What I thought it would look like\" is above a photo of a person with a stylish haircut. On the right, \"What it actually looked like\" is above a photo of another person with a similar style haircut that has not been executed as fashionably. The meme humorously reflects on the sometimes disappointing outcomes of fashion or hairstyle choices."
+  },
+  {
+    "capability": "vision",
+    "task": "image_humor_understanding",
+    "instance_idx": 4,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al compartir un chiste visual en línea que compara escenarios ideales versus realistas, ¿cómo se puede asegurar que el humor se transmita de manera respetuosa e inclusiva? ",
+    "reference_answer": "Para compartir un chiste visual que yuxtaponga un ideal con una situación real de manera respetuosa e inclusiva, se debe considerar un enfoque multifacético. En primer lugar, es importante asegurarse de que el contenido no perpetúe estereotipos ni se burle de la situación económica de las personas. Por ejemplo, la imagen en cuestión contrasta a una persona mirando la Torre Eiffel a través de la ventana de un avión con otra mirando a través de la ventana de una lavadora, jugando humorísticamente con el motivo de \"expectativa versus realidad\".\n\nEl humor aquí radica en la subversión de las expectativas: una imagen muestra una aspiración común de viajar, mientras que la otra tuerce esta aspiración con un objeto cotidiano y mundano. Para mantener la sensibilidad, el pie de foto podría resaltar la naturaleza universal de adaptar los sueños a la realidad, en lugar de implicar una deficiencia o incapacidad para lograr ciertas experiencias.\n\nAdemás, se deben considerar las sensibilidades culturales: lo que podría ser una exageración humorística en una cultura podría ser malinterpretado u ofensivo en otra. Para mitigar esto, el chiste podría presentarse con un pie de foto que sea claro en su naturaleza autocrítica y evite señalar a un grupo o clase específicos. Además, usar un lenguaje que sea universalmente entendido y evitar jerga o modismos que puedan ser malinterpretados puede ayudar a asegurar que el chiste sea recibido como se pretende.\n\nPor último, para adaptar el chiste a diferentes grupos de edad, el contenido debe evitar cualquier elemento que pueda no ser adecuado para audiencias más jóvenes. Las imágenes elegidas ya son apropiadas para un público general, pero el lenguaje utilizado debe ser respetuoso y evitar insinuaciones.\n\nAl ser consciente de estos aspectos, se puede compartir un chiste visual que sea humorístico y ligero sin ser irrespetuoso o excluyente, resonando así con un público amplio y manteniendo un espíritu de inclusión. ",
+    "score_rubric": {
+      "criteria": "Does the response explain the humor in the juxtaposed images while ensuring the content is respectful and inclusive?",
+      "score1_description": "The response does not recognize the humor or fails to address respect and inclusivity, potentially presenting insensitive content.",
+      "score2_description": "The response identifies basic humor but lacks consideration for respect and inclusivity, missing the importance of sensitive presentation.",
+      "score3_description": "The response shows an understanding of the humor and some respect for inclusivity but does not fully ensure that the content is free from stereotypes or insensitivity.",
+      "score4_description": "The response explains the humor effectively, is mostly considerate of respect and inclusivity, but may overlook subtle sensitivities or cultural nuances.",
+      "score5_description": "The response thoroughly explains the humor with a keen awareness of respect and inclusivity, ensuring that the content is presented sensitively across different cultures and age groups."
+    },
+    "atomic_checklist": [
+      "Does the response avoid content that perpetuates stereotypes or mocks economic status?",
+      "Does the response ensure that the humor is age-appropriate and universally understandable?",
+      "Does the response maintain respect and inclusivity while explaining the humor?",
+      "Does the response consider cultural sensitivities and potential for misinterpretation?",
+      "Does the response utilize a self-deprecating caption to maintain humor without singling out any group?",
+      "Is the explanation of the humor clear, avoiding slang or idioms that could be misinterpreted?",
+      "Does the response show how the joke can be adapted to different audiences while preserving its humor?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image is a humorous comparison meme. On the left side, the text \"The vacation you want\" is shown above a photo of a woman looking out of an airplane window at the Eiffel Tower, suggesting a desired trip to Paris. On the right side, \"vs. the vacation you can afford\" is above a photo of a woman looking out of a washing machine window, humorously implying a less glamorous reality due to budget constraints. The meme plays on the theme of expectations versus reality in terms of vacation planning."
+  }
+]

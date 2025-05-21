@@ -1,0 +1,144 @@
+[
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "इस छवि के आधार पर, यदि आप एक समुद्री बत्तख होते तो कौन सी जीवन रणनीति उपयुक्त होती? ",
+        "reference_answer": "यदि आप चेसापीक बे इकोसिस्टम में एक समुद्री बत्तख होते, जैसा कि खाद्य जाल में दर्शाया गया है, तो एक उपयुक्त जीवन रणनीति में कई प्रमुख घटक शामिल होते:\n\n1. **आहार**: आप मुख्य रूप से द्विकपाटी खाएंगे, क्योंकि वे इस खाद्य जाल में समुद्री बत्तखों के लिए एक खाद्य स्रोत के रूप में दर्शाए गए हैं। द्विकपाटी में विभिन्न प्रकार के क्लैम, मसल्स, और ऑयस्टर्स शामिल होते हैं, जो चेसापीक बे में आम हैं।\n\n2. **खोजी व्यवहार**: आपको ऐसी खोजी रणनीतियाँ विकसित करनी होंगी जो आपको द्विकपाटियों को कुशलतापूर्वक ढूंढने और खाने की अनुमति दें। इसमें उन स्थानों पर गोता लगाना शामिल हो सकता है जहाँ द्विकपाटी नीचे या तलछट में रहते हैं।\n\n3. **आवास वरीयता**: चूंकि द्विकपाटी अक्सर उथले पानी में पाए जाते हैं जहाँ वे फिल्टर-फीड कर सकते हैं, एक समुद्री बत्तख के रूप में, आप संभवतः ऐसे आवासों में काफी समय बिताएंगे ताकि अपने भोजन तक कुशलतापूर्वक पहुंच सकें।\n\n4. **शिकारी जागरूकता**: खाद्य जाल दिखाता है कि समुद्री बत्तखों को बड़े मछली-खाने वाले पक्षियों द्वारा शिकार बनाया जा सकता है, इसलिए आपको बाल्ड ईगल जैसे शिकारी के लिए सतर्क रहना होगा।\n\n5. **मौसमी प्रवास**: समुद्री बत्तख के विशेष प्रकार के आधार पर, आप मौसमी रूप से प्रवास कर सकते हैं, जिससे आपको प्रजनन के लिए या अधिक प्रचुर खाद्य स्रोतों को खोजने के लिए विभिन्न क्षेत्रों में यात्रा करने का समय जानना आवश्यक होगा।\n\nइस इकोसिस्टम में एक समुद्री बत्तख के रूप में जीना उपलब्ध खाद्य स्रोतों के अनुकूल होना और खाद्य जाल में अपनी स्थिति के प्रति जागरूक होना होगा, दोनों एक उपभोक्ता के रूप में और संभावित शिकार के रूप में। ",
+        "score_rubric": {
+            "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+            "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+            "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+            "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+            "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+            "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the sea duck's primary diet of bivalves?",
+            "Does the response address the habitat preference for areas where bivalves are found?",
+            "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+            "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "यह एक मूल आकृति है जो मैंने हाई स्कूल से सीखी। मैंने एक मेडिकल प्रोग्राम में कॉलेज छात्र के रूप में प्रवेश किया है और मुझे एक प्रोफेसर को यह समझाना चाहिए कि मैं कॉलेज के दौरान और क्या सीखना चाहूंगा। क्या आप मुझे यह बताने में मदद कर सकते हैं कि मुझे बैठक से पहले और किन चीजों की खोज और जांच करनी चाहिए? ",
+        "reference_answer": "बिल्कुल, एक चिकित्सा कार्यक्रम में प्रोफेसर के साथ अपनी शैक्षिक आकांक्षाओं पर चर्चा करने की तैयारी के लिए विषय वस्तु में गहराई से उतरना आवश्यक है। चूंकि छवि मानव पाचन तंत्र से संबंधित है, यहाँ कुछ चीजें हैं जिन पर आप शोध और विस्तार से जांच कर सकते हैं:\n\n1. **शारीरिकी और कार्य**: समझें कि पाचन तंत्र का प्रत्येक भाग कैसे काम करता है, न केवल शारीरिक रूप से बल्कि कोशिकीय और आणविक स्तर पर। पेट और आंतों में एंजाइमेटिक पाचन, छोटी आंत में पोषक तत्वों का अवशोषण, और बड़ी आंत में माइक्रोबायोम की भूमिका जैसे विषयों का अन्वेषण करें।\n\n2. **रोगविज्ञान**: पाचन तंत्र को प्रभावित करने वाले सामान्य रोग और विकारों की जांच करें, जैसे कि एसिड रिफ्लक्स, सूजन आंत्र रोग, यकृत का सिरोसिस, और अग्न्याशय विकार। यह समझना कि ये रोग सामान्य शारीरिकी को कैसे बदलते हैं, महत्वपूर्ण हो सकता है।\n\n3. **क्लिनिकल संबंध**: विभिन्न पाचन रोगों में लक्षण कैसे प्रस्तुत होते हैं और उन्हें पहचानने के लिए कौन से निदान विधियां उपयोग की जाती हैं, इसका शोध करें। इसमें एंडोस्कोपी, कोलोनोस्कोपी, इमेजिंग तकनीकें, और प्रयोगशाला परीक्षणों के बारे में सीखना शामिल हो सकता है।\n\n4. **पोषण**: चूंकि पाचन तंत्र पोषण के लिए महत्वपूर्ण है, इस पर ध्यान दें कि विभिन्न पोषक तत्व कैसे पचते और संसाधित होते हैं। आप यह समझना चाह सकते हैं कि आहार का पाचन स्वास्थ्य पर क्या प्रभाव पड़ता है और रोग स्थितियों में पोषण संबंधी आवश्यकताएं कैसे बदलती हैं।\n\n5. **फार्माकोलॉजी**: विभिन्न दवाएं पाचन तंत्र को कैसे प्रभावित करती हैं, इसका अन्वेषण करें, जिसमें पाचन विकारों के इलाज के लिए उपयोग की जाने वाली दवाएं शामिल हैं। इसमें इन दवाओं की क्रिया के तंत्र, दुष्प्रभाव, और चिकित्सीय उपयोग को समझना शामिल है।\n\n6. **शल्य चिकित्सा हस्तक्षेप**: पाचन तंत्र से संबंधित शल्य प्रक्रियाओं से परिचित हों, जैसे कि अपेंडेक्टॉमी, बारीयाट्रिक सर्जरी, या यकृत प्रत्यारोपण, और ये हस्तक्षेप कब आवश्यक होते हैं।\n\n7. **शोध और प्रगति**: गैस्ट्रोएंटरोलॉजी में नवीनतम शोध पर अपडेट रहें, जिसमें नए उपचार, आंत माइक्रोबायोम अनुसंधान में प्रगति, और पाचन स्वास्थ्य निदान में उभरती प्रौद्योगिकियां शामिल हैं।\n\n8. **परस्पर जुड़े सिस्टम**: यह अन्वेषण करें कि पाचन तंत्र अन्य शरीर प्रणालियों के साथ कैसे इंटरैक्ट करता है, जैसे कि तंत्रिका तंत्र (गट-ब्रेन अक्ष) और प्रतिरक्षा प्रणाली।\n\nइन विषयों की जांच करके, आप अपने चिकित्सा कार्यक्रम में अपनी सीखने की उद्देश्यों के बारे में अपने प्रोफेसर के साथ अधिक सूचित और विस्तृत चर्चा कर सकेंगे। ",
+        "score_rubric": {
+            "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+            "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+            "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+            "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+            "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+            "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the detailed physiology and function of the digestive system?",
+            "Does the response outline the study of pathophysiology related to common digestive diseases?",
+            "Does the response mention the diagnostic methods used for digestive disorders?",
+            "Does the response consider the role of nutrition and diet in digestive health?",
+            "Does the response address the pharmacological treatments available for digestive issues?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "इस छवि के अनुसार, हमारे सूर्य को सिकुड़ना शुरू करने में कितना समय लगेगा? तब तक क्या होगा, इस प्रक्रिया को विस्तार से समझाएं। छवि में मौजूद जानकारी के अलावा अन्य जानकारी भी जोड़ें! ",
+        "reference_answer": "छवि सूर्य के जीवन चक्र को दर्शाती है, जिसमें इसके जन्म से लेकर सफेद बौने बनने तक के प्रमुख चरण दिखाए गए हैं। प्रस्तुत समयरेखा के अनुसार, सूर्य लाल दानव में बदलने के बाद सिकुड़ना शुरू करेगा, जो उसके जन्म के लगभग 10 अरब साल बाद चिह्नित है।\n\nसिकुड़ने से पहले, यह होगा:\n1. **मुख्य अनुक्रम**: वर्तमान में, सूर्य अपने जीवन चक्र के मुख्य अनुक्रम चरण में है, जहाँ यह लगभग 4.5 अरब वर्षों से है, और इसके इस स्थिर चरण में लगभग 5 अरब वर्षों तक और बने रहने की उम्मीद है। इस समय के दौरान, सूर्य अपने कोर में हाइड्रोजन को हीलियम में बदलता है, जिससे ऊर्जा उत्पन्न होती है जो सूर्य को शक्ति देती है और सौर मंडल को गर्मी और प्रकाश प्रदान करती है।\n2. **क्रमिक गर्मी**: अगले कुछ अरब वर्षों में, सूर्य धीरे-धीरे गर्म और उज्जवल होता जाएगा क्योंकि कोर में हाइड्रोजन का उपभोग होता है और हीलियम जमा होता है। हीलियम की वृद्धि कोर को संकुचित करेगी और बाहरी परतों को फैलाएगी।\n3. **लाल दानव चरण**: अपने जन्म के लगभग 10 अरब वर्षों बाद, सूर्य लाल दानव चरण में प्रवेश करेगा। हाइड्रोजन संलयन बाहरी परतों में चला जाएगा, और कोर गर्म होकर हीलियम को भारी तत्वों जैसे कार्बन और ऑक्सीजन में बदलना शुरू करेगा। सूर्य की बाहरी परतें बड़े पैमाने पर फैलेंगी, संभवतः आंतरिक ग्रहों, जिसमें पृथ्वी भी शामिल है, को निगल सकती हैं।\n4. **हीलियम फ्लैश और आगे का संलयन**: जब कोर में हीलियम समाप्त हो जाएगा, तो कोर और अधिक संकुचित होगा, और तापमान इतना बढ़ जाएगा कि भारी तत्वों का संलयन हो सके। इस चरण को हीलियम फ्लैश द्वारा चिह्नित किया जाता है, जो हीलियम संलयन के अचानक शुरू होने के कारण चमक में तेजी से और नाटकीय वृद्धि है।\n5. **ग्रह नीहारिका**: लाल दानव चरण के बाद, सूर्य अपनी बाहरी परतों को छोड़ देगा, जो अंतरिक्ष में बह जाएंगी, एक ग्रह नीहारिका बनाएंगी। कोर एक गर्म, घना अवशेष के रूप में पीछे रह जाएगा।\n6. **सफेद बौना**: अंततः, कोर ठंडा होकर सिकुड़ जाएगा और सफेद बौना बन जाएगा, जो सूर्य के जीवन चक्र का अंतिम चरण है। एक सफेद बौना अवशिष्ट गर्मी के कारण चमकता है और अब संलयन प्रतिक्रियाएं नहीं होतीं। यह अरबों वर्षों में धीरे-धीरे ठंडा होगा।\n\nइन चरणों के दौरान, सौर मंडल में नाटकीय रूप से परिवर्तन होगा। सूर्य का लाल दानव में विस्तार आंतरिक ग्रहों को नष्ट कर सकता है और बाहरी ग्रहों को बिखेर सकता है। ग्रह नीहारिका चरण के माध्यम से सूर्य के द्रव्यमान की हानि उसके गुरुत्वाकर्षण खिंचाव को कमजोर करेगी, संभवतः किसी भी शेष ग्रहों को उनकी कक्षाओं से मुक्त कर सकती है।\n\nयह प्रक्रिया हमारे सूर्य जैसे तारे के सामान्य जीवन चक्र को दर्शाती है, जो एक जी-प्रकार का मुख्य अनुक्रम तारा है। समय की माप और परिणाम खगोलभौतिकीय मॉडलों और विभिन्न जीवन चक्र चरणों में समान तारों के अवलोकनों पर आधारित हैं। ",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+            "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+            "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+            "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+            "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+            "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the current main sequence phase and its duration?",
+            "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+            "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+            "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+            "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "इस सर्किट का उपयोग किस लिए किया जाता है, समझाएं। किस प्रकार की मशीनें या उपकरण इसका उपयोग करते हैं? साथ ही, इसे खुद बनाने के कुछ अच्छे तरीके क्या हैं? ",
+        "reference_answer": "आपके द्वारा दिखाया गया सर्किट एक द्विध्रुवीय जंक्शन ट्रांजिस्टर (BJT) का योजनाबद्ध प्रतिनिधित्व है, विशेष रूप से लेबलिंग और एमिटर पर तीर की दिशा के आधार पर एक NPN-प्रकार का ट्रांजिस्टर। BJTs सर्किट में इलेक्ट्रॉनिक संकेतों को प्रवर्धित या स्विच करने के लिए उपयोग किए जाने वाले मौलिक घटक हैं।\n\n**इसका उपयोग करने वाली मशीनें या उपकरण:**\n1. **प्रवर्धन उपकरण**: रेडियो, टेलीविजन और स्पीकर में ऑडियो प्रवर्धक ध्वनि संकेतों को प्रवर्धित करने के लिए BJTs का उपयोग करते हैं।\n2. **स्विचिंग सिस्टम**: BJTs का उपयोग स्विचिंग सर्किट में किया जाता है, जो डिजिटल इलेक्ट्रॉनिक्स में मौलिक होते हैं, जिसमें कंप्यूटर और मोबाइल फोन शामिल हैं।\n3. **विनियमन प्रणाली**: पावर विनियमन प्रणाली, जैसे वोल्टेज रेगुलेटर या पावर सप्लाई, अक्सर BJTs का उपयोग करती हैं।\n4. **सिग्नल मॉड्यूलेशन**: संचार उपकरण सिग्नल मॉड्यूलेशन और डिमॉड्यूलेशन के लिए BJTs का उपयोग करते हैं।\n\n**इसे स्वयं बनाने के तरीके:**\n1. **इलेक्ट्रॉनिक किट्स**: एक इलेक्ट्रॉनिक्स किट खरीदें जिसमें BJTs और अन्य घटक शामिल हों ताकि एक मार्गदर्शित सीखने के दृष्टिकोण के साथ सर्किट बनाने का अभ्यास किया जा सके।\n2. **ब्रेडबोर्ड प्रोटोटाइपिंग**: बिना सोल्डरिंग के घटकों को डालने और जोड़ने के लिए ब्रेडबोर्ड का उपयोग करें, जिससे आसान प्रयोग और सीखने की सुविधा मिलती है।\n3. **सर्किट सिमुलेशन सॉफ्टवेयर**: BJT सर्किट को आभासी रूप से बनाने और परीक्षण करने के लिए सिमुलेशन सॉफ्टवेयर का उपयोग करें, इससे पहले कि आप उन्हें भौतिक रूप से बनाएं।\n4. **सोल्डरिंग अभ्यास**: मुद्रित सर्किट बोर्ड (PCB) पर अधिक स्थायी सर्किट बनाने के लिए सोल्डरिंग तकनीकों को सीखें।\n5. **शैक्षिक संसाधन**: ऑनलाइन ट्यूटोरियल, पाठ्यक्रम, या पाठ्यपुस्तकों का पालन करें जो BJTs के सिद्धांत और व्यावहारिक अनुप्रयोगों की व्याख्या करते हैं।\n\nहमेशा सुनिश्चित करें कि आपके पास इलेक्ट्रॉनिक्स की अच्छी समझ है और इलेक्ट्रॉनिक घटकों और उपकरणों के साथ काम करते समय सभी आवश्यक सुरक्षा सावधानियों का पालन करें। ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the function of a NPN transistor and practical methods for experimentation?",
+            "score1_description": "The response does not accurately identify the circuit as a NPN transistor or provide any practical methods for experimentation.",
+            "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as NPN or provide clear applications or methods for building the circuit.",
+            "score3_description": "The response identifies the circuit as a NPN transistor, lists a few applications, but offers limited methods for practical experimentation.",
+            "score4_description": "The response correctly identifies the NPN transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+            "score5_description": "The response provides a detailed identification of the NPN transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the circuit as a NPN bipolar junction transistor?",
+            "Does the response explain the use of BJTs in amplification and switching applications?",
+            "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+            "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "क्या आप इस चित्र के बारे में समझा सकते हैं? एक 5 साल के बच्चे के लिए और इस क्षेत्र के एक विशेषज्ञ के लिए प्रतिक्रिया प्रदान करें! ",
+        "reference_answer": "5 साल के बच्चे के लिए:\nकल्पना करो कि महासागर एक बड़े केक की तरह है जिसमें अलग-अलग परतें हैं। सबसे ऊपर की परत जहाँ सूरज की रोशनी पड़ती है और जहाँ नीमो जैसी मछलियाँ रहती हैं, उसे \"सनलाइट लेयर\" कहते हैं। यह बहुत गहरी नहीं होती, इसलिए हम यहाँ तैर सकते हैं और बहुत सारी चीज़ें देख सकते हैं। जैसे-जैसे आप गहराई में जाते हैं, जहाँ अंधेरा होता है और पानी नीला और ठंडा होता है, यह बिना रोशनी वाले कमरे में जाने जैसा होता है, जिसे हम \"ट्वाइलाइट ज़ोन\" कहते हैं। और गहराई में \"मिडनाइट ज़ोन\" होती है, जहाँ हमेशा अंधेरा रहता है और कुछ मछलियों को अपनी रोशनी खुद बनानी पड़ती है, जैसे छोटी टॉर्च। फिर सबसे नीचे का सपाट हिस्सा होता है, जैसे केक का सबसे नीचे का हिस्सा, जो वास्तव में बहुत गहरा और बहुत अंधेरा होता है; इसे \"एबिस\" कहते हैं। और सबसे गहरी जगह, जहाँ बहुत कम लोग गए हैं, वह केक की सबसे नीचे की परत में छिपे हुए सरप्राइज की तरह है; इसे हम \"ट्रेंच\" कहते हैं।\n\nविशेषज्ञ के लिए:\nयह आरेख गहराई के आधार पर समुद्री पर्यावरण के क्षेत्रीकरण का प्रतिनिधित्व करता है। यह विभिन्न पेलैजिक ज़ोन को दर्शाता है, जो एपिपेलैजिक ज़ोन से शुरू होता है, जिसे प्रकाश की पर्याप्त पैठ द्वारा चिह्नित किया जाता है जो प्रकाश संश्लेषण का समर्थन करता है। इसके नीचे, मेसोपेलैजिक ज़ोन है, जहाँ प्रकाश कम हो जाता है और दबाव बढ़ जाता है, जिससे वहाँ रहने वाले जीवों की अनुकूलन क्षमता प्रभावित होती है। इसके बाद बाथिपेलैजिक ज़ोन आता है, जो पूर्ण अंधकार के लिए उल्लेखनीय है और जीवित रहने के तंत्र के रूप में बायोलुमिनेसेंस और केमोसिंथेसिस की आवश्यकता होती है। एबिसोपेलैजिक ज़ोन गहरे समुद्र के स्तर का प्रतिनिधित्व करता है, जो अत्यधिक उच्च दबाव, कम तापमान और दुर्लभ खाद्य उपलब्धता द्वारा चिह्नित है। अंत में, हैडल ज़ोन समुद्री खाइयों के अनुरूप है, जिसमें अद्वितीय हाइड्रोस्टेटिक दबाव और भूवैज्ञानिक विशेषताएँ होती हैं। इन ज़ोन को समझना जैवभौगोलिक वितरण, गहरे समुद्र की पारिस्थितिकी और प्रत्येक ज़ोन में जीवन को परिभाषित करने वाले भौतिक-रासायनिक ढलानों का अध्ययन करने के लिए महत्वपूर्ण है। ",
+        "score_rubric": {
+            "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+            "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+            "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+            "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+            "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+            "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+        },
+        "atomic_checklist": [
+            "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+            "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+            "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+            "Does the response for an expert mention the biological and ecological significance of each zone?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+            }
+        ]
+    }
+]

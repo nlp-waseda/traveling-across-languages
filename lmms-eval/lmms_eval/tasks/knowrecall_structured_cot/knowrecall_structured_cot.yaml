@@ -1,0 +1,17 @@
+group: knowrecall_structured_cot
+task:
+  - knowrecall_ar_structured_cot
+  - knowrecall_de_structured_cot
+  - knowrecall_el_structured_cot
+  - knowrecall_en_structured_cot
+  - knowrecall_es_structured_cot
+  - knowrecall_fr_structured_cot
+  - knowrecall_he_structured_cot
+  - knowrecall_it_structured_cot
+  - knowrecall_ja_structured_cot
+  - knowrecall_ko_structured_cot
+  - knowrecall_pt_structured_cot
+  - knowrecall_ru_structured_cot
+  - knowrecall_sr_structured_cot
+  - knowrecall_th_structured_cot
+  - knowrecall_zh_structured_cot

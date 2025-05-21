@@ -1,0 +1,144 @@
+[
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "이 이미지를 바탕으로, 당신이 바다오리라면 어떤 생존 전략이 적절할까요? ",
+        "reference_answer": "만약 당신이 체서피크 만 생태계의 먹이망에 묘사된 바다오리라면, 적절한 생활 전략은 몇 가지 주요 요소를 포함할 것입니다:\n\n1. **식단**: 당신은 주로 이 먹이망에서 바다오리의 먹이로 표시된 이매패류를 먹을 것입니다. 이매패류에는 체서피크 만에서 흔히 볼 수 있는 다양한 종류의 조개, 홍합, 굴이 포함됩니다.\n\n2. **채집 행동**: 당신은 이매패류를 효율적으로 찾아 먹을 수 있는 채집 전략을 개발해야 할 것입니다. 이는 이매패류가 바닥이나 퇴적물에 서식하는 곳까지 잠수하여 도달하는 것을 포함할 수 있습니다.\n\n3. **서식지 선호**: 이매패류는 종종 여과 섭식을 할 수 있는 얕은 물에서 발견되므로, 바다오리로서 당신은 식량에 효율적으로 접근하기 위해 그러한 서식지에서 상당한 시간을 보낼 가능성이 큽니다.\n\n4. **포식자 인식**: 먹이망은 바다오리가 더 큰 어식성(물고기를 먹는) 새들에게 먹힐 수 있음을 보여주므로, 당신은 흰머리독수리와 같은 포식자를 경계해야 할 것입니다.\n\n5. **계절적 이주**: 특정 유형의 바다오리에 따라 계절적으로 이주할 수 있으며, 이는 번식하거나 더 풍부한 식량 자원을 찾기 위해 다른 지역으로 이동할 시기를 알아야 함을 의미합니다.\n\n이 생태계에서 바다오리로 살아가는 것은 이용 가능한 식량 자원에 적응하고, 소비자이자 잠재적인 먹이로서 먹이망 내 위치를 인식하는 것을 의미합니다. ",
+        "score_rubric": {
+            "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+            "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+            "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+            "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+            "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+            "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the sea duck's primary diet of bivalves?",
+            "Does the response address the habitat preference for areas where bivalves are found?",
+            "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+            "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "이것은 제가 고등학교에서 배운 기본적인 내용입니다. 저는 대학생으로서 의학 프로그램에 들어갔고, 교수님께 대학 동안 더 배우고 싶은 것에 대해 설명해야 합니다. 회의 전에 제가 찾아보고 조사해야 할 것들에 대해 더 많은 세부사항을 추가하는 데 도움을 주실 수 있나요? ",
+        "reference_answer": "물론입니다. 의학 프로그램에서 교수와 교육적 포부에 대해 논의하기 위해서는 주제에 대한 심층적인 탐구가 필요합니다. 이미지가 인간 소화계와 관련이 있으므로, 다음과 같은 주제를 더 자세히 연구하고 검토할 수 있습니다:\n\n1. **생리학과 기능**: 소화계의 각 부분이 어떻게 작동하는지를 이해하세요. 단순히 해부학적으로 뿐만 아니라 세포 및 분자 수준에서 이해해야 합니다. 위와 장에서의 효소 소화, 소장에서의 영양소 흡수, 대장에서의 미생물군의 역할과 같은 주제를 탐구하세요.\n\n2. **병태생리학**: 소화계에 영향을 미치는 일반적인 질병과 장애를 조사하세요. 예를 들어, 위산 역류, 염증성 장질환, 간경변, 췌장 장애 등이 있습니다. 이러한 질병이 정상 생리학을 어떻게 변화시키는지 이해하는 것이 중요할 수 있습니다.\n\n3. **임상적 상관관계**: 다양한 소화기 질환에서 증상이 어떻게 나타나는지, 이를 식별하기 위해 어떤 진단 방법이 사용되는지 연구하세요. 내시경 검사, 대장내시경, 영상 기법, 실험실 검사 등에 대해 배우는 것이 포함될 수 있습니다.\n\n4. **영양학**: 소화계는 영양과 밀접한 관련이 있으므로, 다양한 영양소가 어떻게 소화되고 처리되는지 깊이 탐구하세요. 식단이 소화 건강에 미치는 영향과 질병 상태에서의 영양 요구 변화에 대해 이해하고자 할 것입니다.\n\n5. **약리학**: 소화계에 영향을 미치는 다양한 약물, 특히 소화기 질환 치료에 사용되는 약물을 조사하세요. 여기에는 작용 기전, 부작용, 이러한 약물의 치료적 사용에 대한 이해가 포함됩니다.\n\n6. **외과적 개입**: 충수절제술, 비만 수술, 간 이식과 같은 소화계 관련 외과적 절차와 이러한 개입이 필요한 경우에 대해 익숙해지세요.\n\n7. **연구와 발전**: 위장병학의 최신 연구, 새로운 치료법, 장 미생물군 연구의 발전, 소화 건강 진단의 신기술에 대한 최신 정보를 유지하세요.\n\n8. **상호 연결된 시스템**: 소화계가 다른 신체 시스템과 어떻게 상호작용하는지 탐구하세요. 예를 들어 신경계(장-뇌 축)와 면역계와의 상호작용을 포함합니다.\n\n이러한 주제를 검토함으로써, 의학 프로그램에서 교수와 학습 목표에 대해 보다 정보에 입각하고 상세한 논의를 할 수 있을 것입니다. ",
+        "score_rubric": {
+            "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+            "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+            "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+            "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+            "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+            "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the detailed physiology and function of the digestive system?",
+            "Does the response outline the study of pathophysiology related to common digestive diseases?",
+            "Does the response mention the diagnostic methods used for digestive disorders?",
+            "Does the response consider the role of nutrition and diet in digestive health?",
+            "Does the response address the pharmacological treatments available for digestive issues?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "이 이미지에 따르면, 우리 태양이 수축하기 시작하는 데 얼마나 걸릴까요? 그 전에 어떤 일이 일어날지 과정을 자세히 설명하세요. 이미지에 없는 정보도 추가하세요! ",
+        "reference_answer": "이미지는 태양의 생애 주기를 묘사하며, 탄생부터 백색 왜성이 되는 시점까지의 주요 단계를 보여줍니다. 제시된 타임라인에 따르면, 태양은 약 100억 년 후 적색 거성으로 팽창한 후 수축하기 시작할 것입니다.\n\n수축하기 전에 다음과 같은 일이 일어날 것입니다:\n1. **주계열성 단계**: 현재 태양은 생애 주기의 주계열성 단계에 있으며, 약 45억 년 동안 이 상태에 있었고 앞으로 약 50억 년 동안 이 안정된 단계에 머물 것으로 예상됩니다. 이 기간 동안 태양은 핵에서 수소를 헬륨으로 융합하여 태양에 에너지를 공급하고 태양계에 열과 빛을 제공합니다.\n2. **점진적 온난화**: 앞으로 수십억 년 동안 태양은 핵의 수소가 소비되고 헬륨이 축적됨에 따라 점차 더 따뜻하고 밝아질 것입니다. 헬륨의 증가는 핵을 수축시키고 외부 층을 팽창시킬 것입니다.\n3. **적색 거성 단계**: 탄생 후 약 100억 년이 지나면 태양은 적색 거성 단계에 들어갈 것입니다. 수소 융합은 외부 층으로 이동하고, 핵은 가열되어 헬륨을 탄소와 산소 같은 더 무거운 원소로 융합하기 시작할 것입니다. 태양의 외부 층은 크게 팽창하여 지구를 포함한 내행성을 삼킬 가능성이 있습니다.\n4. **헬륨 플래시와 추가 융합**: 핵의 헬륨이 소진되면 핵은 더 수축하고 온도가 상승하여 더 무거운 원소가 융합될 수 있는 지점에 도달합니다. 이 단계는 헬륨 플래시로 표시되며, 이는 헬륨 융합이 갑자기 시작되면서 밝기가 급격히 증가하는 현상입니다.\n5. **행성상 성운**: 적색 거성 단계 이후 태양은 외부 층을 방출하여 우주로 떠돌아가 행성상 성운을 형성할 것입니다. 핵은 뜨겁고 밀도가 높은 잔해로 남게 됩니다.\n6. **백색 왜성**: 결국 핵은 식고 수축하여 백색 왜성이 될 것입니다. 백색 왜성은 잔여 열로 인해 빛나며 더 이상 융합 반응을 하지 않습니다. 수십억 년에 걸쳐 점차 식어갈 것입니다.\n\n이러한 단계 동안 태양계는 극적으로 변화할 것입니다. 태양이 적색 거성으로 팽창하면 내행성은 파괴될 가능성이 높고 외행성은 흩어질 수 있습니다. 행성상 성운 단계에서 태양의 질량 손실은 중력을 약화시켜 남아 있는 행성을 궤도에서 벗어나게 할 수 있습니다.\n\n이 과정은 우리 태양과 같은 G형 주계열성의 전형적인 생애 주기를 반영합니다. 시간 척도와 결과는 천체물리학 모델과 다양한 생애 주기에 있는 유사한 별의 관측에 기반을 두고 있습니다. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+            "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+            "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+            "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+            "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+            "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the current main sequence phase and its duration?",
+            "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+            "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+            "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+            "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "이 회로는 무엇을 위한 것인지 설명하세요. 어떤 종류의 기계나 장치가 이것을 사용하나요? 또한, 이것을 직접 만들어보는 좋은 방법은 무엇인가요? ",
+        "reference_answer": "회로도는 바이폴라 접합 트랜지스터(BJT)의 도식적 표현으로, 특히 에미터의 화살표 방향과 라벨링을 기반으로 한 NPN형 트랜지스터입니다. BJT는 회로에서 전자 신호를 증폭하거나 스위칭하는 데 사용되는 기본적인 구성 요소입니다.\n\n**이것을 사용하는 기계 또는 장치:**\n1. **증폭 장치**: 라디오, 텔레비전, 스피커의 오디오 증폭기는 BJT를 사용하여 소리 신호를 증폭합니다.\n2. **스위칭 시스템**: BJT는 컴퓨터와 모바일 폰을 포함한 디지털 전자 장치에서 기본적인 스위칭 회로에 사용됩니다.\n3. **조절 시스템**: 전압 조절기나 전원 공급 장치와 같은 전력 조절 시스템은 종종 BJT를 사용합니다.\n4. **신호 변조**: 통신 장치는 신호 변조 및 복조에 BJT를 사용합니다.\n\n**직접 만들어보는 방법:**\n1. **전자 키트**: BJT와 다른 구성 요소가 포함된 전자 키트를 구입하여 안내 학습 접근 방식으로 회로를 구축하는 연습을 합니다.\n2. **브레드보드 프로토타이핑**: 납땜 없이 구성 요소를 삽입하고 연결할 수 있는 브레드보드를 사용하여 쉽게 실험하고 학습할 수 있습니다.\n3. **회로 시뮬레이션 소프트웨어**: 시뮬레이션 소프트웨어를 사용하여 실제로 회로를 만들기 전에 BJT 회로를 가상으로 생성하고 테스트합니다.\n4. **납땜 연습**: 인쇄 회로 기판(PCB)에 보다 영구적인 회로를 구축하기 위한 납땜 기술을 배웁니다.\n5. **교육 자료**: BJT의 이론과 실제 응용을 설명하는 온라인 튜토리얼, 강좌 또는 교과서를 따릅니다.\n\n전자 부품과 도구를 다룰 때 항상 전자공학에 대한 충분한 이해를 갖추고 필요한 모든 안전 예방 조치를 취하십시오. ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the function of a NPN transistor and practical methods for experimentation?",
+            "score1_description": "The response does not accurately identify the circuit as a NPN transistor or provide any practical methods for experimentation.",
+            "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as NPN or provide clear applications or methods for building the circuit.",
+            "score3_description": "The response identifies the circuit as a NPN transistor, lists a few applications, but offers limited methods for practical experimentation.",
+            "score4_description": "The response correctly identifies the NPN transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+            "score5_description": "The response provides a detailed identification of the NPN transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the circuit as a NPN bipolar junction transistor?",
+            "Does the response explain the use of BJTs in amplification and switching applications?",
+            "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+            "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "이 그림에 대해 설명해 줄 수 있나요? 5살 아이에게 설명하는 답변과 이 분야의 전문가에게 설명하는 답변을 제공해 주세요! ",
+        "reference_answer": "5살 아이를 위한 설명:  \n바다는 여러 층으로 이루어진 큰 케이크 같다고 상상해봐. 햇빛이 비치고 니모 같은 물고기들이 사는 맨 위층은 \"햇빛 층\"이라고 부릅니다. 이곳은 깊지 않아서 우리가 수영하면서 많은 것들을 볼 수 있어. 더 깊이 들어가면, 어두워지고 물이 파랗고 차가워지는 곳이 있는데, 이곳은 불이 없는 방에 들어가는 것 같아서 \"황혼대\"라고 부릅니다. 더 깊이 들어가면 \"한밤중 층\"이 있는데, 여기는 항상 어둡고 어떤 물고기들은 작은 손전등처럼 자기 빛을 만들어야 해. 그리고 케이크의 바닥처럼 평평한 부분이 있는데, 정말 정말 깊고 아주 어두운 곳이야; 이곳을 \"심해\"라고 부릅니다. 가장 깊은 곳은 거의 아무도 가본 적이 없는 숨겨진 케이크의 바닥층의 놀라움 같은 곳이야; 우리는 이곳을 \"해구\"라고 부릅니다.\n\n전문가를 위한 설명:  \n이 도표는 깊이에 따라 해양 환경의 구역화를 나타냅니다. 광합성을 지원할 수 있는 충분한 빛이 침투하는 Epipelagic zone에서 시작하여, 그 아래로는 빛이 줄어들고 압력이 증가하여 서식 생물의 적응에 영향을 미치는 Mesopelagic zone이 있습니다. 그 다음은 완전한 어둠과 생물 발광 및 화학 합성을 생존 메커니즘으로 필요로 하는 Bathypelagic zone이 이어집니다. Abyssopelagic zone은 극도로 높은 압력, 낮은 온도, 희소한 먹이 가용성이 특징인 심해 수준을 나타냅니다. 마지막으로 Hadal zone은 독특한 정수압과 지질학적 특징을 가진 해양 해구에 해당합니다. 이러한 구역을 이해하는 것은 생물지리적 분포, 심해 생태학, 각 구역의 생명체를 정의하는 물리화학적 경사를 연구하는 데 중요합니다.  \n\n",
+        "score_rubric": {
+            "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+            "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+            "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+            "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+            "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+            "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+        },
+        "atomic_checklist": [
+            "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+            "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+            "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+            "Does the response for an expert mention the biological and ecological significance of each zone?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+            }
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "Dushingiye kuri iyi shusho, ni ubuhe buryo bwo kubaho bwaba bukwiriye niba wari uri igishwi cyo mu nyanja? ",
+        "reference_answer": "Niba wari inyoni y'inyanja mu ikibumbano cya Chesapeake Bay, nk'uko bigaragara mu murongo w'ibiribwa, uburyo bwo kubaho bukwiye bwaba bufite ibice by'ingenzi bikurikira:\n\n1. **Ibiryo**: Wari kurya cyane cyane ibinyabuzima bifite ibibabi bibiri, kuko bigaragazwa nk'ibiribwa by'inyoni z'inyanja muri uyu murongo w'ibiribwa. Ibinyabuzima bifite ibibabi bibiri birimo ubwoko butandukanye bw'ibijumba, ibihumyo, n'ibinyamabuye, biboneka cyane muri Chesapeake Bay.\n\n2. **Imyitwarire yo gushaka ibiryo**: Wari gukenera gutegura uburyo bwo gushaka ibiryo bukwemerera kubona no kurya neza ibinyabuzima bifite ibibabi bibiri. Ibi bishobora kubamo kumanuka mu mazi kugira ngo ugere aho ibinyabuzima bifite ibibabi bibiri bibaho ku musozi cyangwa mu musenyi.\n\n3. **Guhitamo aho uba**: Kubera ko ibinyabuzima bifite ibibabi bibiri bikunze kuboneka mu mazi make aho bishobora kuyungurura ibiryo, nk'inyoni y'inyanja, wari kumara igihe kinini muri bene aho hantu kugira ngo ubone ibiryo byawe neza.\n\n4. **Kumenya abashobora kugutera**: Umurongo w'ibiribwa ugaragaza ko inyoni z'inyanja zishobora kugirirwa nabi n'inyoni nini zirya amafi, bityo wari kuba ukeneye kuba maso ku bashobora kugutera nk'ikirangirire cya Bald Eagle.\n\n5. **Kugenda bitewe n'ibihe**: Biterwa n'ubwoko bw'inyoni y'inyanja, ushobora kwimuka bitewe n'ibihe, bikagusaba kumenya igihe cyo kujya mu bice bitandukanye kugira ngo ubone aho kororokera cyangwa aho ibiryo byinshi biboneka.\n\nKubaho nk'inyoni y'inyanja muri iki kibumbano byasaba kwiyongera ku biribwa biboneka no kumenya umwanya ufite mu murongo w'ibiribwa, haba nk'umukoresha cyangwa nk'uwashobora kugirirwa nabi. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+            "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+            "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+            "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+            "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+            "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the sea duck's primary diet of bivalves?",
+            "Does the response address the habitat preference for areas where bivalves are found?",
+            "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+            "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "Ibi ni ishusho shingiro y'ibyo nize mu mashuri yisumbuye. Ninjiyemo gahunda y'ubuvuzi nk'umunyeshuri wa kaminuza kandi ngomba gusobanura ibyo nifuza kumenya neza mu gihe cya kaminuza ku mwarimu. Wanshoboza kongeraho ibisobanuro ku byo nakwiriye gushakisha no gusuzuma mbere y'inama? ",
+        "reference_answer": "Mu by'ukuri, kwitegura kuganira ku ntego zawe z'uburezi n'umwarimu muri porogaramu y'ubuvuzi bisaba kwinjira mu buryo bwimbitse mu bijyanye n'ubumenyi. Kubera ko ishusho yerekeye ku buryo bw'igogora bw'umuntu, dore ibyo ushobora gushaka kwiga no gusuzuma mu buryo burambuye:\n\n1. **Imikorere n'ibikorwa**: Menya uko buri gice cy'uburyo bw'igogora bukora, atari gusa mu buryo bwa anatomie ahubwo no ku rwego rwa selile na molekile. Reba ibijyanye n'igogora ry'ibinyabutabire mu gifu n'amara, isohora ry'intungamubiri mu mara mato, n'uruhare rwa mikorobe mu mara manini.\n\n2. **Pathophysiologie**: Reba indwara n'ibibazo bisanzwe bigira ingaruka ku buryo bw'igogora, nko kwiyongera kw'aside, indwara zifata amara, cirrhose y'umwijima, n'ibibazo by'ubwonko bw'igifu. Kumenya uko izi ndwara zihindura imikorere isanzwe birashobora kuba ingenzi.\n\n3. **Imikoranire ya kliniki**: Ujye mu bushakashatsi ku buryo ibimenyetso bigaragara mu ndwara zitandukanye z'igogora n'uburyo bwo gupima bukoreshwa mu kubimenya. Ibi bishobora kubamo kwiga ku bijyanye na endoscopie, colonoscopie, uburyo bwo gufata amashusho, n'ibizamini bya laboratwari.\n\n4. **Imirire**: Kubera ko uburyo bw'igogora bufite uruhare mu mirire, jya mu bushakashatsi ku buryo intungamubiri zitandukanye zigororwa kandi zigakorwa. Ushobora gushaka kumenya ingaruka z'imirire ku buzima bw'igogora n'ukuntu ibyifuzo by'imirire bihinduka mu gihe cy'indwara.\n\n5. **Pharmacologie**: Jya mu bushakashatsi ku buryo imiti itandukanye igira ingaruka ku buryo bw'igogora, harimo n'iyo ikoreshwa mu kuvura ibibazo by'igogora. Ibi birimo kumenya uburyo ikora, ingaruka mbi, n'ikoreshwa ry'iyi miti mu buvuzi.\n\n6. **Ibikorwa by'ubuvuzi**: Menya neza ibikorwa by'ubuvuzi bijyanye n'uburyo bw'igogora, nko gukuramo appendice, ibikorwa bya bariatrie, cyangwa guhindura umwijima, n'igihe ibi bikorwa biba bikenewe.\n\n7. **Ubushakashatsi n'iterambere**: Guma ugezweho ku bushakashatsi buheruka muri gastroenterologie, harimo n'ubuvuzi bushya, iterambere mu bushakashatsi ku mikorobe y'igifu, n'ikoranabuhanga rishya mu gupima ubuzima bw'igogora.\n\n8. **Imikoranire y'uburyo butandukanye**: Reba uko uburyo bw'igogora bukorana n'ubundi buryo bw'umubiri, nko ku buryo bw'imyakura (gut-brain axis) n'uburyo bw'ubwirinzi bw'umubiri.\n\nMu gusuzuma ibi bintu, uzashobora kugira ikiganiro kirambuye kandi kizi neza n'umwarimu wawe ku ntego zawe z'ubumenyi muri porogaramu yawe y'ubuvuzi. ",
+        "score_rubric": {
+            "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+            "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+            "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+            "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+            "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+            "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the detailed physiology and function of the digestive system?",
+            "Does the response outline the study of pathophysiology related to common digestive diseases?",
+            "Does the response mention the diagnostic methods used for digestive disorders?",
+            "Does the response consider the role of nutrition and diet in digestive health?",
+            "Does the response address the pharmacological treatments available for digestive issues?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "Dukurikije iyi shusho, bizatwara igihe kingana iki kugira ngo izuba ryacu ritangire kugabanuka? Sobanura mu buryo burambuye uko bizagenda mbere y'uko ibyo bibaho. Ongeraho amakuru atagaragara kuri iyo shusho! ",
+        "reference_answer": "Ishusho igaragaza ubuzima bw'izuba, yerekana ibyiciro by'ingenzi kuva ryavuka kugeza igihe rizaba umweru muto. Ukurikije igihe cyerekanywe, izuba rizatangira kugabanuka nyuma yo kwaguka rikaba umutuku munini, bikaba byitezwe ko bizaba nyuma y'imyaka miliyari 10 kuva ryavuka.\n\nMbere y'uko ritangira kugabanuka, ibi nibyo bizaba:\n1. **Icyiciro Nyamukuru**: Ubu, izuba riri mu cyiciro nyamukuru cy'ubuzima bwaryo, aho rimaze imyaka igera kuri miliyari 4.5, kandi biteganijwe ko rizaguma muri iki cyiciro cy'umutuzo indi myaka miliyari 5. Muri iki gihe, izuba rihuza hydrogen na helium mu mutima waryo, rikarekura ingufu zituma izuba rikora kandi rigatanga ubushyuhe n'urumuri ku gisanzure cy'izuba.\n2. **Kuzamuka Gake Gake mu Bushyuhe**: Mu myaka miliyari zizakurikiraho, izuba rizagenda rishyushya kandi rikaka cyane uko hydrogen iri mu mutima irangira na helium ikiyongera. Ukwiyongera kwa helium bizatuma umutima ubyimba kandi ibice byo hanze byaguke.\n3. **Icyiciro cy'Umutuku Munini**: Hafi imyaka miliyari 10 nyuma yo kuvuka, izuba rizinjira mu cyiciro cy'umutuku munini. Ihuzwa rya hydrogen rizajya mu bice byo hanze, kandi umutima uzashyushya utangire guhuza helium n'ibindi bintu biremereye nka karubone na oxygene. Ibice byo hanze by'izuba bizaguka cyane, bishobora kwibasira ibinyabuzima byo mu mpera, harimo n'Isi.\n4. **Kwaka kwa Helium n'Ihuza Rindi**: Iyo helium iri mu mutima irangiye, umutima uzongera ubyimbe, kandi ubushyuhe buzazamuka ku buryo ibindi bintu biremereye bishobora guhuza. Iki cyiciro kigaragazwa no kwaka kwa helium, ari byo kuzamuka gukomeye mu gukaka kubera gutangira guhuzwa kwa helium.\n5. **Igihu cya Planet**: Nyuma y'icyiciro cy'umutuku munini, izuba rizatakaza ibice byo hanze, bizagenda bigana mu kirere, bikora igihu cya planet. Umutima uzasigara nk'igice gishyushye, gikomeye.\n6. **Umweru Muto**: Amaherezo, umutima uzashyushya kandi ubyimbe ube umweru muto, ari cyo cyiciro cya nyuma cy'ubuzima bw'izuba. Umweru muto ukaka kubera ubushyuhe busigaye kandi ntukomeza guhuza. Uzagenda ukonja mu myaka miliyari.\n\nMuri ibi byiciro, igisanzure cy'izuba kizahinduka cyane. Ukwaguka kw'izuba rikaba umutuku munini bizashobora gusenya ibinyabuzima byo mu mpera kandi bishobora gutatanya ibiri hanze. Gutakaza umubumbe w'izuba binyuze mu cyiciro cy'igihu cya planet bizagabanya imbaraga zaryo z'uburemere, bishobora kurekura ibinyabuzima bisigaye mu mirongo yabo.\n\nUko bikorwa byerekana ubuzima busanzwe bw'inyenyeri nka izuba ryacu, ari inyenyeri ya G-type nyamukuru. Igihe n'ibisubizo bishingiye ku mibare y'ubumenyi bw'ikirere n'ibyo twabonye ku nyenyeri zisa mu byiciro bitandukanye by'ubuzima bwazo. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+            "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+            "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+            "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+            "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+            "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the current main sequence phase and its duration?",
+            "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+            "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+            "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+            "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "Sobanura icyo uyu murongo w'amashanyarazi ukoreshwa. Ni ubuhe bwoko bw'imashini cyangwa ibikoresho bikoresha ibi? Nanone, ni izihe nzira nziza zo kugerageza kubikora njyewe ubwanjye? ",
+        "reference_answer": "Igishushanyo werekanye ni ishusho igaragaza transistor ya bipolar junction (BJT), by'umwihariko transistor yo mu bwoko bwa PNP ishingiye ku byanditsweho no ku cyerekezo cy'umwambi kuri emitter. BJTs ni ibice by'ingenzi bikoreshwa mu kongera cyangwa guhindura ibimenyetso by'amashanyarazi mu byuma.\n\n**Imashini cyangwa Ibikoresho Bikoresha Ibi:**\n1. **Ibikoresho byo Kongera**: Ibikoresho byongera amajwi mu maradiyo, televiziyo, n'ibikoresho by'amajwi bikoresha BJTs mu kongera ibimenyetso by'amajwi.\n2. **Sisitemu zo Guhindura**: BJTs bikoreshwa mu byuma bihindura amashanyarazi, bikaba by'ingenzi mu ikoranabuhanga rya mudasobwa, harimo na mudasobwa na telefoni ngendanwa.\n3. **Sisitemu zo Kugenzura**: Sisitemu zo kugenzura amashanyarazi, nko kugenzura umuvuduko cyangwa gutanga amashanyarazi, akenshi bikoresha BJTs.\n4. **Kuvanga Ibimenyetso**: Ibikoresho by'itumanaho bikoresha BJTs mu kuvanga no gutandukanya ibimenyetso.\n\n**Uburyo bwo Kugerageza Gukora Ibi Wenyine:**\n1. **Ibikoresho by'Amashanyarazi**: Gura igikoresho cy'amashanyarazi kirimo BJTs n'ibindi bice kugira ngo witoze kubaka ibyuma ukoresheje uburyo bwo kwiga buyobowe.\n2. **Gukoresha Breadboard**: Koresha breadboard gushyiramo no guhuza ibice utagombye gusudira, bigufasha gukora igerageza no kwiga byoroshye.\n3. **Porogaramu yo Gushushanya Ibyuma**: Koresha porogaramu yo gushushanya no kugerageza ibyuma bya BJT mu buryo bw'ikoranabuhanga mbere yo kubyubaka mu buryo bw'umubiri.\n4. **Kwigira Gusudira**: Menya uburyo bwo gusudira kugira ngo wubake ibyuma birambye ku cyapa cy'amashanyarazi (PCB).\n5. **Inyandiko z'Iyigisha**: Kurikira inyigisho zo kuri interineti, amasomo, cyangwa ibitabo bisobanura ihame n'ibikorwa by'amashanyarazi bya BJTs.\n\nBuri gihe menya neza ko ufite ubumenyi buhagije ku by'amashanyarazi kandi ukore ibikenewe byose byo kwirinda igihe ukora n'ibice by'amashanyarazi n'ibikoresho. ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the function of a PNP transistor and practical methods for experimentation?",
+            "score1_description": "The response does not accurately identify the circuit as a PNP transistor or provide any practical methods for experimentation.",
+            "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as PNP or provide clear applications or methods for building the circuit.",
+            "score3_description": "The response identifies the circuit as a PNP transistor, lists a few applications, but offers limited methods for practical experimentation.",
+            "score4_description": "The response correctly identifies the PNP transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+            "score5_description": "The response provides a detailed identification of the PNP transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the circuit as a PNP bipolar junction transistor?",
+            "Does the response explain the use of BJTs in amplification and switching applications?",
+            "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+            "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "Urashobora gusobanura kuri iyi shusho? Tanga igisubizo ku mwana w’imyaka itanu n'igisubizo ku muntu w'inzobere muri uru rwego! ",
+        "reference_answer": "Kuri umwana w'imyaka 5:\nTekereza inyanja nk'ikeke nini ifite ibice bitandukanye. Igice cyo hejuru aho izuba rirasira n'amafi nka Nemo aba, cyitwa \"igice cy'izuba.\" Ntabwo ari kirekire cyane, bityo dushobora koga no kureba ibintu byinshi aho. Uko ugenda ujya hasi, aho hacura umwijima kandi amazi akaba ubururu kandi akonje, bisa no kwinjira mu cyumba nta rumuri, ibyo twita \"akarere k'umwijima.\" Hasi cyane ni \"akarere k'ijoro,\" aho hahora umwijima kandi amwe mu mafi agomba kwikorera urumuri, nk'amatara mato. Hanyuma hari igice cyo hasi, nk'ahasi h'ikeke, aho ari harehare cyane kandi umwijima ukabije; hitwa \"ubujyakuzimu.\" Igice cyimbitse cyane, aho bake bigeze kugera, ni nk'ibanga rihishe mu gice cyo hasi cy'ikeke; twita iki \"umwobo.\"\n\nKu muntu w'inzobere:\nIyi shushanyo igaragaza ibice by'inyanja hashingiwe ku bujyakuzimu. Igaragaza ibice bitandukanye by'inyanja, itangirira ku gice cy'epipelagic, kirangwa n'urumuri ruhagije rwo gushyigikira fotosinteze. Hasi yaho, dufite igice cya mesopelagic, aho urumuri rugenda rugabanuka kandi umuvuduko wiyongera, bigira ingaruka ku myitwarire y'ibinyabuzima bihatuye. Igice cya bathypelagic gikurikiraho, kirangwa n'umwijima wuzuye n'uburyo bwo kubaho bushingiye ku kwikorera urumuri no gukoresha imbaraga zituruka ku bisubizo by'imiti. Igice cya abyssopelagic kigaragaza urwego rw'inyanja ndende, kirangwa n'umuvuduko mwinshi cyane, ubushyuhe buke, n'ibiribwa bike. Ku iherezo, igice cya hadal gihura n'imyobo y'inyanja, gifite umuvuduko wihariye w'amazi n'ibintu by'ubutaka. Kumenya ibi bice ni ingenzi mu kwiga ku ikwirakwizwa ry'ibinyabuzima, ekoloji y'inyanja ndende, n'ibipimo by'imiti n'ubushyuhe bigena ubuzima muri buri gice. ",
+        "score_rubric": {
+            "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+            "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+            "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+            "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+            "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+            "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+        },
+        "atomic_checklist": [
+            "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+            "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+            "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+            "Does the response for an expert mention the biological and ecological significance of each zone?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+            }
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "capability": "vision",
+    "task": "defeasible_reasoning",
+    "instance_idx": 0,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "En un futuro donde la composición de la Tierra ha cambiado drásticamente, un equipo de exploradores se embarca en una misión para comprender la nueva composición elemental del planeta. Utilizando un gráfico circular que muestra una instantánea de la distribución elemental actual, el equipo necesita construir una narrativa que explique los cambios en la abundancia elemental y los posibles impactos en la geología y la biosfera del planeta. ",
+    "reference_answer": "La narrativa comienza cuando los exploradores analizan el gráfico circular, que revela que el oxígeno, aunque sigue siendo el elemento más abundante, ha disminuido al 47% de la composición de la corteza terrestre. El equipo formula la hipótesis de que una serie de erupciones volcánicas masivas ha introducido grandes cantidades de silicio y aluminio en la corteza superior, alterando el equilibrio. El silicio, ahora al 28%, ha creado extensas nuevas formaciones geológicas ricas en cuarzo, cambiando fundamentalmente el paisaje.\n\nEstos cambios tienen implicaciones de gran alcance. El aumento del aluminio al 8% sugiere que los minerales arcillosos se han vuelto más comunes, afectando la fertilidad del suelo y la retención de agua. Esto podría llevar a cambios en las comunidades vegetales, ya que las especies que prosperan en suelos ricos en silicio se vuelven más dominantes. El hierro, al 5%, sigue siendo un elemento crucial para la formación de minerales vitales para mantener el campo magnético, que protege la biosfera de la radiación solar dañina.\n\nEl equipo también nota la presencia de otros elementos como el sodio y el potasio, que son esenciales para los procesos vitales, y su ligero aumento podría influir en la osmorregulación en muchos organismos. La narrativa considera cómo la mayor presencia de estos elementos podría afectar la vida marina y terrestre, potencialmente conduciendo a nuevas rutas evolutivas.\n\nLos exploradores concluyen que, aunque la corteza terrestre ha experimentado cambios significativos, sigue siendo un sistema dinámico. Los cambios en la composición elemental son parte de la evolución geológica continua del planeta, reflejando la naturaleza cambiante de su manto que sustenta la vida. Predicen que estudiar estos cambios no solo proporcionará información sobre el pasado de la Tierra, sino también sobre su futuro, guiando los esfuerzos de la humanidad para adaptarse y prosperar en este mundo alterado. ",
+    "score_rubric": {
+      "criteria": "Does the response effectively use the pie chart to construct a narrative explaining shifts in Earth's elemental abundance and its impacts, including addressing the blurred part?",
+      "score1_description": "The response observes changes in the pie chart but fails to construct a narrative or explain the shifts in elemental abundance, and does not attempt to address the blurred part of the pie chart.",
+      "score2_description": "The response begins to construct a narrative and provides superficial explanations for the shifts in elemental abundance but does not clarify or make assumptions about the blurred part of the pie chart.",
+      "score3_description": "The response constructs a plausible narrative and explains some shifts in elemental abundance, including a basic attempt to address the blurred part of the pie chart, but the explanation lacks detail or is speculative.",
+      "score4_description": "The response provides a detailed narrative that explains most of the shifts in elemental abundance and includes a reasoned assumption or hypothesis about the blurred part of the pie chart, though it may not be fully substantiated.",
+      "score5_description": "The response constructs a comprehensive narrative that thoroughly explains the shifts in elemental abundance, convincingly discusses their impacts, and provides a clear and logical explanation or hypothesis for the blurred part of the pie chart."
+    },
+    "atomic_checklist": [
+      "Does the response identify a decrease in oxygen and an increase in silicon and aluminum from the pie chart?",
+      "Does the response hypothesize a geological event, like volcanic eruptions, to explain the elemental shifts?",
+      "Is the response discussing the potential formation of new quartz-rich geological formations?",
+      "Does the response consider the impact of elemental shifts on soil fertility and water retention?",
+      "Does the response evaluate the implications of changes in elemental makeup on plant communities?",
+      "Is the response contemplating the role of iron in maintaining the Earth's magnetic field?",
+      "Does the response assess the impact of sodium and potassium on osmoregulation in organisms?",
+      "Is the response contemplating potential evolutionary changes in marine and terrestrial life?",
+      "Does the response discuss the dynamic nature of Earth's geological evolution?",
+      "Is the response predicting future insights into Earth's changes from studying these shifts?",
+      "Does the response address the blurred part of the pie chart, indicating 3.6%?"
+    ],
+    "background_knowledge": [],
+    "caption": "Composition of the Earth's Crust Visualized in a Pie Chart"
+  },
+  {
+    "capability": "vision",
+    "task": "defeasible_reasoning",
+    "instance_idx": 1,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "En un reciente taller sobre expresiones culturales y dinámicas laborales, se compartió una fotografía que capturaba un momento entre los participantes. Describe las interacciones culturales y dinámicas que probablemente están ocurriendo en este entorno. Considera la vestimenta, los gestos, la disposición de los asientos y cualquier otra señal visual que pueda reflejar normas culturales o etiqueta en el lugar de trabajo. ",
+    "reference_answer": "Esta fotografía parece capturar un momento de interacción positiva y comprensión compartida entre un grupo de individuos, probablemente en un taller o en un entorno de formación de equipos. Los participantes están involucrados en aplausos o aprobación, lo que se sugiere por sus rostros sonrientes y manos aplaudiendo. Estos gestos son reconocidos universalmente como expresiones de afirmación y se utilizan a menudo en entornos profesionales para reconocer un trabajo bien hecho o para mostrar apoyo a las contribuciones de un colega.\n\nLa disposición de los asientos es informal e inclusiva, con sillas reunidas en un círculo, lo que indica una actividad de taller o basada en equipo que promueve la igualdad y la comunicación abierta entre los participantes. Esta configuración se utiliza a menudo en lugares de trabajo modernos y colaborativos que valoran la aportación de cada miembro del equipo y se esfuerzan por romper las barreras jerárquicas.\n\nLa vestimenta de los individuos es casual y práctica, reflejando un lugar de trabajo contemporáneo, posiblemente creativo o orientado a la tecnología, donde la vestimenta formal de negocios no es obligatoria. Este tipo de código de vestimenta puede significar una cultura empresarial que prioriza la comodidad y la expresión personal sobre las normas corporativas tradicionales.\n\nCada individuo muestra compromiso y entusiasmo, lo que puede reflejar una norma cultural dentro de este grupo u organización que valora la participación activa y el apoyo visible entre sí. Tal comportamiento puede fomentar una cultura laboral positiva, alentando el trabajo en equipo y el éxito colectivo.\n\nAdemás, la diversidad del grupo, con individuos de diferentes orígenes étnicos, sugiere un lugar de trabajo multicultural. La aparente facilidad y felicidad entre los miembros del grupo implica una sensibilidad cultural y respeto por la diversidad en este entorno.\n\nEn general, la imagen transmite un lugar de trabajo que abraza la diversidad cultural, fomenta la comunicación abierta e igualitaria, y promueve un ambiente positivo y afirmativo para sus miembros. Esto refleja un enfoque progresista hacia la cultura laboral, donde se celebra la diversidad y la dinámica de equipo está orientada hacia la inclusión y el respeto mutuo. ",
+    "score_rubric": {
+      "criteria": "Does the response accurately describe the cultural interactions and dynamics taking place in the photograph?",
+      "score1_description": "The response recognizes individuals in the photograph but fails to interpret cultural interactions or dynamics, for example, noting smiles without relating to cultural expressions or workplace dynamics.",
+      "score2_description": "The response identifies basic gestures such as applause but provides a limited analysis of their cultural or workplace significance, for example, mentioning clapping without discussing its role in affirmation or support.",
+      "score3_description": "The response observes cultural interactions and begins to relate them to workplace dynamics, but the explanation is superficial and lacks insight into attire or seating arrangement, for example, not considering how these reflect cultural norms.",
+      "score4_description": "The response describes cultural interactions and dynamics with attention to gestures, attire, and seating, but may miss deeper implications or the significance of diversity, for example, not fully exploring what the observed ease among diverse individuals implies.",
+      "score5_description": "The response thoroughly analyzes the cultural interactions and dynamics, considering gestures, attire, seating, and diversity, and insightfully relates these to cultural norms and workplace etiquette, demonstrating a comprehensive understanding of the setting."
+    },
+    "atomic_checklist": [
+      "Does the response identify the gestures such as applause and relate them to cultural expressions of affirmation?",
+      "Is the response attentive to the informal and inclusive seating arrangement, suggesting open communication?",
+      "Does the response comment on the casual attire and its reflection of workplace culture?",
+      "Does the response recognize active participation and enthusiasm as valued cultural norms?",
+      "Is the response observant of the diversity of the group and implications for cultural sensitivity?",
+      "Does the response infer that the workplace embraces cultural diversity and egalitarian communication?",
+      "Does the response draw connections between visual cues and the promotion of a positive workplace environment?",
+      "Is the response comprehensive in covering all aspects of cultural interactions and dynamics visible in the photograph?"
+    ],
+    "background_knowledge": [],
+    "caption": "A group of diverse coworkers sharing a joyful moment with applause and smiles in the office."
+  },
+  {
+    "capability": "vision",
+    "task": "defeasible_reasoning",
+    "instance_idx": 2,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Teniendo en cuenta las dinámicas y los principios físicos en juego, determina la secuencia de eventos que probablemente seguirán al momento capturado en la fotografía, con un énfasis en las interacciones entre los individuos y el entorno, específicamente la estructura hecha de cajas. ",
+    "reference_answer": "Al analizar la fotografía, parece que se ha construido una torre de cajas verdes a una altura precaria y ahora se tambalea peligrosamente hacia un lado. Un estudiante está extendiendo la mano hacia la torre, probablemente en un intento de estabilizarla, mientras otros están en varios estados de reacción, desde la diversión hasta el pánico.\n\nDada la inclinación visible de la torre y el aparente movimiento de las cajas cerca de la base, una predicción razonable sería que la estructura está a momentos de colapsar. El estudiante en proximidad cercana a la torre corre el riesgo de ser golpeado por las cajas al caer. Las cajas mismas, dependiendo de su peso y contenido, podrían dispersarse al impactar, potencialmente causando lesiones o, al menos, un desorden considerable.\n\nLas reacciones de los individuos sugieren que este fue un evento inesperado durante un momento de ocio o un descanso, posiblemente en una escuela o una institución similar dado los uniformes. Existe la probabilidad de que el colapso sea repentino, creando un ruido fuerte que podría atraer la atención de otros no fotografiados. Esto podría llevar a que se reúna una multitud más grande, planteando riesgos adicionales de lesiones y complicando los esfuerzos de limpieza.\n\nConsiderando el contexto, esto también podría servir como una lección improvisada de física y seguridad para los estudiantes involucrados, subrayando la importancia de la estabilidad y el centro de gravedad en las estructuras, así como las posibles consecuencias de la falta de previsión en tales empresas.\n\nDespués del incidente, se podría anticipar discusiones sobre seguridad y el uso adecuado de materiales como estas cajas, posiblemente llevando a la implementación de reglas o directrices para prevenir incidentes similares. Si el incidente se toma con buen humor y sin lesiones graves, podría convertirse en una anécdota compartida entre los estudiantes, contribuyendo al folclore de su experiencia comunitaria.\n\n",
+    "score_rubric": {
+      "criteria": "Does the response logically predict the sequence of events following the moment captured in the photograph, with emphasis on the structure made of crates?",
+      "score1_description": "The response notes the falling crates but fails to predict specific interactions, for example, it mentions that the crates are toppling but does not discuss the students' likely movements or the crates' path.",
+      "score2_description": "The response predicts that the crates will fall but only provides a generic outcome, for example, it suggests students may react but does not specify how the closest student might move to avoid the fall.",
+      "score3_description": "The response predicts the immediate reaction of the student stabilizing the crates but lacks detail on others' reactions, for example, it might state the student will step back without discussing the potential chain reaction among the others.",
+      "score4_description": "The response provides a detailed prediction of the crates' fall and the students' reactions, but may not fully account for the aftermath, for example, it describes dodging actions but not the consequences of the scattered crates.",
+      "score5_description": "The response offers a comprehensive prediction, detailing the crates' trajectory, each student's likely movements, and the subsequent consequences, such as disruption and noise, reflecting a nuanced understanding of the dynamics."
+    },
+    "atomic_checklist": [
+      "Does the response predict that the student touching the crates will immediately withdraw their hands?",
+      "Is the response specific about the direction in which the crates are likely to fall?",
+      "Does the response anticipate the likely movement of the student directly in the path of the falling crates?",
+      "Does the response predict the reactions of the surrounding students, such as stepping back or trying to catch the crates?",
+      "Is the response detailed about the potential noise and disruption caused by the collapsing crates?",
+      "Does the response consider the possibility of the crates scattering and the safety risks involved?",
+      "Is the response predicting any immediate intervention by onlookers or authorities due to the incident?"
+    ],
+    "background_knowledge": [],
+    "caption": "The Great Crate Catastrophe: When a towering stunt turns into a frantic scramble"
+  },
+  {
+    "capability": "vision",
+    "task": "defeasible_reasoning",
+    "instance_idx": 3,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al analizar una representación visual que contiene un elemento de ilusión óptica, describe las diversas interpretaciones que podrían surgir de tal imagen. Considera las perspectivas que pueden manifestarse y elabora sobre los diferentes significados que uno podría inferir de la información visual presentada. ",
+    "reference_answer": "La imagen presentada es un ejemplo clásico de una figura ambigua que puede interpretarse de múltiples maneras. A primera vista, la silueta puede verse como dos caras de perfil a punto de besarse o un solo jarrón centrado en un fondo claro. Este tipo de imagen se conoce como el Jarrón de Rubin, un ejemplo de percepción figura-fondo.\n\nPara resolver la ambigüedad, uno debe notar el cambio de perspectiva necesario para alternar entre las dos interpretaciones válidas. Al enfocarse en la forma negra, los contornos se asemejan a las siluetas de dos caras mirándose. El borde central de cada cara forma el equivalente de una nariz, y los bordes exteriores crean la parte trasera de la cabeza. Esta interpretación se basa en ver la forma negra como la figura (objeto de enfoque) y el área blanca como el fondo.\n\nPor el contrario, al ajustar el enfoque para considerar el espacio blanco como la figura, las formas negras se desvanecen en el fondo, y un jarrón aparece a la vista. Los contornos del jarrón están definidos por el borde compartido de los perfiles. La interpretación como un jarrón se fortalece por la simetría y la posición central en la imagen, que son características comunes de tales objetos.\n\nUna observación perspicaz es que la imagen juega con los procesos cognitivos de organización figura-fondo, donde nuestro sistema visual determina qué parte de una imagen es el sujeto principal (la figura) y cuál es el fondo (el fondo). Esta imagen está diseñada para ser biestable, lo que significa que intencionalmente soporta estas dos interpretaciones, y la mente puede alternar entre ellas pero no puede mantener ambas simultáneamente.\n\nLa comprensión integral de esta ilusión óptica radica en reconocer y apreciar la naturaleza dual de la imagen. No es meramente una imagen de dos caras o un jarrón, sino una demostración de la capacidad de la mente para alternar entre diferentes interpretaciones de estímulos visuales. Esta comprensión profundiza nuestra apreciación de la complejidad de la percepción visual y el procesamiento cognitivo involucrado en la interpretación de la información sensorial. ",
+    "score_rubric": {
+      "criteria": "Does the response provide a comprehensive analysis of the optical illusion and its multiple interpretations?",
+      "score1_description": "The response identifies the optical illusion but offers no further interpretation, for example, it might only state the presence of black and white shapes without seeing the profiles or the vase.",
+      "score2_description": "The response recognizes one interpretation of the illusion but not the other, for example, it may describe the vase but not the profiles, or vice versa.",
+      "score3_description": "The response mentions both interpretations but does not elaborate on the figure-ground perception involved, for example, noting the profiles and the vase but not explaining the shift in perspective.",
+      "score4_description": "The response details both interpretations and touches on the cognitive processes involved but may not fully capture the bi-stable nature of the image, for example, it might explain figure-ground organization but not the inability to see both images at once.",
+      "score5_description": "The response thoroughly analyzes the optical illusion, clearly detailing both interpretations, the cognitive processes of figure-ground perception, and the bi-stable nature of the image, reflecting a deep understanding of visual perception."
+    },
+    "atomic_checklist": [
+      "Does the response identify the silhouette as a Rubin's Vase, demonstrating figure-ground perception?",
+      "Is the response clear about the two interpretations of faces and a vase?",
+      "Does the response explain the need to shift perspective to alternate between interpretations?",
+      "Is the response detailed in how the black shape can be seen as the figure with the white as the ground and vice versa?",
+      "Does the response discuss the bi-stable nature of the image, where both interpretations cannot be held simultaneously?",
+      "Does the response elaborate on the complexity of visual perception and cognitive processing in interpreting sensory information?"
+    ],
+    "background_knowledge": [],
+    "caption": "A classic play on perception: Two faces or a vase?"
+  },
+  {
+    "capability": "vision",
+    "task": "defeasible_reasoning",
+    "instance_idx": 4,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "En una reunión festiva capturada, ¿cuáles podrían ser los sentimientos subyacentes y las interacciones entre las personas presentes, y cómo reflejan estas las emociones humanas más amplias y las dinámicas sociales en eventos de celebración? ",
+    "reference_answer": "La imagen emana una atmósfera vibrante típica de las celebraciones navideñas, con individuos adornados con gorros de Navidad, sugiriendo una escena de jovial camaradería. Las figuras centrales, un hombre y una mujer, están inmersos en un momento de diversión compartida, como lo evidencia la amplia sonrisa de la mujer y la expresión sutil y contenta del hombre. Ambos sostienen copas, un signo de brindis social y disfrute festivo, indicando el espíritu convivial de la ocasión.\n\nLos ojos de la mujer brillan con risa, reflejando la alegría y el abandono que a menudo se sienten durante tales reuniones. Su rostro abierto y expresivo señala un sentido de pertenencia y disfrute, rasgos que resuenan con el ambiente colectivo de calidez y alegría. La cercanía y el lenguaje corporal del hombre hacia ella hablan de la necesidad humana de conexión y celebración con otros.\n\nEn el fondo, otros asistentes a la fiesta están igualmente absorbidos por la esencia del espíritu festivo. El fondo borroso con luces centelleantes simboliza el brillo de la magia navideña, y el tono dorado general proyecta un resplandor que parece realzar la calidez emocional de la escena. Los participantes no están simplemente presentes; son contribuyentes activos al tapiz de experiencia humana compartida que tales eventos tejen.\n\nEsta imagen captura más que un momento de jolgorio; encapsula un rico tapiz de conexiones emocionales que son universalmente resonantes. Es un recordatorio de la humanidad compartida que las ocasiones festivas pueden resaltar, reuniendo a los individuos en una expresión colectiva de alegría, amistad y el deseo humano de celebración comunal.\n\n",
+    "score_rubric": {
+      "criteria": "Does the response insightfully analyze the underlying feelings and interactions at the festive gathering?",
+      "score1_description": "The response briefly acknowledges the festive setting but fails to delve into the emotions or interactions, for example, noting the Christmas hats but not the expressions or body language of joy and camaraderie.",
+      "score2_description": "The response recognizes happiness in the gathering but does not connect it to broader social dynamics, for example, mentioning smiling faces but not the shared amusement or sense of belonging.",
+      "score3_description": "The response describes surface-level interactions and some emotions, such as laughter, but lacks depth in exploring the significance of these in the context of human connection, for example, noting the toasting but not the deeper sense of unity it signifies.",
+      "score4_description": "The response captures most of the emotional essence and social interactions, like engagement and warmth, but may not fully interpret the broader human experience, for example, recognizing close proximity but not fully discussing the collective mood it creates.",
+      "score5_description": "The response provides a comprehensive analysis of the feelings and interactions, deeply understanding the joy, belonging, and human connection present at the event, reflecting on how these elements combine to create a rich, shared human experience."
+    },
+    "atomic_checklist": [
+      "Does the response note the Christmas hats and interpret them as a sign of shared festivity?",
+      "Is the response attentive to the woman's laughter and what it signifies about the mood of the event?",
+      "Does the response discuss the man's body language and its implications for social bonding?",
+      "Does the response mention the social act of toasting and its role in festive indulgence?",
+      "Is the response descriptive of the background ambiance and how it contributes to the festive atmosphere?",
+      "Does the response connect individual expressions to collective emotional warmth and celebration?",
+      "Is the response comprehensive in covering the richness of emotional connections and their universal resonance?"
+    ],
+    "background_knowledge": [],
+    "caption": "Joyful laughter and festive cheer at a sparkling Christmas party."
+  }
+]

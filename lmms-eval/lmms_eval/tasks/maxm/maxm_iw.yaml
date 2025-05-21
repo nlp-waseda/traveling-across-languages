@@ -1,0 +1,57 @@
+dataset_path: neulab/PangeaBench-maxm
+dataset_kwargs:
+  token: True
+task: "maxm_iw"
+group: "maxm"
+test_split: iw
+output_type: generate_until
+doc_to_visual: !function utils.maxm_doc_to_visual
+doc_to_text: !function utils.maxm_doc_to_text
+doc_to_target: "answer"
+generation_kwargs:
+  max_new_tokens: 64
+  temperature: 0
+  top_p: 1.0
+  num_beams: 1
+  do_sample: false
+process_results: !function utils.maxm_process_results
+metric_list:
+  - metric: exact_match
+    aggregation: !function utils.maxm_ema
+    higher_is_better: true
+  - metric: rouge_l
+    aggregation: !function utils.maxm_rouge_l
+    higher_is_better: true
+  - metric: cider
+    aggregation: !function utils.maxm_cider
+    higher_is_better: true
+  - metric: relaxed_accuracy
+    aggregation: !function utils.maxm_relaxed_ema
+    higher_is_better: true
+model_specific_prompt_kwargs:
+  default:
+    pre_prompt: "Given the image and the question, provide a concise answer. "
+    post_prompt: "\nAnswer the question using a single word or phrase in Hebrew."
+  llava:
+    pre_prompt: "Given the image and the question, provide a concise answer. "
+    post_prompt: "\nAnswer the question using a single word or phrase in Hebrew."
+  mblip:
+    pre_prompt: "Question: "
+    post_prompt: "Answer in a single word or phrase in Hebrew:"
+  paligemma:
+    pre_prompt: "answer iw"
+    post_prompt: "\nAnswer the question using a single word or phrase in Hebrew."
+  palo_7b:
+    pre_prompt: "Given the image and the question, provide a concise answer. "
+    post_prompt: "\nAnswer the question using a single word or phrase in Hebrew."
+  cambrian1:
+    pre_prompt: "Given the image and the question, provide a concise answer. "
+    post_prompt: "\nAnswer the question using a single word or phrase in Hebrew."
+  gpt4v:
+    pre_prompt: "Analyze the image and answer the question concisely. "
+    post_prompt: ""
+  qwen_vl:  
+    pre_prompt: "Based on the image, answer the following question: "
+    post_prompt: " Answer:"
+metadata:
+  - version: 0.0

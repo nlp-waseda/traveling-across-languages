@@ -1,0 +1,127 @@
+[
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gihe basuzumaga amafoto y’umushinga wo gufotora ku nkombe, hagaragaye ifoto idasanzwe itoroshye gusobanura. Igaragaza ubwato bunini butwara imizigo bugaragara nk'aho bureremba hejuru y'ubuso bw’inyanja. Sobanura iki kintu cyabaye mu buryo bw’uburyo bwo kureba n’ukuntu bishobora kuba amaso abeshya, kandi utange isesengura ryimbitse ry'ukuntu imiterere y’ikirere ishobora gutera ingaruka nk’izi z’umurorano. ",
+        "reference_answer": "Ifoto igaragaza ikintu kidasanzwe cy’amashusho kizwi cyane nka Fata Morgana, ubwoko bukomeye bw’ishusho y’akataraboneka yo hejuru ishobora guhindura cyane isura y’ubwato butwara imizigo. Ubwato bugaragara nk’ubuhagaze hejuru y’ikirere, butandukanye n’amazi n’umukandara w’ikirere. Iyi myumvire ni ingaruka zo guhindura amashusho mu kirere, aho ibice by’ikirere bifite ubushyuhe butandukanye bihindura imirongo y’urumuri iyinyuramo ku mpande zitandukanye. Kubera ko ikirere gikonje kiri munsi y’ikirere gishyushye muri iki gihe, urumuri ruturuka ku bwato ruramanuka rugenda mu kirere gishyushye rugana mu kirere gifite ubukonje bwinshi.\n\nUbushyuhe butandukanye hagati y’ibi bice by’ikirere burakomeye cyane, bikaba ari byo byihutisha ibi bintu by’amashusho. Urumuri ruhindutse ruturuka ku bwato rugera ku jisho ry’umureba ruturutse munsi y’umurongo nyawo w’amaso, bigatuma ubwato bugaragara mu mwanya uri hejuru y’aho buri koko. Birasa no kureba binyuze mu kirahure gihindura ishusho hejuru. Ubwiza n’imbaraga by’iyi mirage byongerwa n’ubwitonzi bw’inyanja, itanga urubuga rwiza rw’amashusho y’ubwato yakuweho. Ibi bituma habaho ingaruka zigaragara neza kandi zidasanzwe, bishobora gutera urujijo utaramenya ubumenyi bushingiyeho.\n\nImfuruka yihariye n’intera y’umureba uvuye ku bwato nabyo byongera ingaruka. Niba byarebwe mu mwanya uri hejuru, iyi mirage ishobora kutagaragara cyane. Byongeye kandi, ibihe by’urumuri bisa nkaho bimeze neza, izuba rishobora kuba riri inyuma y’umufotora, bigabanya umucyo kandi bigatuma hafatwa neza iyi mirage nta kumurika cyane.\n\nMu gusoza, ikintu kidasanzwe cy’amashusho cyafashwe mu ifoto ni ikinamico ryiza ry’urumuri n’ubushyuhe butandukanye, kandi si ukwica amategeko y’ibidukikije. Ibi bitanga urugero rwiza rw’uko ibihe by’ikirere bishobora guhindura cyane uburyo tubona isi yacu. ",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu ifoto yatanzwe, ni izihe ngingo z'ibanze z'ubumenyi bw'umubiri zisa n'izihagaritswe by'igihe gito cyangwa zateshejwe agaciro, kandi ibi bishobora gusobanurwa gute mu rwego rw'iyo foto? ",
+        "reference_answer": "Ifoto ifata umudumbidumbi uri mu kugwa kw’ubusa, usa n’uwahagaze hagati mu kirere. Ku ishusho ya mbere, bishobora kugaragara ko umudumbidumbi arimo guhangana n’imbaraga z’uburemere, kuko tutabona kugwa kwihuta kwari guteganyijwe ku Isi. Ariko, ibi ni ikinyoma giterwa n'ibikubiye mu ifoto.\n\nMu by’ukuri, umudumbidumbi ari munsi y’ingaruka zose z’uburemere kandi arimo kwihuta ajya hasi. Ibi bigaragazwa n’imiterere y’umudumbidumbi, amaboko n’amaguru byarambuye kugira ngo byongere imbaraga z’umwuka, ari byo bikorwa bisanzwe byo kugumya no kugenzura kugwa mu kudumbira. Umwambaro n’ibikoresho by’umudumbidumbi byagenewe by’umwihariko gucunga imbaraga z’umwuka no kugenzura umuvuduko wo kugwa.\n\nIfoto itanga kandi ishusho ko umudumbidumbi ashobora kuba adahinduka ugereranyije n’Isi iri hasi, ariko ibi ntibishoboka. Kubera kubura kw’ihinduka ry’umuvuduko cyangwa ibimenyetso byashobora kwerekana kugenda kwihuta, ifoto ifata umwanya mu gihe, itanga ishusho itari yo ko umudumbidumbi ari mu kirere.\n\nIkindi kintu cyo kwitondera ni uko ifoto ishobora kuterekana ibihe by’ibanze by’isimbuka igihe umudumbidumbi yaba arimo kugwa kw’ubusa nyako no kwihuta uvuye ku muvuduko w’ubusa. Ahubwo, birashoboka ko ifata umwanya igihe umuvuduko wa nyuma wagezweho, aho imbaraga z’uburemere n’imbaraga z’umwuka ziba ziri mu bwuzuzanye, bigatera umuvuduko udahinduka.\n\nByongeye kandi, uburyo kamera ifata n'uburangare bw'ibimenyetso bigaragara (nko ibicu cyangwa indege) bituma bigorana kumenya umuvuduko nyawo n’ihuta ry’umudumbidumbi. Mu by’ukuri, hatari ibi bimenyetso by’imbonerahamwe, kumva kwacu ku ngendo z’umudumbidumbi kurahungabana.\n\nMu gusoza, nubwo umudumbidumbi agaragara nk’uhanganye n’amategeko y’umubiri, mu by’ukuri yubahiriza amahame yose ya fiziki, harimo uburemere n’imbaraga z’umwuka. Ikinyoma ni ingaruka zo gufata ifoto y’ibihe bihindagurika, iyo ifashwe mu gihe, ikuraho ibimenyetso by’icyerekezo byari gutuma tumenya kugenda kwihuta kw’umudumbidumbi n’imbaraga ziri mu bikorwa. ",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu rwego rwo gusesengura igihangano cy’ubugeni kihinyura ukuri kwa buri munsi, sobanura ibice bigaragara n'akamaro bishobora kugira, utekereje ku mahame y'ubusuririyalisime. ",
+        "reference_answer": "Igihangano kivugwa ni ikimenyetso cy'ingenzi cya surrealism, kigaragaza ubutaka butagira ikintu munsi y'ijuru rinini, ryambaye ubusa. Hagati mu gihangano hari amasaha menshi, buri kimwe kirashonga kandi kimanitse ku bintu by'ubutaka butagira ikintu—igiti cyumye, ameza akomeye, n'imiterere idafite ishusho muri scene.\n\nAmasaha ashonga ni ikigereranyo gikomeye cy'ubworoherane n'imiterere y'igihe mu isi y'inzozi, bitandukanye n'igihe gikomeye, kitagororotse cy'ubuzima bwo gukanguka. Ibi byerekana inyota ya surrealism ku bwonko butazi, inzozi, n'ukuri kurenze kumva bisanzwe igihe n'ahantu.\n\nByongeye kandi, ibice bitandukanye by'ubutaka—igiti cyapfuye iruhande rw'icyatsi, gishobora guhagararira ubusumbane mu buzima, kugaragaza guhuza ubuzima n'urupfu, gukura no kubora. Ubutaka butagira ikintu bushobora gusobanura ubusa bwinshi bw'ubwonko butazi, insanganyamatsiko isanzwe mu buvanganzo bwa surreal aho imikorere y'ubwonko isuzumwa.\n\nIsaha y'icunga, ifite umubumbe w'udusimba, isobanura kubora no kunyura mu buzima bwa organike, ikibutsa gikomeye cy'urupfu n'iterambere ridashira rigana kuri entropy. Udusimba, akenshi dufitanye isano no kubora n'akazi kenshi, byongera insanganyamatsiko y'intambara idashira, itagaragara ku gihe n'ibintu bidashobora kwirindwa n'ubuzima.\n\nMu mpera, inyuma hari inyanja ituje n'uburengerazuba bugaragara, bishobora gusobanurwa nk'urubibi hagati y'ubwonko buzwi n'ubutazi—bizwi n'ibitaramenyekana. Uru murongo w'uburengerazuba utandukanya isi y'ukuri n'isi y'inzozi iri hejuru, kugaragaza intego ya surrealism yo gusibanganya no guhinyuza izi mbibi.\n\nMu ncamake, iki gihangano gikoresha ibice bya surreal kugira ngo gitere abantu gutekereza ku bitekerezo by'igihe, kubaho, n'ibanga by'ubwonko butazi. Gitumira abareba kujya hanze y'imbibi z'ukuri zifite ishingiro no gusuzuma igisobanuro cyoroshye, nk'inzozi z'ibyo babona n'ibyo bumva. ",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gihe uhabwa ishusho itandukanye n'ubwubatsi busanzwe, tangira inkuru isobanura imiterere yayo ariko kandi ivuga inkuru y'aho yaturutse n'ingaruka ifite ku muryango uyikikije. ",
+        "reference_answer": "Ishusho igaragaza inyubako y’akataraboneka, ihagaze hejuru n’inyuma, isa n’iyica amategeko y’umubumbe n’imiturirwa isanzwe. Iyi nyubako si umusaruro w’igishushanyo cy’akajagari ahubwo ni itangazo ry’ubuhanzi rigamije, rizwi ku izina rya \"Inzu Y’Inyuma.\" Ihagaze mu buryo butandukanye n’inyubako z’amateka, aho imizi yayo - cyangwa muri iki gihe, igice cy’icyuma cyerekeza hasi - cyibitse mu butaka, kandi aho fondasiyo yagombye kuba iri hejuru.\n\nInkuru y’inkomoko yayo ni idasanzwe nk’uko isa. Inzu Y’Inyuma yatekerejwe n’umwubatsi w’umunyabuhanga, Eliana Cortez, wahumekewe n’igitekerezo cyo guhindura ibyo abantu batekereza. Yizeraga ko nk’uko ishusho y’inyubako ishobora guhindurwa, n’amahame y’imibereho n’imipaka y’imibereho nayo ashobora guhindurwa. Iyi shusho y’umubiri ikora nk’ikigereranyo cy’ivugurura n’impinduka, isaba abareba kongera kwitekerezaho ku buzima no ku gishushanyo.\n\nEliana yakoranye bya hafi n’abanyabugeni kugira ngo yemeze ko icyerekezo cye gishoboka. Igice cy’icyuma cy’ibanze ni inkunga y’icyuma yihishe neza ifata inyubako, mu gihe amagorofa yo hejuru akorwa mu bikoresho byoroheje, ariko biramba. Amatara atukura asa n’agaragaza inyubako ni amatara ya LED akoresha imirasire y’izuba, yaka nijoro, akora nk’urumuri rw’ibitekerezo bidashya.\n\nInzu Y’Inyuma yahise iba ikimenyetso cy’umuco. Iyakira ikigo cy’ubuhanzi rusange, gitanga amasomo n’amahugurwa mu byiciro bitandukanye by’ubuhanzi, bityo gisohoza icyerekezo cya Eliana cyo gushishikariza ubuhanzi n’ivugurura mu muryango. Inyubako si inyubako gusa ahubwo ni inkuru nzima, ibara inkuru yo guhangara ibimenyerewe, kwakira impinduka, no gushishikariza umuryango gutekereza no kubaho mu buryo bushya. Kubaho kwayo byateje imbere agace, aho ubucuruzi bwaho bwakiriye ibishushanyo by’ubutwari kandi urukurikirane rw’iminsi mikuru ngarukamwaka zihimbaza ubuhanzi n’imiturirwa y’akataraboneka. \n\n",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gusuzuma ishusho aho ibice bihuza, umuntu yakwirinda ate urwego rw'ubumwe cyangwa kutumvikana mu bitekerezo hagati y'ibyo bice? Tekereza ku ishusho irimo inyamaswa yo mu rugo isanzwe n'ikintu gisanzwe gihuza n'indi nyamaswa. Ni izihe mpamvu zidasanzwe zishobora kumenyekana, kandi izo mpamvu zidasanzwe ziteza gute ihungabana ry'ubusanzwe bw'ibitekerezo by'iyo shusho? ",
+        "reference_answer": "Ishusho igaragaza injangwe ifite imitima myinshi iyikikije, bigaragaza urukundo cyangwa inyungu, hamwe n’urutirigongo rusanzwe rujyana n’imbwa, si injangwe. Uyu mwanya ugaragaza ibintu byinshi bidahuye mu mitekerereze.\n\nIcya mbere, urutirigongo ruhagarariye ikintu cy'inyungu ku mbwa, kuko zizwiho kurya intirigongo ari imyitwarire yo gukina kandi ishingiye ku bushake bwabo bwo kurya ibice byose by'inyamaswa zabo, harimo n'ibikanka. Injangwe, ariko, ni inyamaswa zirya inyama gusa kandi zikunze kurya inyamaswa ntoya, zitajya zisiga ibikanka binini. Ntabwo zizwiho gukina n'ibikanka nk'ibintu byo gukina cyangwa ibyo kurya mu buryo imbwa zibikora.\n\nIcya kabiri, imitima ikikije injangwe igaragaza urukundo rukomeye cyangwa inyungu ku rutirigongo. Nubwo injangwe zigaragaza inyungu mu bintu bitandukanye kubera kamere yazo yo gukina no gushakisha, urutirigongo runini nk'uru ntirwaba rwateza igisubizo nk'icyo. Iyi shusho ishobora kwitiranya kumva k'umureba ku myitwarire isanzwe y'injangwe, kuko igisubizo cy'amarangamutima kigaragazwa hano kitahuye n'ubwenge busanzwe n'imyitwarire y'injangwe.\n\nIcya nyuma, isura ku maso y'injangwe n'uko umubiri wayo uteye ntibigaragaza imyitwarire isanzwe yo kwitondera cyangwa gushakisha umuntu yakwitega ku njangwe ihura n'ikintu kidasanzwe. Ahubwo, injangwe isa n'ishimye kandi ifite urukundo, bigatuma bidahuye mu gihe utekereje ku kintu cyerekanwe.\n\nMu ncamake, ibintu bidahuye mu mitekerereze muri iyi shusho ni ibi bikurikira: guhuza urutirigongo n'injangwe, imitima igaragaza urwego rudahuye rw'inyungu cyangwa urukundo ku rutirigongo, n'isura n'uko umubiri w'injangwe uteye bitahuye n'igisubizo gisanzwe cyari kwitezwa muri iki kibazo. Ibi bintu byose hamwe bikora ishusho y'ubusabusa, ariko idahuye mu mitekerereze, itajyanye n'imyitwarire y'ukuri y'injangwe cyangwa guhuza kamere hagati y'inyamaswa n'ibintu byazo bisanzwe by'inyungu. ",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+    }
+]

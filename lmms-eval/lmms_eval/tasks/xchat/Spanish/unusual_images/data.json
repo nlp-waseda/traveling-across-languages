@@ -1,0 +1,127 @@
+[
+  {
+    "capability": "vision",
+    "task": "unusual_images",
+    "instance_idx": 0,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al revisar fotos de un proyecto de fotografía costera, surgió una imagen que desafía la explicación ordinaria. Muestra un gran barco de carga que parece flotar sobre la superficie del océano. Describe el fenómeno observado en el contexto de la perspectiva y la ilusión óptica, y proporciona un análisis exhaustivo de cómo las condiciones atmosféricas pueden llevar a tal efecto visual. ",
+    "reference_answer": "La fotografía presenta una sorprendente anomalía visual comúnmente conocida como Fata Morgana, una forma compleja de espejismo superior que distorsiona significativamente la apariencia del barco de carga. El barco parece estar flotando sobre el horizonte, separado del agua por una franja de cielo. Esta ilusión es el resultado de la refracción atmosférica, donde capas de aire a diferentes temperaturas doblan los rayos de luz que pasan a través de ellas en diferentes ángulos. Dado que el aire frío se encuentra debajo del aire más cálido en este escenario, la luz del barco se dobla hacia abajo al pasar del aire más cálido al aire más denso y frío.\n\nEl gradiente de temperatura entre estas capas de aire es bastante pronunciado, creando las condiciones necesarias para este fenómeno óptico. La luz refractada del barco llega al ojo del observador desde debajo de la línea de visión real, haciendo que el barco aparezca en una posición más alta de lo que realmente está. Es similar a mirar a través de una lente que desplaza la imagen hacia arriba. La claridad e intensidad del espejismo se ven mejoradas por la calma del océano, proporcionando una superficie casi perfecta de reflexión para la imagen desplazada del barco. Esto resulta en un efecto de flotación muy claro y distintivo, que puede ser bastante desconcertante sin entender la ciencia subyacente.\n\nEl ángulo particular y la distancia del observador respecto al barco también contribuyen al efecto. Si se observa desde un punto más alto, el espejismo probablemente no sería tan evidente. Además, las condiciones de luz parecen ser las adecuadas, con el sol posiblemente posicionado detrás del fotógrafo, reduciendo el deslumbramiento y permitiendo una captura clara del espejismo sin demasiada dispersión de luz.\n\nEn conclusión, la anomalía visual capturada en la imagen es un magistral juego de luz y gradientes de temperatura, y no una violación de las leyes físicas. Sirve como un ejemplo fascinante de cómo las condiciones atmosféricas pueden alterar dramáticamente nuestra percepción del mundo natural. ",
+    "score_rubric": {
+      "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+      "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+      "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+      "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+      "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+      "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+    },
+    "atomic_checklist": [
+      "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+      "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+      "Does the response discuss the role of temperature gradients between different air layers?",
+      "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+      "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+  },
+  {
+    "capability": "vision",
+    "task": "unusual_images",
+    "instance_idx": 1,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "En la fotografía proporcionada, ¿qué principios físicos parecen estar temporalmente suspendidos o violados, y cómo podría explicarse esto dentro del contexto de la fotografía? ",
+    "reference_answer": "La fotografía captura a un paracaidista en caída libre, aparentemente suspendido en el aire. A primera vista, podría parecer que el paracaidista está desafiando la gravedad, ya que no observamos el descenso rápido hacia la Tierra que esperaríamos. Sin embargo, esto es una ilusión creada por el contexto de la fotografía.\n\nEn realidad, el paracaidista está bajo la plena influencia de la gravedad y se acelera hacia abajo. Esto se evidencia por la postura del paracaidista, con los brazos y las piernas extendidos para aumentar la resistencia del aire, lo cual es una práctica común para estabilizar y controlar el descenso en paracaidismo. El traje y el equipo del paracaidista están específicamente diseñados para manejar la resistencia del aire y controlar la velocidad de caída.\n\nLa fotografía también da la impresión de que el paracaidista podría estar estacionario en relación con la Tierra debajo, pero esto es improbable. Debido a la falta de desenfoque de movimiento visible o puntos de referencia que pudieran sugerir un movimiento rápido, la imagen congela un momento en el tiempo, dando la percepción engañosa de que el paracaidista está flotando.\n\nOtro punto a considerar es que la fotografía puede no mostrar los momentos iniciales del salto cuando el paracaidista experimentaría una verdadera caída libre y aceleraría desde una velocidad cero. En cambio, probablemente captura un momento en el que se ha alcanzado la velocidad terminal, momento en el cual las fuerzas de gravedad y resistencia del aire están en equilibrio, resultando en una velocidad constante.\n\nAdemás, el ángulo de la cámara y la falta de puntos de referencia visibles (como nubes o un avión) hacen difícil medir la velocidad real y la aceleración del paracaidista. En realidad, sin estas pistas visuales, nuestra percepción del movimiento del paracaidista se ve comprometida.\n\nEn conclusión, aunque el paracaidista parece desafiar las leyes físicas, en realidad está obedeciendo todos los principios de la física, incluida la gravedad y la resistencia del aire. La ilusión es el resultado de la captura fotográfica de una situación dinámica, que al congelarse en el tiempo, elimina las pistas contextuales que de otro modo nos informarían del rápido movimiento descendente del paracaidista y las fuerzas en juego. ",
+    "score_rubric": {
+      "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+      "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+      "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+      "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+      "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+      "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+    },
+    "atomic_checklist": [
+      "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+      "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+      "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+      "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+      "Is the response well-structured and easy to follow?",
+      "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+      "Are there any factual errors or misinterpretations in the response?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+  },
+  {
+    "capability": "vision",
+    "task": "unusual_images",
+    "instance_idx": 2,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "En el contexto de analizar una obra de arte que desafía la realidad convencional, describe los componentes visuales y su posible significado, considerando los principios del surrealismo. ",
+    "reference_answer": "La obra de arte en cuestión es una muestra por excelencia del surrealismo, presentando un paisaje desolado bajo un cielo vasto y vacío. En el centro de la pieza se encuentran varios relojes, cada uno derritiéndose y colgando sobre las características austeras del paisaje: un árbol desolado, una mesa rígida y las formas amorfas dentro de la escena.\n\nLos relojes derretidos son una metáfora profunda de la fluidez y la naturaleza subjetiva del tiempo dentro del mundo de los sueños, en contraste con el rígido e implacable avance del tiempo experimentado en la vida despierta. Esto alude a la fascinación surrealista con la mente inconsciente, los sueños y una realidad más allá de la percepción ordinaria del tiempo y el espacio.\n\nAdemás, los elementos contrastantes del paisaje—un árbol muerto junto a uno verde y frondoso—podrían representar una dualidad dentro de la existencia, destacando la yuxtaposición de la vida y la muerte, el crecimiento y la decadencia. La desolación del paisaje podría simbolizar la vasta vacuidad del subconsciente, un tema común en el arte surrealista donde se exploran los mecanismos internos de la mente.\n\nEl reloj naranja, con su enjambre de hormigas, sugiere la decadencia y el paso de la vida orgánica, un recordatorio contundente de la mortalidad y el implacable avance hacia la entropía. Las hormigas, a menudo asociadas con la decadencia y el trabajo intenso, refuerzan el tema de una lucha continua y no reconocida contra el tiempo y las inevitabilidades de la naturaleza.\n\nPor último, el fondo presenta un mar sereno y un horizonte claro, que podría interpretarse como la frontera entre lo consciente y lo subconsciente—lo conocido y lo desconocido. Esta línea del horizonte separa el mundo de la realidad del paisaje onírico arriba, enfatizando la ambición surrealista de difuminar y desafiar estos límites.\n\nEn resumen, esta obra de arte utiliza elementos surrealistas para provocar la contemplación sobre los conceptos de tiempo, existencia y los misterios de la mente inconsciente. Invita a los espectadores a ir más allá de los confines lógicos de la realidad y considerar una interpretación más fluida y onírica de sus experiencias y percepciones. ",
+    "score_rubric": {
+      "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+      "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+      "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+      "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+      "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+      "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+    },
+    "atomic_checklist": [
+      "Does the response accurately identify key surreal elements present in the artwork?",
+      "Does the response show an understanding of surrealism as an artistic movement?",
+      "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+      "Does the response cover all major aspects of the artwork?",
+      "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+  },
+  {
+    "capability": "vision",
+    "task": "unusual_images",
+    "instance_idx": 3,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Dada una imagen que desafía la arquitectura convencional, construye una narrativa que no solo explique su estructura, sino que también cuente la historia de sus orígenes y su impacto en la comunidad circundante. ",
+    "reference_answer": "La imagen muestra una estructura vanguardista, colocada al revés, que parece desafiar las leyes de la gravedad y la arquitectura convencional. Este edificio no es producto de un diseño al azar, sino una declaración artística intencionada, conocida como \"La Casa Invertida\". Se erige en clara oposición a la construcción tradicional, con sus raíces -o en este caso, la punta afilada- enterradas en el suelo, y lo que debería ser la base levantada hacia el cielo.\n\nLa narrativa de su origen es tan poco convencional como su apariencia. La Casa Invertida fue concebida por una arquitecta excéntrica, Eliana Cortez, quien se inspiró en la idea de dar la vuelta a las expectativas. Ella creía que, así como la forma de un edificio puede invertirse, también pueden hacerlo las normas y restricciones sociales. Esta representación física sirve como una metáfora de la innovación y el cambio, alentando a los observadores a reevaluar sus perspectivas sobre la vida y el diseño.\n\nEliana trabajó estrechamente con ingenieros para asegurar la viabilidad de su visión. La base puntiaguda es en realidad un soporte de acero ingeniosamente disfrazado que ancla el edificio, mientras que los pisos superiores están hechos de materiales ligeros, pero duraderos. Las luces rojas que parecen acentuar la estructura son LEDs alimentados por energía solar, que iluminan el edificio por la noche, creando un faro de pensamiento no convencional.\n\nLa Casa Invertida rápidamente se convirtió en un hito cultural. Alberga un centro comunitario de arte, que ofrece clases y talleres en diversas disciplinas creativas, cumpliendo así la visión de Eliana de inspirar creatividad e innovación en la comunidad. El edificio no es solo una estructura sino una narrativa viva, contando una historia de desafiar la norma, abrazar el cambio y alentar a una comunidad a pensar y vivir de manera inventiva. Su presencia ha provocado un renacimiento en el área, con negocios locales adoptando diseños más atrevidos y una serie de festivales anuales que celebran el arte y la arquitectura vanguardista. ",
+    "score_rubric": {
+      "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+      "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+      "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+      "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+      "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+      "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+    },
+    "atomic_checklist": [
+      "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+      "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+      "Does the response include detailed descriptions that enrich the narrative?",
+      "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+      "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+  },
+  {
+    "capability": "vision",
+    "task": "unusual_images",
+    "instance_idx": 4,
+    "system_prompt": "You are helpful visual-language assistant.",
+    "input": "Al evaluar una imagen donde se juntan elementos, ¿cómo se podría discernir el grado de armonía o discordia lógica entre estos elementos? Considere una imagen que incluya una mascota típica y un objeto generalmente asociado con otro tipo de animal. ¿Cuáles son las inconsistencias específicas que se pueden identificar, y cómo estas inconsistencias interrumpen la coherencia lógica de la escena? ",
+    "reference_answer": "La imagen representa a un gato con varios corazones a su alrededor, lo que indica afecto o interés, y un hueso que tradicionalmente se asocia con perros, no con gatos. Esta escena presenta una serie de inconsistencias lógicas.\n\nEn primer lugar, el hueso representa un objeto clásico de interés para los perros, ya que se sabe que mastican huesos, lo cual es tanto un comportamiento lúdico como un deseo instintivo de consumir todas las partes de su presa, incluidos los huesos. Sin embargo, los gatos son carnívoros obligados y están más inclinados a consumir presas más pequeñas, que típicamente no dejan huesos grandes. No se sabe que interactúen con los huesos como objetos de juego o alimento de la misma manera que los perros.\n\nEn segundo lugar, los corazones alrededor del gato sugieren un fuerte afecto o interés hacia el hueso. Aunque los gatos muestran interés en una variedad de objetos como parte de su naturaleza juguetona y curiosa, un hueso de este tamaño probablemente no provocaría tal respuesta. Esta representación podría confundir la comprensión del observador sobre el comportamiento típico felino, ya que la respuesta emocional indicada aquí no es coherente con los instintos y comportamientos naturales del gato.\n\nFinalmente, la expresión en el rostro del gato y la posición de su cuerpo no reflejan la postura cautelosa o investigadora típica que uno podría esperar de un gato al encontrar un objeto inusual. En cambio, el gato parece contento y afectuoso, lo que añade incoherencia al considerar el contexto del objeto presentado.\n\nEn resumen, las inconsistencias lógicas dentro de esta imagen son las siguientes: la asociación de un hueso con un gato, los corazones que indican un nivel ilógico de interés o afecto hacia el hueso, y la expresión y postura del gato que no coinciden con la reacción natural esperada en tal escenario. Estos elementos juntos crean una escena caprichosa, pero lógicamente incoherente, que no se alinea con los comportamientos realistas de los gatos ni con las asociaciones naturales entre los animales y sus objetos típicos de interés. ",
+    "score_rubric": {
+      "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+      "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+      "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+      "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+      "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+      "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+    },
+    "atomic_checklist": [
+      "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+      "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+      "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+    ],
+    "background_knowledge": [],
+    "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+  }
+]

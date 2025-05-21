@@ -1,0 +1,133 @@
+[{
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "この画像に基づいて、もしあなたが海ガモだったら、どのような生活戦略が適切であるか回答してください。",
+        "reference_answer": "もしチェサピーク湾の生態系における海ガモだった場合、画像の食物網に描かれているように、適切な生活戦略にはいくつかの重要な要素が含まれます。\n\n1. **食事**: あなたは主に二枚貝を食べるでしょう。食物網では、海ガモの食料源として二枚貝が示されています。\n\n2. **採餌行動**: 二枚貝を効率的に見つけて消費するための採餌戦略を開発する必要があります。これは、二枚貝が底や堆積物に生息する場所に到達するために潜ることを含むかもしれません。\n\n3. **生息地の好み**: 二枚貝はしばしば浅瀬で見られ、そこで濾過摂食を行います。そのため、海ガモとして、食料に効率的にアクセスするためにそのような生息地で多くの時間を過ごす可能性があります。\n\n4. **捕食者への警戒**: 食物網は、海ガモが大型の魚食性の鳥に捕食される可能性があることを示しています。したがって、ハクトウワシのような捕食者に対して警戒する必要があります。\n\n5. **季節移動**: 特定の種類の海ガモによっては、季節的に移動するかもしれません。これは、繁殖のためやより豊富な食料源を見つけるために、いつどの地域に移動するかを知る必要があります。\n\nこの生態系で海ガモとして生きることは、利用可能な食料源に適応し、消費者として、また潜在的な獲物として食物網の位置を認識することを意味します。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+            "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+            "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+            "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+            "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+            "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the sea duck's primary diet of bivalves?",
+            "Does the response address the habitat preference for areas where bivalves are found?",
+            "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+            "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+        ],
+        "background_knowledge": [{
+            "information": "",
+            "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+        }]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "これは私が高校で学んだ基本的な内容です。私は大学生として医学プログラムに参加しており、大学でさらに学びたいことを教授に説明する必要があります。会議の前に何を調べて検討すべきか、もっと詳細を追加するのを手伝ってもらえますか？",
+        "reference_answer": "医学プログラムの教授と教育的な目標について話し合う準備をするには、必ず対象のテーマについて深く掘り下げる必要があります。画像が人間の消化器系に関連しているので、以下の点について詳しく調査し、検討することをお勧めします：\n\n1. **生理学と機能**: 消化器系の各部分がどのように機能するかを理解します。解剖学的な観点だけでなく、細胞レベルや分子レベルでも理解します。胃や腸での酵素消化、小腸での栄養吸収、大腸での微生物叢の役割などを探求します。\n\n2. **病態生理学**: 胃酸逆流、炎症性腸疾患、肝硬変、膵臓の障害など、消化器系に影響を与える一般的な病気や障害について調べます。これらの病気が正常な生理機能をどのように変えるかを理解することが重要です。\n\n3. **臨床的相関**: 様々な消化器疾患で症状がどのように現れるか、そしてそれらを特定するためにどのような診断方法が使用されるかを研究します。内視鏡検査、大腸内視鏡検査、画像診断技術、臨床検査について学ぶことが含まれます。\n\n4. **栄養学**: 消化器系は栄養に不可欠であるため、異なる栄養素がどのように消化され、処理されるかを掘り下げます。食事が消化器の健康に与える影響や、病気の状態での栄養ニーズの変化を理解することをお勧めします。\n\n5. **薬理学**: 消化器系に影響を与える様々な薬物、特に消化器障害を治療するために使用される薬について調査します。これには、作用機序、副作用、これらの薬の治療的使用を理解することが含まれます。\n\n6. **外科的介入**: 消化器系に関連する外科手術、例えば虫垂切除術、肥満手術、肝移植などについて理解し、これらの介入が必要な場合を把握します。\n\n7. **研究と進歩**: 胃腸学における最新の研究、新しい治療法、腸内微生物叢研究の進展、消化器健康診断における新技術について最新情報を常に把握します。\n\n8. **相互接続されたシステム**: 消化器系が他の身体システム、例えば神経系（腸脳軸）や免疫系とどのように相互作用するかを探求します。\n\nこれらのトピックを検討することで、医学プログラムにおける学習目標について、教授とより情報に基づいた詳細な議論を行うことができるでしょう。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+            "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+            "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+            "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+            "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+            "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the detailed physiology and function of the digestive system?",
+            "Does the response outline the study of pathophysiology related to common digestive diseases?",
+            "Does the response mention the diagnostic methods used for digestive disorders?",
+            "Does the response consider the role of nutrition and diet in digestive health?",
+            "Does the response address the pharmacological treatments available for digestive issues?"
+        ],
+        "background_knowledge": [{
+            "information": "",
+            "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+        }]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "この画像によると、私たちの太陽が縮小し始めるまでどのくらいの時間がかかりますか？その前に何が起こるのかを詳細に説明してください。画像にない情報も追加してください。",
+        "reference_answer": "画像は太陽のライフサイクルを描いており、その誕生から白色矮星になるまでの主要な段階を示しています。提示されたタイムラインによれば、太陽は誕生から約100億年後に赤色巨星に膨張した後、縮小し始めるとされています。\n\n縮小を始める前に、以下のことが起こります：\n1. **主系列**: 現在、太陽はライフサイクルの主系列段階にあり、約45億年間この段階にあり、さらに約50億年間この安定した段階に留まると予測されています。この期間中、太陽はコアで水素をヘリウムに融合させ、太陽を動力源とし、太陽系に熱と光を提供するエネルギーを放出します。\n2. **徐々に温暖化**: 次の数十億年で、太陽は徐々に温度が上昇し、明るくなります。これはコアの水素が消費され、ヘリウムが蓄積されるためです。ヘリウムの増加はコアを収縮させ、外層を膨張させます。\n3. **赤色巨星段階**: 誕生から約100億年後、太陽は赤色巨星段階に入ります。水素融合は外層に移動し、核は加熱され、ヘリウムを炭素や酸素のような重元素に融合し始めます。太陽の外層は大幅に膨張し、地球を含む内側の惑星を飲み込む可能性があります。\n4. **ヘリウムフラッシュとさらなる融合**: 核のヘリウムが尽きると、核はさらに収縮し、重元素が融合できるほど温度が上昇します。この段階は、ヘリウム融合の突然の開始による急激で劇的な明るさの増加を特徴とするヘリウムフラッシュによって示されます。\n5. **惑星状星雲**: 赤色巨星段階の後、太陽は外層を放出し、それが宇宙空間に漂い、惑星状星雲を形成します。コアは熱くて密度の高い残骸として残ります。\n6. **白色矮星**: 最終的に、コアは冷却し、縮小して白色矮星になります。これは太陽のライフサイクルの最終段階です。白色矮星は残留熱によって輝き、もはや融合反応を行いません。数十億年にわたって徐々に冷却します。\n\nこれらの段階の間に、太陽系は劇的に変化します。太陽が赤色巨星に膨張することで、内側の惑星は破壊され、外側の惑星は散乱する可能性があります。惑星状星雲段階での太陽の質量の喪失は、その重力を弱め、残存する惑星を軌道から解放する可能性があります。\n\nこのプロセスは、G型主系列星である私たちの太陽のような星の典型的なライフサイクルを反映しています。時間スケールと結果は、天体物理学的モデルとさまざまなライフサイクル段階にある類似の星の観測に基づいています。",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+            "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+            "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+            "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+            "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+            "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the current main sequence phase and its duration?",
+            "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+            "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+            "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+            "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+        ],
+        "background_knowledge": [{
+            "information": "",
+            "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+        }]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "この回路は何のためのものか説明してください。どのような機械や装置がこれを使用しますか？また、自分でこれを作るための良い方法は何ですか？",
+        "reference_answer": "示された回路は、バイポーラ接合トランジスタ（BJT）の回路図であり、特にラベリングとエミッタの矢印の方向に基づいたNPN型トランジスタです。BJTは、回路内で電子信号を増幅またはスイッチングするために使用される基本的なコンポーネントです。\n\n**これを使用する機械や装置:**\n1. **増幅装置**: ラジオ、テレビ、スピーカーのオーディオアンプは、音声信号を増幅するためにBJTを使用します。\n2. **スイッチングシステム**: BJTは、コンピュータや携帯電話を含むデジタルエレクトロニクスの基本となるスイッチング回路で使用されます。\n3. **調整システム**: 電圧調整器や電源装置などの電力調整システムでは、しばしばBJTが採用されます。\n4. **信号変調**: 通信装置は、信号の変調および復調にBJTを使用します。\n\n**これを自分で作ってみる方法:**\n1. **電子キット**: BJTや他のコンポーネントが含まれる電子キットを購入し、ガイド付きの学習アプローチで回路を組み立てる練習をします。\n2. **ブレッドボードプロトタイピング**: ブレッドボードを使用して、はんだ付けせずにコンポーネントを挿入して接続し、簡単に実験と学習ができるようにします。\n3. **回路シミュレーションソフトウェア**: シミュレーションソフトウェアを使用して、物理的に構築する前にBJT回路を仮想的に作成してテストします。\n4. **はんだ付けの練習**: プリント基板（PCB）上により恒久的な回路を構築するためのはんだ付け技術を学びます。\n5. **教育リソース**: BJTの理論と実際の応用を説明するオンラインチュートリアル、コース、または教科書をフォローします。\n\n電子部品や工具を扱う際は、エレクトロニクスについて十分な理解を持ち、必要な安全対策を必ず講じてください。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the function of a NPN transistor and practical methods for experimentation?",
+            "score1_description": "The response does not accurately identify the circuit as a NPN transistor or provide any practical methods for experimentation.",
+            "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as NPN or provide clear applications or methods for building the circuit.",
+            "score3_description": "The response identifies the circuit as a NPN transistor, lists a few applications, but offers limited methods for practical experimentation.",
+            "score4_description": "The response correctly identifies the NPN transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+            "score5_description": "The response provides a detailed identification of the NPN transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the circuit as a NPN bipolar junction transistor?",
+            "Does the response explain the use of BJTs in amplification and switching applications?",
+            "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+            "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+        ],
+        "background_knowledge": [{
+            "information": "",
+            "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+        }]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "この図について説明できますか？5歳の子供向けの説明と、この分野の専門家向けの説明を提供してください。",
+        "reference_answer": "5歳児向け：\n海は大きなケーキのようにいくつかの層に分かれていると想像してみてね。一番上の層は太陽が照らしていて、ニモのような魚たちが住んでいる「日光層」と呼ばれるところだよ。ここはあまり深くないから、泳いでたくさんのものを見ることができるんだ。もっと深く行くと、暗くなって水が青くて冷たくなるところがあって、それは電気のない部屋に入るような感じで「薄明層」と呼ばれるんだ。さらに深いところは「真夜中層」といって、いつも暗くて、魚たちは小さな懐中電灯のように自分で光を作らなければならないんだ。そして、ケーキの底のように平らな部分があって、ここは本当に本当に深くてとても暗いんだよ。「深海層」と呼ばれるんだ。そして、最も深い部分は、ほとんど誰も行ったことがないところで、ケーキの底の層に隠されたサプライズのようなもので、「海溝」と呼ばれるんだ。\n\n専門家向け：\nこの図は、深さに基づく海洋環境の帯状分布を示しています。光合成を支える十分な光が届く表層から始まります。その下には、光が減少し圧力が増加するため、居住する動物の適応に影響を与える中層があります。続いて、完全な暗闇と生物発光や化学合成が生存のために必要とされる漸深層があります。深海レベルを表す深層は、非常に高い圧力、低温、そして食物の乏しさが特徴です。最後に、超深層は海溝に対応し、独特な静水圧と地質学的特徴を持っています。これらの深度区分を理解することは、生物地理的分布、深海生態学、および各ゾーンにおける生命を定義する物理化学的勾配の研究において重要です。  \n",
+        "score_rubric": {
+            "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+            "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+            "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+            "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+            "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+            "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+        },
+        "atomic_checklist": [
+            "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+            "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+            "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+            "Does the response for an expert mention the biological and ecological significance of each zone?"
+        ],
+        "background_knowledge": [{
+            "information": "",
+            "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+        }]
+    }
+]

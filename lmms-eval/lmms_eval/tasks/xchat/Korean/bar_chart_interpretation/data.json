@@ -1,0 +1,137 @@
+[
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "경제 규모가 가장 많이 감소한 국가와 여덟 번째로 많이 감소한 국가 간의 GDP 감소율 차이는 얼마인가요?",
+        "reference_answer": "제공된 이미지는 여러 국가와 미국 달러로 표시된 명목 GDP의 예상 변화를 보여줍니다. 질문에 답하기 위해서는 GDP 감소가 가장 큰 국가와 여덟 번째로 큰 감소를 보인 국가를 식별한 후, 이 두 국가 간의 GDP 감소 비율 차이를 계산해야 합니다.\n\n이미지를 분석하여 필요한 데이터를 추출하겠습니다.\n1. 러시아: -$153B\n2. 이집트: -$88B\n3. 캐나다: -$50B\n4. 사우디아라비아: -$46B\n5. 방글라데시: -$40B\n6. 노르웨이: -$25B\n7. 쿠웨이트: -$20B\n8. 오만: -$10B\n\n러시아와 오만의 GDP 감소 비율 차이는 $153B - $10B = $143B입니다. 따라서 답은 $143B입니다.",
+        "score_rubric": {
+            "criteria": "Does the response accurately identify and parse the information in the image and successfully apply the required calculation to derive the GDP reduction difference?",
+            "score1_description": "The response inaccurately extracts GDP figures from the graph, misidentifies the largest and eighth largest decreases, and/or incorrectly calculates the difference.",
+            "score2_description": "The response extracts GDP figures with minor inaccuracies, positions the countries with slight errors, and/or has a small miscalculation in the difference.",
+            "score3_description": "The response correctly extracts GDP figures and identifies the countries, but either the calculation has a minor error, or there is a slight inconsistency in units.",
+            "score4_description": "The response accurately extracts GDP figures, correctly identifies the countries, calculates the difference with minor to no errors, but may lack full clarity in interpretation.",
+            "score5_description": "The response perfectly extracts GDP figures, identifies the countries correctly, calculates the difference without errors, and clearly interprets the result in the context of the question."
+        },
+        "atomic_checklist": [
+            "Does the response accurately extract and list the GDP reduction figures from the graph for both the country with the largest decrease and the eighth largest decrease?",
+            "Does the response perform the arithmetic calculation of the difference between the GDP reductions correctly?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.visualcapitalist.com/visualizing-the-105-trillion-world-economy-in-one-chart/"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "주어진 이미지에서 어느 나라가 180점 이상을 획득했습니까? ",
+        "reference_answer": "제공된 이미지에 따르면, 2023 국제 수학 올림피아드(IMO)에서 180점 이상을 획득한 국가는 다음과 같습니다:\n1. 중국: 240점\n2. 미국: 222점\n3. 대한민국: 215점\n4. 루마니아: 208점\n5. 캐나다: 183점\n6. 일본: 181점\n\n그래프에서 해당 국가들의 점수는 모두 180점 이상을 기록하고 있습니다.",
+        "score_rubric": {
+            "criteria": "Does the response precisely identify and report countries with scores above 180 in the IMO 2023 report?",
+            "score1_description": "The response inaccurately includes countries with scores under or equal to 180, and omits those above 180.",
+            "score2_description": "The response recognizes some countries with scores above 180, but includes Vietnam or other countries with exactly 180 points, reflecting a misunderstanding of the \"above 180\" criterion.",
+            "score3_description": "The response correctly lists several countries with scores above 180, but either mistakenly includes Vietnam or misses one other country just above the 180 mark.",
+            "score4_description": "The response identifies almost all correct countries with scores above 180, and does not include Vietnam, with at most one country incorrectly reported or omitted.",
+            "score5_description": "The response precisely identifies all countries with scores above 180 without including Vietnam or any country with exactly 180 points, showing meticulous attention to detail and full adherence to the criteria."
+        },
+        "atomic_checklist": [
+            "Does the response indicate all the countries (China, US, South Korea, Romania, Canada, Japan)?",
+            "Does the response not include Vietnam which has exactly 180 points?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.smartick.com/data/international-mathematical-olympiad-2023/"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "주어진 이미지는 각 모델이 생성하는 언어 형식의 피드백의 퀄리티를 비교하는 실험의 결과입니다. 실험은 사람이 주어진 피드백 쌍들 중에서 어떤 것이 더 나은지 판단하는 방식입니다. 이미지에 표시된 결과를 바탕으로 어느 모델이 가장 잘 수행하는지 결정하세요!",
+        "reference_answer": "이미지는 세 쌍의 언어 모델을 비교하는 막대 차트로 보입니다: GPT-4 대 ChatGPT, Prometheus 대 ChatGPT, 그리고 Prometheus 대 GPT-4를 각각 비교하고 있습니다. 각 모델이 생성한 언어 형식의 피드백의 품질을 사람들이 어느 것이 더 나은지, 또는 둘 다 좋은지 나쁜지를 선택하는 방식으로 실험이 이루어졌습니다.\n\n막대는 네 가지 결과를 나타내도록 색상으로 구분되어 있습니다:\n- 파란색: 왼쪽 승리\n- 분홍색: 오른쪽 승리\n- 보라색: 둘 다 좋음\n- 주황색: 둘 다 나쁨\n\n제공된 차트에서 각 모델의 성능을 평가할 수 있습니다:\n1. **GPT-4 대 ChatGPT**: GPT-4 (74회)가 ChatGPT (19회)에 비해 더 자주 승리합니다. 이는 GPT-4가 ChatGPT와 직접 비교했을 때 우수한 모델임을 시사합니다.\n2. **Prometheus 대 ChatGPT**: Prometheus (59회)가 ChatGPT (19회)에 비해 더 자주 승리합니다. 이는 Prometheus가 ChatGPT보다 더 잘 수행함을 나타냅니다.\n3. **Prometheus 대 GPT-4**: Prometheus (51회)가 GPT-4 (36회)에 비해 더 자주 승리합니다. 이는 Prometheus가 GPT-4와 비교했을 때 종종 더 나은 모델로 간주됨을 보여줍니다.\n\n이러한 쌍별 비교에서 승리 횟수를 고려할 때, Prometheus가 가장 성능이 좋은 모델로 보입니다. ChatGPT에 대한 승리 횟수가 가장 많고, GPT-4와의 직접 비교에서도 더 나은 성과를 보입니다. ",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and clarity in interpreting and comparing the performance of language models as presented in the chart?",
+            "score1_description": "The response misinterprets the chart data and provides an incorrect comparison of model performance.",
+            "score2_description": "The response has significant inaccuracies in interpreting the chart, with only partial correct data comparison.",
+            "score3_description": "The response correctly interprets some of the chart data but makes errors in comparing model performance.",
+            "score4_description": "The response accurately interprets the chart data and mostly compares model performance correctly with minor errors.",
+            "score5_description": "The response accurately interprets and compares all chart data correctly, clearly identifying the best-performing model."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the colors of the bars in the chart?",
+            "Does the response correctly identify the outcomes represented by each color?",
+            "Does the response accurately count and compare the wins of the models?",
+            "Does the response correctly determine which model performs best based on the chart data?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://arxiv.org/abs/2310.08491"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "다음 이미지는 미국의 일반적인 기관들의 수업료를 보여줍니다. 일리노이 어바나-샴페인 대학교 과 조지아 공과대학교 간의 대략적인 차이는 얼마 정도입니까? ",
+        "reference_answer": "이미지는 2021년에 끝나는 기간 동안 여러 대학의 주립 등록금 비용을 나타내는 가로 막대 차트를 보여줍니다.\n\n차트를 시각적으로 검사한 결과:\n- 일리노이 대학교 어바나-샴페인을 나타내는 막대는 약간 $15,000보다 약간 적게 확장됩니다.\n- 조지아 공과대학교 메인 캠퍼스의 막대는 약간 $10,000보다 약간 높습니다.\n\n따라서 두 기관 간의 등록금 비용 차이는 대략적으로 $5,000보다 약간 적을 것입니다.",
+        "score_rubric": {
+            "criteria": "Does the response accurately estimate the tuition costs from the bar chart and make a correct calculation of the difference between the two universities?",
+            "score1_description": "The response greatly misestimates tuition costs for both universities and incorrectly calculates the difference.",
+            "score2_description": "The response misestimates tuition costs for both universities with a significant error in the difference calculation.",
+            "score3_description": "The response estimates tuition costs with a moderate degree of accuracy and calculates a somewhat accurate difference.",
+            "score4_description": "The response accurately estimates tuition costs for one university but not the other, with a minor error in difference calculation.",
+            "score5_description": "The response provides a highly accurate visual estimate of tuition costs for both universities and calculates the difference correctly."
+        },
+        "atomic_checklist": [
+            "Does the response approximately estimate the tuition cost for the University of Illinois Urbana-Champaign, which is about $15,000?",
+            "Does the response approximately estimate the tuition cost for the Georgia Insitute of Technology-Main Campus, which is about $10,000?",
+            "Does the response make a good approximation of the difference, which is about $5,000?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://datausa.io/profile/cip/electrical-engineering"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "국제 평균 기온이 현재까지 음의 값을 기록하지 않고 지속적으로 상승하기 시작한 해는 어느 해인가요? ",
+        "reference_answer": "당신이 제공한 차트는 시간이 지남에 따라 전 세계 평균 기온 변화를 보여줍니다. 이미지에서 보면, 기온이 1970년대 후반이나 1980년대 초반부터 꾸준히 증가하기 시작하며 음수 값을 보이지 않습니다.\n\n더 구체적으로, 1975년 선 이후에 2개의 막대 그래프가 있으므로, 더 정확한 답은 1978년입니다.",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and specificity in identifying the year from which the global average temperature has been consistently increasing without recording any negative values up to the present, as depicted in the chart?",
+            "score1_description": "The response incorrectly identifies a year well before 1975 or after the 1980s, failing to interpret the chart as per the instruction.",
+            "score2_description": "The response identifies a year around 1875 or 1950, showing a misunderstanding of the instruction and failing to recognize the trend starting from the late 1970s or early 1980s.",
+            "score3_description": "The response correctly recognizes the trend starting from the late 1970s or early 1980s but does not specify the exact year.",
+            "score4_description": "The response correctly identifies the trend beginning in the late 1970s or early 1980s and attempts to specify the year but does not accurately identify 1978.",
+            "score5_description": "The response accurately identifies the trend beginning in the late 1970s or early 1980s and specifically mentions that the exact year when negative values stopped being shown is 1978."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the instruction and not answer the date that the first positive value was shown near 1875?",
+            "Does the response accurately interpret the instruction and not answer the date where a lot of positive values were shown near 1950?",
+            "Does the response recognize that only positive values were shown starting from the late 1970s or early 1980s?",
+            "Does the response accurately mention that the exact year where negative values were not shown is 1978?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.m.wikipedia.org/wiki/File:20210822_Global_warming_-_warming_stripes_bar_chart.svg"
+            }
+        ]
+    }
+]

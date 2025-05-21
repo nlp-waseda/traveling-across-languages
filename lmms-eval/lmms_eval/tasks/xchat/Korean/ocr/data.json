@@ -1,0 +1,145 @@
+[
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "디자인 챌린지 동안, 다양한 재료와 그에 상응하는 수량 및 무게가 표시된 보드가 있었습니다. 기록 보관을 위해 사진이 촬영되었습니다. 그러나 이미지가 약간 흐릿하고 필체가 스타일과 크기에서 다릅니다. 이미지를 검토하고 카드지, 건축용 종이, 직물의 수량과 무게를 명확하고 정확하게 전사하여 제공하십시오. ",
+        "reference_answer": "이미지에는 마커로 정보를 적은 화이트보드가 보입니다. 세 개의 열이 있으며, 각각 다른 재료에 할당되어 있습니다: 카드지, 색종이, 천. 각 재료에 대해 수량(개수)과 무게(그램)이 주어져 있습니다.\n\n카드지\n\n수량: 3개\n무게: 13그램\n색종이\n\n수량: 2개\n무게: 6그램\n천\n\n수량: 32\n무게: 77그램\n무게는 강조하기 위해 밑줄이 그어져 있는 것 같습니다. '카드지'와 '색종이'의 글씨는 검은 잉크로 쓰여 있으며, 숫자도 검은 색으로 적혀 있습니다. '천'이라는 단어와 해당 숫자는 파란 잉크로 쓰여 있습니다. 글꼴 스타일은 캐주얼하고 크기가 다양하지만 정보는 읽을 수 있습니다. 화이트보드의 오른쪽 상단에는 인쇄된 양식이 있지만, 사진이 찍힌 각도와 거리 때문에 이 양식의 텍스트는 읽을 수 없습니다. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately transcribe all visual information from the image, including specific details such as quantities, weights, underlines, and ink colors?",
+            "score1_description": "The response recognizes the presence of text but fails to accurately transcribe any of the materials and their corresponding quantities and weights, for example, quantities are present but weights are not present.",
+            "score2_description": "The response accurately transcribes the information for one of the materials listed, including quantity and weight, but fails to do so for the other two, for example, 'Card Stock' data is correct but 'Construction Paper' and 'Fabric' data are missing or incorrect.",
+            "score3_description": "The response accurately transcribes the information for two of the materials listed, including quantities and weights, but fails to do so for the third, for example, 'Card Stock' and 'Construction Paper' are correct, but 'Fabric' is not.",
+            "score4_description": "The response accurately transcribes the quantities and weights for all materials but misses secondary details such as underlines or ink colors, for example, all weights are correct but underlines and ink colors are not mentioned.",
+            "score5_description": "The response accurately transcribes all primary information (quantities and weights) and secondary details (underlines, ink colors) for all materials, with no omissions."
+        },
+        "atomic_checklist": [
+            "Does the response transcribe the quantity for card stock as '3 pieces' and the ground truth is '3 pieces'?",
+            "Does the response transcribe the weight for card stock as '13 grams' and the ground truth is '13 grams'?",
+            "Does the response transcribe the quantity for construction paper as '2 pieces' and the ground truth is '2 pieces'?",
+            "Does the response transcribe the weight for construction paper as '6 grams' and the ground truth is '6 grams'?",
+            "Does the response transcribe the quantity for fabric as '32' and the ground truth is '32'?",
+            "Does the response transcribe the weight for fabric as '77 grams' and the ground truth is '77 grams'?",
+            "Is the response attentive to the detail that weights are underlined for emphasis, as shown by the ground truth?",
+            "Is the response attentive to the detail that 'Card Stock' and 'Construction Paper' are written in black ink, as indicated by the ground truth?",
+            "Is the response attentive to the detail that 'Fabric' is written in blue ink, as indicated by the ground truth?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a whiteboard with handwritten information comparing the weight of different materials. There are three columns titled \"Card Stock,\" \"Construction Paper,\" and \"Fabric.\" Under \"Card Stock,\" it is noted that 3 pieces weigh 13 grams. \"Construction Paper\" has 2 pieces listed at 6 grams, and \"Fabric\" shows 32 pieces at 77 grams. To the left, there's a worksheet with tables and boxes for \"Card Stock,\" \"Construction Paper,\" and \"Fabric,\" with sections to record the number of sheets and total weight in grams. The bottom of the worksheet asks which material weighs the least and is the best for blocking the most amount of space radiation with the least amount of weight."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "메이저 리그 야구 경기장에서, 경기장 내 위치, 시간대, 특정 광고 요소의 존재와 같은 특정 특징에 따라 사진을 자동으로 분류할 수 있는 시스템을 만드는 데 어려움이 있는 것 같습니다. 이 이미지를 고려할 때, 기존의 분류 지침을 참조하지 않고 체계적인 데이터베이스를 위해 어떻게 분류할 수 있을까요? ",
+        "reference_answer": "이미지를 체계적인 데이터베이스에 분류하기 위해서는 구조화된 접근 방식을 따라야 합니다. 먼저, 이미지를 구성하는 시각적 요소를 분석해야 합니다. 두드러진 특징은 야구 경기장으로, 독특한 브랜드와 건축적 특징으로 인해 양키 스타디움으로 식별됩니다. 이미지 메타데이터는 사진이 찍힌 정확한 시간을 제공할 수 있습니다. 그러나 사용할 수 없는 경우, 조명과 그림자는 자연광의 각도와 강도를 고려할 때 이른 아침이나 늦은 오후임을 시사합니다.\n\n다음으로, 광고 요소의 존재를 분류할 수 있습니다. 스코어보드에는 펩시, 캐논, 게토레이와 같은 여러 브랜드 로고가 표시되어 있으며, 개별적으로 태그를 지정할 수 있습니다. 필드 뷰는 사진이 관중석에서 촬영되었음을 나타내며, 필드에 대한 촬영 각도를 고려할 때 중간 또는 상층에서 촬영된 것으로 보입니다.\n\n정확한 분류를 위해 이미지는 다음 데이터 포인트로 태그를 지정해야 합니다:\n\n경기장 이름: 양키 스타디움\n이벤트: 야구 경기 (관중이 없고 선수들이 몸을 풀고 있는 것으로 미루어 사전 경기)\n경기장 구역: 관중석, 중간/상층\n하루 중 시간: 이른 아침 또는 늦은 오후 (메타데이터 또는 그림자 분석으로 확인 필요)\n광고 존재: 스코어보드에 보이는 펩시, 캐논, 게토레이 등의 로고\n필드 뷰: 외야에 초점을 맞춘 야구장의 부분적 뷰\n\n이러한 분류 방법은 이미지를 명확하고 일관된 범주로 세분화하여 분석 또는 데이터베이스 포함 준비를 완료합니다. 각 태그는 \"양키 스타디움의 광고\" 또는 \"필드의 관중 뷰\"와 같은 특정 쿼리를 위해 이미지를 필터링하고 검색하는 데 사용할 수 있는 데이터 포인트를 제공합니다. 이 과정은 데이터를 매우 체계적이고 명확하며 분석 준비가 된 형식으로 제시하므로 루브릭에서 5점에 해당합니다. ",
+        "score_rubric": {
+            "criteria": "Does the response correctly identify and categorize key features in the image for database classification?",
+            "score1_description": "The response identifies the location or a single element but fails to categorize any additional features of the image.",
+            "score2_description": "The response identifies the location and one or two features but lacks detail or accuracy in the categorization process, for example, it may note 'stadium' and 'advertisements' without specific details.",
+            "score3_description": "The response identifies several key features including the location, time of day, and some advertising elements, but may lack precision or fail to identify the spectator's perspective.",
+            "score4_description": "The response correctly identifies most features such as the stadium name, event, time of day, and advertisements, but may miss one or two minor features or details, for example, it includes 'Yankee Stadium' and 'Pepsi' but does not specify the tier of the spectator stands.",
+            "score5_description": "The response thoroughly identifies and categorizes all key features of the image, including location, time of day, spectator perspective, and all visible advertising elements in a detailed and accurate manner."
+        },
+        "atomic_checklist": [
+            "Does the response identify the stadium as Yankee Stadium?",
+            "Does the response suggest the time of day based on the lighting and shadows?",
+            "Does the response list the visible advertising elements such as Pepsi, Canon, and Gatorade?",
+            "Does the response identify the photo as taken from the spectator stands?",
+            "Does the response provide an estimate of the spectator's tier based on the angle of the shot?",
+            "Is the response able to categorize the image without an existing classification guideline?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image features a person in the foreground with a partial view of their face, taken in a selfie style. They are at Yankee Stadium, as indicated by the prominent signage in the background. The stadium is partially filled with spectators, and the baseball field is visible with its well-maintained grass and dirt infield. It appears to be prior to or during a game, given the presence of players warming up on the field and the relatively sparse crowd."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "이미지에 다양한 요소가 포함되어 있을 때, 이미지의 주요 초점을 식별하고 그것이 나타내는 더 넓은 맥락 내에서의 중요성을 설명하며, 포함된 텍스트와 그 함의도 포함하십시오. ",
+        "reference_answer": "이미지는 \"United States Census 2010\" 그래픽과 텍스트가 새겨진 파란색 밴이 큰 돔형 건물 앞에 주차된 모습을 보여주며, 이는 정부 건물을 연상시킵니다. 이 밴의 중요성은 2010년 미국 인구조사의 이동식 정보 및 인식 차량으로서의 역할에 있습니다. 인구 조사 행사는 10년마다 인구를 세고 인구 통계 데이터를 수집하는데, 이 데이터는 연방 자금 분배, 의회 선거구 설정, 공공 서비스 계획 등 다양한 이유로 매우 중요합니다.\n\n밴에 적힌 \"It's in our hands\"라는 문구는 시민 참여를 촉구하는 메시지로, 인구 조사에 대한 각 개인의 응답이 정확한 대표성과 자원 할당에 중요하다는 점을 강조합니다. 웹사이트 주소는 추가 정보를 제공하는 직접적인 링크를 제공하며, 이는 이전 수십 년과 비교해 데이터 수집 방법에서 기술적 발전을 나타내는 인터넷을 인구 조사 참여 매체로 활용하고 있음을 나타냅니다.\n\n정부 건물, 아마도 주 의사당 앞에 있는 밴의 존재는 인구 조사의 공식적인 성격과 정부 기능과의 통합을 강조합니다. 장면을 둘러싼 나무들은 특정 주의 특징적인 나무를 나타내며 밴의 위치를 암시할 수 있습니다. 이 이미지는 역사적인 순간을 포착하며, 인구 조사가 미국의 정치 및 사회적 풍경을 형성하는 역할을 반영합니다. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately identify the primary focus of the image and explain its significance, including any text and its implications?",
+            "score1_description": "The response vaguely identifies an element in the image but fails to explain its significance or the implications of any text, for example, the presence of a vehicle is noted but not its purpose or context.",
+            "score2_description": "The response identifies the vehicle and mentions the census but does not explain the broader significance or the implications of the text, for example, the 'Census 2010' text is recognized but its importance is not explained.",
+            "score3_description": "The response identifies the vehicle as related to the Census 2010 and mentions the significance of the census but provides limited context about the implications of the text or the scene, for example, the call to action is noted but not elaborated upon.",
+            "score4_description": "The response identifies the vehicle as a census information van and explains the significance of the census and the call to action but may miss details about the broader context or implications, for example, the government building's role is not fully detailed.",
+            "score5_description": "The response thoroughly identifies the van as a census information vehicle, explains the significance of the census, the implications of the text, and the broader context of the government building and the website, providing a complete understanding of the scene."
+        },
+        "atomic_checklist": [
+            "Does the response identify the van as related to the United States Census 2010?",
+            "Does the response explain the significance of the census event?",
+            "Does the response interpret the text 'It's in our hands' as a call to action for civic participation?",
+            "Does the response note the presence of the government building and suggest its significance?",
+            "Does the response mention the use of the internet for census participation as indicated by the website address on the van?",
+            "Does the response place the image within a historical context by explaining the role of the census in shaping political and social landscapes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a United States Census 2010 promotional vehicle parked in front of a large building that resembles the California State Capitol with its distinctive neoclassical architecture, including a prominent dome and portico. There are trees framing the scene, and a person is walking by the vehicle, which is adorned with the slogan \"It's in our hands\" and the website \"2010census.gov.\" The side of the vehicle also features a map of the United States with photos of diverse individuals, symbolizing the nationwide scope of the census."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "제공된 온도계 이미지에는 다양한 숫자 값과 문자 표기가 표시되어 있습니다. 현재 작업의 성격을 밝히지 않고, 게이지에 표시된 언어나 문자를 파악하여서 이야기하고, 장치의 판독값을 해석하는 데 있어 그들의 중요성을 설명하십시오. 이러한 표시는 숫자뿐만 아니라 온도 척도나 게이지가 의도된 장비 유형을 나타낼 수 있는 단어나 약어도 포함할 수 있음을 고려하십시오. ",
+        "reference_answer": "이미지는 다이얼 주위에 원형으로 배열된 40에서 120까지의 숫자 값이 있는 온도 게이지를 보여줍니다. 숫자는 국제적으로 가장 일반적으로 사용되는 현대 서양 아라비아 숫자 체계로 작성되어 있습니다. 이러한 숫자는 정량적 측정을 나타내기 위해 과학 및 기술 기기에서 보편적으로 인식됩니다.\n\n게이지 하단에는 \"NORMAL\"이라는 텍스트 표기가 있습니다. 이는 영어를 포함한 많은 서양 언어에서 사용되는 라틴 알파벳으로 작성되어 있습니다. \"NORMAL\"이라는 용어는 일반적으로 게이지의 표준 또는 예상 작동 범위를 나타내는 것으로 이해됩니다. 이 맥락에서 이는 다이얼의 특정 범위 내의 온도가 측정 중인 장치의 정상 작동 매개변수 내에 있다고 간주됨을 시사합니다.\n\n게이지의 바늘은 100을 약간 넘는 값을 가리키고 있으며, 게이지가 화씨로 보정된 경우 높은 온도를 나타내지만 극단적이지는 않습니다. 다른 언어나 문자가 없는 것은 이 장치가 영어권 지역 또는 영어가 과학 및 기술 장비의 언어로 일반적으로 사용되는 국제 환경에서 사용되도록 의도되었을 가능성이 높음을 시사합니다.\n\n게다가 숫자의 스타일과 \"NORMAL\"이라는 단어는 명확성과 보편적 이해를 목표로 하는 디자인을 나타내며, 이는 다양한 전문 및 지리적 맥락에서 정보의 정확한 전달을 보장하는 데 필수적입니다.\n\n이 게이지 부분에는 다른 언어나 문자가 존재한다는 증거가 없으며, 보이는 모든 표기는 게이지의 기능에 대한 중요성을 설명하기 위해 설명되었습니다. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately determine the languages or scripts on the gauge and explain their significance in interpreting the device's reading?",
+            "score1_description": "The response identifies numerals or text but fails to accurately determine the language or script, for example, noting numbers without recognizing them as Western Arabic numerals.",
+            "score2_description": "The response correctly identifies the script of the numerals but does not explain their significance in the context of the gauge's use, for example, recognizing Western Arabic numerals but not discussing their international use.",
+            "score3_description": "The response identifies the script and begins to explain its significance but lacks detail or clarity, for example, noting the presence of 'NORMAL' without fully explaining its typical meaning in gauges.",
+            "score4_description": "The response identifies the scripts and provides a good explanation of their significance, but may miss subtler implications or additional details, for example, not considering the absence of other languages as an indicator of the device's intended user base.",
+            "score5_description": "The response thoroughly identifies the scripts and provides a comprehensive explanation of their significance, including the implications of language use for the device's operation and intended audience."
+        },
+        "atomic_checklist": [
+            "Does the response identify the numerals on the gauge as Western Arabic numerals?",
+            "Does the response recognize the use of the Latin alphabet for the text 'NORMAL'?",
+            "Does the response explain the significance of the term 'NORMAL' on the gauge?",
+            "Does the response infer the possible temperature scale (Fahrenheit or Celsius) based on the numbers presented?",
+            "Does the response consider the absence of other languages or scripts as indicative of the device's intended geographical or professional use?",
+            "Does the response identify all notations visible and account for their significance towards the gauge's function?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a close-up view of a circular gauge, likely a thermometer, with the needle pointing just past 100 degrees. The scale is marked in increments of ten, ranging from 40 to 120 degrees. The numbers and details on the gauge are clear and prominently displayed, and the photograph is taken with a vignette effect, darkening the corners and focusing the eye on the center where the needle indicates a high temperature. The overall tone of the image suggests a monochromatic or desaturated color scheme."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "디지털 기기를 사용하려고 할 때, 어려움은 종종 화면에 표시된 정보를 읽고 이해하는 데 있습니다. 특히 화면이 부분적으로 가려져 있거나 조명이 어두울 때 더욱 그렇습니다. 문제의 기기는 다양한 기호, 숫자, 그리고 중요한 정보를 제공하는 텍스트를 가지고 있습니다. 현재 활성화된 기능이나 설정의 잠재적인 표시기를 포함하여, 표시된 정보를 자세히 설명하십시오. ",
+        "reference_answer": "이미지는 \"TECSUN PL-380\" 디지털 장치를 보여주며, 이는 FM, AM, 단파 및 장파 라디오 밴드를 위한 DSP 수신기일 가능성이 있습니다. 화면은 잘 밝아져 있으며 텍스트는 명확하게 읽을 수 있습니다. 디지털 시계는 \"12:54\"를 표시하며 PM 표시가 있어 오후임을 암시합니다. 시간 아래에는 \"79°F\"의 온도 표시가 있어 장치가 주변 온도를 측정할 수 있음을 나타냅니다. 화면의 왼쪽 상단 모서리에는 전원 버튼처럼 보이는 아이콘이 있으며, 이는 장치가 켜져 있음을 나타낼 수 있고, 그 아래에는 알림 또는 알람 기호가 있어 알람이 설정되었거나 현재 울리고 있을 수 있습니다. 화면 위 오른쪽에는 빨간색 전원 버튼이 있고, 화면 왼쪽에는 알람의 라이트/스누즈 기능 및 시간과 알람 설정을 포함하는 일련의 버튼이 있습니다. 화면 아래의 키패드는 숫자 버튼을 포함하고 있어 사전 설정 또는 수동 조정 기능을 암시하며, 밴드 선택(FM, AM, SW)을 위한 버튼도 있습니다. \"FM ST.\"는 FM 스테레오를 의미할 가능성이 있으며, 장치가 스테레오 방송을 수신할 수 있음을 나타냅니다. 왼쪽에는 확장 가능한 안테나가 있어 라디오 수신에 일반적입니다. 전반적으로 장치는 기능적인 상태로 보이며, 화면이나 제어 장치에 가시적인 장애물은 없습니다. ",
+        "score_rubric": {
+            "criteria": "Does the response comprehensively describe the displayed information on the device's screen, including indicators of functionality or active settings?",
+            "score1_description": "The response identifies basic elements on the screen but fails to describe their functionality or the active settings, for example, noting the time but not the PM indicator or temperature reading.",
+            "score2_description": "The response describes some elements and provides a partial explanation of their functionality, but lacks detail or misses some active settings, for example, mentioning the time and temperature but not recognizing the alarm or power indicators.",
+            "score3_description": "The response provides a good description of most elements on the screen and explains their functionality, but may miss a few indicators or active settings, for example, noting the time, temperature, and alarm, but not the stereo broadcast capability.",
+            "score4_description": "The response describes nearly all elements on the screen with detail and understands their functionality, including most active settings, but might overlook minor features or symbols, for example, describing the alarm and power status but not the snooze function.",
+            "score5_description": "The response thoroughly describes all elements displayed on the device's screen and accurately explains their significance, functionality, and any active settings, leaving no features or indicators unexplained."
+        },
+        "atomic_checklist": [
+            "Does the response identify the device model as 'TECSUN PL-380'?",
+            "Does the response detail the time displayed as '12:54 PM'?",
+            "Does the response note the temperature reading as '79°F'?",
+            "Is the response attentive to the power status indicator on the screen?",
+            "Does the response recognize the alarm/alert symbol's functionality?",
+            "Does the response mention the presence of a power button and its potential functionality?",
+            "Is the response aware of the light/snooze and time/alarm setting buttons?",
+            "Does the response describe the numerical keypad and its tuning capabilities?",
+            "Does the response acknowledge the FM, AM, SW band selection buttons?",
+            "Is the response attentive to the 'FM ST.' indicator and its meaning for stereo broadcast reception?",
+            "Does the response notice the extendable antenna and its purpose for radio reception?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "Image link",
+                "reference_url": "https://drive.google.com/file/d/1YO1kW2rq7BGkrGOcVM09jD2QSDMcyn-0/view?usp=drive_link"
+            }
+        ],
+        "caption": "The image shows a portable TECSUN PL-380 radio placed on a textured surface. The radio features a digital display indicating the temperature as 79°F and the time as 12:54 PM. It has a range of buttons for different functions, including power, display settings, and band selection for FM, AM, and shortwave. The device also appears to have a timer and alarm function, and a light/snooze feature, suggesting multifunctionality beyond just a radio receiver. A wrist strap is attached to the top left corner of the radio."
+    }
+]

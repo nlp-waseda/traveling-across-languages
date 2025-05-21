@@ -1,0 +1,146 @@
+[
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "Jelaskan apa yang menakjubkan tentang mahakarya ini seolah-olah kamu menjelaskan kepada anak berusia 5 tahun. Namun, jangan mencoba melewatkan detail apapun hanya karena pendengarnya masih muda! ",
+        "reference_answer": "Bayangkan kamu memiliki sebuah kotak besar berisi krayon dan kamu memutuskan untuk menggambar langit malam. Tetapi alih-alih hanya langit gelap dan bintang-bintang kecil, kamu membuat seluruh langit menari dan berputar dengan banyak warna biru dan hijau, dan bintang-bintang terlihat seperti kunang-kunang yang bersinar. Dan kamu tidak hanya mewarnai di dalam garis; kamu membuat warna-warna menyebar ke mana-mana, dengan garis-garis tebal dan berliku yang bergerak seperti ombak di lautan.\n\nGambar ini seperti itu! Ini dibuat oleh seseorang yang melihat malam dengan caranya sendiri yang istimewa. Dia menggunakan cat untuk membuat langit terlihat seperti bergerak, dan bintang-bintang begitu terang dan berkilauan sehingga menerangi segalanya. Seolah-olah dia bisa merasakan angin dan melihat suara, dan dia menempatkan perasaan itu di atas kanvas agar kita juga bisa merasakannya. Bukankah keren bahwa dengan warna dan imajinasi, kamu bisa membuat gambar yang terasa hidup dan penuh kejaiban? ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear and imaginative description of the painting's colors, patterns, and emotional effect suitable for a 5-year-old?",
+            "score1_description": "The response does not effectively describe the colors or patterns, and fails to convey the emotional effect of the painting.",
+            "score2_description": "The response offers a basic description of the colors or patterns, but lacks detail and does not capture the painting's emotional effect.",
+            "score3_description": "The response describes colors and patterns in a simple manner and attempts to relate the painting's emotional effect, though not fully engaging a young child's perspective.",
+            "score4_description": "The response vividly describes the colors and patterns with some emotional context that is accessible to a 5-year-old.",
+            "score5_description": "The response provides a rich, detailed description of the painting's dynamic colors, lively patterns, and emotional impact, capturing a 5-year-old's imagination."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the use of vibrant colors to create a dynamic night sky?",
+            "Does the response describe how the stars are depicted unusually bright and lively?",
+            "Does the response mention the use of swirling patterns to convey movement?",
+            "Does the response explain the emotional impact the painting might have, in terms relatable to a 5-year-old?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.moma.org/collection/works/79802"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "Siapa orang ini? Dampak apa yang dia miliki terhadap kita yang hidup di abad ke-21? ",
+        "reference_answer": "Orang dalam gambar tampaknya adalah Wolfgang Amadeus Mozart, seorang komponis yang sangat berpengaruh dan produktif dari era Klasik.\n\nDampak Mozart pada kita yang hidup di abad ke-21 sangat besar dan beragam:\n1. **Pengaruh Musik**: Komposisinya adalah beberapa yang paling penting dalam musik klasik, dan gayanya telah mempengaruhi banyak komponis dan musisi yang datang setelahnya. Karyanya masih sering dipertunjukkan dan direkam, membentuk bagian besar dari repertoar musisi klasik di seluruh dunia.\n2. **Dampak Budaya**: Musik Mozart telah meresap ke dalam budaya populer. Karya-karyanya sering digunakan dalam film, acara televisi, iklan, dan bahkan sebagai nada dering, membawa musik klasik kepada khalayak luas.\n3. **Nilai Pendidikan**: Kehidupan dan karyanya dipelajari secara mendalam dalam pendidikan musik, memberikan dasar untuk mengajarkan teori musik, komposisi, dan sejarah.\n4. **Inovasi dalam Musik**: Dia mendorong batas-batas komposisi musik pada masanya, memperluas potensi simfoni, opera, musik kamar, dan konserto, mempengaruhi struktur dan kompleksitas musik hingga masa depan.\n5. **Inspirasi**: Di luar musik, kreativitas Mozart dan kehidupannya sebagai seorang jenius yang menggubah dari usia sangat muda terus menginspirasi orang-orang di berbagai bidang untuk mengejar usaha kreatif mereka sendiri. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of Mozart's historical significance and his enduring influence on music and culture up to the 21st century?",
+            "score1_description": "The response fails to identify Mozart or acknowledge any aspect of his influence on modern music and culture.",
+            "score2_description": "The response recognizes Mozart as a Classical era composer but offers little detail on his impact in the 21st century.",
+            "score3_description": "The response notes Mozart's continued relevance in music performance today but misses broader cultural and educational impacts.",
+            "score4_description": "The response describes Mozart's influence on both classical music performance and cultural media, with some mention of educational value.",
+            "score5_description": "The response comprehensively covers Mozart's historical role, his music's pervasiveness in contemporary media, and his impact on music education and innovation."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Mozart's role as a composer in the Classical era?",
+            "Does the response mention the continued performance and recording of his work in the 21st century?",
+            "Does the response highlight the cultural presence of Mozart's music in modern media such as films and television?",
+            "Does the response address the educational significance of Mozart in music theory and history?",
+            "Does the response discuss Mozart's influence on the innovation and structure of various musical forms?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Appearance_and_character_of_Wolfgang_Amadeus_Mozart"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "Di mana potret asli ini berada? Bisakah Anda juga menjelaskan mengapa potret itu bisa sampai berada di sana (misalnya, menjelaskan latar belakang sejarahnya)? ",
+        "reference_answer": "Potret yang Anda berikan tampaknya adalah \"Marie-Antoinette à la Rose\" oleh Élisabeth Louise Vigée Le Brun, seorang pelukis terkenal dari Prancis. Potret asli Marie-Antoinette disimpan di Istana Versailles, Prancis.\n\nLukisan Marie-Antoinette ini, seperti banyak lukisan lainnya oleh Vigée Le Brun, tersimpan di Istana Versailles karena signifikansi historis dari subjeknya, Marie-Antoinette sendiri, yang merupakan ratu terakhir Prancis sebelum Revolusi Prancis. Versailles adalah kediaman kerajaan utama Prancis dari tahun 1682, di bawah Louis XIV, hingga dimulainya Revolusi Prancis pada tahun 1789, di bawah Louis XVI. Itu adalah pusat kekuasaan politik di Prancis selama periode tersebut.\n\nMarie-Antoinette adalah pelindung seni yang penting, dan Vigée Le Brun menjadi pelukis favoritnya. Beberapa potret ratu dipesan oleh kerajaan untuk membantu memperbaiki citranya di kalangan masyarakat. Setelah jatuhnya monarki selama Revolusi Prancis, banyak harta kerajaan, termasuk karya seni, diinventarisasi dan akhirnya masuk ke dalam koleksi nasional. Istana Versailles kemudian menjadi museum dan situs sejarah, melestarikan warisan sejarah kerajaan Prancis, termasuk potret keluarga kerajaan. ",
+        "score_rubric": {
+            "criteria": "Does this response show detailed knowledge of the painting's current location and the historical reasons for its placement?",
+            "score1_description": "The response does not indicate the current location of the portrait or provide any historical context.",
+            "score2_description": "The response vaguely mentions the portrait's location but lacks detail and historical background.",
+            "score3_description": "The response correctly identifies the portrait's location and gives a basic explanation of its historical significance.",
+            "score4_description": "The response clearly states the portrait's location at the Palace of Versailles and includes relevant historical context regarding Marie-Antoinette and the French Revolution.",
+            "score5_description": "The response provides a comprehensive explanation of the portrait's location, the artist's connection to Marie-Antoinette, and a detailed account of the historical events that led to the painting's placement in the Palace of Versailles."
+        },
+        "atomic_checklist": [
+            "Does the response include the location of the original portrait, specifically the Palace of Versailles in France?",
+            "Does the response mention the artist, Élisabeth Louise Vigée Le Brun?",
+            "Does the response explain Marie-Antoinette's role as a patron of the arts and her influence on the commissioning of the portrait?",
+            "Does the response address the historical context of the French monarchy's fall and how royal possessions were handled post-revolution?",
+            "Does the response describe the transformation of the Palace of Versailles into a museum and its significance in housing such portraits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "Marie Antoinette with a Rose, also known as Marie-Antoinette with the Rose (French: Marie-Antoinette dit « à la Rose »), is an oil painting by the French artist Élisabeth Vigée Le Brun. It was painted in 1783, and is in the collection of the Palace of Versailles. As of November 2022, it is hanging in the ante-dining room of the Petit Trianon.\n\nÉlisabeth Vigée Le Brun, the court painter of Queen Marie Antoinette of France, painted Marie Antoinette with a Rose in 1783, six years prior to the outbreak of French Revolution and ten years prior to the eventual beheading of Louis XVI and the queen. Vigée Le Brun was enrolled at the Académie Royale de Peinture et de Sculpture on 31 May 1783 and in the same year she was commissioned by Marie Antoinette to present a portrait of herself for the upcoming Salon.[2] She portrayed the queen wearing a dress that looked like a chemise.\n\nThe first portrait, in a chemise, seems to have been lost, but the artist produced five subsequent versions with variations in costume, for example with a hat or in a muslin dress.",
+                "reference_url": "https://en.wikipedia.org/wiki/Marie_Antoinette_with_a_Rose#:~:text=Marie Antoinette with a Rose%2C also known as Marie-Antoinette,of the Palace of Versailles."
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "Bisakah Anda menjelaskan tentang seni ini? Apa yang membuatnya begitu berbeda dengan seni tradisional? ",
+        "reference_answer": "Karya seni yang Anda tunjukkan adalah oleh Roy Lichtenstein, seorang tokoh terkemuka dalam gerakan Pop Art. Karya khusus ini dikenal sebagai \"Drowning Girl,\" yang ia ciptakan pada tahun 1963. Lukisan ini dibuat dalam gaya khas Lichtenstein yang meniru proses pencetakan titik Ben-Day dari buku komik. Inilah yang membedakannya dari seni tradisional:\n1. **Gaya**: Berbeda dengan teknik melukis tradisional yang mungkin berfokus pada realisme atau keindahan klasik, karya Lichtenstein merangkul estetika komersial dan diproduksi secara massal. Penggunaan warna-warna cerah, garis tebal, dan pola titik adalah kontras tajam dengan gaya dan tekstur yang mungkin Anda temukan di periode seni sebelumnya.\n2. **Subjek**: Seni tradisional sering menggambarkan subjek sejarah, agama, mitologi, atau masyarakat kelas atas, sementara \"Drowning Girl\" didasarkan pada panel buku komik, mewakili budaya populer dan tema sehari-hari.\n3. **Ironi dan Parodi**: Karya Lichtenstein sering kali mencakup unsur ironi atau parodi. \"Drowning Girl,\" dengan keterangan melodramatisnya, mencerminkan pandangan satir terhadap kualitas opera sabun dari komik romansa pada masa itu.\n4. **Komentar Budaya**: Karya ini, seperti banyak Pop Art lainnya, mengomentari masyarakat kontemporer, terutama pengaruh media massa, periklanan, dan konsumerisme, arah yang biasanya tidak diambil oleh seni tradisional.\n\nPerbedaan antara karya ini dan seni tradisional terletak pada tantangan beraninya terhadap apa yang dianggap sebagai \"seni tinggi,\" dengan merangkul citra budaya populer dan estetika komersial. ",
+        "score_rubric": {
+            "criteria": "Does this response show an insightful understanding of Roy Lichtenstein's \"Drowning Girl\" and its divergence from traditional art?",
+            "score1_description": "The response does not identify the artist or the unique characteristics that distinguish the artwork from traditional art.",
+            "score2_description": "The response recognizes Roy Lichtenstein as the artist but offers minimal detail on the distinct features of \"Drowning Girl\" or how it contrasts with traditional art.",
+            "score3_description": "The response identifies the artwork and artist, notes the Ben-Day dots style, but only partially addresses the parody and cultural commentary elements.",
+            "score4_description": "The response clearly identifies the artwork and artist, describes the Ben-Day dots and pop culture elements, and touches on the artwork's irony and societal commentary.",
+            "score5_description": "The response provides a comprehensive analysis of \"Drowning Girl,\" including details on the Ben-Day dots style, pop culture subject matter, use of parody, cultural commentary, and its challenge to \"high art\" conventions."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the distinctive Ben-Day dots style used by Roy Lichtenstein?",
+            "Does the response explain how the subject matter differs from traditional art by focusing on pop culture?",
+            "Does the response mention the use of irony and parody in contrast to traditional art's often serious themes?",
+            "Does the response discuss the cultural commentary aspect of the artwork, reflecting on mass media and consumerism?",
+            "Does the response address how Lichtenstein's work challenges traditional notions of \"high art\"?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Pop_art"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "Saya ingin memiliki sebuah mahakarya yang mirip dengan yang ini dipajang di ruang tamu saya. Bagaimana saya harus menjelaskan ini kepada seseorang yang menjual banyak mahakarya? Saya tidak yakin bagaimana saya bisa menjelaskan lebih lanjut. ",
+        "reference_answer": "Saat berbicara dengan pedagang seni atau pemilik galeri tentang memperoleh karya yang mirip dengan yang ada di gambar, Anda perlu menggambarkan elemen gaya dan tema yang Anda minati. Berikut cara Anda menjelaskan preferensi Anda:\n\n1. **Gaya**: Sebutkan bahwa Anda mencari karya yang mewujudkan gaya Ekspresionisme Abstrak, yang ditandai dengan sapuan kuas yang energik dan gestural, warna yang cerah, dan rasa spontanitas.\n2. **Komposisi**: Spesifikasikan bahwa Anda mencari lukisan dengan komposisi yang kompleks dan berlapis, mungkin dengan campuran elemen figuratif dan bentuk abstrak yang saling terkait.\n3. **Palet Warna**: Ungkapkan minat Anda pada palet warna yang kaya dan bervariasi, dengan potensi untuk kontras tinggi dan harmoni dalam kompleksitas desain.\n4. **Dampak Emosional**: Sampaikan bahwa Anda tertarik pada karya seni yang memiliki dampak emosional atau dramatis yang kuat, mungkin dengan rasa gerakan atau kekacauan.\n5. **Ukuran**: Tentukan ukuran lukisan yang Anda cari, memastikan bahwa itu akan cocok dengan ruang di ruang tamu Anda dan membuat pernyataan berani yang Anda inginkan.\n\nDengan memberikan detail ini, penjual seni dapat lebih memahami kebutuhan Anda dan membimbing Anda menuju mahakarya yang akan sesuai dengan ruang tamu dan selera pribadi Anda. ",
+        "score_rubric": {
+            "criteria": "Does this response show clear communication of the desired artistic elements for a masterpiece to be displayed in the living room?",
+            "score1_description": "The response does not specify any of the desired artistic elements for the artwork.",
+            "score2_description": "The response vaguely mentions abstract elements but lacks detail on style, composition, color, emotional impact, and size.",
+            "score3_description": "The response includes general descriptions of style and color but does not fully articulate the desired composition, emotional impact, or specific size requirements.",
+            "score4_description": "The response clearly identifies the desired abstract expressionist style, rich color palette, and emotional impact, with some mention of size and composition preferences.",
+            "score5_description": "The response provides a detailed and specific description of all desired elements including style, composition, color palette, emotional impact, and size requirements for the artwork."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the desired abstract expressionist style with energetic and gestural brushwork?",
+            "Does the response mention the preference for a complex and layered composition that may include both figurative and abstract elements?",
+            "Does the response specify the interest in a rich and diverse color palette with the potential for both contrast and harmony?",
+            "Does the response convey the importance of the artwork having a strong emotional or dramatic impact?",
+            "Does the response indicate the size requirements for the painting to ensure it fits well in the living room space?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://around.uoregon.edu/content/new-exhibit-looks-american-west-through-modern-art"
+            }
+        ]
+    }
+]

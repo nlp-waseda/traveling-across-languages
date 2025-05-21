@@ -1,0 +1,129 @@
+[
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "笑い、または少なくとも微笑みを引き出そうとしているこの画像を見た際、ユーモアに寄与する要素は何でしょうか？視覚的な側面、必要とされる潜在的な文脈や背景知識、そして異なる要素の組み合わせによるコメディ効果の対比を考慮してください。 ",
+        "reference_answer": "この画像のユーモアは、期待と現実の対比という一般的なコメディの手法から生まれます。上半分には、戦闘準備が整ったキャラクターが描かれており、強さ、自信、準備が整っていることを暗示し、能力への期待を高めています。この画像は、条件が制御され予測可能な学習データでうまく機能する機械学習モデルを喚起します。\n\n対照的に、下半分には同じキャラクターがカジュアルな状況で描かれており、困惑して準備ができていない様子で、手を防御的に上げて「これには対処できない」と言っているかのようです。これは、現実のテストデータに直面したときにうまく機能しない同じモデルの視覚的メタファーです。ユーモアは、英雄的なポーズと期待外れの現実との誇張された不一致から生まれます。これは、モデルが学習データでは非常にうまく機能するが、新しい見たことのないデータに一般化できないという、機械学習の分野においてよく起こる状況を表しています。\n\nこの状況は、予測モデルを扱ったことがある人や、限られた条件下での性能が現実のシナリオに反映されない状況に関わったことがある人にとって共感できるものです。このミーム形式でよく知られたキャラクターを使用することも、観客の文化的知識と期待に訴え、面白さを増幅します。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of a character's portrayal in different scenarios?",
+            "score1_description": "The response fails to identify any juxtaposition or contrast in the image and does not relate it to humor.",
+            "score2_description": "The response notes a difference in the character's portrayal but does not connect this to the humor related to expectations versus reality in machine learning contexts.",
+            "score3_description": "The response identifies the contrast between the two scenarios but only partially explains how this relates to humor in the context of machine learning model performance.",
+            "score4_description": "The response understands the juxtaposition and relates it to the humor involving machine learning models, but may miss some nuances or the relatability aspect of the humor.",
+            "score5_description": "The response fully grasps the contrast between the character's confident and unprepared portrayals, correctly linking this to the humor about machine learning models' performance and addressing the relatable frustration within the field."
+        },
+        "atomic_checklist": [
+            "Does the response identify the character's confident portrayal in battle as a metaphor for a model's performance on training data?",
+            "Does the response recognize the character's unprepared portrayal in a casual setting as a metaphor for a model's performance on test data?",
+            "Does the response explain the humor arising from the exaggerated discrepancy between the expected competence and the actual performance of machine learning models?",
+            "Does the response mention the relatability of the situation to anyone who has worked with predictive models or in similar contexts?",
+            "Does the response draw on cultural knowledge or audience expectations related to the character to amplify the comedic effect?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous meme contrasting the performance of a machine learning model on training data versus its performance on a test dataset. The top half, labeled \"My model on training data,\" shows an individual looking powerful and ready for battle. The bottom half, labeled \"My model on test dataset,\" depicts the same individual appearing defeated and unprepared. The meme uses this visual metaphor to express a common situation in machine learning where a model performs well on the data it was trained on but poorly when evaluated on new, unseen data."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "動物が人間のような感情を持つ様子をユーモラスな文脈で描かれた画像を見るとき、その画像に存在する文化的なニュアンス、背景情報、または状況的な文脈を考慮しながら、コメディ効果に寄与する根本的な要素を分析してください。 ",
+        "reference_answer": "画像には、涙ぐんだ目によって強調された、悲しみや失望の人間のような表情をした猫が描かれています。ユーモアは、人間ではないものに人間の特性を与えるという一般的なコメディ手法である擬人化から生まれます。「オンラインの友達にメッセージを送った直後に、その友達がオフラインになるとき」というキャプションが付けられています。この状況は、デジタルコミュニケーションにおいてよくあるシナリオであり、相手がすぐにオフラインになることで、交流の試みが無視されたり軽視されたりしたと感じることがあります。これは、即時のコミュニケーションの期待と、しばしば暗黙のデジタルエチケットを利用した状況的アイロニーです。\n\nこの状況の文化的な関連性によって、コメディ効果はさらに高まります。多くの人がデジタル時代における会話の突然の終わりを経験しています。画像は猫の表情を巧みに利用して、その瞬間の感情的なインパクトを誇張し、テクノロジーが私たちの社会的交流に与える影響についての共通理解に訴えかけています。インターネット文化の重要な一部であるミーム形式自体が、しばしばテキストと画像を組み合わせて多面的なユーモアを伝える、共感できるコンテンツを広めるために設計されています。したがって、猫の人間化された表情、一般的なオンライン交流へのキャプションの言及、デジタルコミュニケーションにおけるミームの位置を認識することで、この画像が意図するユーモアの全体像を理解することができます。  \n",
+        "score_rubric": {
+            "criteria": "Does the response comprehensively analyze the humorous elements present in the image featuring an animal with human-like emotions?",
+            "score1_description": "The response does not recognize the anthropomorphism or the situational context, offering no insight into the humor.",
+            "score2_description": "The response identifies the animal's human-like emotions but fails to connect these to the situational context or the cultural nuances that contribute to the humor.",
+            "score3_description": "The response notes the anthropomorphism and situational context but provides only a basic explanation of how these elements combine to create humor.",
+            "score4_description": "The response gives a good explanation of the humor, recognizing both the anthropomorphism and situational context, yet it might miss finer cultural nuances.",
+            "score5_description": "The response offers a detailed analysis, accurately recognizing the anthropomorphism, situational context, and cultural nuances that all contribute to the humor."
+        },
+        "atomic_checklist": [
+            "Does the response acknowledge the anthropomorphism of the cat and its contribution to the humor?",
+            "Does the response connect the cat's human-like expression to the comedic situation presented in the caption?",
+            "Does the response recognize the situational irony related to the expectations of digital communication?",
+            "Does the response mention the cultural relevance of the abrupt end to a conversation in the digital age as part of the humor?",
+            "Does the response understand the meme format's role in conveying humor within internet culture?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image features a meme with text at the top saying \"When you send a message to a friend who's online and right after that, they go offline,\" accompanied by a picture of a cat with a sad, teary-eyed expression, which humorously conveys feelings of disappointment or betrayal that someone might feel in such a situation. The background appears to show a computer screen, adding context to the online communication theme of the meme."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "写真に捉えられた喜びと期待の本質を検討しながら、楽しげな雰囲気を広げるだけでなく、物語に新鮮で想像力豊かなひねりを加える物語を思い描くことが求められる。課題は、元のスナップショットのテーマの核心から逸れることなく、楽しさを高めることにある。それは、差し迫った余暇の歓喜を反映している。このシナリオを、泡が消えゆく仕事の責任を表し、子供の表情が休暇前のすべての大人の内なる子供を体現している陽気な冒険の続きとして考えてみてください。次に何が起こるのでしょうか？ ",
+        "reference_answer": "責任の最後の泡がはじけると、主人公は草がオフィスチェアのように柔らかく、空が彼女の空いたスケジュールのように広い世界にいることに気づく。この地では、オフィス外の返信が詩的な詩で自動的に書かれ、毎歩が単調な日常に対する喜びに満ちた反抗の跡を残す。\n\nここで彼女は地元の人々に出会う。彼らは休暇の美徳を体現する仲間たちである。最初に出会うのは、ハワイアンシャツの鎧をまとった騎士で、「長い週末」の聖域を守っている。彼は「締切間近の戦い」と「午後のシエスタの同盟軍」の間で繰り広げられた壮大な戦いの物語を彼女に語る。\n\n次に彼女が出会うのは「自発性の魔女」で、彼女は膨らんだブリーフケースを日焼け止めと小説でいっぱいのビーチバッグに変える呪文を唱える気まぐれな存在だ。彼女の笑い声は、チャートやグラフを隠れたカフェや秘密の夕日の地図に変えるメロディーである。\n\nこの地の中心には「未読メールの森」があり、通知がホタルに変わり、忘れられた趣味や新しい冒険への道を照らす。捕まえたホタル一匹ごとに、接続のピン音から解放された一日が与えられ、時間が読んだ章や歩いたマイルで測られる一日が訪れる。\n\n日が暮れると、彼女は「切り離しの宴」にたどり着く。メニューには「静かな電話のスライス」や「心の安らぎの蒸し物」などの料理が並ぶ。宴は星が空に散りばめられるまで続き、残された唯一の仕事はカロリーではなく星座を数えることだ。\n\n月が昇ると、主人公は安堵と満足の糸で織られたハンモックに横たわり、自分の満足感のリズムに揺れる。遠くで、「予定外の昼寝の合唱団」が歌う子守唄が流れ、彼女に、太陽が彼女のゆっくりとした起床を敬礼し、世界が彼女が先に生き、後で働くのを待ちながら息を潜める日々を夢見るように誘う。\n\n彼女はやがて、やることリストとアラームの世界に戻るだろう。しかし今は、彼女は自分の時間の女王であり、リラクゼーションの支配者であり、泡は期待の重みを運び去り、笑い声と休息の甘い約束の跡を残しながら浮かび続ける。 ",
+        "score_rubric": {
+            "criteria": "Does the model's response effectively continue the narrative of the original image with added humor and imagination?",
+            "score1_description": "The response adds no humor or imagination to the narrative, or it introduces content that is irrelevant or diminishes the original image's theme.",
+            "score2_description": "The response adds minimal humor or imagination to the narrative and may only slightly relate to or expand upon the original image's theme.",
+            "score3_description": "The response adds humor to the narrative that is somewhat expected and lacks a fresh twist, but it still connects to the original image's theme.",
+            "score4_description": "The response adds humor and a creative twist to the narrative that is well-connected to the original image's theme, with minor lapses in originality or thematic consistency.",
+            "score5_description": "The response creatively and humorously expands the narrative, adding fresh and imaginative elements that perfectly align with the original image's theme."
+        },
+        "atomic_checklist": [
+            "Does the response incorporate the essence of joy and anticipation from the original photograph?",
+            "Does the response introduce a fresh and imaginative twist to the narrative?",
+            "Does the response maintain thematic consistency with the euphoria of impending leisure time depicted in the original image?",
+            "Does the response enhance the amusement without straying from the thematic core of the original image?",
+            "Does the response's narrative remain coherent while introducing added humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous meme with a caption that reads \"Me leaving work the day before vacation\". It features a photo of a little girl in a yellow jacket, joyously playing with bubbles, with an expression of ecstatic glee and abandon on her face. The meme comically relates the child's blissful state to the feeling of excitement and relief many people experience when they are about to start a vacation."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "2つの画像がミームで並置されることで笑いを誘う理由を説明してください。これは、1990年代のポップカルチャーでよく強調される期待と現実のギャップを考慮したものです。 ",
+        "reference_answer": "並置された画像のユーモアは、理想化された期待と滑稽に失望させる現実との不一致から生まれたものであり、これは1990年代の文化、特にファッションやスタイルのトレンドに関して頻繁に取り上げられたテーマです。ミームの左側には、1990年代の若い男性アイドルの間で人気があったヘアスタイルを思わせる男性の写真が表示されています。このスタイルは、ある種の洗練されたクールな魅力を醸し出していました。この種の画像は、当時のティーン雑誌やポスターに典型的に見られ、流行りの若者の外見の頂点を表していました。\n\n右側には、左側の理想的なイメージと対照的な現実が示されています。ここでは、似たような髪型をしている若者の学校の肖像写真が見られますが、洗練さやスタイルに欠けています。これは、人気のトレンドを模倣しようとする個人的な試みでよく見られるものです。髪は過度にブリーチされ、不均一で、理想化されたバージョンに見られるプロフェッショナルなタッチが欠けています。この誇張された欠陥のある実行が、コメディ効果を強調しています。黄色いシャツは、ブリーチされた髪と衝突し、ファッションの失敗と見なされる色の組み合わせによってユーモアをさらに強めています。\n\nこのミームは、望んだルックを達成できないという普遍的に共感できる経験に触れていますが、ここではコメディ効果のために誇張されています。それは、1990年代に育った人々やその時代のポップカルチャーに精通している人々のノスタルジアを利用し、過去のトレンドの共有知識とそれを再現しようとして失敗した共通の経験を活用しています。このユーモアは、これらの文化的シンボルの理解と期待と現実の普遍的な経験を通じて共鳴します。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of idealized expectation and disappointing reality as seen in 1990s popular culture?",
+            "score1_description": "The response does not acknowledge the juxtaposition or the 1990s cultural context, and fails to relate these elements to the humor in the image.",
+            "score2_description": "The response recognizes a contrast between the two images but does not adequately link this to the 1990s cultural context or to the humor derived from failed expectations.",
+            "score3_description": "The response identifies the contrast and has a basic grasp of the 1990s cultural context, but the explanation of humor is superficial and lacks depth.",
+            "score4_description": "The response understands the juxtaposition and the 1990s cultural context, explaining the humor well, but might miss some subtleties or additional humorous elements.",
+            "score5_description": "The response provides a comprehensive explanation of the humor, expertly linking the juxtaposition to the cultural context of the 1990s and the universal experience of expectation versus reality."
+        },
+        "atomic_checklist": [
+            "Does the response identify the juxtaposition of the idealized and the actual as a source of humor?",
+            "Does the response relate the humor to the cultural context of the 1990s, especially concerning fashion and style trends?",
+            "Does the response explain the humor in the context of common experiences with failed expectations?",
+            "Does the response draw on the shared knowledge of 1990s pop culture to explain the meme's comedic effect?",
+            "Is the explanation provided by the response culturally accurate and relevant to the meme's humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a meme comparing expectations versus reality. On the left, the caption \"What I thought it would look like\" is above a photo of a person with a stylish haircut. On the right, \"What it actually looked like\" is above a photo of another person with a similar style haircut that has not been executed as fashionably. The meme humorously reflects on the sometimes disappointing outcomes of fashion or hairstyle choices."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "理想と現実のシナリオを比較する視覚的なジョークをオンラインで共有する際に、ユーモアが敬意を持って包括的に伝わるようにするにはどうすればよいでしょうか？  \n",
+        "reference_answer": "理想と現実の状況を対比させたビジュアルジョークを、尊重と包括性をもって共有するためには、多面的なアプローチを考慮する必要があります。まず、コンテンツがステレオタイプを助長したり、個人の経済状況を嘲笑したりしないようにすることが重要です。例えば、問題の画像は、飛行機の窓からエッフェル塔を見ている人と、洗濯機の窓を見ている人を対比させ、「期待と現実」のモチーフをユーモラスに表現しています。\n\nここでのユーモアは、期待を覆すことにあります—一方の画像は旅行という一般的な憧れを示し、もう一方はこの憧れを日常的な物でひねっています。感受性を保つために、キャプションは夢を現実に適応させる普遍的な性質を強調し、特定の経験を達成できないことを暗示するのではなく、欠如を示唆しないようにすることができます。\n\nさらに、文化的な感受性を考慮する必要があります—ある文化ではユーモラスな誇張が、別の文化では誤解されたり不快に感じられたりする可能性があります。これを軽減するために、ジョークは自己卑下的な性質を明確に示し、特定のグループや階級を特定しないキャプションで提示することができます。また、普遍的に理解される言葉を使用し、誤解される可能性のあるスラングやイディオムを避けることで、ジョークが意図した通りに受け取られるようにすることができます。\n\n最後に、異なる年齢層にジョークを適応させるために、若い観客に適さない要素を避けるべきです。選ばれた画像はすでに一般の観客に適していますが、使用する言葉は尊重を持ち、含みを避けるべきです。\n\nこれらの側面に注意を払うことで、ユーモラスで軽快なビジュアルジョークを、無礼や排他的にならずに共有し、幅広い観客に共鳴し、包括性の精神を維持することができます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response explain the humor in the juxtaposed images while ensuring the content is respectful and inclusive?",
+            "score1_description": "The response does not recognize the humor or fails to address respect and inclusivity, potentially presenting insensitive content.",
+            "score2_description": "The response identifies basic humor but lacks consideration for respect and inclusivity, missing the importance of sensitive presentation.",
+            "score3_description": "The response shows an understanding of the humor and some respect for inclusivity but does not fully ensure that the content is free from stereotypes or insensitivity.",
+            "score4_description": "The response explains the humor effectively, is mostly considerate of respect and inclusivity, but may overlook subtle sensitivities or cultural nuances.",
+            "score5_description": "The response thoroughly explains the humor with a keen awareness of respect and inclusivity, ensuring that the content is presented sensitively across different cultures and age groups."
+        },
+        "atomic_checklist": [
+            "Does the response avoid content that perpetuates stereotypes or mocks economic status?",
+            "Does the response ensure that the humor is age-appropriate and universally understandable?",
+            "Does the response maintain respect and inclusivity while explaining the humor?",
+            "Does the response consider cultural sensitivities and potential for misinterpretation?",
+            "Does the response utilize a self-deprecating caption to maintain humor without singling out any group?",
+            "Is the explanation of the humor clear, avoiding slang or idioms that could be misinterpreted?",
+            "Does the response show how the joke can be adapted to different audiences while preserving its humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous comparison meme. On the left side, the text \"The vacation you want\" is shown above a photo of a woman looking out of an airplane window at the Eiffel Tower, suggesting a desired trip to Paris. On the right side, \"vs. the vacation you can afford\" is above a photo of a woman looking out of a washing machine window, humorously implying a less glamorous reality due to budget constraints. The meme plays on the theme of expectations versus reality in terms of vacation planning."
+    }
+]

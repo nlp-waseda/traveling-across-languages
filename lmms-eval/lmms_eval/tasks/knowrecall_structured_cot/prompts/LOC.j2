@@ -1,0 +1,17 @@
+Question:
+{{ question }}
+
+Options:
+{{ choices_str }}
+
+Follow the instructions below step by step to answer the question:
+1. Carefully analyze the given image to determine its location as accurately as possible.
+2. Translate the user's question and 4 options into the primary local language of the identified location.
+3. Reason in the translated language to determine the correct answer.
+4. Output your final choice (A, B, C, or D) in the following JSON format:
+{
+  "answer": "X",
+}
+
+You must follow all four steps sequentially and include your outputs for steps 1–3 before giving the final answer.
+Important: Do not say “I cannot identify the location.” Make a reasoned guess based on visible clues, even if uncertain.

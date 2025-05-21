@@ -1,0 +1,143 @@
+[
+  {
+    "capability": "vision",
+    "task": "graph_interpretation",
+    "instance_idx": 0,
+    "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+    "input": "Por favor, explique qué teoría está relacionada con este gráfico y qué intenta explicar este gráfico. ",
+    "reference_answer": "El gráfico que has proporcionado parece mostrar un conjunto de isotermas típicamente asociadas con la ecuación de estado de Van der Waals, que describe el comportamiento de los gases reales. La ecuación de van der Waals es una mejora sobre la ley de los gases ideales y tiene en cuenta el volumen ocupado por las moléculas de gas y la atracción entre ellas.  \nEl gráfico muestra diferentes curvas, cada una correspondiente a una temperatura diferente (T_r), donde T_r es la temperatura reducida. La temperatura reducida es una cantidad adimensional utilizada en termodinámica y mecánica estadística, que compara la temperatura real de la sustancia con su temperatura crítica (T_c), por lo que T_r = T/T_c.\n\nLas líneas representan cómo varía la presión del gas con el volumen a temperatura constante. La forma de las curvas ilustra comportamientos característicos de los gases reales:\n- A altas temperaturas (T_r = 9/8, por encima de la temperatura crítica), el gas se comporta casi de manera ideal, con la presión disminuyendo continuamente a medida que el volumen aumenta.\n- A la temperatura crítica (T_r = 1), la isoterma exhibe un punto de inflexión donde la presión es relativamente insensible a los cambios en el volumen en un cierto rango. Este punto corresponde al punto crítico del gas, donde las fases de gas y líquido tienen la misma densidad y son indistinguibles.\n- Por debajo de la temperatura crítica (T_r < 1), las isotermas muestran una región con pendiente negativa donde el gas se condensa en un líquido. Esta región es físicamente inestable y es donde ocurren las transiciones de fase. Las regiones marcadas por las líneas discontinuas no se observan en la práctica porque el sistema se mueve directamente de la fase gaseosa a la líquida o viceversa, lo cual está representado por las líneas horizontales planas en el gráfico (no vistas distintamente aquí pero comúnmente conocidas como la regla del área igual de Maxwell).\n\nEste gráfico intenta explicar el comportamiento no ideal de los gases reales y sus transiciones de fase, especialmente cerca del punto crítico. Representa visualmente cómo los gases reales se desvían del comportamiento de gas ideal, lo cual no es capturado por la ley de los gases ideales. ",
+    "score_rubric": {
+      "criteria": "Does the response show completeness and accuracy in explaining the van der Waals equation, reduced temperature, critical temperature, and real gas behavior as depicted in the graph?",
+      "score1_description": "The response does not mention the van der Waals equation, reduced temperature, critical temperature, or real gas behavior, missing all key points.",
+      "score2_description": "The response briefly mentions one of the key points but lacks detail and accuracy.",
+      "score3_description": "The response includes some of the key points with a basic explanation but omits others or lacks clarity.",
+      "score4_description": "The response covers most of the key points with accuracy but may lack detail on one of the elements.",
+      "score5_description": "The response accurately and thoroughly explains all key points, providing a complete understanding of the graph."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the van der Waals equation and its relevance to real gases?",
+      "Does the response explain the concept of reduced temperature (T_r) and its use in the graph?",
+      "Does the response detail the significance of the critical temperature and the inflection point on the isotherms?",
+      "Does the response describe how the graph illustrates the deviation of real gas behavior from ideal gas behavior, especially near the critical point?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Van_der_Waals_equation"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "graph_interpretation",
+    "instance_idx": 1,
+    "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+    "input": "Aquí hay un gráfico que encontré en mi clase de astronomía y no sé cómo interpretarlo. ¿Puedes explicarme a qué está relacionado y qué es lo que transmite?",
+    "reference_answer": "El gráfico que has proporcionado parece mostrar una oscilación periódica en el brillo aparente de un objeto astronómico a lo largo del tiempo. Este patrón es característico de una estrella variable Cefeida.\n\nLas variables Cefeidas son un tipo de estrella que exhibe un patrón regular de cambio de brillo debido a pulsaciones en sus capas externas. El gráfico muestra estas variaciones de brillo a lo largo de diez días. La característica clave de las variables Cefeidas es que su período de pulsación está directamente relacionado con su luminosidad intrínseca, una relación conocida como la relación período-luminosidad. Esta relación es crítica en astrofísica porque permite a los astrónomos determinar la distancia a las variables Cefeidas y, por extensión, a las galaxias distantes en las que residen, ayudando así a medir la escala del universo.\n\nEl gráfico está destinado a transmitir:\n- La naturaleza periódica de los cambios de brillo de la estrella variable Cefeida.\n- El intervalo de tiempo regular (período) entre los picos de brillo.\n- La amplitud de la variación de brillo a lo largo del tiempo.\n\nEstos datos periódicos se utilizan para calcular la magnitud absoluta de la estrella y, por lo tanto, su distancia desde la Tierra, utilizando la relación período-luminosidad descubierta por Henrietta Swan Leavitt a principios del siglo XX. Estas estrellas sirven como \"velas estándar\" para medir distancias astronómicas. ",
+    "score_rubric": {
+      "criteria": "Does this response show an understanding of the Cepheid variable star light curves and their astronomical significance?",
+      "score1_description": "The response does not recognize the graph as a Cepheid variable light curve nor its relevance in astronomy.",
+      "score2_description": "The response identifies the graph as related to star brightness but fails to connect it to Cepheid variables or their importance in distance measurement.",
+      "score3_description": "The response correctly identifies the graph as a Cepheid variable light curve but only partially explains its significance in astronomy.",
+      "score4_description": "The response identifies the graph as a Cepheid variable light curve and explains its importance in distance measurement but does not mention Henrietta Swan Leavitt's contribution.",
+      "score5_description": "The response accurately identifies the Cepheid variable light curve, explains the period-luminosity relationship, the concept of \"standard candles,\" and acknowledges Henrietta Swan Leavitt's work."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the identification of the graph as showing the light curve of a Cepheid variable star?",
+      "Does the response explain the significance of the period-luminosity relationship for these stars?",
+      "Does the response describe the use of Cepheid variables as \"standard candles\" in determining astronomical distances?",
+      "Does the response mention the historical importance of Henrietta Swan Leavitt's work in discovering the period-luminosity relationship?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "graph_interpretation",
+    "instance_idx": 2,
+    "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+    "input": "Por favor, aclare qué teoría está asociada con este gráfico y describa el mensaje que este gráfico pretende transmitir. ",
+    "reference_answer": "El gráfico representa la ley de Planck de la radiación de cuerpo negro y la compara con la teoría clásica de Rayleigh-Jeans, que no logró describir el espectro observado de cuerpo negro en longitudes de onda más cortas, lo que llevó a lo que se conoció como la \"catástrofe ultravioleta\".\n\nLa ley de Planck describe cómo un cuerpo negro ideal radia energía en diferentes longitudes de onda a una temperatura dada. En el gráfico, las curvas para 3000 K, 4000 K y 5000 K muestran la intensidad de la radiación en diferentes longitudes de onda para cuerpos negros a esas temperaturas. Estas curvas demuestran que a medida que la temperatura aumenta, el pico de la radiación emitida se desplaza hacia longitudes de onda más cortas. Este desplazamiento se explica por la ley de desplazamiento de Wien, un resultado derivado de la ley de Planck, que establece que la curva de radiación de cuerpo negro para diferentes temperaturas alcanza su pico en una longitud de onda inversamente proporcional a la temperatura.\n\nLa línea 'Teoría clásica (5000 K)' representa la predicción de la ley de Rayleigh-Jeans, que se alinea con la ley de Planck en longitudes de onda más largas (infrarrojo) pero diverge enormemente en longitudes de onda más cortas (ultravioleta), donde predice una emisión de radiación físicamente imposible de gran magnitud. Esta discrepancia llevó al desarrollo de la mecánica cuántica, con Planck introduciendo el concepto de cuantización de la energía.\n\nEl gráfico está diseñado para transmitir:\n- La distribución de la radiancia espectral de cuerpos negros a diferentes temperaturas.\n- El desplazamiento del pico de emisión hacia longitudes de onda más cortas a medida que la temperatura aumenta.\n- El fracaso de la física clásica para describir el comportamiento en longitudes de onda cortas y el éxito de la teoría cuántica según lo descrito por la ley de Planck. \n\n",
+    "score_rubric": {
+      "criteria": "Does this response show a clear understanding of Planck's law and its significance in describing black-body radiation?",
+      "score1_description": "The response does not recognize Planck's law, the Rayleigh-Jeans law, Wien's displacement law, or the ultraviolet catastrophe.",
+      "score2_description": "The response mentions Planck's law but fails to address its relationship with the classical theory or Wien's law.",
+      "score3_description": "The response explains Planck's law and touches on the ultraviolet catastrophe but does not clearly describe Wien's displacement law or the historical context of quantum mechanics.",
+      "score4_description": "The response provides a good explanation of Planck's law and Wien's displacement law but lacks detail on the failure of the classical theory or the development of quantum mechanics.",
+      "score5_description": "The response comprehensively explains Planck's law, its contrast with classical theory, Wien's displacement law, and the historical significance of the ultraviolet catastrophe leading to quantum mechanics."
+    },
+    "atomic_checklist": [
+      "Does the response include information on Planck's law of black-body radiation?",
+      "Does the response explain the discrepancy between Planck's law and classical theory, specifically the Rayleigh-Jeans law?",
+      "Does the response describe Wien's displacement law and its relation to the shift in peak wavelength with temperature?",
+      "Does the response mention the historical context of the \"ultraviolet catastrophe\" and its role in the development of quantum mechanics?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Planck%27s_law#:~:text=Planck's%20law%20describes%20the%20unique,cavity%20with%20rigid%20opaque%20walls."
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "graph_interpretation",
+    "instance_idx": 3,
+    "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+    "input": "Explica qué está tratando de explicar este gráfico y con qué teoría está asociado. ",
+    "reference_answer": "El gráfico que has proporcionado es un diagrama de dispersión que aparentamente ilustra la tendencia en el conteo de transistores de varios microprocesadores a lo largo del tiempo. Esta tendencia está asociada con la Ley de Moore, que es una observación hecha por Gordon Moore, cofundador de Intel, en 1965. Moore notó que el número de transistores en un microchip se duplica aproximadamente cada dos años, lo que se ha interpretado libremente como que la potencia de procesamiento de los procesadores se duplicará en el mismo período de tiempo.\n\nEl gráfico está trazando varios microprocesadores en una línea de tiempo que comienza en los años 70 y se extiende hacia los años 2020. El eje y, que representa el conteo de transistores, está en una escala logarítmica, lo cual es común cuando se trata con datos que abarcan varios órdenes de magnitud, como es el caso con el crecimiento del conteo de transistores en microchips.\n\nEl mensaje que este gráfico intenta transmitir incluye:\n- El crecimiento exponencial en el número de transistores que se pueden colocar en un chip, siguiendo la Ley de Moore.\n- Los avances tecnológicos a lo largo del tiempo, demostrados por la creciente complejidad y capacidad de los microprocesadores.\n- Las posibles tendencias y límites de este crecimiento a medida que nos acercamos a las limitaciones físicas de la tecnología de chips basados en silicio.\n\nEste gráfico es una representación visual del progreso de la industria de semiconductores y se utiliza a menudo para ilustrar el rápido avance de la tecnología digital. ",
+    "score_rubric": {
+      "criteria": "Does this response show a clear understanding of the association between the graph and Moore's Law?",
+      "score1_description": "The response does not mention Moore's Law or its connection to the graph.",
+      "score2_description": "The response mentions Moore's Law but does not explain its significance or its relation to the graph.",
+      "score3_description": "The response explains Moore's Law and mentions the logarithmic scale but lacks clarity in describing the exponential growth trend.",
+      "score4_description": "The response comprehensively discusses Moore's Law, the logarithmic scale, and the exponential growth trend in transistor counts over time, with some discussion of implications and potential limits.",
+      "score5_description": "The response demonstrates a thorough understanding by explaining Moore's Law, the logarithmic scale, the exponential growth trend, its significance for microprocessors, and the implications of the graph's trend for future technology."
+    },
+    "atomic_checklist": [
+      "Does the response include information on the association of the graph with Moore's Law?",
+      "Does the response explain the significance of the y-axis being on a logarithmic scale?",
+      "Does the response indicate the exponential growth trend in transistor counts on microchips over time?",
+      "Does the response discuss the implications of this trend for the advancement of microprocessor technology?",
+      "Does the response mention the potential limits of silicon-based technology as suggested by the graph?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://en.wikipedia.org/wiki/Moore's_law#/media/File:Moore's_Law_Transistor_Count_1970-2020.png"
+      }
+    ]
+  },
+  {
+    "capability": "vision",
+    "task": "graph_interpretation",
+    "instance_idx": 4,
+    "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+    "input": "¿Qué indican los resultados en este gráfico? ¿Cuál es el mejor algoritmo para alinear un modelo de lenguaje a las preferencias humanas?",
+    "reference_answer": "El gráfico que proporcionaste compara el rendimiento de tres algoritmos diferentes: KTO, DPO e IPO, con valores variables de un parámetro llamado \\'Beta\\'. El criterio de rendimiento utilizado es el \\'Puntaje MT Bench\\', que presumiblemente representa algún tipo de puntaje de referencia para evaluar modelos de lenguaje.\n\nAquí hay algunos puntos clave que se pueden extraer del gráfico:\n1. **Algoritmo KTO**: Este algoritmo comienza con el puntaje MT Bench más alto en Beta=0, pero muestra una disminución en el rendimiento a medida que Beta aumenta, antes de estabilizarse después de Beta=0.4.\n2. **Algoritmo DPO**: El algoritmo DPO empieza con un puntaje más bajo que KTO en Beta=0, pero mantiene un rendimiento más estable a lo largo de los valores de Beta, experimentando un leve aumento alrededor de Beta=0.4 antes de disminuir nuevamente.\n3. **Algoritmo IPO**: El algoritmo IPO comienza con el puntaje más bajo en Beta=0. Aumenta ligeramente, alcanza su pico en Beta=0.2, y luego tiene una tendencia descendente general a medida que Beta aumenta, terminando con el puntaje más bajo en Beta=0.8.\n\nDel gráfico, podemos deducir que:\n- Ningún algoritmo es el mejor en todos los valores de Beta.\n- En Beta=0, KTO es el algoritmo con mejor rendimiento.\n- En Beta=0.4, DPO parece ser el más estable y tiene un rendimiento similar al de KTO.\n- KTO parece ser el mejor algoritmo para valores de Beta más altos (desde Beta=0.6 en adelante) ya que mantiene un puntaje más alto en comparación con los otros algoritmos.\n\nEl \\'mejor\\' algoritmo dependería del valor de Beta que se considere más importante para la alineación con las preferencias humanas. Al establecer Beta=0, DPO sería preferido, pero por encima de Beta=0.1, KTO sería preferido sobre los otros dos algoritmos.",
+    "score_rubric": {
+      "criteria": "Does this response show a comprehensive analysis of algorithm performance relative to the Beta parameter?",
+      "score1_description": "The response does not acknowledge the relationship between algorithm performance and the Beta parameter.",
+      "score2_description": "The response mentions the Beta parameter but fails to connect it clearly to algorithm performance variations.",
+      "score3_description": "The response identifies algorithm performance trends for a limited range of Beta values but does not cover the full spectrum.",
+      "score4_description": "The response provides a good analysis of algorithm performance over most of the Beta range but may lack details for specific points.",
+      "score5_description": "The response offers a detailed and nuanced analysis of how each algorithm's performance varies across the entire range of Beta values."
+    },
+    "atomic_checklist": [
+      "Does the response include information on how the performance of each algorithm varies with the parameter Beta?",
+      "Does the response identify which algorithm performs best at the initial Beta value (Beta=0)?",
+      "Does the response highlight the algorithm that shows the most stability across different Beta values?",
+      "Does the response specify which algorithm is best for higher Beta values (from Beta=0.6 and above)?"
+    ],
+    "background_knowledge": [
+      {
+        "information": "",
+        "reference_url": "https://huggingface.co/blog/pref-tuning"
+      }
+    ]
+  }
+]

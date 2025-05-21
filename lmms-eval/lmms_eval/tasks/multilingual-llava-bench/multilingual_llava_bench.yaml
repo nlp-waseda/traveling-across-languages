@@ -1,0 +1,12 @@
+group: multilingual_llava_bench
+task:
+  - multilingual_llava_bench_arabic
+  - multilingual_llava_bench_bengali
+  - multilingual_llava_bench_chinese
+  - multilingual_llava_bench_english
+  - multilingual_llava_bench_french
+  - multilingual_llava_bench_hindi
+  - multilingual_llava_bench_japanese
+  - multilingual_llava_bench_russian
+  - multilingual_llava_bench_spanish
+  - multilingual_llava_bench_urdu

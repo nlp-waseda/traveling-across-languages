@@ -1,0 +1,143 @@
+[
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "请解释与此图相关的理论以及此图试图解释的内容。  \n",
+        "reference_answer": "您提供的图表似乎显示了一组通常与范德华方程相关的等温线，该方程描述了真实气体的行为。范德瓦尔斯方程是对理想气体定律的改进，考虑了气体分子所占据的体积及其之间的吸引力。\n\n图表显示了不同的曲线，每条曲线对应于不同的温度（T_r），其中 T_r 是约减温度。约减温度是热力学和统计力学中使用的无量纲量，它将物质的实际温度与其临界温度（T_c）进行比较，因此 T_r = T/T_c。\n\n这些线条表示气体的压力如何随体积在恒定温度下变化。曲线的形状展示了真实气体的特征行为：\n- 在高温下（T_r = 9/8，高于临界温度），气体几乎表现为理想气体，随着体积增加，压力连续下降。\n- 在临界温度（T_r = 1）时，等温线显示出一个拐点，在这个范围内，压力对体积变化相对不敏感。这个点对应于气体的临界点，此时气体和液体相的密度相同且无法区分。\n- 在低于临界温度（T_r < 1）时，等温线显示出一个负斜率的区域，气体在此区域凝结成液体。这个区域在物理上不稳定，是发生相变的地方。虚线标记的区域在实际中未被观察到，因为系统直接从气体相转变为液体相或反之，图中的水平线（在此不明显但通常称为麦克斯韦等面积规则）表示这一过程。\n\n该图试图解释真实气体的非理想行为及其相变，特别是在临界点附近。它直观地展示了真实气体如何偏离理想气体行为，而这在理想气体定律中未被描述到。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response show completeness and accuracy in explaining the van der Waals equation, reduced temperature, critical temperature, and real gas behavior as depicted in the graph?",
+            "score1_description": "The response does not mention the van der Waals equation, reduced temperature, critical temperature, or real gas behavior, missing all key points.",
+            "score2_description": "The response briefly mentions one of the key points but lacks detail and accuracy.",
+            "score3_description": "The response includes some of the key points with a basic explanation but omits others or lacks clarity.",
+            "score4_description": "The response covers most of the key points with accuracy but may lack detail on one of the elements.",
+            "score5_description": "The response accurately and thoroughly explains all key points, providing a complete understanding of the graph."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the van der Waals equation and its relevance to real gases?",
+            "Does the response explain the concept of reduced temperature (T_r) and its use in the graph?",
+            "Does the response detail the significance of the critical temperature and the inflection point on the isotherms?",
+            "Does the response describe how the graph illustrates the deviation of real gas behavior from ideal gas behavior, especially near the critical point?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Van_der_Waals_equation"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "这是我在天文学课上遇到的一张图表，我不知道该如何解释。你能解释一下它与什么相关以及它传达了什么信息吗?",
+        "reference_answer": "您提供的图表似乎显示了一个天文物体的表观亮度随时间的周期性振荡。这种模式是造父变星的特征。\n\n造父变星是一类由于外层脉动而表现出亮度规律性变化的恒星。图表显示了这些亮度在十天内的变化。造父变星的关键特征是它们的脉动周期与其本征光度直接相关，这种关系被称为周期-光度关系。这种关系在天体物理学中至关重要，因为它允许天文学家确定造父变星的距离，并进而确定它们所在的遥远星系的距离，从而有助于测量宇宙的尺度。\n\n图表旨在传达：\n- 造父变星亮度变化的周期性特征。\n- 亮度峰值之间的规律时间间隔（周期）。\n- 随时间变化的亮度变化幅度。\n\n这些周期性数据用于根据亨丽爱塔·斯万·勒维特在20世纪初发现的周期-光度关系计算恒星的绝对星等，从而利用这些恒星作为测量天文距离的“标准烛光”来确定其与地球的距离。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of the Cepheid variable star light curves and their astronomical significance?",
+            "score1_description": "The response does not recognize the graph as a Cepheid variable light curve nor its relevance in astronomy.",
+            "score2_description": "The response identifies the graph as related to star brightness but fails to connect it to Cepheid variables or their importance in distance measurement.",
+            "score3_description": "The response correctly identifies the graph as a Cepheid variable light curve but only partially explains its significance in astronomy.",
+            "score4_description": "The response identifies the graph as a Cepheid variable light curve and explains its importance in distance measurement but does not mention Henrietta Swan Leavitt's contribution.",
+            "score5_description": "The response accurately identifies the Cepheid variable light curve, explains the period-luminosity relationship, the concept of \"standard candles,\" and acknowledges Henrietta Swan Leavitt's work."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the graph as showing the light curve of a Cepheid variable star?",
+            "Does the response explain the significance of the period-luminosity relationship for these stars?",
+            "Does the response describe the use of Cepheid variables as \"standard candles\" in determining astronomical distances?",
+            "Does the response mention the historical importance of Henrietta Swan Leavitt's work in discovering the period-luminosity relationship?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "请澄清哪个理论与此图相关，并描述此图想要传达的信息。 ",
+        "reference_answer": "图表展示了普朗克的黑体辐射定律，并将其与瑞利-金斯经典理论进行比较。经典理论未能描述短波长下观察到的黑体光谱，这导致了所谓的“紫外灾难”。\n\n普朗克定律描述了理想黑体在不同温度下以不同波长辐射能量的方式。在图表中，3000 K、4000 K 和 5000 K 的曲线显示了这些温度下黑体在不同波长的辐射强度。这些曲线表明，随着温度的升高，辐射峰值向更短的波长移动。这种移动符合维恩位移定律，这是从普朗克定律推导出的结果，指出不同温度下的黑体辐射曲线在与温度成反比的波长处达到峰值。\n\n“经典理论（5000 K）”线代表瑞利-金斯定律的预测，该预测在较长波长（红外）下与普朗克定律一致，但在较短波长（紫外）下大相径庭，预测了非物理的大量辐射发射。这一差异导致了量子力学的发展，普朗克引入了能量量子化的概念。\n\n图表旨在传达：\n- 不同温度下黑体的光谱辐射分布。\n- 随着温度升高，峰值辐射向更短波长的移动。\n- 经典物理在描述短波长行为时的失败，以及普朗克定律所描述的量子理论的成功。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of Planck's law and its significance in describing black-body radiation?",
+            "score1_description": "The response does not recognize Planck's law, the Rayleigh-Jeans law, Wien's displacement law, or the ultraviolet catastrophe.",
+            "score2_description": "The response mentions Planck's law but fails to address its relationship with the classical theory or Wien's law.",
+            "score3_description": "The response explains Planck's law and touches on the ultraviolet catastrophe but does not clearly describe Wien's displacement law or the historical context of quantum mechanics.",
+            "score4_description": "The response provides a good explanation of Planck's law and Wien's displacement law but lacks detail on the failure of the classical theory or the development of quantum mechanics.",
+            "score5_description": "The response comprehensively explains Planck's law, its contrast with classical theory, Wien's displacement law, and the historical significance of the ultraviolet catastrophe leading to quantum mechanics."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Planck's law of black-body radiation?",
+            "Does the response explain the discrepancy between Planck's law and classical theory, specifically the Rayleigh-Jeans law?",
+            "Does the response describe Wien's displacement law and its relation to the shift in peak wavelength with temperature?",
+            "Does the response mention the historical context of the \"ultraviolet catastrophe\" and its role in the development of quantum mechanics?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Planck%27s_law#:~:text=Planck's%20law%20describes%20the%20unique,cavity%20with%20rigid%20opaque%20walls."
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "解释这个图表试图说明的内容以及它所关联的理论。 ",
+        "reference_answer": "您提供的图表是一个散点图，似乎展示了各种微处理器随时间变化的晶体管数量趋势。这个趋势与摩尔定律有关，这是英特尔联合创始人戈登·摩尔在1965年提出的一个观察。摩尔指出，微芯片上的晶体管数量大约每两年翻一番，这被大致解释为处理器的计算能力将在同一时间框架内翻倍。\n\n该图表在时间轴上绘制了从1970年代到2020年代的各种微处理器。代表晶体管数量的y轴是对数刻度，这在处理跨越多个数量级的数据时很常见，就像微芯片中晶体管数量的增长情况一样。\n\n这个图表试图传达的信息包括：\n- 符合摩尔定律的芯片上可容纳的晶体管数量的指数增长。\n- 随着时间的推移，通过微处理器日益复杂和强大的能力所展示的技术进步。\n- 随着我们接近基于硅的芯片技术的物理极限，这种增长的可能趋势和限制。\n\n这个图表是半导体行业进步的视觉表现，常用于展示数字技术的快速发展。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the association between the graph and Moore's Law?",
+            "score1_description": "The response does not mention Moore's Law or its connection to the graph.",
+            "score2_description": "The response mentions Moore's Law but does not explain its significance or its relation to the graph.",
+            "score3_description": "The response explains Moore's Law and mentions the logarithmic scale but lacks clarity in describing the exponential growth trend.",
+            "score4_description": "The response comprehensively discusses Moore's Law, the logarithmic scale, and the exponential growth trend in transistor counts over time, with some discussion of implications and potential limits.",
+            "score5_description": "The response demonstrates a thorough understanding by explaining Moore's Law, the logarithmic scale, the exponential growth trend, its significance for microprocessors, and the implications of the graph's trend for future technology."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the association of the graph with Moore's Law?",
+            "Does the response explain the significance of the y-axis being on a logarithmic scale?",
+            "Does the response indicate the exponential growth trend in transistor counts on microchips over time?",
+            "Does the response discuss the implications of this trend for the advancement of microprocessor technology?",
+            "Does the response mention the potential limits of silicon-based technology as suggested by the graph?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Moore's_law#/media/File:Moore's_Law_Transistor_Count_1970-2020.png"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "这张图表中的结果表明了什么？哪种算法最适合将语言模型与人类偏好对齐？",
+        "reference_answer": "您提供的图表比较了三种不同算法——KTO、DPO和IPO——在不同“Beta”参数值下的表现。使用的性能指标是“MT Bench Score”，这可能代表某种语言模型基准性能指标的得分。\n\n从图表中可以得出以下几点见解：\n1. **KTO算法**：该算法在Beta=0时以最高的MT Bench Score开始，但随着Beta的增加，性能下降，在Beta=0.4后趋于平稳。\n2. **DPO算法**：DPO算法在Beta=0时得分低于KTO，但在各个Beta值上保持较为稳定的性能，在Beta=0.4附近略有上升，然后再次下降。\n3. **IPO算法**：IPO算法在Beta=0时得分最低。它略有上升，在Beta=0.2达到峰值，然后随着Beta的增加呈现总体下降趋势，在Beta=0.8时得分最低。\n\n从图表中我们可以推断出：\n- 没有单一算法在所有Beta值上表现最佳。\n- 在Beta=0时，KTO是表现最好的算法。\n- 在Beta=0.4时，DPO表现得最稳定，与KTO表现相似。\n- KTO似乎是较高Beta值（从Beta=0.6及以上）的最佳算法，因为它相对于其他算法保持了较高的得分。\n\n“最佳”算法取决于哪个Beta值被认为对与人类偏好的保持一致最重要。如果较低的Beta值更为关键，那么在Beta=0时的KTO或在Beta高于0.1时的IPO可能更受青睐。如果目标是保持在一系列Beta值上的性能，那么由于其稳定性，DPO可能被认为是最佳选择。如果我们关注较高的Beta值，KTO可能再次成为首选算法。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive analysis of algorithm performance relative to the Beta parameter?",
+            "score1_description": "The response does not acknowledge the relationship between algorithm performance and the Beta parameter.",
+            "score2_description": "The response mentions the Beta parameter but fails to connect it clearly to algorithm performance variations.",
+            "score3_description": "The response identifies algorithm performance trends for a limited range of Beta values but does not cover the full spectrum.",
+            "score4_description": "The response provides a good analysis of algorithm performance over most of the Beta range but may lack details for specific points.",
+            "score5_description": "The response offers a detailed and nuanced analysis of how each algorithm's performance varies across the entire range of Beta values."
+        },
+        "atomic_checklist": [
+            "Does the response include information on how the performance of each algorithm varies with the parameter Beta?",
+            "Does the response identify which algorithm performs best at the initial Beta value (Beta=0)?",
+            "Does the response highlight the algorithm that shows the most stability across different Beta values?",
+            "Does the response specify which algorithm is best for higher Beta values (from Beta=0.6 and above)?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://huggingface.co/blog/pref-tuning"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "해안 사진 프로젝트에서 사진을 검토하던 중, 일반적인 설명을 거부하는 이미지가 나타났습니다. 그것은 대형 화물선이 바다 표면 위에 떠 있는 것처럼 보이는 모습을 보여줍니다. 관점과 착시 현상의 맥락에서 관찰된 현상을 설명하고, 대기 조건이 어떻게 그러한 시각적 효과를 초래할 수 있는지에 대한 포괄적인 분석을 제공하십시오. ",
+        "reference_answer": "사진은 일반적으로 파타 모르가나라고 알려진 놀라운 시각적 이상 현상을 보여주고 있으며, 이는 화물선의 외관을 크게 왜곡시키는 복잡한 형태의 상위 신기루입니다. 배는 수평선 위에 떠 있는 것처럼 보이며, 물과 하늘의 띠로 분리되어 있습니다. 이 환상은 대기의 굴절로 인한 것으로, 서로 다른 온도의 공기층이 빛의 경로를 다른 각도로 굴절시킵니다. 이 시나리오에서는 차가운 공기가 따뜻한 공기 아래에 있기 때문에, 배에서 나오는 빛은 따뜻한 공기를 지나 더 밀도가 높은 차가운 공기로 들어가면서 아래로 굴절됩니다.\n\n이 공기층들 사이의 온도 경사는 상당히 가파르며, 이 광학 현상을 위한 필수 조건을 만듭니다. 배에서 굴절된 빛은 실제 시야선 아래에서 관찰자의 눈에 도달하여, 배가 실제보다 더 높은 위치에 있는 것처럼 보이게 합니다. 이는 이미지를 위로 이동시키는 렌즈를 통해 보는 것과 유사합니다. 신기루의 선명함과 강도는 바다의 고요함에 의해 강화되어, 배의 이동된 이미지에 거의 완벽한 반사 표면을 제공합니다. 이는 매우 명확하고 뚜렷한 부유 효과를 만들어내며, 기초 과학을 이해하지 못하면 꽤 당혹스러울 수 있습니다.\n\n관찰자가 배로부터의 특정 각도와 거리도 이 효과에 기여합니다. 더 높은 관점에서 본다면, 신기루는 아마도 그렇게 명확하지 않을 것입니다. 게다가, 빛의 조건이 적절해 보이며, 태양이 아마도 사진작가 뒤에 위치하여 눈부심을 줄이고 신기루를 너무 많은 빛 산란 없이 명확하게 포착할 수 있게 합니다.\n\n결론적으로, 이미지에 포착된 시각적 이상 현상은 빛과 온도 경사의 교묘한 조합이며, 물리 법칙의 위반이 아닙니다. 이는 대기 조건이 자연 세계에 대한 우리의 인식을 극적으로 변화시킬 수 있는 흥미로운 사례로 작용합니다. ",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "제공된 사진에서 어떤 물리적 원리가 일시적으로 중단되거나 위반된 것처럼 보이며, 사진의 맥락에서 이것이 어떻게 설명될 수 있을까요? ",
+        "reference_answer": "사진은 자유낙하 중인 스카이다이버를 포착하여 공중에 떠 있는 듯한 모습을 보여줍니다. 처음 보면 스카이다이버가 중력을 거스르는 것처럼 보일 수 있습니다. 왜냐하면 우리가 예상하는 빠른 지구로의 하강을 관찰할 수 없기 때문입니다. 그러나 이것은 사진의 맥락에 의해 만들어진 착각입니다.\n\n실제로 스카이다이버는 중력의 완전한 영향을 받고 있으며 아래로 가속하고 있습니다. 이는 스카이다이버의 자세로 입증되며, 팔과 다리를 벌려 공기 저항을 증가시키는 것은 스카이다이빙에서 하강을 안정화하고 제어하기 위한 일반적인 방법입니다. 스카이다이버의 수트와 장비는 공기 저항을 관리하고 낙하 속도를 제어하도록 특별히 설계되었습니다.\n\n사진은 또한 스카이다이버가 아래의 지구에 비해 정지해 있는 것처럼 보이게 하지만, 이는 가능성이 낮습니다. 빠른 움직임을 암시할 수 있는 가시적인 모션 블러나 기준점이 없기 때문에, 이미지는 순간을 얼어붙게 하여 스카이다이버가 공중에 떠 있는 잘못된 인식을 줍니다.\n\n또한 고려해야 할 점은 사진이 스카이다이버가 진정한 자유낙하를 경험하고 0의 속도에서 가속하는 점프 초기 순간을 보여주지 않을 수 있다는 것입니다. 대신, 중력과 공기 저항의 힘이 균형을 이루어 일정한 속도가 되는 종단 속도에 도달한 순간을 포착했을 가능성이 큽니다.\n\n게다가 카메라 각도와 가시적인 기준점(구름이나 비행기 같은)의 부재는 스카이다이버의 실제 속도와 가속도를 측정하기 어렵게 만듭니다. 실제로 이러한 시각적 단서가 없으면 스카이다이버의 움직임에 대한 우리의 인식은 손상됩니다.\n\n결론적으로, 스카이다이버가 물리 법칙을 거스르는 것처럼 보일지라도, 그들은 실제로 중력과 공기 저항을 포함한 모든 물리 원칙을 따르고 있습니다. 착각은 동적인 상황을 사진으로 포착한 결과로, 시간이 멈춘 상태에서는 스카이다이버의 빠른 하강 운동과 작용하는 힘에 대해 알려줄 맥락적 단서가 제거됩니다. ",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "전통적인 현실을 거부하는 예술 작품을 분석하는 맥락에서, 초현실주의의 원칙을 고려하여 시각적 구성 요소와 그 잠재적 중요성을 설명하십시오. ",
+        "reference_answer": "문제의 예술 작품은 광활하고 텅 빈 하늘 아래 황량한 풍경을 특징으로 하는 초현실주의의 전형적인 전시입니다. 작품의 중심에는 여러 개의 시계가 있으며, 각각은 녹아내려 풍경의 황량한 특징들—황량한 나무, 딱딱한 테이블, 그리고 장면 내의 무정형의 형태들—위에 걸쳐져 있습니다.\n\n녹아내리는 시계는 꿈의 세계에서 시간의 유동성과 주관적인 본성을 나타내는 심오한 은유로, 깨어 있는 삶에서 경험하는 엄격하고 굴하지 않는 시간의 행진과는 대조적입니다. 이는 무의식, 꿈, 그리고 시간과 공간에 대한 일반적인 인식을 넘어선 현실에 대한 초현실주의적 매혹을 암시합니다.\n\n게다가, 풍경의 대조적인 요소들—죽은 나무와 무성한 녹색 나무—는 존재 내의 이중성을 나타낼 수 있으며, 삶과 죽음, 성장과 쇠퇴의 대조를 강조합니다. 풍경의 황량함은 무의식의 광대한 공허함을 상징할 수 있으며, 이는 마음의 내면 작용을 탐구하는 초현실주의 예술에서 흔한 주제입니다.\n\n개미 떼가 있는 주황색 시계는 유기적 생명의 쇠퇴와 경과를 암시하며, 죽음과 엔트로피로의 끊임없는 진행을 상기시키는 강렬한 상징입니다. 개미는 종종 부패와 강렬한 노동과 연관되며, 시간과 자연의 불가피성에 대한 지속적이고 인식되지 않는 투쟁이라는 주제를 강화합니다.\n\n마지막으로, 배경에는 고요한 바다와 맑은 지평선이 특징적으로 나타나며, 이는 의식과 무의식—알려진 것과 알려지지 않은 것—사이의 경계로 해석될 수 있습니다. 이 지평선은 현실의 세계와 그 위의 꿈의 세계를 분리하며, 이러한 경계를 흐리고 도전하려는 초현실주의자의 야망을 강조합니다.\n\n요컨대, 이 예술 작품은 시간, 존재, 그리고 무의식의 신비에 대한 성찰을 유도하기 위해 초현실적인 요소들을 사용합니다. 이는 관객들이 현실의 논리적 한계를 넘어 그들의 경험과 인식에 대한 보다 유동적이고 꿈같은 해석을 고려하도록 초대합니다. ",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "기존 건축 양식을 거스르는 이미지를 주어졌을 때, 그 구조를 설명할 뿐만 아니라 그 기원의 이야기와 주변 공동체에 미친 영향을 담은 서사를 구성하시오. ",
+        "reference_answer": "이미지는 중력을 거스르고 전통적인 건축을 도전하는 것처럼 보이는 거꾸로 세워진 아방가르드 구조물을 보여줍니다. 이 건물은 무작위 디자인의 산물이 아니라 \"인버전 하우스\"로 알려진 의도적인 예술적 표현입니다. 이 건물은 전통적인 건축에 대한 강력한 도전으로, 뿌리 - 이 경우에는 뾰족한 끝 - 가 땅에 박혀 있고, 기초가 되어야 할 부분이 하늘로 들어 올려져 있습니다.\n\n그 기원의 이야기는 그 외관만큼이나 비전통적입니다. 인버전 하우스는 엘리아나 코르테즈라는 괴짜 건축가에 의해 구상되었으며, 그녀는 기대를 뒤집는 아이디어에서 영감을 받았습니다. 그녀는 건물의 형태가 뒤집힐 수 있는 것처럼 사회적 규범과 제약도 뒤집힐 수 있다고 믿었습니다. 이 물리적 표현은 혁신과 변화를 위한 은유로 작용하며, 관찰자들이 삶과 디자인에 대한 관점을 재평가하도록 장려합니다.\n\n엘리아나는 자신의 비전을 실현 가능하게 하기 위해 엔지니어들과 긴밀히 협력했습니다. 뾰족한 기초는 실제로 건물을 고정하는 교묘하게 위장된 강철 지지대이며, 상층부는 가볍지만 내구성이 있는 재료로 만들어졌습니다. 구조물을 강조하는 것처럼 보이는 빨간 불빛은 태양광 LED로, 밤에 건물을 밝혀 비전통적 사고의 등대 역할을 합니다.\n\n인버전 하우스는 빠르게 문화적 랜드마크가 되었습니다. 이곳에는 다양한 창의적 분야의 수업과 워크숍을 제공하는 커뮤니티 아트 센터가 있어, 엘리아나의 창의성과 혁신을 지역 사회에 영감을 주겠다는 비전을 실현하고 있습니다. 이 건물은 단순한 구조물이 아니라 살아있는 이야기로, 규범에 도전하고 변화를 수용하며, 지역 사회가 창의적이고 혁신적으로 생각하고 살도록 격려하는 이야기를 전합니다. 그 존재는 지역에 르네상스를 불러일으켰으며, 지역 사업체들이 더 대담한 디자인을 채택하고, 아방가르드 예술과 건축을 기념하는 연례 축제를 개최하게 되었습니다. \n\n",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "서로 결합된 요소들이 있는 이미지를 평가할 때, 이러한 요소들 간의 논리적 조화 또는 불협화음의 정도를 어떻게 식별할 수 있을까요? 일반적인 집 애완동물과 다른 종류의 동물과 보통 연관된 물체가 포함된 사진을 고려해 보세요. 식별할 수 있는 구체적인 불일치는 무엇이며, 이러한 불일치가 장면의 논리적 일관성을 어떻게 방해하나요? ",
+        "reference_answer": "이미지는 고양이 주위에 여러 개의 하트가 있어 애정이나 관심을 나타내며, 전통적으로 개와 관련된 뼈가 있습니다. 이 장면은 여러 논리적 모순을 제시합니다.\n\n첫째, 뼈는 개가 씹는 행동을 통해 놀이 행동과 먹잇감의 모든 부분을 소비하려는 본능적 욕구에 뿌리를 둔 고전적인 관심 대상으로, 개와 관련이 있습니다. 그러나 고양이는 의무적 육식동물로서 일반적으로 큰 뼈를 남기지 않는 작은 먹잇감을 섭취하는 경향이 있습니다. 고양이는 개처럼 놀이 또는 음식의 대상으로 뼈와 상호작용하는 것으로 알려져 있지 않습니다.\n\n둘째, 고양이 주위의 하트는 뼈에 대한 강한 애정이나 관심을 암시합니다. 고양이는 놀이와 호기심 많은 성격의 일환으로 다양한 물체에 관심을 보이지만, 이 정도 크기의 뼈가 그러한 반응을 유발할 가능성은 낮습니다. 이 묘사는 전형적인 고양이 행동에 대한 관찰자의 이해를 혼란스럽게 할 수 있으며, 여기서 나타나는 감정적 반응은 고양이의 자연스러운 본능과 행동과 일치하지 않습니다.\n\n마지막으로, 고양이의 얼굴 표정과 몸의 위치는 고양이가 특이한 물체를 만났을 때 예상할 수 있는 일반적인 신중하거나 조사하는 자세를 반영하지 않습니다. 대신 고양이는 만족하고 애정이 있는 것처럼 보이며, 이는 제시된 물체의 맥락을 고려할 때 일관성이 부족합니다.\n\n요약하자면, 이 이미지의 논리적 모순은 다음과 같습니다: 고양이와 뼈의 연관성, 뼈에 대한 비논리적인 수준의 관심이나 애정을 나타내는 하트, 그리고 그러한 상황에서 예상되는 자연스러운 반응과 일치하지 않는 고양이의 표정과 자세. 이러한 요소들이 함께 현실적인 고양이의 행동이나 동물과 그들의 전형적인 관심 대상 간의 자연스러운 연관성과 일치하지 않는 기발하면서도 논리적으로 일관성이 없는 장면을 만들어냅니다. ",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+    }
+]

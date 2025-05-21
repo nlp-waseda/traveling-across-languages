@@ -1,0 +1,144 @@
+[
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "Based on this image, what kind of living strategy would be appropriate if you were a sea duck?",
+        "reference_answer": "If you were a sea duck in the Chesapeake Bay ecosystem, as depicted in the food web, an appropriate living strategy would involve several key components:\n1. **Diet**: You would primarily eat bivalves, as they are indicated as a food source for sea ducks in this food web. Bivalves include various types of clams, mussels, and oysters, which are common in the Chesapeake Bay.\n2. **Foraging Behavior**: You would need to develop foraging strategies that allow you to efficiently locate and consume bivalves. This could involve diving to reach the bivalves where they live on the bottom or in the sediment.\n3. **Habitat Preference**: Since bivalves are often found in shallow waters where they can filter-feed, as a sea duck, you would likely spend a significant amount of time in such habitats to access your food efficiently.\n4. **Predator Awareness**: The food web shows that sea ducks can be preyed upon by larger piscivorous (fish-eating) birds, so you would need to be vigilant for predators like the Bald Eagle.\n5. **Seasonal Migration**: Depending on the specific type of sea duck, you might migrate seasonally, which would require you to know when to travel to different areas for breeding or to find more abundant food sources.\n\nLiving as a sea duck in this ecosystem would mean adapting to the available food sources and being aware of the position in the food web, both as a consumer and as potential prey.",
+        "score_rubric": {
+            "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+            "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+            "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+            "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+            "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+            "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the sea duck's primary diet of bivalves?",
+            "Does the response address the habitat preference for areas where bivalves are found?",
+            "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+            "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "This is a basic figure of what I learned from high school. I've entered a medical program as a college student and should explain what I would want to learn more during college to a professor. Could you help me add more details on what I should search for and examine before the meeting?",
+        "reference_answer": "Absolutely, preparing to discuss your educational aspirations with a professor in a medical program requires a deeper dive into the subject matter. Since the image pertains to the human digestive system, here's what you might want to research and examine in more detail:\n1. **Physiology and Function**: Understand how each part of the digestive system works, not just anatomically but on a cellular and molecular level. Explore topics like enzymatic digestion in the stomach and intestines, absorption of nutrients in the small intestine, and the role of the microbiome in the large intestine.\n2. **Pathophysiology**: Look into common diseases and disorders that affect the digestive system, such as acid reflux, inflammatory bowel disease, cirrhosis of the liver, and pancreatic disorders. Understanding how these diseases alter normal physiology can be crucial.\n3. **Clinical Correlations**: Research how symptoms present in various digestive diseases and what diagnostic methods are used to identify them. This might include learning about endoscopy, colonoscopy, imaging techniques, and laboratory tests.\n4. **Nutrition**: Since the digestive system is integral to nutrition, delve into how different nutrients are digested and processed. You may want to understand the impact of diet on digestive health and how nutritional needs change in disease states.\n5. **Pharmacology**: Investigate how various medications affect the digestive system, including those used to treat digestive disorders. This includes understanding the mechanisms of action, side effects, and the therapeutic use of these drugs.\n6. **Surgical Interventions**: Familiarize yourself with surgical procedures related to the digestive system, such as appendectomies, bariatric surgeries, or liver transplants, and when these interventions are necessary.\n7. **Research and Advances**: Stay updated on the latest research in gastroenterology, including new treatments, advancements in gut microbiome research, and emerging technologies in digestive health diagnostics.\n8. **Interconnected Systems**: Explore how the digestive system interacts with other body systems, such as the nervous system (the gut-brain axis) and the immune system.\n\nBy examining these topics, you'll be able to have a more informed and detailed discussion with your professor about your learning objectives in your medical program.",
+        "score_rubric": {
+            "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+            "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+            "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+            "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+            "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+            "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the detailed physiology and function of the digestive system?",
+            "Does the response outline the study of pathophysiology related to common digestive diseases?",
+            "Does the response mention the diagnostic methods used for digestive disorders?",
+            "Does the response consider the role of nutrition and diet in digestive health?",
+            "Does the response address the pharmacological treatments available for digestive issues?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "According to this image, how long would it take for our sun to start shrinking? Explain the process of what will happen before then in detail. Add information that is not present in the image as well!",
+        "reference_answer": "The image depicts the life cycle of the Sun, showing key stages from its birth to the point where it becomes a white dwarf. According to the timeline presented, the Sun will begin to shrink after expanding into a red giant, which is marked at around 10 billion years from its birth.\n\nBefore it starts shrinking, here's what will happen:\n1. **Main Sequence**: Currently, the Sun is in the main sequence phase of its life cycle, where it has been for approximately 4.5 billion years, and it's expected to remain in this stable phase for about another 5 billion years. During this time, the Sun fuses hydrogen into helium in its core, releasing energy that powers the Sun and provides heat and light to the solar system.\n2. **Gradual Warming**: Over the next few billion years, the Sun will gradually get warmer and brighter as hydrogen in the core is consumed and helium accumulates. The increase in helium will cause the core to contract and the outer layers to expand.\n3. **Red Giant Phase**: Around 10 billion years after its birth, the Sun will enter the red giant phase. The hydrogen fusion will move to the outer layers, and the core will heat up and start fusing helium into heavier elements like carbon and oxygen. The Sun's outer layers will expand massively, possibly engulfing the inner planets, including Earth.\n4. **Helium Flash and Further Fusion**: Once the helium in the core is exhausted, the core will contract further, and temperatures will rise to the point where heavier elements can fuse. This stage is marked by a helium flash, which is a rapid and dramatic increase in brightness due to the sudden onset of helium fusion.\n5. **Planetary Nebula**: After the red giant phase, the Sun will shed its outer layers, which will drift away into space, creating a planetary nebula. The core will be left behind as a hot, dense remnant.\n6. **White Dwarf**: Eventually, the core will cool and shrink into a white dwarf, which is the final stage of the Sun's life cycle. A white dwarf shines due to residual heat and no longer undergoes fusion reactions. It will gradually cool over billions of years.\n\nDuring these stages, the solar system will be dramatically altered. The expansion of the Sun into a red giant will likely destroy the inner planets and could scatter the outer ones. The loss of the Sun's mass through the planetary nebula phase will weaken its gravitational pull, possibly freeing any remaining planets from their orbits.\n\nThe process reflects the typical life cycle of a star like our Sun, which is a G-type main-sequence star. The time scales and outcomes are based on astrophysical models and observations of similar stars in various stages of their life cycles.",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+            "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+            "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+            "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+            "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+            "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the current main sequence phase and its duration?",
+            "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+            "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+            "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+            "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "Explain what this circuit is for. What kind of machines or devices use this? Also, what are some good ways to try making this myself?",
+        "reference_answer": "The circuit you've shown is a schematic representation of a bipolar junction transistor (BJT), specifically a NPN-type transistor based on the labeling and the direction of the arrow on the emitter. BJTs are fundamental components used to amplify or switch electronic signals in circuits.\n\n**Machines or Devices That Use This:**\n1. **Amplification Devices**: Audio amplifiers in radios, televisions, and speakers use BJTs to amplify sound signals.\n2. **Switching Systems**: BJTs are used in switching circuits, which are fundamental in digital electronics, including computers and mobile phones.\n3. **Regulation Systems**: Power regulation systems, such as voltage regulators or power supplies, often employ BJTs.\n4. **Signal Modulation**: Communication devices use BJTs for signal modulation and demodulation.\n\n**Ways to Try Making This Yourself:**\n1. **Electronic Kits**: Purchase an electronics kit that includes BJTs and other components to practice building circuits with a guided learning approach.\n2. **Breadboard Prototyping**: Use a breadboard to insert and connect components without soldering, allowing for easy experimentation and learning.\n3. **Circuit Simulation Software**: Use simulation software to create and test BJT circuits virtually before physically building them.\n4. **Soldering Practice**: Learn soldering techniques to build more permanent circuits on a printed circuit board (PCB).\n5. **Educational Resources**: Follow online tutorials, courses, or textbooks that explain the theory and practical applications of BJTs.\n\nAlways ensure you have a good understanding of electronics and take all necessary safety precautions when working with electronic components and tools.",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the function of a NPN transistor and practical methods for experimentation?",
+            "score1_description": "The response does not accurately identify the circuit as a NPN transistor or provide any practical methods for experimentation.",
+            "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as NPN or provide clear applications or methods for building the circuit.",
+            "score3_description": "The response identifies the circuit as a NPN transistor, lists a few applications, but offers limited methods for practical experimentation.",
+            "score4_description": "The response correctly identifies the NPN transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+            "score5_description": "The response provides a detailed identification of the NPN transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the circuit as a NPN bipolar junction transistor?",
+            "Does the response explain the use of BJTs in amplification and switching applications?",
+            "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+            "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "Can you explain about this figure? Provide a response for a 5-year-old and a response for an expert in this field!",
+        "reference_answer": "For a 5-year-old:\nImagine the ocean is like a big cake with different layers. The top layer where the sun shines and fish like Nemo live is called the \"sunlight layer.\" It's not very deep, so we can swim and see lots of things there. As you go deeper, where it's darker and the water is blue and cold, it's like going into a room without lights, which we call the \"twilight zone.\" Even deeper is the \"midnight zone,\" where it's always dark and some fish have to make their own light, like little flashlights. Then there's the flat bottom part, like the bottom of the cake, which is really, really deep and super dark; it's called the \"abyss.\" And the deepest part, where few have ever gone, is like the hidden surprise in the bottom layer of the cake; we call this the \"trench.\"\n\nFor an expert:\nThis diagram represents the zonation of the marine environment based on depth. It illustrates the different pelagic zones, starting with the Epipelagic zone, characterized by sufficient light penetration to support photosynthesis. Below this, we have the Mesopelagic zone, where light diminishes and pressure increases, affecting the adaptations of resident fauna. The Bathypelagic zone follows, notable for its complete darkness and the necessity for bioluminescence and chemosynthesis as survival mechanisms. The Abyssopelagic zone represents the deep-sea level, characterized by extremely high pressures, low temperatures, and scarce food availability. Finally, the Hadal zone corresponds to the oceanic trenches, with unique hydrostatic pressures and geological features. Understanding these zones is crucial for studying biogeographical distribution, deep-sea ecology, and the physiochemical gradients that define the life in each zone.",
+        "score_rubric": {
+            "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+            "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+            "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+            "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+            "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+            "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+        },
+        "atomic_checklist": [
+            "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+            "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+            "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+            "Does the response for an expert mention the biological and ecological significance of each zone?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+            }
+        ]
+    }
+]

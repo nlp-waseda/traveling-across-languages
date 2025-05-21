@@ -1,0 +1,144 @@
+[
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "根据这张图片，如果你是一只海鸭，什么样的生存策略是合适的？",
+        "reference_answer": "如果你是切萨皮克湾生态系统中的一只海鸭，如食物网所示，适当的生存策略将包括几个关键组成部分：\n\n1. **饮食**：你主要会吃双壳类动物，因为它们在这个食物网上被标示为海鸭的食物来源。双壳类动物包括各种类型的蛤蜊、贻贝和牡蛎，这些在切萨皮克湾很常见。\n\n2. **觅食行为**：你需要发展觅食策略，以便有效地找到和食用双壳类动物。这可能涉及潜水以到达双壳类动物生活的底部或沉积物中。\n\n3. **栖息地偏好**：由于双壳类动物通常在浅水中找到，它们可以进行滤食，作为一只海鸭，你可能会在这样的栖息地花费大量时间，以便有效地获取食物。\n\n4. **捕食者意识**：食物网显示海鸭可能被较大的食鱼鸟类捕食，因此你需要警惕像白头鹰这样的捕食者。\n\n5. **季节性迁徙**：根据具体的海鸭种类，你可能会季节性迁徙，这需要你知道何时前往不同地区以进行繁殖或寻找更丰富的食物来源。\n\n作为这个生态系统中的一只海鸭生活，意味着要适应可用的食物来源，并意识到在食物网中的位置，既是消费者也是潜在的猎物。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+            "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+            "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+            "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+            "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+            "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the sea duck's primary diet of bivalves?",
+            "Does the response address the habitat preference for areas where bivalves are found?",
+            "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+            "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "这是我从高中学到的基本知识。我现在是一名在读的医学本科生，我想向教授表明，我会在大学期间想要学习更多的相关的内容。你能在我开会前帮我补充一些我应该搜索和研究的细节吗？",
+        "reference_answer": "没问题！与医学项目中的教授讨论你的教育愿望需要对主题进行更深入的研究。由于图像涉及人体消化系统，以下是你可能想要研究和详细检查的内容：\n\n1. **生理学和功能**：了解消化系统的每个部分如何运作，不仅仅是解剖学上的，还包括细胞和分子层面。探索胃和肠道中的酶消化、小肠中的营养吸收以及大肠中微生物群的作用等主题。\n\n2. **病理生理学**：研究影响消化系统的常见疾病和障碍，如胃酸倒流、炎症性肠病、肝硬化和胰腺疾病。理解这些疾病如何改变正常生理功能可能是至关重要的。\n\n3. **临床相关性**：研究各种消化系统疾病的症状表现以及用于识别它们的诊断方法。这可能包括学习内窥镜检查、结肠镜检查、成像技术和实验室测试。\n\n4. **营养学**：由于消化系统与营养密切相关，深入研究不同营养素如何被消化和处理。你可能想要了解饮食对消化健康的影响以及疾病状态下营养需求的变化。\n\n5. **药理学**：调查各种药物如何影响消化系统，包括用于治疗消化障碍的药物。这包括理解这些药物的作用机制、副作用和治疗用途。\n\n6. **外科干预**：熟悉与消化系统相关的外科手术，如阑尾切除术、减肥手术或肝移植，以及这些干预措施何时是必要的。\n\n7. **研究和进展**：保持对胃肠病学最新研究的关注，包括新治疗方法、肠道微生物群研究的进展以及消化健康诊断中的新兴技术。\n\n8. **相互关联的系统**：探索消化系统如何与其他身体系统相互作用，例如神经系统（肠脑轴）和免疫系统。\n\n通过研究这些主题，你将能够与教授进行更有见地和详细的讨论，关于你在医学项目中的学习目标。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+            "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+            "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+            "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+            "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+            "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the detailed physiology and function of the digestive system?",
+            "Does the response outline the study of pathophysiology related to common digestive diseases?",
+            "Does the response mention the diagnostic methods used for digestive disorders?",
+            "Does the response consider the role of nutrition and diet in digestive health?",
+            "Does the response address the pharmacological treatments available for digestive issues?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "根据这张图片，我们的太阳需要多长时间才会开始收缩？详细解释在此之前会发生的过程。还要添加图片中没有的信息！",
+        "reference_answer": "图像描绘了太阳的生命周期，展示了从其诞生到成为白矮星的关键阶段。根据所呈现的时间线，太阳将在膨胀成红巨星后开始收缩，这一阶段标记在其诞生约100亿年后。\n\n在它开始收缩之前，将会发生以下情况：\n1. **主序星阶段**：目前，太阳处于其生命周期的主序星阶段，已经在这个稳定阶段约45亿年，预计还会保持大约50亿年。在此期间，太阳在其核心将氢聚变成氦，释放出能量，为太阳提供动力，并为太阳系提供热量和光。\n2. **逐渐变暖**：在接下来的几十亿年里，随着核心中的氢被消耗和氦的积累，太阳将逐渐变得更暖和更亮。氦的增加将导致核心收缩，外层膨胀。\n3. **红巨星阶段**：在其诞生约100亿年后，太阳将进入红巨星阶段。氢聚变将转移到外层，核心将升温并开始将氦聚变成更重的元素，如碳和氧。太阳的外层将大幅膨胀，可能吞噬包括地球在内的内行星。\n4. **氦闪和进一步聚变**：一旦核心中的氦耗尽，核心将进一步收缩，温度将升高到可以聚变更重元素的程度。这个阶段以氦闪为标志，即由于氦聚变的突然开始而导致的亮度快速而显著的增加。\n5. **行星状星云**：在红巨星阶段之后，太阳将抛弃其外层，这些外层将漂浮到太空中，形成行星状星云。核心将作为一个炽热、密集的残余物留下。\n6. **白矮星**：最终，核心将冷却并收缩成白矮星，这是太阳生命周期的最后阶段。白矮星由于残余热量而发光，不再进行聚变反应。它将在数十亿年中逐渐冷却。\n\n在这些阶段中，太阳系将发生剧变。太阳膨胀成红巨星可能会摧毁内行星，并可能使外行星散开。通过行星状星云阶段失去的太阳质量将削弱其引力，可能使任何剩余的行星脱离其轨道。\n\n这一过程反映了像我们太阳这样的恒星的典型生命周期，太阳是一颗G型主序星。时间尺度和结果基于天体物理模型和对处于其生命周期不同阶段的类似恒星的观测。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+            "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+            "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+            "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+            "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+            "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the current main sequence phase and its duration?",
+            "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+            "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+            "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+            "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "解释这个电路的用途。什么类型的机器或设备使用这个电路？另外，有哪些好的方法可以尝试自己制作这个电路？",
+        "reference_answer": "你展示的电路是一个双极结型晶体管（BJT）的示意图，特别是一个基于标记和发射极箭头方向的NPN型晶体管。BJTs是用于在电路中放大或切换电子信号的基本组件。\n\n**使用此组件的机器或设备：**\n1. **放大设备**：收音机、电视和扬声器中的音频放大器使用BJTs来放大声音信号。\n2. **切换系统**：BJTs用于切换电路，这是数字电子学中基本的，包括计算机和手机。\n3. **调节系统**：电源调节系统，如电压调节器或电源供应器，通常使用BJTs。\n4. **信号调制**：通信设备使用BJTs进行信号调制和解调。\n\n**尝试自己制作的方法：**\n1. **电子套件**：购买包含BJTs和其他组件的电子套件，以指导学习的方式练习构建电路。\n2. **面包板原型制作**：使用面包板插入和连接组件，无需焊接，便于实验和学习。\n3. **电路仿真软件**：使用仿真软件在实际构建之前虚拟创建和测试BJT电路。\n4. **焊接练习**：学习焊接技术，以便在印刷电路板（PCB）上构建更永久的电路。\n5. **教育资源**：跟随在线教程、课程或教材，了解BJTs的理论和实际应用。\n\n在处理电子组件和工具时，始终确保对电子学有良好的理解，并采取所有必要的安全预防措施。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the function of a NPN transistor and practical methods for experimentation?",
+            "score1_description": "The response does not accurately identify the circuit as a NPN transistor or provide any practical methods for experimentation.",
+            "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as NPN or provide clear applications or methods for building the circuit.",
+            "score3_description": "The response identifies the circuit as a NPN transistor, lists a few applications, but offers limited methods for practical experimentation.",
+            "score4_description": "The response correctly identifies the NPN transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+            "score5_description": "The response provides a detailed identification of the NPN transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the circuit as a NPN bipolar junction transistor?",
+            "Does the response explain the use of BJTs in amplification and switching applications?",
+            "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+            "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "你能解释一下这个图吗？请提供一个适合5岁小朋友的回答和一个适合该领域专家的回答！",
+        "reference_answer": "对于5岁小孩：\n\n想象一下海洋就像一个有不同层次的大蛋糕。阳光照耀的顶层，像尼莫这样的鱼生活的地方，叫做“阳光层”。它不是很深，所以我们可以游泳并看到很多东西。当你往更深的地方走，那里更黑，水是蓝色和寒冷的，就像进入一个没有灯光的房间，我们称之为“暮光区”。更深的地方是“午夜区”，那里总是黑暗的，有些鱼必须自己发光，就像小手电筒一样。然后是平坦的底部部分，就像蛋糕的底部，非常非常深而且超级黑暗；这叫做“深渊”。最深的部分，几乎没有人去过，就像蛋糕底层的隐藏惊喜；我们称之为“海沟”。\n\n对于专家：\n\n该图表示基于深度的海洋环境分区。它展示了不同的远洋区，从表层远洋区开始，该区域光线充足，可以支持光合作用。下面是中层远洋区，光线减弱，压力增加，影响了居住生物的适应性。接下来是深层远洋区，以完全黑暗和生物发光及化学合成为生存机制的必要性为特征。深渊远洋区代表深海层，以极高的压力、低温和稀少的食物供应为特征。最后，超深渊区对应于海洋沟壑，具有独特的静水压力和地质特征。理解这些区域对于研究生物地理分布、深海生态学以及定义每个区域生命的物理化学梯度至关重要。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+            "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+            "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+            "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+            "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+            "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+        },
+        "atomic_checklist": [
+            "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+            "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+            "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+            "Does the response for an expert mention the biological and ecological significance of each zone?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+            }
+        ]
+    }
+]

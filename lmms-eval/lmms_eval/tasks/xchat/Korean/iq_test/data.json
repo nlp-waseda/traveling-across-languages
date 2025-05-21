@@ -1,0 +1,110 @@
+[
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "제공된 이미지에서 \"?\"에 가장 잘 맞는 옵션(A ~ F)을 추측하세요. 답을 작성하기 전에 패턴을 분석하여 사고 과정을 설명하세요. ",
+        "reference_answer": "지시 사항은 이미지 안의 \"?\"에 가장 잘 맞는 옵션을 추측하라고 요청합니다.\n\n각 행마다 3개의 이미지 사이에 공통점이 있습니다.\n- 첫 번째 행은 정사각형의 꼭짓점에 배치된 4개의 점이 있습니다.\n- 두 번째 행은 네 점이 있는 별의 변형인 철십자가가 있습니다.\n- 마찬가지로, 세 번째 행은 가운데 다른 물체를 둘러싼 정사각형이 있어야 합니다.\n\n각 열마다 3개의 이미지 사이에 공통점이 있습니다.\n- 첫 번째 열은 가운데에 배치된 원이 있습니다.\n- 두 번째 열은 가운데에 배치된 더하기 기호가 있습니다.\n- 마찬가지로, 세 번째 열은 가운데에 회전된 정사각형이 있어야 합니다.\n\n이러한 관찰에 기반하여, \"?\"에 맞는 가장 적합한 객체는 가운데에 회전된 정사각형이 있고, 그것을 둘러싼 더 큰 정사각형이 있어야 합니다.\n따라서, 정답은 E입니다. ",
+        "score_rubric": {
+            "criteria": "Does the response include a reasoning process that identifies the patterns and selects the correct answer for a visual pattern recognition problem?",
+            "score1_description": "The response lacks any recognition of the patterns, does not explain, and selects an incorrect answer without justification.",
+            "score2_description": "The response demonstrates minimal recognition of the patterns, offers a flawed explanation, and selects an answer with weak justification. Even if the answer is correct, a score of 2 should be given if the reasoning process within the response is not comprehensive enough.",
+            "score3_description": "The response shows some recognition of the patterns, provides a partial explanation (e.g., identifying only the patterns for the column or row), and may select a partially correct answer or a correct answer with an incomplete justification.",
+            "score4_description": "The response displays substantial recognition of the patterns, gives a mostly complete explanation, and selects the correct answer with good justification.",
+            "score5_description": "The response demonstrates excellent recognition of the patterns, provides a comprehensive and detailed explanation, and selects the correct answer with strong, well-justified reasoning."
+        },
+        "atomic_checklist": [
+            "Does the reasoning process encompass an analysis of the commonality for each row?",
+            "Does the reasoning process encompass an analysis of the commonality for each column?",
+            "Based on the analysis for each row and column, does the response succeed at inferring to the most probable answer which is E?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "어떤 선택지(A에서 F 중에서)가 주어진 이미지의 \"?\" 자리에 있는 순서를 가장 적절하게 완성하는지 결정하십시오. 답을 제시하기 전에 패턴을 분석하여 당신의 추론을 설명하십시오. ",
+        "reference_answer": "그 지시사항은 그림 안의 \"?\"를 올바르게 채우는 선택지를 추정하는 것을 요구합니다. \"ways\"와 \"yaws\"라는 두 단어를 보면, 두 단어 모두 단어를 구성하는 공통 문자가 있습니다. 이 문제를 해결하는 한 가지 방법은 각 문자가 특정 숫자에 매핑될 수 있다는 것입니다. 따라서, \"w=5\", \"a=3\", \"y=8\", \"s=6\"입니다. 그러면 \"yaws\"는 \"8356\"이 됩니다. 그래서 정답은 F입니다. ",
+        "score_rubric": {
+            "criteria": "Does the response recognize character-to-number mapping in a pattern recognition task and apply it to determine the correct sequence?",
+            "score1_description": "The response shows no understanding of character-to-number mapping, fails to recognize the pattern, and incorrectly completes the sequence with no logical explanation.",
+            "score2_description": "The response demonstrates limited understanding of the pattern, attempts character-to-number mapping with significant errors, and arrives at an incorrect sequence with flawed reasoning.",
+            "score3_description": "The response exhibits partial understanding of the pattern (e.g., wrong mapping for certain characters), performs the character-to-number mapping with minor errors, and proposes a sequence that is close to correct but with insufficient reasoning.",
+            "score4_description": "The response reflects a good understanding of the pattern, correctly applies character-to-number mapping, and identifies the right sequence with minor lapses in the reasoning process (e.g., fail to recounstruct the correct digit for \"yaws\").",
+            "score5_description": "The response shows excellent comprehension of the pattern, accurately maps characters to numbers, and flawlessly determines the correct sequence with a clear and logical explanation."
+        },
+        "atomic_checklist": [
+            "Does the response recognize that \"ways\" and \"yaws\" have the same characters in different order?",
+            "Does the response recognize that each character corresponds to a digit?",
+            "Does the response use the mapping between the character and digit to assemble the corresponding number for \"yaws\"?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "어떤 선택지(A부터 F까지)가 이미지에 표시된 \"?\"의 위치에서 순서를 정확하게 완성하는지 결정하십시오. 선택지를 밝히기 전에 설정된 패턴을 연구하여 당신의 추론을 자세히 설명하십시오. ",
+        "reference_answer": "지시에 따르면 이미지의 \"?\"를 정확하게 완성하는 옵션을 결정해야 합니다. 저울에서 무게가 x와 y인 추가 놓인다고 했을 때, 평형을 이루기 위해서 거리는 y와 x, 즉 거리와 무게의 곱이 같아야합니다. 저울은 양쪽 끝에 각각 7kg의 무게를 보여줍니다. 무게가 동일하고 저울의 중심에서 같은 거리에 위치해 있기 때문에, 이미지의 '?'는 같은 거리인 90cm를 나타낸다고 추론할 수 있습니다. 따라서, 답은 F입니다. ",
+        "score_rubric": {
+            "criteria": "Does the response apply logical reasoning to deduce the correct distance measurement?",
+            "score1_description": "The response shows no understanding of balance principles, does not recognize the equal weights, and incorrectly suggests a distance without any logical basis.",
+            "score2_description": "The response demonstrates a basic grasp of balance but incorrectly assumes the distances, leading to a wrong answer that lacks clear reasoning related to the scale's equilibrium.",
+            "score3_description": "The response recognizes the need for balance and the equal weights but is only somewhat correct in determining the distance, with an explanation that indicates partial understanding of the scale's functioning.",
+            "score4_description": "The response correctly identifies that the weights are equal and should be equidistant from the center, arriving at a nearly correct distance with reasoning that has minor inaccuracies.",
+            "score5_description": "The response accurately understands the concept of balance, recognizes that the weights are equal and equidistant from the center, and deduces the correct distance of 90cm with a well-reasoned explanation, resulting in the correct answer F."
+        },
+        "atomic_checklist": [
+            "Does the response understand that the two objects in the scale has the same weight (7kg)?",
+            "Does the response recognize that the two objects would be positioned equidistant from the scale's center (90cm)?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "제시된 이미지에서 \"?\"에 올바르게 들어갈 옵션(A에서 F 중)을 식별하십시오. 선택을 밝히기 전에, 확립된 패턴에 대한 분석을 통해 당신의 사고 과정을 설명하십시오. ",
+        "reference_answer": "제공된 이미지에서 \"?\"에 들어갈 올바른 숫자를 식별하기 위해, 제시된 숫자들의 순서를 분석하고 패턴을 결정해야 합니다. 이미지에 있는 숫자는 다음과 같습니다: 4, 5, 7, 10, 14, 19, 25, 32.\n\n이 숫자들 사이의 차이는 다음 숫자로 이동할수록 증가합니다:\n- 5와 4의 차이는 1입니다.\n- 7과 5의 차이는 2입니다.\n- 10과 7의 차이는 3입니다.\n- 14와 10의 차이는 4입니다.\n- 19와 14의 차이는 5입니다.\n- 25와 19의 차이는 6입니다.\n- 32와 25의 차이는 7입니다.\n\n이는 각 숫자가 이전 숫자에 1부터 시작하여 매번 1씩 증가하는 숫자를 더하여 얻어진다는 패턴을 시사합니다.\n\n32 다음의 수열에서 다음 숫자를 찾기 위해, 8을 더해야 합니다 (마지막 증가분이 7이었기 때문입니다).\n\n수열의 다음 숫자는 32 + 8 = 40입니다. 따라서, 이미지에서 \"?\"에 들어갈 올바른 선택지는 C입니다. ",
+        "score_rubric": {
+            "criteria": "Does the response recognize numerical patterns and correctly apply them to identify a missing number in a sequence?",
+            "score1_description": "The response does not recognize any pattern, cannot calculate the differences between numbers, and selects an incorrect answer without any valid reasoning.",
+            "score2_description": "The response shows a limited recognition of the pattern, makes calculation errors in the differences, and chooses an incorrect answer with a flawed justification.",
+            "score3_description": "The response correctly identifies the pattern but makes a minor error in applying it, leading to a close but incorrect answer, with an explanation showing partial understanding.",
+            "score4_description": "The response identifies and applies the pattern correctly but fails to match the result with the appropriate answer option, resulting in a nearly correct response.",
+            "score5_description": "The response accurately recognizes the pattern, applies it correctly to calculate the missing number, and precisely matches the result to the correct answer option with a clear and logical explanation."
+        },
+        "atomic_checklist": [
+            "Does the response calculate the difference between consecutive numbers in the sequence?",
+            "Does the response identify the pattern of incrementally increasing differences?",
+            "Does the response apply the identified pattern to predict the next number correctly?",
+            "Does the response match the calculated number to the correct answer option provided in the image?",
+            "Does the response verify that the pattern hold for all given numbers in the sequence before the missing number?"
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "다음 이미지로 구성할 수 있는 올바른 옵션(A에서 F 중 하나)을 선택하십시오. 선택을 공개하기 전에 표시된 패턴을 검토하여 그 이유를 자세히 설명하십시오. ",
+        "reference_answer": "이 퍼즐을 풀기 위해서는 2D 전개도를 3D 정육면체로 정신적으로 접어보고, 큐브 면의 패턴과 색상이 제공된 선택지(A부터 F까지)와 일치하는지 확인해야 합니다. 단계별로 분석해 보겠습니다.\n\n### 전개도 이해하기:\n펼쳐진 전개도는 6개의 색상 사각형으로 구성되어 있습니다. 색상은 다음과 같습니다:\n- 상단 중앙: 회색\n- 왼쪽: 갈색\n- 오른쪽: 초록색\n-중앙: 파란색\n- 하단: 주황색\n- 중앙 위: 분홍색\n\n### 각 선택지 분석:\n1. **선택지 A**:\n보이는 면은 **회색, 분홍색, 초록색**입니다.\n- 접었을 때, 회색이 아니라 주황색이 있어야 합니다. 만약 회색이 있다면 분홍색과 초록색의 위치가 반대여야 합니다.\n- 따라서, **A**는 맞지 않습니다.\n\n2. **선택지 B**:\n보이는 면은 **파란색, 초록색, 갈색**입니다.\n- 처음에는 그럴듯해 보이지만, 접었을 때 갈색과 초록색은 서로 맞닿아 있으면 안 됩니다. 이들은 서로 마주보는 면이어야 합니다.\n- **B**는 맞지 않습니다.\n\n3. **선택지 C**:\n보이는 면은 **회색, 주황색, 분홍색**입니다.\n- 회색이 위에 있고, 주황색이 아래에 있습니다. 분홍색은 파란색 위에 있어야 하며, 회색과 인접하지 않아야 합니다.\n- 따라서, **C**는 맞지 않습니다.\n\n4. **선택지 D**:\n보이는 면은 **파란색, 초록색, 갈색**입니다.\n- 선택지 B와 동일하게, 초록색과 파란색은 서로 맞닿아 있으면 안 됩니다. 이들은 큐브의 마주보는 면이어야 합니다.\n- **D**는 맞지 않습니다.\n\n5. **선택지 E**:\n보이는 면은 **분홍색, 주황색, 회색**입니다.\n- 분홍색은 파란색 위에 있고, 주황색은 파란색 아래에 있습니다. 접었을 때, 분홍색, 주황색, 회색은 모두 인접할 수 있습니다.\n- **E**는 올바른 구성에 맞기 때문에 정답입니다.\n\n6. **선택지 F**:\n보이는 면은 **파란색, 주황색, 회색**입니다.\n- 파란색은 중앙에 있고, 주황색은 그 아래에 있습니다. 하지만 주황색과 회색은 접었을 때 서로 인접하지 않아야 합니다.\n- **F**는 맞지 않습니다.\n\n### 결론:\n\n정답은 **E**입니다. 전개도를 접어서 큐브로 만들었을 때, 분홍색, 주황색, 회색 면이 서로 인접하여 선택지 E의 구성과 일치합니다. 다른 선택지들은 전개도를 올바르게 접었을 때 색상이 인접하지 않거나 맞지 않습니다.",
+        "score_rubric": {
+            "criteria": "Does the response accurately perform spatial reasoning in mapping the 2D pattern to the 3D cube?",
+            "score1_description": "The explanation shows no understanding of spatial relationships; colors and positions are randomly assigned without following the logic of cube assembly.",
+            "score2_description": "The explanation demonstrates a minimal recognition of spatial relationships, but more than one major error in the mapping process leads to incorrect conclusions.",
+            "score3_description": "The explanation correctly identifies some spatial relationships, but minor errors in mapping or inconsistent logic result in an inaccurate representation of the cube.",
+            "score4_description": "The explanation displays a clear understanding of spatial relationships with only negligible errors, leading to a mostly accurate representation of the cube.",
+            "score5_description": "The explanation demonstrates precise and accurate spatial reasoning, with all colors and positions mapped correctly, resulting in a perfect representation of the 3D cube from the 2D pattern."
+        },
+        "atomic_checklist": [
+            "Does the explanation directly map each colored square in the unfolded pattern to a corresponding face on the 3D cube?",
+            "Are the adjacency relationships between the squares in the unfolded pattern correctly translated into adjacent faces on the cube?",
+            "Is there a clear rationale for identifying which squares are opposite each other on the cube, based on their positions in the unfolded pattern?",
+            "Does the reasoning process include a step that systematically excludes incorrect folding options based on the adjacency and opposite faces criteria?",
+            "Is the explanation consistent with the visual-spatial properties of a cube, such as the number of faces and the rule that each face must be connected to four other faces?"
+        ]
+    }
+]

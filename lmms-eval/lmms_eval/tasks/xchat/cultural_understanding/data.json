@@ -1,0 +1,35 @@
+[
+    {
+    "capability": "vision",
+    "task": "cultural understanding",
+    "instance_idx": 0,
+    "system_prompt": "You are a culturally informed visual assistant capable of interpreting and understanding Chinese cultural elements from images.",
+       "input": "你看到一幅描绘中国传统节日场景的图画。请分析图片，并解释其中的文化含义，特别是与某种中国传统节日的关联。结合人物的活动、环境中的植物以及其他象征性元素，阐述它们在中国文化中的意义。",
+       "reference_answer": "这幅画描绘了中国传统的**重阳节**场景，具有以下文化含义：\n\n1. **人物活动**：几位古代人物围坐在一起，可能在饮酒或品茶，这与重阳节登高饮酒、聚会的传统有关。重阳节有登高、饮菊花酒的习俗，象征着避灾祈福。\n\n2. **菊花**：画面中的菊花是重阳节的重要象征，菊花在中国文化中代表长寿、清雅和坚韧。重阳节时，人们会赏菊、饮菊花酒，菊花也象征着坚强与健康。\n\n3. **重阳节的文化背景**：重阳节是中国传统节日之一，时间在农历九月初九，又称“老人节”。这一天有登高、赏菊、敬老的传统活动，象征着对长者的尊敬与祝福。\n\n4. **自然环境和和谐**：人物所在的自然环境，包括树木和山石，表现出人与自然的和谐，符合中国文化中道家思想对自然的崇尚，尤其在节日时更加强调与自然的连接与静谧。\n\n总体而言，画作表现了重阳节的庆祝活动，突出家庭团聚、健康长寿和对大自然的敬畏，这些都是重阳节的重要主题。",
+    "score_rubric": {
+        "criteria": "Does the response accurately interpret the visual elements in the image and explain their cultural significance specifically in the context of the Chongyang Festival (重阳节)?",
+        "score1_description": "The response identifies some elements in the image but fails to explain their connection to the Chongyang Festival or misinterprets the cultural significance.",
+        "score2_description": "The response correctly identifies one or two visual elements (e.g., chrysanthemums or group gathering) and gives a basic explanation of their cultural significance, but does not fully connect them to the Chongyang Festival traditions.",
+        "score3_description": "The response explains two or more visual elements and connects them to Chongyang Festival traditions, but some interpretations may be incomplete or miss certain symbolic aspects.",
+        "score4_description": "The response accurately identifies and explains most visual elements and clearly links them to the Chongyang Festival, but may miss minor cultural nuances or deeper symbolic meanings.",
+        "score5_description": "The response provides a comprehensive and culturally accurate interpretation of all key visual elements, fully explaining their symbolic significance in the context of the Chongyang Festival, with no omissions or misinterpretations."
+        }
+    },
+    {
+        "capability": "vision",
+        "task": "cultural understanding",
+        "instance_idx": 1,
+        "system_prompt": "You are a culturally informed visual assistant capable of interpreting and understanding Chinese cultural elements from images.",
+        "input": "图片展示了某种作物的种植。请分析图片，并解释这些元素在中国农业实践和文化传统中的意义。请考虑作物类型、地理特征以及这种景观在中国文化中的历史重要性。",
+        "reference_answer": "图片展示的是位于浙江省的龙井茶（龙井绿茶）种植园。龙井茶是中国最著名的绿茶之一，出产于杭州西湖地区，梯田种植方式有助于在山地中更好地管理水分并防止水土流失，这对种植优质茶叶至关重要。\n\n1. **地理特征**：梯田种植的特点在于充分利用了山地的地形优势，浙江省的气候和土壤非常适合龙井茶的生长，尤其是西湖周边地区，以产出顶级的龙井茶而闻名。明清时期，龙井茶还被列为贡茶，向皇室进贡。\n\n2. **茶文化的意义**：龙井茶不仅因为其独特的口感和清香而闻名，还被视为身份和文化的象征。在中国历史中，龙井茶经常出现在重要的文化仪式和日常社交场合，象征着高贵、优雅和传统。\n\n3. **象征意义**：在中国文化中，茶象征着和谐、宁静与尊敬。龙井茶作为最具代表性的中国名茶之一，体现了中国几千年茶文化的传承，并且在国内外都享有很高的声誉。这类茶园不仅是中国茶叶生产历史的象征，也是茶文化在日常生活和礼仪中的重要体现。",
+        "score_rubric": {
+            "criteria": "Does the response correctly identify the crop being cultivated as high-quality tea and specifically recognize it as Longjing tea, explaining its historical and cultural significance?",
+            "score1_description": "The response recognizes the presence of agricultural elements but fails to identify the crop as tea or explain its significance in Chinese culture.",
+            "score2_description": "The response identifies the crop as tea but provides only a basic or incomplete explanation of its cultural and historical significance in China, missing the connection to Longjing tea.",
+            "score3_description": "The response identifies the crop as tea and explains its cultural importance, but does not recognize it as Longjing tea or misses key aspects of the historical and geographical significance.",
+            "score4_description": "The response accurately identifies the crop as tea, explains the use of terraced farming, and connects tea production to Chinese cultural practices. It recognizes the region as producing high-quality tea, though it may not fully highlight Longjing tea.",
+            "score5_description": "The response provides a detailed and culturally rich explanation, accurately identifying the crop as tea, recognizing the significance of the region as the home of Longjing tea, and fully explaining its historical, cultural, and symbolic importance in Chinese society."
+        }
+    }
+    
+]

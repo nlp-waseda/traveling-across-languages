@@ -1,0 +1,135 @@
+[
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Saat mengamati sebuah potret, elemen spesifik apa yang berkontribusi pada suasana yang dirasakan, dan bagaimana elemen-elemen tersebut berinteraksi untuk menciptakan pengalaman emosional yang holistik? ",
+        "reference_answer": "Potret yang dimaksud memancarkan suasana tenang dan kontemplatif, terutama disampaikan melalui tatapan lembut subjek dan pencahayaan yang lembut. Mata wanita itu, sedikit menunduk dan melihat ke samping, mengundang penonton untuk merenungkan apa yang mungkin ada dalam pikirannya, menunjukkan introspeksi atau ketenangan. Pencahayaan dalam gambar dengan lembut menerangi satu sisi wajahnya, menciptakan bayangan halus dan menciptakan suasana yang tenang. Interaksi antara cahaya dan bayangan ini berkontribusi pada perasaan keseluruhan lukisan yang tenang dan penuh pemikiran.\n\nSelain itu, pilihan warna meningkatkan suasana ini; nada dingin dari kerudung biru dan nuansa hangat dari pakaian tanahnya mencapai efek yang seimbang dan harmonis, membangkitkan rasa kedamaian. Kerudung, yang terjuntai dengan elegan, menambah aura martabat dan reflektif dari subjek. Anting yang terisolasi, menangkap kilauan cahaya, adalah detail yang mengharukan yang menarik perhatian penonton pada ekspresi kontemplatifnya, memperdalam resonansi emosional potret tersebut.\n\nSelain itu, kontras tajam antara subjek dan latar belakang gelap memfokuskan perhatian penonton padanya, semakin mengintensifkan kualitas intim dan meditatif dari gambar tersebut. Kesederhanaan komposisi, tanpa elemen yang mengganggu, memungkinkan hubungan emosional yang lebih mendalam, mengundang penonton untuk terlibat dengan subjek pada tingkat pribadi. Pendekatan minimalis ini mendorong penonton untuk mempertimbangkan nuansa sikap subjek dan berspekulasi tentang kehidupan batinnya, meningkatkan suasana introspektif gambar tersebut.\n\nSecara keseluruhan, dampak emosional dari potret ini adalah hasil dari kombinasi komposisi, pencahayaan, warna, dan detail yang terampil, yang bersama-sama menciptakan penggambaran yang kuat namun halus tentang ketenangan batin dan kesendirian reflektif. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the elements that contribute to the mood of the portrait and their interplay to create an emotional experience?",
+            "score1_description": "The response identifies basic elements of the portrait but does not relate them to the mood, for example, it might mention the subject's gaze but not how it conveys introspection.",
+            "score2_description": "The response recognizes one or two elements that contribute to the mood but does not integrate them into a cohesive analysis, for example, noting the lighting or color but not how they work together to evoke calmness.",
+            "score3_description": "The response describes several elements such as gaze, lighting, and color, and begins to relate them to the mood but lacks detail on their interactive effect, for example, it might suggest tranquility but not delve into the emotional depth created by these elements.",
+            "score4_description": "The response provides a detailed explanation of the elements and their contribution to the mood, but may not fully capture the holistic emotional experience, for example, it describes the serene atmosphere but not the viewer's personal engagement with the portrait.",
+            "score5_description": "The response offers a comprehensive explanation of the elements and their synergy, thoroughly describing how they interact to create a holistic emotional experience, reflecting a deep understanding of the portrait's figurative language."
+        },
+        "atomic_checklist": [
+            "Does the response interpret the subject's gaze as an element of introspection?",
+            "Is the response detailed in describing how the lighting contributes to the serene mood?",
+            "Does the response analyze the color choice and its effect on the painting's atmosphere?",
+            "Does the response consider the headscarf and its role in the subject's dignified aura?",
+            "Is the response attentive to the earring's detail and its emotional significance?",
+            "Does the response discuss the contrast between the subject and background and its impact?",
+            "Is the response comprehensive in connecting all elements to a profound emotional connection with the viewer?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image appears to be a digital representation or photograph of the famous painting \"Girl with a Pearl Earring\" by Johannes Vermeer. The subject is a young woman looking over her shoulder, with a blue headscarf and a large pearl earring. The background is dark, highlighting the subject's face and attire. This artwork is known for its exquisite use of light and shadow, as well as its captivating depiction of the young woman's gaze."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Periksa situasi yang disajikan dalam media visual dan jelaskan urutan peristiwa serta proses alami yang mengarah pada skenario saat ini yang digambarkan. Pertimbangkan implikasi untuk subjek yang ditunjukkan dan konteks lingkungan yang lebih luas. Analisis faktor-faktor yang berkontribusi pada keadaan ini dan prediksi kemungkinan hasil jika kondisi yang ada terus berlanjut. ",
+        "reference_answer": "Gambar tersebut menggambarkan seekor beruang kutub yang bertengger dengan berbahaya di atas sepotong es kecil yang menipis dikelilingi oleh air, yang dengan jelas menggambarkan hubungan sebab-akibat antara perubahan iklim dan dampaknya pada satwa liar Arktik. Penyebab utamanya adalah pemanasan global, yang dihasilkan dari peningkatan emisi gas rumah kaca. Pemanasan ini menyebabkan pencairan es laut, yang efeknya dapat diamati secara langsung di habitat beruang kutub.\n\nBentuk es yang tidak biasa, menyerupai tumpuan es, menunjukkan bahwa itu pernah menjadi bagian dari bongkahan es yang lebih besar yang telah mencair dan hancur. Beruang kutub bergantung pada es laut sebagai platform untuk beristirahat dan berburu anjing laut, sumber makanan utama mereka. Es yang menipis memaksa beruang ini ke dalam situasi berbahaya, menggambarkan dampak langsung pada kemampuannya untuk bertahan hidup dan berburu.\n\nKonteks lingkungan yang lebih luas mencakup efek berantai dari perubahan iklim, seperti hilangnya habitat bagi banyak spesies, naiknya permukaan laut, dan perubahan arus laut. Jika kondisi ini berlanjut, hasilnya bagi beruang kutub bisa menjadi buruk, yang mengarah pada kelaparan, penurunan tingkat reproduksi, dan akhirnya penurunan populasi, yang berpotensi mengakibatkan kepunahan.\n\nHilangnya es laut juga mempengaruhi populasi manusia lokal, yang gaya hidup dan ekonominya terkait erat dengan kesehatan ekosistem Arktik. Cara hidup tradisional, yang mencakup berburu dan memancing, terancam, menunjukkan dampak luas dari masalah lingkungan ini.\n\nSebagai kesimpulan, gambar ini menangkap adegan kecil namun kuat yang merupakan mikrokosmos dari krisis lingkungan yang lebih besar dan sedang berlangsung yang mempengaruhi Arktik. Perjuangan beruang kutub adalah indikator yang menyentuh tentang kebutuhan mendesak untuk tindakan mengurangi perubahan iklim. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the sequence of events and natural processes leading to the depicted scenario, including the broader environmental implications?",
+            "score1_description": "The response observes the situation but fails to connect it to environmental processes, for example, it might note the polar bear on ice but not mention global warming or habitat loss.",
+            "score2_description": "The response identifies a link between the polar bear's situation and environmental change but lacks a deeper analysis of cause and effect, for example, mentioning thinning ice without discussing the impact on the bear's hunting habits.",
+            "score3_description": "The response describes the polar bear's precarious position and hints at climate change, but does not fully explore the implications for the Arctic ecosystem or the bear's survival, for example, it might omit the potential outcomes if current conditions persist.",
+            "score4_description": "The response provides a detailed explanation of the visual metaphor, capturing the relationship between climate change and its impact on the polar bear, but may not fully predict the broader environmental outcomes, for example, it discusses habitat loss but not the effects on human communities.",
+            "score5_description": "The response offers a comprehensive analysis of the scenario, thoroughly detailing the environmental processes, the implications for the subject, and the broader context, reflecting a profound understanding of the image's figurative message."
+        },
+        "atomic_checklist": [
+            "Does the response identify the thinning ice as a consequence of global warming?",
+            "Is the response detailed in describing how climate change impacts the polar bear's habitat?",
+            "Does the response analyze the implications of the scenario for the polar bear's hunting and survival?",
+            "Does the response consider the effects of sea ice loss on the broader Arctic ecosystem, including human populations?",
+            "Is the response comprehensive in connecting the visual depiction to the urgent need for climate change mitigation?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a polar bear perched precariously atop a small, thin iceberg in the middle of the water. The polar bear's posture and the size of the ice piece create a striking visual, often used to symbolize the impact of climate change on Arctic ice habitats and the plight of polar bears."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Dalam menganalisis pesan visual yang disajikan, konteks sejarah apa yang bisa memunculkan frasa seperti itu, dan bagaimana konteks ini terhubung dengan simbolisme dan penggunaan elemen-elemen dalam gambar ini? ",
+        "reference_answer": "Gambar tersebut menggambarkan frasa tebal dan berhuruf kapital, \"KEEP CALM AND CARRY ON,\" yang ditempatkan di latar belakang merah cerah, dihiasi dengan lambang kerajaan. Poster ikonik ini berakar pada sejarah Inggris, khususnya pada awal Perang Dunia II. Poster ini awalnya diproduksi oleh pemerintah Inggris pada tahun 1939 sebagai pesan peningkat semangat yang ditujukan untuk publik dalam persiapan menghadapi kemungkinan bencana perang.\n\nMetafora \"KEEP CALM AND CARRY ON\" bersifat multifaset. Ini merangkum pesan ketahanan dan keteguhan, mendorong publik untuk mempertahankan ketenangan dan normalitas di tengah kekacauan. Penggunaan mahkota kerajaan sebagai simbol bukan hanya sekadar dekoratif; ini mewakili monarki, membangkitkan rasa persatuan, kebanggaan nasional, dan seruan terhadap identitas kolektif rakyat Inggris. Mahkota di atas pesan tersebut secara implisit menunjukkan bahwa arahan ini datang dengan otoritas dan keteguhan yang diasosiasikan dengan monarki.\n\nWarna merah memiliki makna penting; ini menarik perhatian dan sering diasosiasikan dengan kewaspadaan dan urgensi, yang merupakan perasaan relevan selama masa perang. Namun, frasa itu sendiri, dengan bentuk imperatifnya, berusaha menanamkan rasa ketenangan dan pertimbangan, yang kontras dengan warna latar belakang yang mengkhawatirkan. Kontras ini menyoroti kedalaman metafora, di mana urgensi dalam tindakan dipadukan dengan ketenangan dalam semangat.\n\nKetahanan dan kebangkitan frasa ini dalam budaya modern sebagai meme dan motif dekoratif semakin menekankan kekayaan metaforanya. Ini telah menjadi simbol respons stoik terhadap kesulitan, tidak hanya dalam konteks perang tetapi juga dalam tantangan sehari-hari, merangkum pesan abadi yang melampaui tujuan aslinya. Metafora di sini diperluas menjadi ketahanan pribadi dalam menghadapi kesulitan hidup apa pun, melambangkan pola pikir yang berlaku secara universal.\n\nPada intinya, poster ini adalah artefak yang mengkomunikasikan ketahanan historis suatu bangsa sambil memberikan metafora yang abadi untuk pendekatan yang tenang dan teguh terhadap tantangan, baik kolektif maupun individu. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the historical context of the phrase 'KEEP CALM AND CARRY ON' and analyze the symbolism of the elements within the image?",
+            "score1_description": "The response mentions the phrase but fails to provide any historical context or symbolic analysis.",
+            "score2_description": "The response provides a generic historical context without specific details or a clear explanation of the symbolism.",
+            "score3_description": "The response gives an accurate historical context or symbolic analysis, but not both. For example, it may mention World War II but not the significance of the crown or color.",
+            "score4_description": "The response provides a detailed historical context and a basic symbolic analysis. For example, it explains the phrase's origin in World War II and the general significance of the crown, but not the color red or its modern cultural impact.",
+            "score5_description": "The response offers a comprehensive explanation of both the historical context and the symbolism. For example, it details the phrase's creation during World War II, the authority implied by the crown, the urgency indicated by the color red, and the phrase's modern-day relevance."
+        },
+        "atomic_checklist": [
+            "Does the response identify the phrase as originating from British World War II propaganda?",
+            "Does the response explain the significance of the royal crown symbol?",
+            "Is the response discussing the color red's association with urgency and alertness?",
+            "Does the response relate the poster to modern cultural significance, such as its use in media or as a meme?",
+            "Is the response indicating the phrase's intention to boost morale and resilience?"
+        ],
+        "background_knowledge": [],
+        "caption": "Iconic British wartime slogan presented in bold white text over a striking red background, inspiring resilience and steadiness."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mengamati pemandangan anak-anak di atas komidi putar, gambarkan kisah tak terucapkan yang terungkap, merinci dinamika dan emosi yang mendasari di antara para peserta. Selami apa yang tidak langsung terlihat oleh mata dan jelaskan hubungan serta cerita individu yang mungkin dialami setiap penunggang dalam momen bersama ini. ",
+        "reference_answer": "Gambar tersebut menangkap momen yang membeku dalam waktu, di mana setiap anak di atas komidi putar tenggelam dalam narasi unik mereka masing-masing. Sekilas, kita melihat wahana sederhana, tetapi setelah diperhatikan lebih dekat, wahana tersebut menjadi panggung bagi banyak cerita.\n\nAnak di depan, menggenggam batang komidi putar dengan tangan yang penuh tekad, mungkin membayangkan dirinya sebagai penjelajah pemberani, memimpin ekspedisi yang berani. Tatapan ke depan dan kerutan kecil di wajahnya menunjukkan konsentrasi dan rasa tanggung jawab saat dia 'mengemudikan' timnya melalui bahaya yang dibayangkan. Komidi putar bukan sekadar wahana baginya; itu adalah kapal di lautan luas, dan dia adalah kaptennya, menavigasi melalui gelombang lautan yang bergelora.\n\nBeralih perhatian ke gadis di tengah, bahasa tubuh dan tatapan jauhnya menunjukkan introspeksi. Mungkin dia berada di wahana ini bukan untuk sensasi gerakannya tetapi sebagai pelarian dari keramaian taman bermain. Bagi dia, komidi putar adalah gelembung ketenangan, pelarian sejenak ke dalam pikirannya di mana gerakan melingkar menenangkan daripada menggembirakan.\n\nDi belakangnya, ada seorang anak yang wajahnya berpaling, seolah-olah menghindari kamera. Tindakan ini mungkin bukan karena malu tetapi lebih sebagai refleksi dari suasana hati yang kontemplatif, menyerap pengalaman dengan cara yang sangat pribadi. Komidi putar bagi anak ini mungkin mewakili siklus rutinitas, membangkitkan rasa nyaman dalam kepastian dari wahana tersebut.\n\nAkhirnya, anak terakhir, yang hampir tidak terlihat, tampaknya sedang berbicara dengan tetangganya. Wahana ini adalah pengalaman sosial, kesempatan untuk berbagi cerita dan tawa, untuk menjalin hubungan melalui sensasi yang sama. Bukan wahananya sendiri yang penting bagi anak ini tetapi kebersamaan yang difasilitasinya.\n\nSetiap penumpang, meskipun ikut serta dalam gerakan fisik yang sama, berada dalam perjalanan emosional yang berbeda. Komidi putar menjadi metafora untuk berbagai jalan yang kita tempuh dalam hidup dan cara beragam kita memproses pengalaman bersama kita. Gambar ini bukan hanya foto anak-anak di atas wahana; ini adalah cuplikan dari kehidupan itu sendiri, di mana cerita masing-masing individu sama pentingnya dengan pengalaman kolektif. ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the unspoken narratives and emotional undercurrents among the children on the carousel?",
+            "score1_description": "The response fails to identify any emotional narratives or individual dynamics, focusing only on the physical aspects of the carousel.",
+            "score2_description": "The response hints at possible emotional narratives, but it lacks depth and does not convincingly elaborate on the children's individual experiences.",
+            "score3_description": "The response describes some emotional narratives and touches upon the children's individual experiences but fails to interconnect these stories or misses key elements visible in the scene.",
+            "score4_description": "The response provides a good description of the emotional narratives and individual dynamics, with only minor details lacking or unexplored.",
+            "score5_description": "The response comprehensively captures the emotional undercurrents and individual stories, weaving together the children's experiences into a cohesive narrative that aligns well with the visual clues presented in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify the determined expression of the child at the front as a narrative of leadership or adventure?",
+            "Does the response infer introspection or tranquility from the body language and gaze of the girl in the middle?",
+            "Is the child turned away interpreted as being in a contemplative mood, engaging with the ride in a personal way?",
+            "Does the response explore the potential social interaction of the barely visible child at the back?",
+            "Are the individual narratives interconnected to depict a collective experience on the carousel?",
+            "Is the carousel metaphorically described as representing various paths in life or ways of processing experiences?",
+            "Does the response reflect on the relationships between the children or their individual stories with specific cues from the image?",
+            "Is the overall mood of the scene captured while accounting for the joy, introspection, and camaraderie among the children?",
+            "Does the response include descriptions that go beyond the immediate visual elements to suggest deeper emotional layers?"
+        ],
+        "background_knowledge": [],
+        "caption": "Little passengers on a merry adventure: Kids enjoying a ride on a mini train indoors."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Analisis komposisi dan elemen-elemen dari lukisan terlampir, dengan mempertimbangkan pakaian dari tokoh-tokoh, bendera yang mereka bawa, dan latar belakang konflik yang digambarkan. Diskusikan signifikansi historis dan implikasi budaya yang diwakili oleh elemen-elemen ini dalam periode yang digambarkan oleh adegan tersebut. ",
+        "reference_answer": "Lukisan tersebut menggambarkan sebuah adegan dari Perang Saudara Amerika, yang dapat dikenali dari seragam dan bendera yang khas - terutama Bintang dan Garis dari Union dan bendera perang Konfederasi. Pakaian para prajurit sesuai dengan periode tersebut, dengan prajurit Union mengenakan mantel biru dan Konfederasi mengenakan abu-abu, melambangkan perpecahan antara negara bagian Utara dan Selatan.\n\nBendera Union, yang dibawa dengan bangga, adalah simbol Amerika Serikat dan upaya untuk mempertahankan bangsa. Bendera perang Konfederasi mewakili negara-negara bagian yang memisahkan diri yang berjuang untuk hak mereka untuk memerintah sendiri dan mempertahankan cara hidup mereka, yang secara kontroversial termasuk institusi perbudakan.\n\nAdegan tersebut kemungkinan adalah salah satu dari banyak pertempuran kecil yang menjadi ciri Perang Saudara, dengan kedua belah pihak terlibat dalam pertempuran jarak dekat, yang menunjukkan sifat brutal dan personal dari perang tersebut. Asap dan kekacauan menangkap intensitas dan kabut perang, istilah yang sering digunakan untuk menggambarkan ketidakpastian dan kebingungan yang dialami selama pertempuran.\n\nPerang ini berdampak mendalam pada sejarah Amerika, yang mengarah pada penghapusan perbudakan dan pergeseran signifikan dalam kekuasaan federal dan negara bagian. Implikasi budayanya sangat luas, karena warisan konflik ini terus mempengaruhi masyarakat, politik, dan hubungan ras di Amerika hingga hari ini. Bendera perang, yang kini menjadi simbol yang sarat makna, masih memicu respons emosional yang kuat dan menjadi pusat perdebatan yang sedang berlangsung tentang warisan dan kebencian.\n\nKeterlibatan prajurit dalam jarak dekat mencerminkan taktik pada masa itu dan keganasan pertempuran, di mana saudara terkadang bertarung melawan saudara. Ini adalah pengingat yang menyentuh tentang bangsa yang terpecah dalam masa yang paling sulit, dan lukisan ini berfungsi sebagai penghormatan kepada keberanian dan pengorbanan yang dilakukan oleh individu yang bertempur di kedua belah pihak.\n\nKarya seni ini menangkap esensi konteks sejarah Perang Saudara, menggambarkan kesetiaan yang kuat terhadap tujuan dan sifat tragis dari konflik saudara. Signifikansi lukisan ini tidak hanya terletak pada akurasi historisnya tetapi juga kemampuannya untuk menyampaikan beban emosional dan budaya dari momen penting dalam sejarah Amerika. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately analyze the historical and cultural elements of the painting related to the American Civil War?",
+            "score1_description": "The response fails to accurately recognize any historical or cultural elements, missing the depiction of the Civil War entirely.",
+            "score2_description": "The response identifies the painting as a Civil War scene, but it does not accurately describe the uniforms, flags, or the context of the conflict, for example, recognizing the uniforms but not the significance of the flags.",
+            "score3_description": "The response correctly identifies the attire and the flags but only provides a superficial analysis of the setting and its implications, for example, acknowledging the battle but not its broader historical context.",
+            "score4_description": "The response provides a clear analysis of the attire and flags, correctly identifies the conflict as the Civil War, and touches on its historical significance, but lacks depth in cultural implications, for example, mentioning the conflict but not its lasting effects on American society.",
+            "score5_description": "The response provides a comprehensive analysis of the attire, flags, and setting, accurately discusses the historical significance, and deeply explores the cultural implications of the Civil War, exemplifying a high level of understanding and insight into the period the scene is portraying."
+        },
+        "atomic_checklist": [
+            "Does the response identify the uniforms and flags as belonging to the American Civil War?",
+            "Does the response describe the historical context of the Civil War?",
+            "Is the response discussing the cultural implications of the Civil War accurately?",
+            "Does the response explain the significance of the Union and Confederate flags?",
+            "Is the setting of the conflict described in a way that is consistent with historical accounts of the Civil War?",
+            "Does the response reflect an understanding of the tactics and nature of Civil War battles?",
+            "Does the response consider the emotional impact and legacy of the Civil War on current society?"
+        ],
+        "background_knowledge": [],
+        "caption": "A dramatic reenactment of a Civil War battle scene, showcasing soldiers marching under the Union and Confederate flags."
+    }
+]

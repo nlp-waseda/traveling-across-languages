@@ -1,0 +1,6 @@
+dataset_path: "neulab/PangeaBench-multilingual-llava-bench"
+test_split: bn
+dataset_kwargs:
+    token: True
+task: "multilingual_llava_bench_bengali"
+include: _default_template.yaml

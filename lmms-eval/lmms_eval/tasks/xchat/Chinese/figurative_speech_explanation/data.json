@@ -1,0 +1,135 @@
+[
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在观察这幅肖像时，哪些特定元素导致了肖像中氛围，它们如何相互作用以创造整体的情感体验？\n",
+        "reference_answer": "画中人物散发出一种宁静和沉思的氛围，主要通过人物温柔的目光和柔和的光线传达出来。女人的眼睛微微低垂，目光向一侧，引导观众思考她心中可能在想什么，暗示着内省或安静。画面中的光线轻轻照亮她脸的一侧，投下微妙的阴影，营造出宁静的氛围。这种光影的互动为画作整体的平静和深思感受做出了贡献。\n\n此外，色彩的选择增强了这种氛围；蓝色头巾的冷色调和她衣服的温暖土色调实现了平衡和谐的效果，唤起一种平和的感觉。头巾优雅地披在肩上，增加了人物的尊严和反思的气质。孤立的耳环捕捉到一丝光芒，是一个引人注目的细节，将观众的注意力吸引到她沉思的表情上，加深了肖像的情感共鸣。\n\n此外，人物与深色背景之间的鲜明对比将观众的注意力集中在她身上，进一步增强了图像的亲密和冥想特质。构图的简洁，没有任何分散注意力的元素，允许更深刻的情感连接，邀请观众在个人层面上与人物互动。这种极简主义的方法鼓励观众考虑人物举止的细微差别，并推测她的内心生活，增强了图像的内省氛围。\n\n总体而言，肖像的情感影响是构图、光线、色彩和细节巧妙结合的结果，共同创造出一种强烈而内敛的内心宁静和反思孤独的描绘。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the elements that contribute to the mood of the portrait and their interplay to create an emotional experience?",
+            "score1_description": "The response identifies basic elements of the portrait but does not relate them to the mood, for example, it might mention the subject's gaze but not how it conveys introspection.",
+            "score2_description": "The response recognizes one or two elements that contribute to the mood but does not integrate them into a cohesive analysis, for example, noting the lighting or color but not how they work together to evoke calmness.",
+            "score3_description": "The response describes several elements such as gaze, lighting, and color, and begins to relate them to the mood but lacks detail on their interactive effect, for example, it might suggest tranquility but not delve into the emotional depth created by these elements.",
+            "score4_description": "The response provides a detailed explanation of the elements and their contribution to the mood, but may not fully capture the holistic emotional experience, for example, it describes the serene atmosphere but not the viewer's personal engagement with the portrait.",
+            "score5_description": "The response offers a comprehensive explanation of the elements and their synergy, thoroughly describing how they interact to create a holistic emotional experience, reflecting a deep understanding of the portrait's figurative language."
+        },
+        "atomic_checklist": [
+            "Does the response interpret the subject's gaze as an element of introspection?",
+            "Is the response detailed in describing how the lighting contributes to the serene mood?",
+            "Does the response analyze the color choice and its effect on the painting's atmosphere?",
+            "Does the response consider the headscarf and its role in the subject's dignified aura?",
+            "Is the response attentive to the earring's detail and its emotional significance?",
+            "Does the response discuss the contrast between the subject and background and its impact?",
+            "Is the response comprehensive in connecting all elements to a profound emotional connection with the viewer?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image appears to be a digital representation or photograph of the famous painting \"Girl with a Pearl Earring\" by Johannes Vermeer. The subject is a young woman looking over her shoulder, with a blue headscarf and a large pearl earring. The background is dark, highlighting the subject's face and attire. This artwork is known for its exquisite use of light and shadow, as well as its captivating depiction of the young woman's gaze."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "请观察图片中呈现的情况，并阐述导致当前场景的事件顺序和自然进程。请充分考虑对所展示主体及更广泛环境背景的影响。分析导致这种状态的因素，并预测如果现有条件持续下去的潜在结果。 ",
+        "reference_answer": "这幅图像描绘了一只北极熊危险地栖息在一小块正在变薄的冰上，四周被水包围，生动地展示了气候变化与其对北极野生动物影响之间的因果关系。主要原因是全球变暖，这是由于温室气体排放增加所致。这种变暖导致海冰融化，其影响在北极熊的栖息地中直接可见。\n\n冰的异常形状，类似于冰的基座，暗示它曾经是一个更大冰块的一部分，已经融化和解体。北极熊依赖海上的冰作为休息和捕猎海豹的平台，而海豹是它们的主要食物来源。变薄的冰迫使这只熊陷入危险境地，直接影响其生存和捕猎能力。\n\n更广泛的环境背景包括气候变化的连锁效应，如许多物种栖息地的丧失、海平面上升以及洋流的改变。如果这些情况持续下去，北极熊的结果可能是悲惨的，导致饥饿、繁殖率下降，最终人口减少，可能导致灭绝。\n\n海冰的丧失也影响当地人群，他们的生活方式和经济与北极生态系统的健康息息相关。包括狩猎和捕鱼在内的传统生活方式面临风险，展示了这一环境问题的深远影响。\n\n总之，这幅图像捕捉了一个小而有力的场景，这是影响北极的更大、持续的环境危机的缩影。北极熊的挣扎是一个紧迫需要采取行动以减缓气候变化的指示器。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the sequence of events and natural processes leading to the depicted scenario, including the broader environmental implications?",
+            "score1_description": "The response observes the situation but fails to connect it to environmental processes, for example, it might note the polar bear on ice but not mention global warming or habitat loss.",
+            "score2_description": "The response identifies a link between the polar bear's situation and environmental change but lacks a deeper analysis of cause and effect, for example, mentioning thinning ice without discussing the impact on the bear's hunting habits.",
+            "score3_description": "The response describes the polar bear's precarious position and hints at climate change, but does not fully explore the implications for the Arctic ecosystem or the bear's survival, for example, it might omit the potential outcomes if current conditions persist.",
+            "score4_description": "The response provides a detailed explanation of the visual metaphor, capturing the relationship between climate change and its impact on the polar bear, but may not fully predict the broader environmental outcomes, for example, it discusses habitat loss but not the effects on human communities.",
+            "score5_description": "The response offers a comprehensive analysis of the scenario, thoroughly detailing the environmental processes, the implications for the subject, and the broader context, reflecting a profound understanding of the image's figurative message."
+        },
+        "atomic_checklist": [
+            "Does the response identify the thinning ice as a consequence of global warming?",
+            "Is the response detailed in describing how climate change impacts the polar bear's habitat?",
+            "Does the response analyze the implications of the scenario for the polar bear's hunting and survival?",
+            "Does the response consider the effects of sea ice loss on the broader Arctic ecosystem, including human populations?",
+            "Is the response comprehensive in connecting the visual depiction to the urgent need for climate change mitigation?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a polar bear perched precariously atop a small, thin iceberg in the middle of the water. The polar bear's posture and the size of the ice piece create a striking visual, often used to symbolize the impact of climate change on Arctic ice habitats and the plight of polar bears."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在分析图片中所呈现的信息时，是什么历史背景可能促成了图片中的短语的产生，这种背景又如何与图像中元素的象征意义和使用联系在一起？",
+        "reference_answer": "图像展示了一个大胆的、全部大写的短语“KEEP CALM AND CARRY ON”，背景是鲜红色，上方饰有皇家徽章。这个标志性的海报源于英国历史，特别是在第二次世界大战初期。它最初由英国政府于1939年制作，作为一种提升士气的信息，旨在为公众准备潜在的战争灾难。\n\n“KEEP CALM AND CARRY ON”的隐喻是多方面的。它包含了坚韧和勇气的信息，敦促公众在动荡中保持冷静和正常。使用皇家皇冠作为象征不仅仅是装饰性的；它代表了君主制，唤起了一种团结、国家自豪感，以及对英国人民集体身份的呼唤。信息上方的皇冠隐含地表明，这一指令带有与君主制相关的权威和稳定性。\n\n红色具有重要意义；它引人注目，通常与警觉和紧迫感相关，这在战争时期是相关的感受。然而，这个短语本身，以其命令的形式，试图灌输一种冷静的深思，与背景中令人警觉的色调形成对比。这种对比突显了隐喻的深度，其中行动的紧迫感被精神上的冷静所调和。\n\n这个短语在现代文化中作为一种模因和装饰图案的持久性和复兴进一步强调了其隐喻的丰富性。它已成为对逆境的坚忍回应的象征，不仅在战争背景下，而且在日常挑战中，包含了一种超越其原始目的的永恒信息。这里的隐喻延伸到面对生活任何困难的个人韧性，象征着一种普遍适用的心态。\n\n本质上，这张海报是一个传达国家历史韧性的文物，同时提供了一种持久的隐喻，表明在面对集体和个人挑战时的冷静和坚定的方法。 ",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the historical context of the phrase 'KEEP CALM AND CARRY ON' and analyze the symbolism of the elements within the image?",
+            "score1_description": "The response mentions the phrase but fails to provide any historical context or symbolic analysis.",
+            "score2_description": "The response provides a generic historical context without specific details or a clear explanation of the symbolism.",
+            "score3_description": "The response gives an accurate historical context or symbolic analysis, but not both. For example, it may mention World War II but not the significance of the crown or color.",
+            "score4_description": "The response provides a detailed historical context and a basic symbolic analysis. For example, it explains the phrase's origin in World War II and the general significance of the crown, but not the color red or its modern cultural impact.",
+            "score5_description": "The response offers a comprehensive explanation of both the historical context and the symbolism. For example, it details the phrase's creation during World War II, the authority implied by the crown, the urgency indicated by the color red, and the phrase's modern-day relevance."
+        },
+        "atomic_checklist": [
+            "Does the response identify the phrase as originating from British World War II propaganda?",
+            "Does the response explain the significance of the royal crown symbol?",
+            "Is the response discussing the color red's association with urgency and alertness?",
+            "Does the response relate the poster to modern cultural significance, such as its use in media or as a meme?",
+            "Is the response indicating the phrase's intention to boost morale and resilience?"
+        ],
+        "background_knowledge": [],
+        "caption": "Iconic British wartime slogan presented in bold white text over a striking red background, inspiring resilience and steadiness."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "请观察小火车上孩子们的场景，描述图片中展开的无声故事，详细说明参与者之间的潜在动态和情感。探究那些肉眼无法立即察觉的东西，并详细阐述每个骑手在这一共同时刻可能经历的关系和个人故事。 ",
+        "reference_answer": "这幅图像捕捉了一个瞬间，每个坐在小火车上的孩子都沉浸在他们自己独特的故事中。乍一看，我们看到的是一个简单的游乐设施，但仔细观察后，这个游乐设施变成了一个多种故事的舞台。\n\n前面的孩子紧握车厢的扶手，可能将自己塑造成一个勇敢的探险家，带领一次大胆的探险。他向前的凝视和微微的皱眉显示出专注和责任感，仿佛他正在带领他的团队穿越想象中的危险。对他来说，小火车不仅仅是一个游乐设施；它是一艘在汹涌海浪中航行的船，而他是船长，正在引导船穿越动荡的海洋。\n\n转向中间的女孩，她的肢体语言和遥远的目光透露出内省。也许她乘坐这个游乐设施不是为了追求运动的刺激，而是为了从操场的喧嚣中得到片刻的宁静。对她来说，小火车是一个宁静的泡泡，一个短暂的逃避，让她的思绪在圆周运动中得到安抚，而不是刺激。\n\n在她身后，有一个孩子的脸转向另一边，几乎像是在避开镜头。这一动作可能不是害羞，而是反映了一种沉思的情绪，以一种深刻的个人方式感受这世界。对于这个孩子来说，小火车可能代表着一种常规的循环，在游乐设施的可预测性中唤起一种舒适感。\n\n最后，几乎看不见的最后一个孩子似乎在和邻座交谈。这个游乐设施是一个社交体验，是分享故事和欢笑的机会，是在共同的刺激中建立联系。对这个孩子来说，重要的不是游乐设施本身，而是它所促进的陪伴。\n\n每个乘客，虽然参与同样的身体运动，却在进行不同的情感旅程。小火车成为了我们生活中不同道路的隐喻，以及我们处理共同经历的多样方式。这幅图像不仅仅是孩子们在游乐设施上的照片；它是生活本身的快照，每个人的故事都和集体体验一样重要。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the unspoken narratives and emotional undercurrents among the children on the carousel?",
+            "score1_description": "The response fails to identify any emotional narratives or individual dynamics, focusing only on the physical aspects of the carousel.",
+            "score2_description": "The response hints at possible emotional narratives, but it lacks depth and does not convincingly elaborate on the children's individual experiences.",
+            "score3_description": "The response describes some emotional narratives and touches upon the children's individual experiences but fails to interconnect these stories or misses key elements visible in the scene.",
+            "score4_description": "The response provides a good description of the emotional narratives and individual dynamics, with only minor details lacking or unexplored.",
+            "score5_description": "The response comprehensively captures the emotional undercurrents and individual stories, weaving together the children's experiences into a cohesive narrative that aligns well with the visual clues presented in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify the determined expression of the child at the front as a narrative of leadership or adventure?",
+            "Does the response infer introspection or tranquility from the body language and gaze of the girl in the middle?",
+            "Is the child turned away interpreted as being in a contemplative mood, engaging with the ride in a personal way?",
+            "Does the response explore the potential social interaction of the barely visible child at the back?",
+            "Are the individual narratives interconnected to depict a collective experience on the carousel?",
+            "Is the carousel metaphorically described as representing various paths in life or ways of processing experiences?",
+            "Does the response reflect on the relationships between the children or their individual stories with specific cues from the image?",
+            "Is the overall mood of the scene captured while accounting for the joy, introspection, and camaraderie among the children?",
+            "Does the response include descriptions that go beyond the immediate visual elements to suggest deeper emotional layers?"
+        ],
+        "background_knowledge": [],
+        "caption": "Little passengers on a merry adventure: Kids enjoying a ride on a mini train indoors."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "请分析画作的构图和元素，考虑人物的服装、他们所携带的旗帜以及所描绘冲突的背景。讨论这些元素在该场景所描绘时期的历史意义和文化影响。 ",
+        "reference_answer": "这幅画描绘了美国内战中的一个场景，可以通过独特的制服和旗帜辨认出，尤其是联邦的星条旗和邦联的战旗。士兵们的服装符合那个时代，联邦士兵穿着蓝色外套，邦联士兵穿着灰色外套，象征着南北各州之间的分裂。\n\n联邦旗帜被自豪地举起，是美国的象征，代表着维护国家的努力。邦联战旗则代表那些脱离联邦的州，为自我治理和维持生活方式而战，这其中有争议地包括奴隶制度。\n\n这个场景可能是内战中众多小规模战斗之一，双方进行近距离战斗，显示出战争的残酷和个人化。烟雾和混乱捕捉了战争的激烈和战争迷雾，这个术语常用于描述战斗中经历的不确定性和混乱。\n\n这场战争对美国历史产生了深远影响，导致了奴隶制的废除以及联邦和州权力的重大转变。文化影响深远，因为这场冲突的遗产至今仍在影响美国社会、政治和种族关系。战旗，如今是负载的象征，仍然引发强烈的情感反应，并处于关于遗产和仇恨的持续辩论的中心。\n\n士兵们在近距离的交战反映了当时的战术和战斗的激烈程度，有时兄弟之间也会兵戎相见。这是对一个国家在最艰难时期分裂的深刻提醒，这幅画作为对双方作战人员勇气和牺牲的致敬。\n\n这幅艺术作品捕捉了内战历史背景的精髓，描绘了对事业的坚定忠诚和兄弟相残冲突的悲剧性质。这幅画的重要性不仅在于其历史准确性，还在于其传达美国历史关键时刻的情感和文化重量的能力。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately analyze the historical and cultural elements of the painting related to the American Civil War?",
+            "score1_description": "The response fails to accurately recognize any historical or cultural elements, missing the depiction of the Civil War entirely.",
+            "score2_description": "The response identifies the painting as a Civil War scene, but it does not accurately describe the uniforms, flags, or the context of the conflict, for example, recognizing the uniforms but not the significance of the flags.",
+            "score3_description": "The response correctly identifies the attire and the flags but only provides a superficial analysis of the setting and its implications, for example, acknowledging the battle but not its broader historical context.",
+            "score4_description": "The response provides a clear analysis of the attire and flags, correctly identifies the conflict as the Civil War, and touches on its historical significance, but lacks depth in cultural implications, for example, mentioning the conflict but not its lasting effects on American society.",
+            "score5_description": "The response provides a comprehensive analysis of the attire, flags, and setting, accurately discusses the historical significance, and deeply explores the cultural implications of the Civil War, exemplifying a high level of understanding and insight into the period the scene is portraying."
+        },
+        "atomic_checklist": [
+            "Does the response identify the uniforms and flags as belonging to the American Civil War?",
+            "Does the response describe the historical context of the Civil War?",
+            "Is the response discussing the cultural implications of the Civil War accurately?",
+            "Does the response explain the significance of the Union and Confederate flags?",
+            "Is the setting of the conflict described in a way that is consistent with historical accounts of the Civil War?",
+            "Does the response reflect an understanding of the tactics and nature of Civil War battles?",
+            "Does the response consider the emotional impact and legacy of the Civil War on current society?"
+        ],
+        "background_knowledge": [],
+        "caption": "A dramatic reenactment of a Civil War battle scene, showcasing soldiers marching under the Union and Confederate flags."
+    }
+]

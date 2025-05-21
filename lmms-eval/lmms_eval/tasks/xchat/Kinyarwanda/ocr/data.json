@@ -1,0 +1,145 @@
+[
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gihe cy'ikibazo cy'igishushanyo, hari ikibaho cyerekana ibikoresho bitandukanye hamwe n'ingano zabyo n'ibiro byabyo bihwanye. Ifoto yafashwe kugira ngo ibikurikirane. Ariko, ishusho irasa n'aho itagaragara neza kandi uko banditse biratandukanye mu buryo no mu bunini. Reba ishusho utange inyandiko isobanutse kandi nyayo y'amakuru agaragara, usobanure ingano n'ibiro by'impapuro zikoreshwa mu gukora amakarita, impapuro zubaka, n'igitambaro. ",
+        "reference_answer": "Ishusho igaragaza urubaho rwera rwanditseho amakuru n'ikaramu. Hariho inkingi eshatu, buri imwe ihariwe ibikoresho bitandukanye: impapuro zikomeye, impapuro zubaka, n'igitambaro. Kuri buri gikoresho, umubare (mu bice) n'uburemere (mu magarama) biratangwa.\n\nImpapuro zikomeye\n\nUmubare: Ibice 3\nUburemere: Igarama 13\nImpapuro zubaka\n\nUmubare: Ibice 2\nUburemere: Igarama 6\nIgitambaro\n\nUmubare: 32\nUburemere: Igarama 77\nUburemere bisa nk'aho bwashimangiwe n'uko bwashyizweho umurongo. Uwanditse 'Impapuro zikomeye' na 'Impapuro zubaka' yakoresheje wino y'umukara, kandi imibare nayo yanditswe mu mukara. Ijambo 'Igitambaro' n'imibare yacyo byanditswe mu wino y'ubururu. Imiterere y'inyuguti ni isanzwe kandi itandukanye mu bunini, ariko amakuru aracyasomeka. Urubaho rwera rufite kandi impapuro yacapwe ku gice cyo hejuru iburyo, ariko inyandiko iri kuri iyi mpapuro ntisomeka kubera uburyo ifoto yafashwe. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately transcribe all visual information from the image, including specific details such as quantities, weights, underlines, and ink colors?",
+            "score1_description": "The response recognizes the presence of text but fails to accurately transcribe any of the materials and their corresponding quantities and weights, for example, quantities are present but weights are not present.",
+            "score2_description": "The response accurately transcribes the information for one of the materials listed, including quantity and weight, but fails to do so for the other two, for example, 'Card Stock' data is correct but 'Construction Paper' and 'Fabric' data are missing or incorrect.",
+            "score3_description": "The response accurately transcribes the information for two of the materials listed, including quantities and weights, but fails to do so for the third, for example, 'Card Stock' and 'Construction Paper' are correct, but 'Fabric' is not.",
+            "score4_description": "The response accurately transcribes the quantities and weights for all materials but misses secondary details such as underlines or ink colors, for example, all weights are correct but underlines and ink colors are not mentioned.",
+            "score5_description": "The response accurately transcribes all primary information (quantities and weights) and secondary details (underlines, ink colors) for all materials, with no omissions."
+        },
+        "atomic_checklist": [
+            "Does the response transcribe the quantity for card stock as '3 pieces' and the ground truth is '3 pieces'?",
+            "Does the response transcribe the weight for card stock as '13 grams' and the ground truth is '13 grams'?",
+            "Does the response transcribe the quantity for construction paper as '2 pieces' and the ground truth is '2 pieces'?",
+            "Does the response transcribe the weight for construction paper as '6 grams' and the ground truth is '6 grams'?",
+            "Does the response transcribe the quantity for fabric as '32' and the ground truth is '32'?",
+            "Does the response transcribe the weight for fabric as '77 grams' and the ground truth is '77 grams'?",
+            "Is the response attentive to the detail that weights are underlined for emphasis, as shown by the ground truth?",
+            "Is the response attentive to the detail that 'Card Stock' and 'Construction Paper' are written in black ink, as indicated by the ground truth?",
+            "Is the response attentive to the detail that 'Fabric' is written in blue ink, as indicated by the ground truth?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a whiteboard with handwritten information comparing the weight of different materials. There are three columns titled \"Card Stock,\" \"Construction Paper,\" and \"Fabric.\" Under \"Card Stock,\" it is noted that 3 pieces weigh 13 grams. \"Construction Paper\" has 2 pieces listed at 6 grams, and \"Fabric\" shows 32 pieces at 77 grams. To the left, there's a worksheet with tables and boxes for \"Card Stock,\" \"Construction Paper,\" and \"Fabric,\" with sections to record the number of sheets and total weight in grams. The bottom of the worksheet asks which material weighs the least and is the best for blocking the most amount of space radiation with the least amount of weight."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu kibuga kinini cya baseball cya shampiyona, bisa nk'aho hari ikibazo mu gushyiraho uburyo bushobora gushyira mu byiciro amafoto ku buryo bwikora hashingiwe ku bintu byihariye, nko aho ari mu kibuga, igihe cy'umunsi, n'ibice byihariye byamamaza. Urebye iyi shusho, umuntu yakora ate kugira ngo ayishyire mu byiciro by'ububiko bwateguwe neza adakoresheje uburyo busanzwe bwo gushyira mu byiciro? ",
+        "reference_answer": "Kugira ngo ishusho ishyirwe mu byiciro mu bubiko bwateguwe neza, uburyo bwubatswe bugomba gukurikizwa. Ubanza, umuntu asuzuma ibice by'ishusho biri mu ishusho. Ikiranga cyane ni sitade ya baseball, yamenyekanye nka Yankee Stadium kubera ibirango byihariye n'ubwubatsi bwayo. Amakuru y'ishusho ashobora gutanga igihe nyacyo ifoto yafatiwe; ariko, niba idahari, urumuri n'ibicucu byerekana ko ari mu gitondo cya kare cyangwa nimugoroba, bitewe n'uburyo n'ubukana bw'urumuri rw'umunsi.\n\nHanyuma, kubaho kw'ibice byamamaza birashobora gushyirwa mu byiciro. Icyapa cyerekana ibirango byinshi by'amasosiyete, nka Pepsi, Canon, na Gatorade, bishobora gushyirwaho tag imwe imwe. Icyerekezo cy'umwanya cyerekana ko ifoto yafatiwe mu myanya y'abafana, bishoboka ko ari hagati cyangwa hejuru, bitewe n'uburyo ifoto yafashwe ugereranyije n'ikibuga.\n\nKugira ngo ishyirwe mu byiciro neza, ishusho igomba gushyirwaho tag z'ibi bintu bikurikira:\n\nIzina rya Sitade: Yankee Stadium\nIbirori: Umukino wa Baseball (mbere y'umukino nk'uko bigaragara kubera kubura imbaga n'abakinnyi bitoza)\nIgice cya Sitade: Imyanya y'abafana, hagati/hejuru\nIgihe cy'Umunsi: Mu gitondo cya kare cyangwa nimugoroba (bigomba kwemezwa n'amakuru y'ishusho cyangwa isesengura ry'ibicucu)\nAmamaza Ariho: Ibirango bya Pepsi, Canon, Gatorade, n'ibindi bigaragara ku cyapa\nIcyerekezo cy'Ikibuga: Igice cy'ikibuga cya baseball gifite umwihariko ku kibuga cyo hanze\nUbu buryo bwo gushyira mu byiciro bwemeza ko ishusho ishyizwe mu byiciro bisobanutse neza, bituma iba yiteguye gusesengurwa cyangwa gushyirwa mu bubiko. Buri tag itanga ikintu cy'amakuru gishobora gukoreshwa mu gutoranya no kubona ishusho ku bibazo byihariye, nko \"ibyamamaza muri Yankee Stadium\" cyangwa \"icyerekezo cy'abafana ku kibuga\". Ubu buryo buhuza n'amanota 5 ku rugero, kuko butanga amakuru mu buryo bwateguwe neza, busobanutse, kandi bwiteguye gusesengurwa. ",
+        "score_rubric": {
+            "criteria": "Does the response correctly identify and categorize key features in the image for database classification?",
+            "score1_description": "The response identifies the location or a single element but fails to categorize any additional features of the image.",
+            "score2_description": "The response identifies the location and one or two features but lacks detail or accuracy in the categorization process, for example, it may note 'stadium' and 'advertisements' without specific details.",
+            "score3_description": "The response identifies several key features including the location, time of day, and some advertising elements, but may lack precision or fail to identify the spectator's perspective.",
+            "score4_description": "The response correctly identifies most features such as the stadium name, event, time of day, and advertisements, but may miss one or two minor features or details, for example, it includes 'Yankee Stadium' and 'Pepsi' but does not specify the tier of the spectator stands.",
+            "score5_description": "The response thoroughly identifies and categorizes all key features of the image, including location, time of day, spectator perspective, and all visible advertising elements in a detailed and accurate manner."
+        },
+        "atomic_checklist": [
+            "Does the response identify the stadium as Yankee Stadium?",
+            "Does the response suggest the time of day based on the lighting and shadows?",
+            "Does the response list the visible advertising elements such as Pepsi, Canon, and Gatorade?",
+            "Does the response identify the photo as taken from the spectator stands?",
+            "Does the response provide an estimate of the spectator's tier based on the angle of the shot?",
+            "Is the response able to categorize the image without an existing classification guideline?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image features a person in the foreground with a partial view of their face, taken in a selfie style. They are at Yankee Stadium, as indicated by the prominent signage in the background. The stadium is partially filled with spectators, and the baseball field is visible with its well-maintained grass and dirt infield. It appears to be prior to or during a game, given the presence of players warming up on the field and the relatively sparse crowd."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu gihe uhawe ishusho irimo ibintu bitandukanye, menya ikintu cy'ingenzi cy'iyo shusho kandi usobanure akamaro kacyo mu rwego rusange rihagarariye, harimo n'inyandiko iriho n'ingaruka zayo. ",
+        "reference_answer": "Ishusho igaragaza imodoka y'ubururu yanditseho amagambo n'ibishushanyo bya \"United States Census 2010\", iparitse imbere y'inyubako nini ifite igisenge cy'ikirahure, isa n'inyubako ya leta. Akamaro k'iyi modoka ni uko ikora nk'ikinyabiziga gitanga amakuru no kumenyekanisha ibijyanye na United States Census ya 2010, igikorwa kibaho buri myaka icumi kugira ngo habarurwe abaturage no gukusanya amakuru y'imibereho. Aya makuru ni ingenzi ku mpamvu zitandukanye, harimo kugena uburyo amafaranga ya leta agabanywa, gushushanya uturere tw'ubudepite, no gutegura serivisi rusange.\n\nAmagambo ari ku modoka, \"Biri mu biganza byacu,\" asaba abantu kugira uruhare mu bikorwa by'ubwenegihugu, ashimangira akamaro ko kwitabira buri muntu mu ibarura kugira ngo haboneke ishusho nyayo no kugabanya neza umutungo. Adresi ya interineti itanga umurongo w'ubusobanuro burambuye, igaragaza ikoreshwa rya interineti nk'uburyo bwo kwitabira ibarura, bikaba ari intambwe y'ikoranabuhanga mu buryo bwo gukusanya amakuru ugereranyije n'ibinyejana byashize.\n\nKuboneka kw'iyi modoka imbere y'inyubako ya leta, ishobora kuba ari inyubako y'umurwa mukuru w'igihugu, byerekana ko ibarura ari igikorwa cyemewe kandi gifitanye isano n'imikorere ya leta. Ibiti bigaragara mu ishusho bitanga ishusho y'aho hantu, bishobora kugaragaza ko imodoka iri mu ntara izwiho kuba ifite ubwoko bw'ibiti nk'ibi. Ishusho ifata umwanya w'amateka, igaragaza uruhare rw'ibarura mu guhindura ishusho ya politiki n'imibereho muri Leta Zunze Ubumwe za Amerika. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately identify the primary focus of the image and explain its significance, including any text and its implications?",
+            "score1_description": "The response vaguely identifies an element in the image but fails to explain its significance or the implications of any text, for example, the presence of a vehicle is noted but not its purpose or context.",
+            "score2_description": "The response identifies the vehicle and mentions the census but does not explain the broader significance or the implications of the text, for example, the 'Census 2010' text is recognized but its importance is not explained.",
+            "score3_description": "The response identifies the vehicle as related to the Census 2010 and mentions the significance of the census but provides limited context about the implications of the text or the scene, for example, the call to action is noted but not elaborated upon.",
+            "score4_description": "The response identifies the vehicle as a census information van and explains the significance of the census and the call to action but may miss details about the broader context or implications, for example, the government building's role is not fully detailed.",
+            "score5_description": "The response thoroughly identifies the van as a census information vehicle, explains the significance of the census, the implications of the text, and the broader context of the government building and the website, providing a complete understanding of the scene."
+        },
+        "atomic_checklist": [
+            "Does the response identify the van as related to the United States Census 2010?",
+            "Does the response explain the significance of the census event?",
+            "Does the response interpret the text 'It's in our hands' as a call to action for civic participation?",
+            "Does the response note the presence of the government building and suggest its significance?",
+            "Does the response mention the use of the internet for census participation as indicated by the website address on the van?",
+            "Does the response place the image within a historical context by explaining the role of the census in shaping political and social landscapes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a United States Census 2010 promotional vehicle parked in front of a large building that resembles the California State Capitol with its distinctive neoclassical architecture, including a prominent dome and portico. There are trees framing the scene, and a person is walking by the vehicle, which is adorned with the slogan \"It's in our hands\" and the website \"2010census.gov.\" The side of the vehicle also features a map of the United States with photos of diverse individuals, symbolizing the nationwide scope of the census."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Mu ishusho yatanzwe y'igipimo cy'ubushyuhe, ibipimo bitandukanye by'imibare n'inyandiko z'inyuguti biragaragara. Utavuze ku bwoko bw'akazi uri gukora, menya indimi cyangwa inyuguti biri kuri icyo gipimo kandi usobanure akamaro kabyo mu gusobanura ibyo igikoresho kigaragaza. Tekereza ko aya makuru ashobora gukoresha imibare gusa ariko ashobora no kuba arimo amagambo cyangwa inyuguti z'inyuguti zishobora kugaragaza urwego rw'ubushyuhe cyangwa ubwoko bw'igikoresho icyo gipimo cyagenewe. ",
+        "reference_answer": "Ishusho yerekana igipimo cy'ubushyuhe gifite agaciro k'imibare kuva kuri 40 kugeza kuri 120, itondekanye mu buryo buzengurutse ku isaha. Imibare yanditswe mu buryo bwa kijyambere bw'imibare ya Kiarabu y'Iburengerazuba, aribwo buryo bukoreshwa cyane ku isi mu mibare. Iyi mibare iramenyekana ku isi hose mu bikoresho bya siyansi n'ikoranabuhanga mu kugaragaza ibipimo by'ubwinshi.\n\nHasi y'igipimo, hari inyandiko yanditse \"NORMAL\". Ibi byanditswe mu nyuguti za Latini, zikoreshwa n'indimi nyinshi z'Iburengerazuba, harimo n'Icyongereza. Ijambo \"NORMAL\" risobanurwa kenshi nk'igipimo gisanzwe cyangwa gitegerejwe mu mikorere y'igipimo. Muri iki context, bisobanura ko ubushyuhe buri mu rwego runaka ku isaha bifatwa nk'ibiri mu bipimo bisanzwe by'ibikoresho biri gupimwa.\n\nUmwambi w'igipimo urerekana agaciro kari hejuru gato ya 100, kandi niba igipimo gipimwa mu biro by'ubushyuhe Fahrenheit, byaba bisobanura ubushyuhe buri hejuru ariko butari bukabije. Kubura ururimi cyangwa inyandiko yindi byerekana ko iki gikoresho gishobora kuba cyarateguwe gukoreshwa mu karere kavuga Icyongereza cyangwa mu rwego mpuzamahanga aho Icyongereza gikoreshwa nk'ururimi rw'ibikoresho bya siyansi n'ikoranabuhanga.\n\nByongeye kandi, uburyo bw'imibare, hamwe n'ijambo \"NORMAL,\" byerekana igishushanyo kigamije gusobanura neza no kumvikana ku isi hose, ari byo by'ingenzi mu gutanga amakuru neza mu nzego zitandukanye z'umwuga n'ibice by'isi.\n\nNta bimenyetso by'indimi cyangwa inyandiko zindi biri kuri iki gice cy'igipimo, kandi inyandiko zose zigaragara zarasobanuwe mu buryo bw'ingenzi ku mikorere y'igipimo. \n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately determine the languages or scripts on the gauge and explain their significance in interpreting the device's reading?",
+            "score1_description": "The response identifies numerals or text but fails to accurately determine the language or script, for example, noting numbers without recognizing them as Western Arabic numerals.",
+            "score2_description": "The response correctly identifies the script of the numerals but does not explain their significance in the context of the gauge's use, for example, recognizing Western Arabic numerals but not discussing their international use.",
+            "score3_description": "The response identifies the script and begins to explain its significance but lacks detail or clarity, for example, noting the presence of 'NORMAL' without fully explaining its typical meaning in gauges.",
+            "score4_description": "The response identifies the scripts and provides a good explanation of their significance, but may miss subtler implications or additional details, for example, not considering the absence of other languages as an indicator of the device's intended user base.",
+            "score5_description": "The response thoroughly identifies the scripts and provides a comprehensive explanation of their significance, including the implications of language use for the device's operation and intended audience."
+        },
+        "atomic_checklist": [
+            "Does the response identify the numerals on the gauge as Western Arabic numerals?",
+            "Does the response recognize the use of the Latin alphabet for the text 'NORMAL'?",
+            "Does the response explain the significance of the term 'NORMAL' on the gauge?",
+            "Does the response infer the possible temperature scale (Fahrenheit or Celsius) based on the numbers presented?",
+            "Does the response consider the absence of other languages or scripts as indicative of the device's intended geographical or professional use?",
+            "Does the response identify all notations visible and account for their significance towards the gauge's function?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a close-up view of a circular gauge, likely a thermometer, with the needle pointing just past 100 degrees. The scale is marked in increments of ten, ranging from 40 to 120 degrees. The numbers and details on the gauge are clear and prominently displayed, and the photograph is taken with a vignette effect, darkening the corners and focusing the eye on the center where the needle indicates a high temperature. The overall tone of the image suggests a monochromatic or desaturated color scheme."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Iyo ugerageza gukoresha igikoresho cya mudasobwa, akenshi ingorane ziba mu gusoma no gusobanukirwa amakuru agaragara kuri ecran yayo, cyane cyane iyo ecran ishobora kuba itagaragara neza cyangwa itabona neza. Igikoresho kivugwa gifite ibimenyetso bitandukanye, imibare, n'inyandiko itanga amakuru y'ingenzi. Sobanura mu buryo burambuye amakuru agaragara, harimo ibimenyetso byerekana imikorere cyangwa uburyo biri gukora muri iki gihe. ",
+        "reference_answer": "Ishusho yerekana igikoresho cya digitale cya \"TECSUN PL-380\", cyakira DSP, gishobora kuba cyakira imirongo ya radiyo ya FM, AM, shortwave, na longwave. Ekrani iracanye neza kandi inyandiko irasomeka neza. Yerekana isaha ya digitale iri \"12:54\" ifite ikimenyetso cya PM, byerekana ko ari ku manywa. Hepfo y'igihe, hari ubushyuhe bwerekana \"79°F\", byerekana ubushobozi bw'igikoresho bwo gupima ubushyuhe bw'ikirere. Mu gice cyo hejuru ibumoso bwa ekrani hari ikimenyetso kimeze nk'ububasha bwo kuzimya, bishobora kwerekana ko igikoresho cyacanye, kandi munsi yaho hari ikimenyetso cy'ubutumwa cyangwa alarme, bishobora gusobanura ko alarme yashyizweho cyangwa iri gukora. Ku ruhande rw'iburyo hejuru ya ekrani, hari buto itukura y'ububasha, kandi ibumoso bwa ekrani hari urukurikirane rwa buto zirimo imikorere ya urumuri/kuruhuka, bishobora kuba ari alarme, no gushyiraho igihe na alarme. Klaviatiri iri munsi ya ekrani ifite buto z'imibare, byerekana ubushobozi bwo gutunganya cyangwa guhitamo imirongo, kandi hariho na buto zo guhitamo imirongo (FM, AM, SW). \"FM ST.\" bishobora gusobanura FM stereo, byerekana ko igikoresho gishobora kwakira ibiganiro bya stereo. Hari antene ishobora kongerwa ibumoso, isanzwe ku kwakira radiyo. Muri rusange, igikoresho kimeze neza, nta nzitizi zigaragara ku ekrani cyangwa ku micungire. ",
+        "score_rubric": {
+            "criteria": "Does the response comprehensively describe the displayed information on the device's screen, including indicators of functionality or active settings?",
+            "score1_description": "The response identifies basic elements on the screen but fails to describe their functionality or the active settings, for example, noting the time but not the PM indicator or temperature reading.",
+            "score2_description": "The response describes some elements and provides a partial explanation of their functionality, but lacks detail or misses some active settings, for example, mentioning the time and temperature but not recognizing the alarm or power indicators.",
+            "score3_description": "The response provides a good description of most elements on the screen and explains their functionality, but may miss a few indicators or active settings, for example, noting the time, temperature, and alarm, but not the stereo broadcast capability.",
+            "score4_description": "The response describes nearly all elements on the screen with detail and understands their functionality, including most active settings, but might overlook minor features or symbols, for example, describing the alarm and power status but not the snooze function.",
+            "score5_description": "The response thoroughly describes all elements displayed on the device's screen and accurately explains their significance, functionality, and any active settings, leaving no features or indicators unexplained."
+        },
+        "atomic_checklist": [
+            "Does the response identify the device model as 'TECSUN PL-380'?",
+            "Does the response detail the time displayed as '12:54 PM'?",
+            "Does the response note the temperature reading as '79°F'?",
+            "Is the response attentive to the power status indicator on the screen?",
+            "Does the response recognize the alarm/alert symbol's functionality?",
+            "Does the response mention the presence of a power button and its potential functionality?",
+            "Is the response aware of the light/snooze and time/alarm setting buttons?",
+            "Does the response describe the numerical keypad and its tuning capabilities?",
+            "Does the response acknowledge the FM, AM, SW band selection buttons?",
+            "Is the response attentive to the 'FM ST.' indicator and its meaning for stereo broadcast reception?",
+            "Does the response notice the extendable antenna and its purpose for radio reception?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "Image link",
+                "reference_url": "https://drive.google.com/file/d/1YO1kW2rq7BGkrGOcVM09jD2QSDMcyn-0/view?usp=drive_link"
+            }
+        ],
+        "caption": "The image shows a portable TECSUN PL-380 radio placed on a textured surface. The radio features a digital display indicating the temperature as 79°F and the time as 12:54 PM. It has a range of buttons for different functions, including power, display settings, and band selection for FM, AM, and shortwave. The device also appears to have a timer and alarm function, and a light/snooze feature, suggesting multifunctionality beyond just a radio receiver. A wrist strap is attached to the top left corner of the radio."
+    }
+]

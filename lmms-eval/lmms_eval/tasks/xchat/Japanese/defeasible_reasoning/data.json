@@ -1,0 +1,141 @@
+[
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "地球の構成が劇的に変化した未来において、探検家のチームが惑星の新しい元素構成を理解するためのミッションに乗り出しています。現在の元素分布のスナップショットを示す円グラフを使用して、チームは元素の豊富さの変化と、惑星の地質や生物圏への潜在的な影響を説明する物語を構築する必要があります。 ",
+        "reference_answer": "探検家たちの説明は、円グラフを分析するところから始まります。酸素は依然として地殻の中で最も豊富な元素であるものの、その割合は47%まで減少しています。チームは、一連の大規模な火山噴火が上部地殻に大量のケイ素とアルミニウムを導入し、バランスの変化をもたらしたと仮定しています。ケイ素は現在28%で、新しい石英が豊富な地質形成を広範囲に生み出し、景観を根本的に変えています。\n\nこれらの変化は広範な影響を及ぼします。アルミニウムが8%まで増加したことは、粘土鉱物が広く分布するようになり、土壌の肥沃度や水の保持力に影響を与えていることを示唆しています。これにより、ケイ素が豊富な土壌で繁栄する種がより優勢になるため、植物群落の変化が起こる可能性があります。鉄は5%を占めており、生命圏を有害な太陽放射から守る磁場を維持するために重要な鉱物の形成において、依然として重要な役割を果たしています。\n\nまた、チームはナトリウムやカリウムといった他の元素にも注目しています。これらの元素は生命活動に欠かせないものであり、そのわずかな増加が多くの生物の浸透圧調節に影響を及ぼす可能性があります。これらの元素の増加が海洋や陸上の生命にどのように影響を与え、新しい進化の道を開く可能性があるかを考察しています。\n\n探検家たちは、地殻が大きな変化を遂げたにもかかわらず、依然として動的なシステムであると結論付けています。元素の構成の変化は、惑星の継続的な地質進化の一部であり、その生命を支えるマントルの常に変化する性質を反映しています。彼らは、これらの変化を研究することで、地球の過去のみならず未来についての洞察を得られるとし、この変化した世界で人類が適応し、繁栄するための道標となるだろうと予測しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively use the pie chart to construct a narrative explaining shifts in Earth's elemental abundance and its impacts, including addressing the blurred part?",
+            "score1_description": "The response observes changes in the pie chart but fails to construct a narrative or explain the shifts in elemental abundance, and does not attempt to address the blurred part of the pie chart.",
+            "score2_description": "The response begins to construct a narrative and provides superficial explanations for the shifts in elemental abundance but does not clarify or make assumptions about the blurred part of the pie chart.",
+            "score3_description": "The response constructs a plausible narrative and explains some shifts in elemental abundance, including a basic attempt to address the blurred part of the pie chart, but the explanation lacks detail or is speculative.",
+            "score4_description": "The response provides a detailed narrative that explains most of the shifts in elemental abundance and includes a reasoned assumption or hypothesis about the blurred part of the pie chart, though it may not be fully substantiated.",
+            "score5_description": "The response constructs a comprehensive narrative that thoroughly explains the shifts in elemental abundance, convincingly discusses their impacts, and provides a clear and logical explanation or hypothesis for the blurred part of the pie chart."
+        },
+        "atomic_checklist": [
+            "Does the response identify a decrease in oxygen and an increase in silicon and aluminum from the pie chart?",
+            "Does the response hypothesize a geological event, like volcanic eruptions, to explain the elemental shifts?",
+            "Is the response discussing the potential formation of new quartz-rich geological formations?",
+            "Does the response consider the impact of elemental shifts on soil fertility and water retention?",
+            "Does the response evaluate the implications of changes in elemental makeup on plant communities?",
+            "Is the response contemplating the role of iron in maintaining the Earth's magnetic field?",
+            "Does the response assess the impact of sodium and potassium on osmoregulation in organisms?",
+            "Is the response contemplating potential evolutionary changes in marine and terrestrial life?",
+            "Does the response discuss the dynamic nature of Earth's geological evolution?",
+            "Is the response predicting future insights into Earth's changes from studying these shifts?",
+            "Does the response address the blurred part of the pie chart, indicating 3.6%?"
+        ],
+        "background_knowledge": [],
+        "caption": "Composition of the Earth's Crust Visualized in a Pie Chart"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "最近の文化表現と職場のダイナミクスに関するワークショップで、参加者たちの瞬間を捉えた写真が共有されました。この場面で起こっている可能性のある文化的な交流とダイナミクスを説明してください。服装、ジェスチャー、座席配置、その他文化的な規範や職場のエチケットを反映する視覚的な手がかりを考慮してください。 ",
+        "reference_answer": "この写真は、ワークショップやチームビルディングの場で、グループ間の前向きな交流と共有された理解の瞬間を捉えているように見えます。参加者たちは、笑顔や合わせられた手からうかがえるように、拍手や賛同をしています。このような身振りは、普遍的に肯定の表現として認識されており、仕事の成功を認めたり、同僚の貢献を支持するためによく使われます。\n\n座席配置は非公式で包括的であり、椅子が円形に集められていることから、参加者間の平等とオープンなコミュニケーションを促進するワークショップやチーム活動であることを示しています。この配置は、すべてのチームメンバーの意見を重視し、現代のフラットで協力的な職場でよく使用されます。\n\n個人の服装はカジュアルで実用的であり、フォーマルなビジネス服装が必須ではない、現代的でおそらくクリエイティブまたはテクノロジー志向の職場を反映しています。このような服装は、伝統的な企業の規範よりも快適さと個人の表現を優先する企業文化を示すことがあります。\n\n各個人は関与と熱意を示しており、これはこのグループや組織内で、積極的な参加とお互いへの目に見えるサポートを重視する文化的な規範を反映しているかもしれません。このような行動は、チームワークと集団の成功を促進する、前向きな職場文化を育むことができます。\n\nさらに、異なる民族的背景を持つ個人がいるグループの多様性は、多文化的な職場を示唆しています。グループメンバー間の明らかな安らぎと幸福感は、この環境内での文化的な感受性と多様性への尊重を示しています。\n\n全体として、この画像は文化的多様性を受け入れ、オープンで平等なコミュニケーションを促進し、メンバーにとって前向きで肯定的な環境を提供する職場を伝えています。これは、多様性が祝われ、チームのダイナミクスが包括性と相互尊重に向けて調整されている、職場文化への進歩的な方針を反映しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately describe the cultural interactions and dynamics taking place in the photograph?",
+            "score1_description": "The response recognizes individuals in the photograph but fails to interpret cultural interactions or dynamics, for example, noting smiles without relating to cultural expressions or workplace dynamics.",
+            "score2_description": "The response identifies basic gestures such as applause but provides a limited analysis of their cultural or workplace significance, for example, mentioning clapping without discussing its role in affirmation or support.",
+            "score3_description": "The response observes cultural interactions and begins to relate them to workplace dynamics, but the explanation is superficial and lacks insight into attire or seating arrangement, for example, not considering how these reflect cultural norms.",
+            "score4_description": "The response describes cultural interactions and dynamics with attention to gestures, attire, and seating, but may miss deeper implications or the significance of diversity, for example, not fully exploring what the observed ease among diverse individuals implies.",
+            "score5_description": "The response thoroughly analyzes the cultural interactions and dynamics, considering gestures, attire, seating, and diversity, and insightfully relates these to cultural norms and workplace etiquette, demonstrating a comprehensive understanding of the setting."
+        },
+        "atomic_checklist": [
+            "Does the response identify the gestures such as applause and relate them to cultural expressions of affirmation?",
+            "Is the response attentive to the informal and inclusive seating arrangement, suggesting open communication?",
+            "Does the response comment on the casual attire and its reflection of workplace culture?",
+            "Does the response recognize active participation and enthusiasm as valued cultural norms?",
+            "Is the response observant of the diversity of the group and implications for cultural sensitivity?",
+            "Does the response infer that the workplace embraces cultural diversity and egalitarian communication?",
+            "Does the response draw connections between visual cues and the promotion of a positive workplace environment?",
+            "Is the response comprehensive in covering all aspects of cultural interactions and dynamics visible in the photograph?"
+        ],
+        "background_knowledge": [],
+        "caption": "A group of diverse coworkers sharing a joyful moment with applause and smiles in the office."
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "写真に捉えられた瞬間を考慮し、動力学と物理原理に基づいて、個人と環境、特にクレートで作られた構造との相互作用に重点を置きながら、その後に続く可能性のある出来事の順序を決定してください。",
+        "reference_answer": "写真を分析すると、緑のクレートの塔が不安定な高さまで積み上げられ、一方に危険なほど傾いているように見えます。学生が塔に手を伸ばしており、恐らくそれを安定させようとしているのでしょう。他の人々は、楽しんでいる様子からパニックに至るまで、様々な反応を示しています。\n\n塔の目に見える傾きと、基部近くのクレートの動きから判断すると、この構造物は崩壊寸前であると予測するのが妥当です。塔の近くにいる学生は、クレートが落ちてきた際に当たる危険があります。クレート自体は、その重さや中身によっては、衝撃で散乱し、怪我を引き起こす可能性があり、少なくとも大きな混乱を招くでしょう。\n\n人々の反応から、これは休憩中やレジャーのひとときに起こった予期せぬ出来事であることが示唆されます。制服から考えると、学校や類似の施設での出来事かもしれません。崩壊は突然起こり、大きな音を立てて、写っていない他の人々の注意を引く可能性があります。これにより、より多くの人が集まり、怪我のリスクが増し、片付け作業が複雑になる恐れがあります。\n\nこの状況を考慮すると、参加した学生にとって、物理学と安全性に関する即席の教訓となるかもしれません。構造物の安定性と重心の重要性、そしてこのような取り組みにおける先見性の欠如の潜在的な結果を強調します。\n\nその後、安全性やこれらのクレートの適切な使用に関する議論が予想され、同様の事故を防ぐためのルールやガイドラインの実施につながるかもしれません。もしこの出来事がユーモアを持って受け止められ、深刻な怪我がなければ、学生たちの間で共有される逸話となり、彼らの共同体験の伝説に貢献するかもしれません。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response logically predict the sequence of events following the moment captured in the photograph, with emphasis on the structure made of crates?",
+            "score1_description": "The response notes the falling crates but fails to predict specific interactions, for example, it mentions that the crates are toppling but does not discuss the students' likely movements or the crates' path.",
+            "score2_description": "The response predicts that the crates will fall but only provides a generic outcome, for example, it suggests students may react but does not specify how the closest student might move to avoid the fall.",
+            "score3_description": "The response predicts the immediate reaction of the student stabilizing the crates but lacks detail on others' reactions, for example, it might state the student will step back without discussing the potential chain reaction among the others.",
+            "score4_description": "The response provides a detailed prediction of the crates' fall and the students' reactions, but may not fully account for the aftermath, for example, it describes dodging actions but not the consequences of the scattered crates.",
+            "score5_description": "The response offers a comprehensive prediction, detailing the crates' trajectory, each student's likely movements, and the subsequent consequences, such as disruption and noise, reflecting a nuanced understanding of the dynamics."
+        },
+        "atomic_checklist": [
+            "Does the response predict that the student touching the crates will immediately withdraw their hands?",
+            "Is the response specific about the direction in which the crates are likely to fall?",
+            "Does the response anticipate the likely movement of the student directly in the path of the falling crates?",
+            "Does the response predict the reactions of the surrounding students, such as stepping back or trying to catch the crates?",
+            "Is the response detailed about the potential noise and disruption caused by the collapsing crates?",
+            "Does the response consider the possibility of the crates scattering and the safety risks involved?",
+            "Is the response predicting any immediate intervention by onlookers or authorities due to the incident?"
+        ],
+        "background_knowledge": [],
+        "caption": "The Great Crate Catastrophe: When a towering stunt turns into a frantic scramble"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "視覚的な錯覚を含む画像を分析する際、その画像から生じるさまざまな解釈を説明してください。現れる可能性のある視点を考慮し、提示された視覚情報から推測できる異なる意味について詳しく述べてください。",
+        "reference_answer": "提示された画像は、多様な解釈が可能な曖昧な図形の古典的な例です。最初に見ると、そのシルエットはキスをしようとしている横顔の二つの顔、または明るい背景に中心に置かれた一つの花瓶として見ることができます。この種の画像はルビンの壺として知られ、図地認識の例です。\n\n曖昧さを解消するためには、二つの可能な解釈を交互に行うために必要な視点の変化に気づく必要があります。黒い形に焦点を当てると、その輪郭はお互いを見つめる二つの顔のシルエットに似ています。各顔の中央の縁が鼻に相当し、外側の縁が頭の後ろを形成します。この解釈は、黒い形を図（焦点の対象）として見て、白い部分を地（背景）として見ることに依存しています。\n\n逆に、白い空間を図として考えるように焦点を調整すると、黒い形は背景に後退し、花瓶が見えてきます。花瓶の輪郭は、横顔の縁によって構成されます。花瓶としての解釈は、対称性と画像の中央配置によって強化され、これらはそのような物体の一般的な特徴です。\n\nこの画像が図と地の組織化の認知プロセスを利用していることが興味深いです。私たちの視覚システムは、画像のどの部分が主題（図）であり、どの部分が背景（地）であるかを決定します。この画像は二重安定性を持つように設計されており、意図的にこれら二つの解釈を支持し、意図的にそれらの間を切り替えることができますが、同時に両方を保持することはできません。\n\nこの視覚的錯覚の包括的な理解は、画像の二重の性質を認識し、評価することにあります。それは単に二つの顔や花瓶の絵ではなく、視覚刺激の異なる解釈を切り替える人間の能力の実証です。この理解は、感覚情報を解釈する際に関与する視覚認識と認知処理の複雑さへの理解を深めます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response provide a comprehensive analysis of the optical illusion and its multiple interpretations?",
+            "score1_description": "The response identifies the optical illusion but offers no further interpretation, for example, it might only state the presence of black and white shapes without seeing the profiles or the vase.",
+            "score2_description": "The response recognizes one interpretation of the illusion but not the other, for example, it may describe the vase but not the profiles, or vice versa.",
+            "score3_description": "The response mentions both interpretations but does not elaborate on the figure-ground perception involved, for example, noting the profiles and the vase but not explaining the shift in perspective.",
+            "score4_description": "The response details both interpretations and touches on the cognitive processes involved but may not fully capture the bi-stable nature of the image, for example, it might explain figure-ground organization but not the inability to see both images at once.",
+            "score5_description": "The response thoroughly analyzes the optical illusion, clearly detailing both interpretations, the cognitive processes of figure-ground perception, and the bi-stable nature of the image, reflecting a deep understanding of visual perception."
+        },
+        "atomic_checklist": [
+            "Does the response identify the silhouette as a Rubin's Vase, demonstrating figure-ground perception?",
+            "Is the response clear about the two interpretations of faces and a vase?",
+            "Does the response explain the need to shift perspective to alternate between interpretations?",
+            "Is the response detailed in how the black shape can be seen as the figure with the white as the ground and vice versa?",
+            "Does the response discuss the bi-stable nature of the image, where both interpretations cannot be held simultaneously?",
+            "Does the response elaborate on the complexity of visual perception and cognitive processing in interpreting sensory information?"
+        ],
+        "background_knowledge": [],
+        "caption": "A classic play on perception: Two faces or a vase?"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "祝祭の集まりが撮影された際、そこにいる人々の間にある潜在的な感情や交流はどのようなものですか。そして、祝賀イベントにおけるより広範な人間の感情や社会的ダイナミクスをどのように反映しているのでしょうか？ ",
+        "reference_answer": "この画像は、クリスマスの帽子をかぶった人々が登場し、陽気な仲間意識を示唆する、休日の祝典に典型的な活気ある雰囲気を醸し出しています。中央の人物である男性と女性は、女性の広い笑顔と男性の微妙で満足そうな表情からもわかるように、共有された楽しみの瞬間に没頭しています。彼らは共にグラスを持ち、その場の社交的かつ祝祭的な雰囲気を示しています。\n\n女性の目は笑いで輝き、そうした集まりでしばしば感じられる喜びと解放感を反映しています。彼女の開かれた表情豊かな顔は、帰属意識と楽しさを示し、温かさと喜びの集団的なムードと共鳴しています。男性が彼女と近接し、ボディランゲージを通じて関わっていることは、他者とのつながりと祝賀を求める人間の必要性を物語っています。\n\n背景には、他の参加者たちも同様に祝祭の精神に没頭しています。ぼやけた背景のきらめく光は、休日の魔法の輝きを象徴し、全体的な黄金色の色調がシーンの感情的な温かさを増幅しているように見えます。参加者たちは単にそこにいるだけでなく、そうしたイベントが織りなす共有された人間の経験のタペストリーに積極的に貢献しています。\n\nこの画像は、単なる享楽の瞬間を捉えるだけでなく、普遍的に共鳴する感情的なつながりの豊かなタペストリーをも包含しています。それは、祝祭の場が強調しうる共有された人間性を思い起こさせ、個々を喜び、友情、そして共同の祝賀を求める人間の欲求の集団的な表現へと導きます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response insightfully analyze the underlying feelings and interactions at the festive gathering?",
+            "score1_description": "The response briefly acknowledges the festive setting but fails to delve into the emotions or interactions, for example, noting the Christmas hats but not the expressions or body language of joy and camaraderie.",
+            "score2_description": "The response recognizes happiness in the gathering but does not connect it to broader social dynamics, for example, mentioning smiling faces but not the shared amusement or sense of belonging.",
+            "score3_description": "The response describes surface-level interactions and some emotions, such as laughter, but lacks depth in exploring the significance of these in the context of human connection, for example, noting the toasting but not the deeper sense of unity it signifies.",
+            "score4_description": "The response captures most of the emotional essence and social interactions, like engagement and warmth, but may not fully interpret the broader human experience, for example, recognizing close proximity but not fully discussing the collective mood it creates.",
+            "score5_description": "The response provides a comprehensive analysis of the feelings and interactions, deeply understanding the joy, belonging, and human connection present at the event, reflecting on how these elements combine to create a rich, shared human experience."
+        },
+        "atomic_checklist": [
+            "Does the response note the Christmas hats and interpret them as a sign of shared festivity?",
+            "Is the response attentive to the woman's laughter and what it signifies about the mood of the event?",
+            "Does the response discuss the man's body language and its implications for social bonding?",
+            "Does the response mention the social act of toasting and its role in festive indulgence?",
+            "Is the response descriptive of the background ambiance and how it contributes to the festive atmosphere?",
+            "Does the response connect individual expressions to collective emotional warmth and celebration?",
+            "Is the response comprehensive in covering the richness of emotional connections and their universal resonance?"
+        ],
+        "background_knowledge": [],
+        "caption": "Joyful laughter and festive cheer at a sparkling Christmas party."
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "कृपया बताएं कि इस ग्राफ से संबंधित कौन सा सिद्धांत है और यह ग्राफ क्या समझाने की कोशिश कर रहा है।  \n",
+        "reference_answer": "आपके द्वारा प्रदान किया गया ग्राफ़ वान डेर वाल्स समीकरण के साथ सामान्यतः जुड़े हुए आइसोथर्म्स का एक सेट प्रदर्शित करता प्रतीत होता है, जो वास्तविक गैसों के व्यवहार का वर्णन करता है। वान डेर वाल्स समीकरण आदर्श गैस नियम में सुधार है और गैस अणुओं द्वारा घिरे हुए आयतन और उनके बीच आकर्षण को ध्यान में रखता है।\n\nग्राफ़ विभिन्न वक्रों को दिखाता है, जिनमें से प्रत्येक एक अलग तापमान (T_r) के अनुरूप है, जहाँ T_r घटित तापमान है। घटित तापमान एक विमाहीन मात्रा है जिसका उपयोग ऊष्मागतिकी और सांख्यिकीय यांत्रिकी में किया जाता है, जो पदार्थ के वास्तविक तापमान की तुलना उसके क्रांतिक तापमान (T_c) से करता है, इसलिए T_r = T/T_c।\n\nरेखाएं यह दर्शाती हैं कि एक स्थिर तापमान पर गैस का दाब आयतन के साथ कैसे बदलता है। वक्रों का आकार वास्तविक गैसों के विशेष व्यवहारों को दर्शाता है:\n- उच्च तापमान पर (T_r = 9/8, क्रांतिक तापमान से ऊपर), गैस लगभग आदर्श व्यवहार करती है, जिसमें आयतन बढ़ने पर दाब लगातार घटता है।\n- क्रांतिक तापमान पर (T_r = 1), आइसोथर्म एक मोड़ बिंदु प्रदर्शित करता है जहाँ एक निश्चित सीमा के भीतर आयतन में परिवर्तन के प्रति दाब अपेक्षाकृत असंवेदनशील होता है। यह बिंदु गैस के क्रांतिक बिंदु के अनुरूप होता है, जहाँ गैस और तरल चरणों का घनत्व समान होता है और वे अविभाज्य होते हैं।\n- क्रांतिक तापमान से नीचे (T_r < 1), आइसोथर्म्स एक नकारात्मक ढलान वाला क्षेत्र दिखाते हैं जहाँ गैस तरल में संघनित होती है। यह क्षेत्र भौतिक रूप से अस्थिर होता है और यहीं पर चरण संक्रमण होते हैं। डैश वाली रेखाओं द्वारा चिह्नित क्षेत्र व्यवहार में नहीं देखे जाते क्योंकि प्रणाली सीधे गैस से तरल चरण या इसके विपरीत जाती है, जो ग्राफ़ में समतल क्षैतिज रेखाओं द्वारा दर्शाया जाता है (यहाँ स्पष्ट रूप से नहीं देखा जाता लेकिन सामान्यतः मैक्सवेल के समान क्षेत्र नियम के रूप में जाना जाता है)।\n\nयह ग्राफ़ वास्तविक गैसों के गैर-आदर्श व्यवहार और उनके चरण संक्रमणों को समझाने की कोशिश कर रहा है, विशेष रूप से क्रांतिक बिंदु के निकट। यह दृश्य रूप से दर्शाता है कि वास्तविक गैसें आदर्श गैस व्यवहार से कैसे विचलित होती हैं, जिसे आदर्श गैस नियम द्वारा नहीं पकड़ा जाता। ",
+        "score_rubric": {
+            "criteria": "Does the response show completeness and accuracy in explaining the van der Waals equation, reduced temperature, critical temperature, and real gas behavior as depicted in the graph?",
+            "score1_description": "The response does not mention the van der Waals equation, reduced temperature, critical temperature, or real gas behavior, missing all key points.",
+            "score2_description": "The response briefly mentions one of the key points but lacks detail and accuracy.",
+            "score3_description": "The response includes some of the key points with a basic explanation but omits others or lacks clarity.",
+            "score4_description": "The response covers most of the key points with accuracy but may lack detail on one of the elements.",
+            "score5_description": "The response accurately and thoroughly explains all key points, providing a complete understanding of the graph."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the van der Waals equation and its relevance to real gases?",
+            "Does the response explain the concept of reduced temperature (T_r) and its use in the graph?",
+            "Does the response detail the significance of the critical temperature and the inflection point on the isotherms?",
+            "Does the response describe how the graph illustrates the deviation of real gas behavior from ideal gas behavior, especially near the critical point?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Van_der_Waals_equation"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "यह ग्राफ मुझे अपनी खगोल विज्ञान की कक्षा के दौरान मिला था और मुझे नहीं पता कि इसका अर्थ क्या है। क्या आप समझा सकते हैं कि यह किससे संबंधित है और क्या बताता है?",
+        "reference_answer": "आपके द्वारा प्रदान किया गया ग्राफ़ समय के साथ एक खगोलीय वस्तु की स्पष्ट चमक में आवधिक दोलन को दर्शाता प्रतीत होता है। यह पैटर्न एक सेफीड परिवर्ती तारे की विशेषता है।\n\nसेफीड परिवर्ती तारे एक प्रकार के तारे होते हैं जो अपनी बाहरी परतों में धड़कनों के कारण चमक में नियमित पैटर्न का प्रदर्शन करते हैं। ग्राफ़ इन चमक परिवर्तनों को दस दिनों में दिखाता है। सेफीड परिवर्ती तारों की प्रमुख विशेषता यह है कि उनकी धड़कन की अवधि सीधे उनकी आंतरिक चमक से संबंधित होती है, जिसे अवधि-चमक संबंध के रूप में जाना जाता है। यह संबंध खगोल भौतिकी में महत्वपूर्ण है क्योंकि यह खगोलविदों को सेफीड परिवर्ती तारों की दूरी और विस्तार में उन दूरस्थ आकाशगंगाओं की दूरी निर्धारित करने की अनुमति देता है, जिनमें वे निवास करते हैं, इस प्रकार ब्रह्मांड के पैमाने को मापने में मदद करता है।\n\nग्राफ़ का उद्देश्य दर्शाना है:\n- सेफीड परिवर्ती तारे की चमक परिवर्तनों की आवधिक प्रकृति।\n- चमक में शिखरों के बीच नियमित समय अंतराल (अवधि)।\n- समय के साथ चमक परिवर्तन की आयाम।\n\nइस आवधिक डेटा का उपयोग तारे की परम परिमाण की गणना करने के लिए किया जाता है, और इस प्रकार पृथ्वी से इसकी दूरी का निर्धारण किया जाता है, जिसका उपयोग 20वीं सदी की शुरुआत में हेनरिएटा स्वान लेविट द्वारा खोजे गए अवधि-चमक संबंध का उपयोग करके किया जाता है। ये तारे खगोलीय दूरियों को मापने के लिए \"मानक मोमबत्तियाँ\" के रूप में कार्य करते हैं। ",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of the Cepheid variable star light curves and their astronomical significance?",
+            "score1_description": "The response does not recognize the graph as a Cepheid variable light curve nor its relevance in astronomy.",
+            "score2_description": "The response identifies the graph as related to star brightness but fails to connect it to Cepheid variables or their importance in distance measurement.",
+            "score3_description": "The response correctly identifies the graph as a Cepheid variable light curve but only partially explains its significance in astronomy.",
+            "score4_description": "The response identifies the graph as a Cepheid variable light curve and explains its importance in distance measurement but does not mention Henrietta Swan Leavitt's contribution.",
+            "score5_description": "The response accurately identifies the Cepheid variable light curve, explains the period-luminosity relationship, the concept of \"standard candles,\" and acknowledges Henrietta Swan Leavitt's work."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the graph as showing the light curve of a Cepheid variable star?",
+            "Does the response explain the significance of the period-luminosity relationship for these stars?",
+            "Does the response describe the use of Cepheid variables as \"standard candles\" in determining astronomical distances?",
+            "Does the response mention the historical importance of Henrietta Swan Leavitt's work in discovering the period-luminosity relationship?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "कृपया स्पष्ट करें कि इस ग्राफ से कौन सा सिद्धांत जुड़ा हुआ है और यह ग्राफ कौन सा संदेश देने का इरादा रखता है। ",
+        "reference_answer": "ग्राफ प्लांक के काले शरीर विकिरण के नियम को दर्शाता है और इसे रेले-जीन्स के शास्त्रीय सिद्धांत से तुलना करता है, जो छोटी तरंग दैर्ध्य पर देखे गए काले शरीर के स्पेक्ट्रम का वर्णन करने में विफल रहा, जिससे \"पराबैंगनी आपदा\" के रूप में जाना जाने वाला मुद्दा उत्पन्न हुआ।\n\nप्लांक का नियम यह वर्णन करता है कि एक आदर्श काला शरीर एक निश्चित तापमान पर विभिन्न तरंग दैर्ध्य पर ऊर्जा कैसे विकीर्ण करता है। ग्राफ में, 3000 K, 4000 K, और 5000 K के लिए वक्र उन तापमानों पर काले शरीर के लिए विभिन्न तरंग दैर्ध्य पर विकिरण की तीव्रता दिखाते हैं। ये वक्र प्रदर्शित करते हैं कि जैसे-जैसे तापमान बढ़ता है, उत्सर्जित विकिरण का शिखर छोटी तरंग दैर्ध्य की ओर खिसकता है। यह खिसकाव वीन के विस्थापन नियम के अनुसार होता है, जो प्लांक के नियम से व्युत्पन्न एक परिणाम है, जो बताता है कि विभिन्न तापमानों के लिए काले शरीर के विकिरण वक्र का शिखर तापमान के व्युत्क्रमानुपाती तरंग दैर्ध्य पर होता है।\n\n'शास्त्रीय सिद्धांत (5000 K)' रेखा रेले-जीन्स के नियम द्वारा की गई भविष्यवाणी का प्रतिनिधित्व करती है, जो लंबी तरंग दैर्ध्य (इन्फ्रारेड) पर प्लांक के नियम के साथ मेल खाती है लेकिन छोटी तरंग दैर्ध्य (पराबैंगनी) पर बहुत अधिक विचलित होती है, जहां यह विकिरण के अस्वाभाविक रूप से बड़े उत्सर्जन की भविष्यवाणी करती है। इस विसंगति ने क्वांटम यांत्रिकी के विकास को प्रेरित किया, जिसमें प्लांक ने ऊर्जा के क्वांटीकरण की अवधारणा प्रस्तुत की।\n\nग्राफ का उद्देश्य यह बताना है:\n- विभिन्न तापमानों पर काले शरीरों की वर्णक्रमीय दीप्ति वितरण।\n- जैसे-जैसे तापमान बढ़ता है, शिखर उत्सर्जन का छोटी तरंग दैर्ध्य की ओर खिसकना।\n- छोटी तरंग दैर्ध्य पर व्यवहार का वर्णन करने में शास्त्रीय भौतिकी की विफलता और प्लांक के नियम द्वारा वर्णित क्वांटम सिद्धांत की सफलता। \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of Planck's law and its significance in describing black-body radiation?",
+            "score1_description": "The response does not recognize Planck's law, the Rayleigh-Jeans law, Wien's displacement law, or the ultraviolet catastrophe.",
+            "score2_description": "The response mentions Planck's law but fails to address its relationship with the classical theory or Wien's law.",
+            "score3_description": "The response explains Planck's law and touches on the ultraviolet catastrophe but does not clearly describe Wien's displacement law or the historical context of quantum mechanics.",
+            "score4_description": "The response provides a good explanation of Planck's law and Wien's displacement law but lacks detail on the failure of the classical theory or the development of quantum mechanics.",
+            "score5_description": "The response comprehensively explains Planck's law, its contrast with classical theory, Wien's displacement law, and the historical significance of the ultraviolet catastrophe leading to quantum mechanics."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Planck's law of black-body radiation?",
+            "Does the response explain the discrepancy between Planck's law and classical theory, specifically the Rayleigh-Jeans law?",
+            "Does the response describe Wien's displacement law and its relation to the shift in peak wavelength with temperature?",
+            "Does the response mention the historical context of the \"ultraviolet catastrophe\" and its role in the development of quantum mechanics?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Planck%27s_law#:~:text=Planck's%20law%20describes%20the%20unique,cavity%20with%20rigid%20opaque%20walls."
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "इस ग्राफ़ के माध्यम से क्या समझाने की कोशिश की जा रही है और यह किस सिद्धांत से संबंधित है, इसे स्पष्ट करें। ",
+        "reference_answer": "आपके द्वारा प्रदान किया गया ग्राफ एक स्कैटर प्लॉट है जो समय के साथ विभिन्न माइक्रोप्रोसेसरों के ट्रांजिस्टर गिनती में प्रवृत्ति को दर्शाता है। यह प्रवृत्ति मूर के नियम से जुड़ी है, जो 1965 में इंटेल के सह-संस्थापक गॉर्डन मूर द्वारा की गई एक अवलोकन है। मूर ने नोट किया कि एक माइक्रोचिप पर ट्रांजिस्टरों की संख्या लगभग हर दो वर्षों में दोगुनी हो जाती है, जिसे ढीले रूप से इस रूप में व्याख्या किया गया है कि प्रोसेसरों की कंप्यूटिंग शक्ति भी उसी समय सीमा में दोगुनी हो जाएगी।\n\nग्राफ विभिन्न माइक्रोप्रोसेसरों को 1970 के दशक से शुरू होकर 2020 के दशक तक की समयरेखा पर प्लॉट कर रहा है। y-अक्ष, जो ट्रांजिस्टर गिनती का प्रतिनिधित्व करता है, एक लघुगणकीय पैमाने पर है, जो आमतौर पर तब उपयोग किया जाता है जब डेटा कई क्रमिक परिमाणों में फैला होता है, जैसा कि माइक्रोचिप्स में ट्रांजिस्टर गिनती की वृद्धि के मामले में होता है।\n\nइस ग्राफ द्वारा व्यक्त किया जाने वाला संदेश शामिल है:\n- मूर के नियम का पालन करते हुए, एक चिप पर फिट किए जा सकने वाले ट्रांजिस्टरों की संख्या में घातीय वृद्धि।\n- समय के साथ तकनीकी प्रगति, जैसा कि माइक्रोप्रोसेसरों की बढ़ती जटिलता और क्षमता द्वारा प्रदर्शित किया गया है।\n- इस वृद्धि की संभावित प्रवृत्तियाँ और सीमाएँ, जैसे-जैसे हम सिलिकॉन-आधारित चिप प्रौद्योगिकी की भौतिक सीमाओं की ओर बढ़ते हैं।\n\nयह ग्राफ अर्धचालक उद्योग की प्रगति का एक दृश्य प्रतिनिधित्व है और अक्सर डिजिटल प्रौद्योगिकी की तीव्र प्रगति को दर्शाने के लिए उपयोग किया जाता है। ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the association between the graph and Moore's Law?",
+            "score1_description": "The response does not mention Moore's Law or its connection to the graph.",
+            "score2_description": "The response mentions Moore's Law but does not explain its significance or its relation to the graph.",
+            "score3_description": "The response explains Moore's Law and mentions the logarithmic scale but lacks clarity in describing the exponential growth trend.",
+            "score4_description": "The response comprehensively discusses Moore's Law, the logarithmic scale, and the exponential growth trend in transistor counts over time, with some discussion of implications and potential limits.",
+            "score5_description": "The response demonstrates a thorough understanding by explaining Moore's Law, the logarithmic scale, the exponential growth trend, its significance for microprocessors, and the implications of the graph's trend for future technology."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the association of the graph with Moore's Law?",
+            "Does the response explain the significance of the y-axis being on a logarithmic scale?",
+            "Does the response indicate the exponential growth trend in transistor counts on microchips over time?",
+            "Does the response discuss the implications of this trend for the advancement of microprocessor technology?",
+            "Does the response mention the potential limits of silicon-based technology as suggested by the graph?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Moore's_law#/media/File:Moore's_Law_Transistor_Count_1970-2020.png"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "इस ग्राफ में परिणाम क्या संकेत देते हैं? मानव प्राथमिकताओं के साथ भाषा मॉडल को संरेखित करने के लिए सबसे अच्छा एल्गोरिदम कौन सा है? ",
+        "reference_answer": "आपके द्वारा प्रदान किया गया ग्राफ तीन अलग-अलग एल्गोरिदम—KTO, DPO, और IPO—के प्रदर्शन की तुलना करता है, जो \"बीटा\" नामक एक पैरामीटर के विभिन्न मानों के खिलाफ है। प्रदर्शन मेट्रिक \"MT बेंच स्कोर\" है, जो संभवतः मशीन अनुवाद या किसी अन्य प्रदर्शन मेट्रिक के लिए किसी प्रकार के बेंचमार्किंग स्कोर का प्रतिनिधित्व करता है।\n\nग्राफ से निकाले जा सकने वाले कुछ अंतर्दृष्टियाँ इस प्रकार हैं:\n1. **KTO एल्गोरिदम**: यह एल्गोरिदम बीटा=0 पर सबसे उच्च MT बेंच स्कोर के साथ शुरू होता है, लेकिन जैसे-जैसे बीटा बढ़ता है, इसका प्रदर्शन घटता है, और बीटा=0.4 के बाद स्थिर हो जाता है।\n2. **DPO एल्गोरिदम**: DPO एल्गोरिदम बीटा=0 पर KTO से कम स्कोर के साथ शुरू होता है, लेकिन बीटा मानों के बीच अधिक स्थिर प्रदर्शन बनाए रखता है, बीटा=0.4 के आसपास थोड़ा बढ़ता है और फिर से घटता है।\n3. **IPO एल्गोरिदम**: IPO एल्गोरिदम बीटा=0 पर सबसे कम स्कोर से शुरू होता है। यह थोड़ा बढ़ता है, बीटा=0.2 पर चरम पर पहुंचता है, और फिर बीटा बढ़ने के साथ एक सामान्य अध: पतन प्रवृत्ति रखता है, अंत में बीटा = 0.8 पर सबसे कम स्कोर के साथ समाप्त होता है। ग्राफ से, हम यह निष्कर्ष निकाल सकते हैं कि सभी बीटा मानों में कोई एकल एल्गोरिदम सर्वश्रेष्ठ नहीं है। बीटा=0 पर, केटीओ सर्वश्रेष्ठ प्रदर्शन करने वाला एल्गोरिदम है। बीटा=0.4 पर, डीपीओ सबसे स्थिर प्रतीत होता है और केटीओ के समान प्रदर्शन करता है। केटीओ उच्च बीटा मानों (बीटा = 0.6 और ऊपर से) के लिए सबसे अच्छा एल्गोरिदम प्रतीत होता है क्योंकि यह अन्य एल्गोरिदम के सापेक्ष उच्च स्कोर बनाए रखता है। सर्वश्रेष्ठ एल्गोरिदम इस बात पर निर्भर करेगा कि मानवीय वरीयताओं के संरेखण के लिए किस बीटा मान को सबसे महत्वपूर्ण माना जाता है। जब बीटा = 0 सेट किया जाता है, तो डीपीओ को प्राथमिकता दी जाएगी, लेकिन बीटा = 0.1 से ऊपर, केटीओ को अन्य दो एल्गोरिदम पर प्राथमिकता दी जाएगी।",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive analysis of algorithm performance relative to the Beta parameter?",
+            "score1_description": "The response does not acknowledge the relationship between algorithm performance and the Beta parameter.",
+            "score2_description": "The response mentions the Beta parameter but fails to connect it clearly to algorithm performance variations.",
+            "score3_description": "The response identifies algorithm performance trends for a limited range of Beta values but does not cover the full spectrum.",
+            "score4_description": "The response provides a good analysis of algorithm performance over most of the Beta range but may lack details for specific points.",
+            "score5_description": "The response offers a detailed and nuanced analysis of how each algorithm's performance varies across the entire range of Beta values."
+        },
+        "atomic_checklist": [
+            "Does the response include information on how the performance of each algorithm varies with the parameter Beta?",
+            "Does the response identify which algorithm performs best at the initial Beta value (Beta=0)?",
+            "Does the response highlight the algorithm that shows the most stability across different Beta values?",
+            "Does the response specify which algorithm is best for higher Beta values (from Beta=0.6 and above)?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://huggingface.co/blog/pref-tuning"
+            }
+        ]
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "एक चित्र का अवलोकन करते समय, कौन से विशेष तत्व अनुभव किए गए मूड में योगदान देते हैं, और वे एक समग्र भावनात्मक अनुभव बनाने के लिए कैसे परस्पर क्रिया करते हैं? ",
+        "reference_answer": "विवादित चित्र एक शांत और चिंतनशील मूड को व्यक्त करता है, जो मुख्य रूप से विषय की कोमल दृष्टि और नरम प्रकाश के माध्यम से व्यक्त होता है। महिला की आँखें, थोड़ी झुकी हुई और किनारे की ओर देखती हुई, दर्शकों को यह सोचने के लिए आमंत्रित करती हैं कि उसके मन में क्या हो सकता है, जो आत्मनिरीक्षण या शांति का सुझाव देती हैं। छवि में प्रकाश उसके चेहरे के एक तरफ को धीरे से प्रकाशित करता है, सूक्ष्म छायाएँ डालता है और एक शांत वातावरण बनाता है। प्रकाश और छाया का यह खेल चित्रकला की समग्र शांति और विचारशीलता की भावना में योगदान देता है।\n\nइसके अलावा, रंगों का चयन इस मूड को बढ़ाता है; नीले हेडस्कार्फ़ के ठंडे रंग और उसके वस्त्र के गर्म मिट्टी के रंग एक संतुलित और सामंजस्यपूर्ण प्रभाव प्राप्त करते हैं, जो शांति की भावना को जागृत करते हैं। हेडस्कार्फ़, सुरुचिपूर्ण ढंग से लिपटा हुआ, विषय की गरिमामय और चिंतनशील आभा को जोड़ता है। अलग-थलग कान की बाली, जो प्रकाश की एक झलक पकड़ती है, एक मार्मिक विवरण है जो दर्शक का ध्यान उसकी चिंतनशील अभिव्यक्ति की ओर आकर्षित करता है, चित्र की भावनात्मक गूंज को गहरा करता है।\n\nइसके अतिरिक्त, विषय और गहरे पृष्ठभूमि के बीच का तीव्र विरोधाभास दर्शक का ध्यान उसकी ओर केंद्रित करता है, छवि की अंतरंग और ध्यानमग्न गुणवत्ता को और अधिक तीव्र करता है। रचना की सादगी, किसी भी विचलित करने वाले तत्वों से रहित, एक अधिक गहन भावनात्मक संबंध की अनुमति देती है, दर्शकों को विषय के साथ व्यक्तिगत स्तर पर जुड़ने के लिए आमंत्रित करती है। यह न्यूनतम दृष्टिकोण दर्शकों को विषय के व्यवहार की बारीकियों पर विचार करने और उसके आंतरिक जीवन के बारे में अटकलें लगाने के लिए प्रोत्साहित करता है, छवि के आत्मनिरीक्षण मूड को बढ़ाता है।\n\nकुल मिलाकर, चित्र का भावनात्मक प्रभाव रचना, प्रकाश, रंग और विवरण के कुशल संयोजन का परिणाम है, जो मिलकर आंतरिक शांति और चिंतनशील एकांत का एक शक्तिशाली लेकिन मृदु चित्रण बनाते हैं। ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the elements that contribute to the mood of the portrait and their interplay to create an emotional experience?",
+            "score1_description": "The response identifies basic elements of the portrait but does not relate them to the mood, for example, it might mention the subject's gaze but not how it conveys introspection.",
+            "score2_description": "The response recognizes one or two elements that contribute to the mood but does not integrate them into a cohesive analysis, for example, noting the lighting or color but not how they work together to evoke calmness.",
+            "score3_description": "The response describes several elements such as gaze, lighting, and color, and begins to relate them to the mood but lacks detail on their interactive effect, for example, it might suggest tranquility but not delve into the emotional depth created by these elements.",
+            "score4_description": "The response provides a detailed explanation of the elements and their contribution to the mood, but may not fully capture the holistic emotional experience, for example, it describes the serene atmosphere but not the viewer's personal engagement with the portrait.",
+            "score5_description": "The response offers a comprehensive explanation of the elements and their synergy, thoroughly describing how they interact to create a holistic emotional experience, reflecting a deep understanding of the portrait's figurative language."
+        },
+        "atomic_checklist": [
+            "Does the response interpret the subject's gaze as an element of introspection?",
+            "Is the response detailed in describing how the lighting contributes to the serene mood?",
+            "Does the response analyze the color choice and its effect on the painting's atmosphere?",
+            "Does the response consider the headscarf and its role in the subject's dignified aura?",
+            "Is the response attentive to the earring's detail and its emotional significance?",
+            "Does the response discuss the contrast between the subject and background and its impact?",
+            "Is the response comprehensive in connecting all elements to a profound emotional connection with the viewer?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image appears to be a digital representation or photograph of the famous painting \"Girl with a Pearl Earring\" by Johannes Vermeer. The subject is a young woman looking over her shoulder, with a blue headscarf and a large pearl earring. The background is dark, highlighting the subject's face and attire. This artwork is known for its exquisite use of light and shadow, as well as its captivating depiction of the young woman's gaze."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "दृश्य मीडिया में प्रस्तुत स्थिति की जांच करें और वर्तमान परिदृश्य तक पहुंचने वाली घटनाओं और प्राकृतिक प्रक्रियाओं के क्रम को स्पष्ट करें। दिखाए गए विषय और व्यापक पर्यावरणीय संदर्भ के लिए इसके प्रभावों पर विचार करें। इस स्थिति में योगदान देने वाले कारकों का विश्लेषण करें और यदि मौजूदा परिस्थितियाँ बनी रहती हैं तो संभावित परिणामों की भविष्यवाणी करें। ",
+        "reference_answer": "छवि एक ध्रुवीय भालू को दर्शाती है जो एक छोटे, पतले होते बर्फ के टुकड़े पर खतरनाक रूप से बैठा है, जो पानी से घिरा हुआ है, और यह जलवायु परिवर्तन और आर्कटिक वन्यजीवों पर इसके प्रभाव के बीच कारण-प्रभाव संबंध को स्पष्ट रूप से दर्शाता है। इसका मुख्य कारण वैश्विक तापवृद्धि है, जो ग्रीनहाउस गैस उत्सर्जन में वृद्धि के कारण होती है। यह तापवृद्धि समुद्री बर्फ के पिघलने की ओर ले जाती है, जिसका प्रभाव ध्रुवीय भालू के आवास में सीधे तौर पर देखा जा सकता है।\n\nबर्फ का असामान्य आकार, जो एक बर्फ के स्तंभ जैसा दिखता है, यह सुझाव देता है कि यह कभी एक बड़े बर्फ के टुकड़े का हिस्सा था जो पिघलकर टूट गया है। ध्रुवीय भालू समुद्री बर्फ पर आराम करने और सील का शिकार करने के लिए निर्भर रहते हैं, जो उनका मुख्य भोजन स्रोत है। पतली होती बर्फ इस भालू को एक खतरनाक स्थिति में डाल देती है, जो इसके जीवित रहने और शिकार करने की क्षमता पर सीधे प्रभाव को दर्शाता है।\n\nविस्तृत पर्यावरणीय संदर्भ में जलवायु परिवर्तन के प्रभावों की श्रृंखला शामिल है, जैसे कि कई प्रजातियों के लिए आवास का नुकसान, समुद्र स्तर में वृद्धि, और महासागरीय धाराओं का परिवर्तन। यदि ये परिस्थितियाँ बनी रहती हैं, तो ध्रुवीय भालू के लिए परिणाम गंभीर हो सकते हैं, जिससे भूख, प्रजनन दर में कमी, और अंततः जनसंख्या में गिरावट हो सकती है, जो संभवतः विलुप्ति में परिणत हो सकती है।\n\nसमुद्री बर्फ का नुकसान स्थानीय मानव आबादी को भी प्रभावित करता है, जिनकी जीवनशैली और अर्थव्यवस्था आर्कटिक पारिस्थितिकी तंत्र के स्वास्थ्य से जुड़ी होती है। पारंपरिक जीवन के तरीके, जिनमें शिकार और मछली पकड़ना शामिल है, जोखिम में हैं, जो इस पर्यावरणीय मुद्दे के दूरगामी प्रभावों को दर्शाता है।\n\nअंत में, छवि एक छोटी लेकिन शक्तिशाली दृश्य को पकड़ती है जो आर्कटिक को प्रभावित करने वाले बड़े, चल रहे पर्यावरणीय संकट का एक सूक्ष्म रूप है। ध्रुवीय भालू का संघर्ष जलवायु परिवर्तन को कम करने के लिए तात्कालिक कार्रवाई की आवश्यकता का एक मार्मिक संकेतक है। \n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the sequence of events and natural processes leading to the depicted scenario, including the broader environmental implications?",
+            "score1_description": "The response observes the situation but fails to connect it to environmental processes, for example, it might note the polar bear on ice but not mention global warming or habitat loss.",
+            "score2_description": "The response identifies a link between the polar bear's situation and environmental change but lacks a deeper analysis of cause and effect, for example, mentioning thinning ice without discussing the impact on the bear's hunting habits.",
+            "score3_description": "The response describes the polar bear's precarious position and hints at climate change, but does not fully explore the implications for the Arctic ecosystem or the bear's survival, for example, it might omit the potential outcomes if current conditions persist.",
+            "score4_description": "The response provides a detailed explanation of the visual metaphor, capturing the relationship between climate change and its impact on the polar bear, but may not fully predict the broader environmental outcomes, for example, it discusses habitat loss but not the effects on human communities.",
+            "score5_description": "The response offers a comprehensive analysis of the scenario, thoroughly detailing the environmental processes, the implications for the subject, and the broader context, reflecting a profound understanding of the image's figurative message."
+        },
+        "atomic_checklist": [
+            "Does the response identify the thinning ice as a consequence of global warming?",
+            "Is the response detailed in describing how climate change impacts the polar bear's habitat?",
+            "Does the response analyze the implications of the scenario for the polar bear's hunting and survival?",
+            "Does the response consider the effects of sea ice loss on the broader Arctic ecosystem, including human populations?",
+            "Is the response comprehensive in connecting the visual depiction to the urgent need for climate change mitigation?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a polar bear perched precariously atop a small, thin iceberg in the middle of the water. The polar bear's posture and the size of the ice piece create a striking visual, often used to symbolize the impact of climate change on Arctic ice habitats and the plight of polar bears."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "प्रस्तुत दृश्य संदेश का विश्लेषण करते समय, किस ऐतिहासिक संदर्भ ने ऐसे वाक्यांश को जन्म दिया हो सकता है, और यह संदर्भ इस छवि के भीतर तत्वों के प्रतीकवाद और उपयोग से कैसे जुड़ता है? ",
+        "reference_answer": "छवि एक साहसिक, बड़े अक्षरों में लिखे वाक्यांश \"KEEP CALM AND CARRY ON\" को दर्शाती है, जो एक चमकदार लाल पृष्ठभूमि पर सेट है, और एक शाही प्रतीक द्वारा ताज पहनाया गया है। यह प्रतिष्ठित पोस्टर ब्रिटिश इतिहास में जड़ें रखता है, विशेष रूप से द्वितीय विश्व युद्ध की शुरुआत के दौरान। इसे मूल रूप से 1939 में ब्रिटिश सरकार द्वारा संभावित युद्धकालीन आपदाओं की तैयारी में जनता के लिए एक मनोबल बढ़ाने वाले संदेश के रूप में तैयार किया गया था।\n\n\"KEEP CALM AND CARRY ON\" का रूपक बहुआयामी है। यह लचीलापन और दृढ़ता का संदेश समेटे हुए है, जनता से अशांति के बीच संयम और सामान्यता बनाए रखने का आग्रह करता है। शाही ताज का प्रतीक के रूप में उपयोग केवल सजावटी नहीं है; यह राजशाही का प्रतिनिधित्व करता है, एकता की भावना, राष्ट्रीय गर्व, और ब्रिटिश लोगों की सामूहिक पहचान की अपील को जागृत करता है। संदेश के ऊपर ताज यह अप्रत्यक्ष रूप से सुझाव देता है कि यह निर्देश राजशाही से जुड़ी प्राधिकरण और स्थिरता के साथ आता है।\n\nलाल रंग महत्वपूर्ण है; यह ध्यान आकर्षित करता है और अक्सर सतर्कता और तात्कालिकता से जुड़ा होता है, जो युद्धकाल के दौरान प्रासंगिक भावनाएँ होतीं। फिर भी, स्वयं वाक्यांश, अपने अनिवार्य रूप में, एक शांत विचारशीलता की भावना पैदा करने की कोशिश करता है, जो पृष्ठभूमि में अलार्मिंग रंग के विपरीत है। यह विरोधाभास रूपक की गहराई को उजागर करता है, जहाँ कार्य में तात्कालिकता को आत्मा में शांति द्वारा संतुलित किया जाता है।\n\nआधुनिक संस्कृति में एक मीम और सजावटी रूपांकनों के रूप में वाक्यांश की स्थायित्व और पुनरुत्थान इसके रूपक की समृद्धि को और रेखांकित करता है। यह न केवल युद्ध के संदर्भ में बल्कि रोजमर्रा की चुनौतियों में भी प्रतिकूलता के प्रति एक स्थिर प्रतिक्रिया का प्रतीक बन गया है, जो एक कालातीत संदेश को समेटे हुए है जो अपने मूल उद्देश्य को पार करता है। यहाँ रूपक किसी भी जीवन की कठिनाइयों के सामने व्यक्तिगत लचीलापन तक विस्तारित है, जो एक सार्वभौमिक रूप से लागू मानसिकता का प्रतीक है।\n\nमूल रूप में, पोस्टर एक कलाकृति है जो एक राष्ट्र की ऐतिहासिक लचीलापन को संप्रेषित करता है, जबकि चुनौतियों के प्रति एक संयमित और दृढ़ दृष्टिकोण के लिए एक स्थायी रूपक प्रदान करता है, चाहे वह सामूहिक हो या व्यक्तिगत। ",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the historical context of the phrase 'KEEP CALM AND CARRY ON' and analyze the symbolism of the elements within the image?",
+            "score1_description": "The response mentions the phrase but fails to provide any historical context or symbolic analysis.",
+            "score2_description": "The response provides a generic historical context without specific details or a clear explanation of the symbolism.",
+            "score3_description": "The response gives an accurate historical context or symbolic analysis, but not both. For example, it may mention World War II but not the significance of the crown or color.",
+            "score4_description": "The response provides a detailed historical context and a basic symbolic analysis. For example, it explains the phrase's origin in World War II and the general significance of the crown, but not the color red or its modern cultural impact.",
+            "score5_description": "The response offers a comprehensive explanation of both the historical context and the symbolism. For example, it details the phrase's creation during World War II, the authority implied by the crown, the urgency indicated by the color red, and the phrase's modern-day relevance."
+        },
+        "atomic_checklist": [
+            "Does the response identify the phrase as originating from British World War II propaganda?",
+            "Does the response explain the significance of the royal crown symbol?",
+            "Is the response discussing the color red's association with urgency and alertness?",
+            "Does the response relate the poster to modern cultural significance, such as its use in media or as a meme?",
+            "Is the response indicating the phrase's intention to boost morale and resilience?"
+        ],
+        "background_knowledge": [],
+        "caption": "Iconic British wartime slogan presented in bold white text over a striking red background, inspiring resilience and steadiness."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "बच्चों को एक घूमने वाले झूले पर देखते हुए, उस अनकही कहानी का वर्णन करें जो सामने आती है, जिसमें प्रतिभागियों के बीच चल रही आंतरिक गतिशीलता और भावनाओं का विवरण हो। उन चीजों में गहराई से जाएं जो पहली नजर में स्पष्ट नहीं होतीं और उन रिश्तों और व्यक्तिगत कहानियों पर विस्तार से बताएं जो प्रत्येक सवार इस साझा पल में अनुभव कर सकता है। ",
+        "reference_answer": "छवि एक क्षण को समय में स्थिर करती है, जहाँ घोड़े पर बैठे प्रत्येक बच्चा अपनी अनूठी कहानी में डूबा हुआ है। पहली नज़र में, हमें एक साधारण सवारी दिखाई देती है, लेकिन गहराई से देखने पर, यह सवारी कई कहानियों के मंच में बदल जाती है।\n\nसामने वाला बच्चा, दृढ़ हाथों से घोड़े की छड़ को पकड़ते हुए, खुद को एक साहसी अन्वेषक के रूप में गढ़ सकता है, एक साहसी अभियान का नेतृत्व करते हुए। उसकी आगे की दृष्टि और हल्की भौंहें चढ़ी हुई हैं, जो ध्यान और जिम्मेदारी का संकेत देती हैं, जैसे वह अपनी टीम को कल्पित खतरों से 'नेविगेट' कर रहा हो। उसके लिए घोड़ा मात्र एक सवारी नहीं है; यह उच्च समुद्रों पर एक जहाज है, और वह इसका कप्तान है, जो महासागर की उथल-पुथल भरी लहरों के बीच से गुजर रहा है।\n\nबीच में बैठी लड़की पर ध्यान केंद्रित करते हुए, उसकी शारीरिक भाषा और दूर की दृष्टि आत्मनिरीक्षण की बात करती है। शायद वह इस सवारी पर गति के रोमांच के लिए नहीं है, बल्कि खेल के मैदान के शोर से एक राहत के रूप में है। उसके लिए, घोड़ा शांति का बुलबुला है, उसके विचारों में एक क्षणिक पलायन, जहाँ गोलाकार गति उत्तेजित करने के बजाय शांत करती है।\n\nउसके पीछे, एक बच्चा है जिसका चेहरा दूर की ओर मुड़ा हुआ है, लगभग जैसे कैमरे से बच रहा हो। यह क्रिया शर्म नहीं हो सकती, बल्कि एक चिंतनशील मूड का प्रतिबिंब हो सकती है, अनुभव को गहराई से व्यक्तिगत तरीके से अवशोषित कर रहा है। इस बच्चे के लिए घोड़ा एक नियमित चक्र का प्रतिनिधित्व कर सकता है, सवारी की पूर्वानुमेयता में आराम की भावना को जागृत करता है।\n\nअंत में, आखिरी बच्चा, जो मुश्किल से दिखाई देता है, पड़ोसी के साथ बातचीत में लगता है। यह सवारी एक सामाजिक अनुभव है, कहानियों और हंसी को साझा करने का एक मौका, साझा रोमांच पर बंधने का। इस बच्चे के लिए सवारी खुद महत्वपूर्ण नहीं है, बल्कि यह जो संगति प्रदान करती है वह है।\n\nप्रत्येक सवार, यद्यपि एक ही शारीरिक गति में भाग ले रहा है, एक अलग भावनात्मक यात्रा पर है। घोड़ा जीवन के विविध रास्तों और हमारे साझा अनुभवों को संसाधित करने के विविध तरीकों के लिए एक रूपक बन जाता है। छवि केवल एक सवारी पर बच्चों की तस्वीर नहीं है; यह स्वयं जीवन का एक स्नैपशॉट है, जहाँ प्रत्येक व्यक्ति की कहानी सामूहिक अनुभव जितनी ही महत्वपूर्ण है। ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the unspoken narratives and emotional undercurrents among the children on the carousel?",
+            "score1_description": "The response fails to identify any emotional narratives or individual dynamics, focusing only on the physical aspects of the carousel.",
+            "score2_description": "The response hints at possible emotional narratives, but it lacks depth and does not convincingly elaborate on the children's individual experiences.",
+            "score3_description": "The response describes some emotional narratives and touches upon the children's individual experiences but fails to interconnect these stories or misses key elements visible in the scene.",
+            "score4_description": "The response provides a good description of the emotional narratives and individual dynamics, with only minor details lacking or unexplored.",
+            "score5_description": "The response comprehensively captures the emotional undercurrents and individual stories, weaving together the children's experiences into a cohesive narrative that aligns well with the visual clues presented in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify the determined expression of the child at the front as a narrative of leadership or adventure?",
+            "Does the response infer introspection or tranquility from the body language and gaze of the girl in the middle?",
+            "Is the child turned away interpreted as being in a contemplative mood, engaging with the ride in a personal way?",
+            "Does the response explore the potential social interaction of the barely visible child at the back?",
+            "Are the individual narratives interconnected to depict a collective experience on the carousel?",
+            "Is the carousel metaphorically described as representing various paths in life or ways of processing experiences?",
+            "Does the response reflect on the relationships between the children or their individual stories with specific cues from the image?",
+            "Is the overall mood of the scene captured while accounting for the joy, introspection, and camaraderie among the children?",
+            "Does the response include descriptions that go beyond the immediate visual elements to suggest deeper emotional layers?"
+        ],
+        "background_knowledge": [],
+        "caption": "Little passengers on a merry adventure: Kids enjoying a ride on a mini train indoors."
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "संलग्न चित्रकला की संरचना और तत्वों का विश्लेषण करें, जिसमें चित्रित आकृतियों के परिधान, उनके द्वारा ले जाए जा रहे झंडे, और चित्रित संघर्ष की पृष्ठभूमि पर विचार करें। उन तत्वों के ऐतिहासिक महत्व और सांस्कृतिक प्रभावों पर चर्चा करें जो उस कालखंड का प्रतिनिधित्व करते हैं जिसे दृश्य चित्रित कर रहा है। ",
+        "reference_answer": "चित्र में अमेरिकी गृहयुद्ध के एक दृश्य को दर्शाया गया है, जिसे विशिष्ट वर्दियों और झंडों से पहचाना जा सकता है - विशेष रूप से यूनियन का स्टार्स एंड स्ट्राइप्स और परिसंघ का युद्ध ध्वज। सैनिकों की पोशाक उस समय की सटीक है, जिसमें यूनियन सैनिक नीले कोट में और परिसंघ सैनिक ग्रे में हैं, जो उत्तरी और दक्षिणी राज्यों के बीच विभाजन का प्रतीक है।\n\nयूनियन ध्वज, जिसे गर्व से ले जाया जा रहा है, संयुक्त राज्य अमेरिका और राष्ट्र को संरक्षित करने के प्रयासों का प्रतीक है। परिसंघ का युद्ध ध्वज उन अलग हुए राज्यों का प्रतिनिधित्व करता है जो आत्म-शासन और अपनी जीवन शैली बनाए रखने के अधिकार के लिए लड़ रहे थे, जिसमें विवादास्पद रूप से दासता की संस्था शामिल थी।\n\nयह दृश्य संभवतः गृहयुद्ध की कई झड़पों में से एक है, जिसमें दोनों पक्ष निकट युद्ध में लगे हुए हैं, जो युद्ध की क्रूर और व्यक्तिगत प्रकृति का संकेत देता है। धुआं और अराजकता युद्ध की तीव्रता और युद्ध के कोहरे को पकड़ते हैं, एक शब्द जो अक्सर युद्ध के दौरान अनुभव की गई अनिश्चितता और भ्रम का वर्णन करने के लिए उपयोग किया जाता है।\n\nइस युद्ध ने अमेरिकी इतिहास पर गहरा प्रभाव डाला, जिससे दासता का उन्मूलन हुआ और संघीय और राज्य शक्तियों में महत्वपूर्ण बदलाव आए। सांस्कृतिक प्रभाव व्यापक हैं, क्योंकि इस संघर्ष की विरासत आज भी अमेरिकी समाज, राजनीति और नस्ल संबंधों को प्रभावित करती है। युद्ध के झंडे, अब लदे हुए प्रतीक, अभी भी मजबूत भावनात्मक प्रतिक्रियाओं को जन्म देते हैं और विरासत और घृणा के बारे में चल रही बहस के केंद्र में हैं।\n\nसैनिकों की निकटता में भागीदारी उस समय की रणनीति और लड़ाइयों की उग्रता को दर्शाती है, जहां कभी-कभी भाई भाई के खिलाफ लड़ते थे। यह एक राष्ट्र के विभाजन के सबसे कठिन समय की मार्मिक याद दिलाता है, और यह चित्र उन व्यक्तियों के साहस और बलिदानों को श्रद्धांजलि के रूप में कार्य करता है जिन्होंने दोनों पक्षों पर लड़ाई लड़ी।\n\nकला का यह कार्य गृहयुद्ध के ऐतिहासिक संदर्भ का सार पकड़ता है, कारणों के प्रति तीव्र निष्ठा और भ्रातृघातक संघर्ष की दुखद प्रकृति को दर्शाता है। चित्र की महत्ता न केवल इसकी ऐतिहासिक सटीकता में है, बल्कि यह भी है कि यह अमेरिकी इतिहास के एक महत्वपूर्ण क्षण के भावनात्मक और सांस्कृतिक भार को व्यक्त करने की क्षमता में है। ",
+        "score_rubric": {
+            "criteria": "Does the response accurately analyze the historical and cultural elements of the painting related to the American Civil War?",
+            "score1_description": "The response fails to accurately recognize any historical or cultural elements, missing the depiction of the Civil War entirely.",
+            "score2_description": "The response identifies the painting as a Civil War scene, but it does not accurately describe the uniforms, flags, or the context of the conflict, for example, recognizing the uniforms but not the significance of the flags.",
+            "score3_description": "The response correctly identifies the attire and the flags but only provides a superficial analysis of the setting and its implications, for example, acknowledging the battle but not its broader historical context.",
+            "score4_description": "The response provides a clear analysis of the attire and flags, correctly identifies the conflict as the Civil War, and touches on its historical significance, but lacks depth in cultural implications, for example, mentioning the conflict but not its lasting effects on American society.",
+            "score5_description": "The response provides a comprehensive analysis of the attire, flags, and setting, accurately discusses the historical significance, and deeply explores the cultural implications of the Civil War, exemplifying a high level of understanding and insight into the period the scene is portraying."
+        },
+        "atomic_checklist": [
+            "Does the response identify the uniforms and flags as belonging to the American Civil War?",
+            "Does the response describe the historical context of the Civil War?",
+            "Is the response discussing the cultural implications of the Civil War accurately?",
+            "Does the response explain the significance of the Union and Confederate flags?",
+            "Is the setting of the conflict described in a way that is consistent with historical accounts of the Civil War?",
+            "Does the response reflect an understanding of the tactics and nature of Civil War battles?",
+            "Does the response consider the emotional impact and legacy of the Civil War on current society?"
+        ],
+        "background_knowledge": [],
+        "caption": "A dramatic reenactment of a Civil War battle scene, showcasing soldiers marching under the Union and Confederate flags."
+    }
+]

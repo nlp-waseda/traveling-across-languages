@@ -1,0 +1,127 @@
+[
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "While reviewing photos from a coastal photography project, an image surfaced that defies ordinary explanation. It displays a large cargo ship appearing to float above the ocean's surface. Describe the observed phenomenon in the context of perspective and optical illusion, and provide a comprehensive analysis of how atmospheric conditions can lead to such a visual effect.",
+        "reference_answer": "The photograph presents a striking visual anomaly commonly known as a Fata Morgana, a complex form of superior mirage that is significantly distorting the appearance of the cargo ship. The ship seems to be hovering above the horizon, separated from the water by a band of sky. This illusion is a result of atmospheric refraction, where layers of air at different temperatures bend light rays passing through them at different angles. Since cold air lies below warmer air in this scenario, the light from the ship is bent downwards as it passes through the warmer air into the denser, colder air.\n\nThe temperature gradient between these air layers is quite steep, creating the necessary conditions for this optical phenomenon. The refracted light from the ship reaches the observer's eye from below the actual line of sight, making the ship appear in a higher position than it truly is. It's akin to looking through a lens that displaces the image upwards. The clarity and intensity of the mirage are enhanced by the calmness of the ocean, providing a near-perfect reflective surface for the displaced image of the ship. This results in a very clear and distinct hovering effect, which can be quite puzzling without understanding the underlying science.\n\nThe particular angle and the distance of the observer from the ship also contribute to the effect. If viewed from a higher vantage point, the mirage would likely not be as apparent. Moreover, the light conditions seem to be just right, with the sun possibly positioned behind the photographer, reducing glare and allowing for a clear capture of the mirage without too much light scattering.\n\nIn conclusion, the visual anomaly captured in the image is a masterful play of light and temperature gradients, and not a violation of physical laws. It serves as a fascinating example of how atmospheric conditions can dramatically alter our perception of the natural world.",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "In the provided photograph, which physical principles seem to be temporarily suspended or violated, and how might this be explained within the context of the photograph?",
+        "reference_answer": "The photograph captures a skydiver in freefall, seemingly suspended mid-air. At first glance, it might appear that the skydiver is defying gravity, as we do not observe the expected rapid descent towards Earth. However, this is an illusion created by the context of the photograph.\n\nIn reality, the skydiver is under the full influence of gravity and is accelerating downwards. This is evidenced by the posture of the skydiver, with arms and legs spread out to increase air resistance, which is a common practice to stabilize and control descent in skydiving. The skydiver's suit and equipment are specifically designed to manage air resistance and control fall speed.\n\nThe photograph also gives the impression that the skydiver might be stationary relative to the Earth below, but this is improbable. Due to the lack of visible motion blur or reference points that could suggest rapid movement, the image freezes a moment in time, giving the misleading perception that the skydiver is hovering.\n\nAnother point to consider is that the photograph may not show the initial moments of the jump when the skydiver would experience true freefall and accelerate from zero velocity. Instead, it likely captures a moment when terminal velocity has been reached, at which point the forces of gravity and air resistance are in equilibrium, resulting in a constant velocity.\n\nMoreover, the camera angle and the lack of visible reference points (like clouds or a plane) make it difficult to gauge the skydiver's actual velocity and acceleration. In reality, without these visual cues, our perception of the skydiver's motion is compromised.\n\nIn conclusion, while the skydiver appears to defy physical laws, they are in fact obeying all principles of physics, including gravity and air resistance. The illusion is the result of the photographic capture of a dynamic situation, which when frozen in time, strips away the contextual clues that would otherwise inform us of the skydiver's rapid downward motion and the forces at play.",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "In the context of analyzing an artwork that defies conventional reality, describe the visual components and their potential significance, considering the principles of surrealism.",
+        "reference_answer": "The artwork in question is a quintessential display of surrealism, featuring a barren landscape under a vast, empty sky. Central to the piece are the several timepieces, each melting and draped over the landscape's stark features\u2014a desolate tree, a rigid table, and the amorphous shapes within the scene.\n\nThe melting clocks are a profound metaphor for the fluidity and subjective nature of time within the dream world, contrary to the rigid, unyielding march of time experienced in waking life. This alludes to the surrealist fascination with the unconscious mind, dreams, and a reality beyond the ordinary perception of time and space.\n\nFurthermore, the contrasting elements of the landscape\u2014a dead tree alongside a lush, green one\u2014might represent a duality within existence, highlighting the juxtaposition of life and death, growth and decay. The landscape's barrenness could symbolize the vast emptiness of the subconscious, a common theme in surreal art where the inner workings of the mind are explored.\n\nThe orange clock, with its swarm of ants, suggests decay and the passage of organic life, a stark reminder of mortality and the relentless progression towards entropy. Ants, often associated with decay and intense labor, reinforce the theme of an ongoing, unackarent struggle against time and nature's inevitabilities.\n\nLastly, the backdrop features a serene sea and a clear horizon, which might be interpreted as the boundary between the conscious and the subconscious\u2014the known and the unknown. This horizon line separates the world of reality from the dreamscape above, emphasizing the surrealist's ambition to blur and challenge these boundaries.\n\nIn sum, this artwork uses surreal elements to provoke contemplation on the concepts of time, existence, and the mysteries of the unconscious mind. It invites viewers to step beyond the logical confines of reality and consider a more fluid, dreamlike interpretation of their experiences and perceptions.",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Given an image that defies conventional architecture, construct a narrative that not only explains its structure but also tells the story of its origins and its impact on the surrounding community.",
+        "reference_answer": "The image displays an avant-garde structure, poised upside-down, that seems to challenge the laws of gravity and conventional architecture. This building is not a product of haphazard design but a purposeful artistic statement, known as \"The Inversion House.\" It stands in stark defiance of traditional building, with its roots - or in this case, the pointed tip - burrowed into the ground, and what should be the foundation lifted skyward.\n\nThe narrative of its origin is as unconventional as its appearance. The Inversion House was conceived by an eccentric architect, Eliana Cortez, who was inspired by the idea of turning expectations on their head. She believed that just as a building's form can be inverted, so too can societal norms and constraints. This physical representation serves as a metaphor for innovation and change, encouraging onlookers to reevaluate their perspectives on life and design.\n\nEliana worked closely with engineers to ensure the feasibility of her vision. The pointed base is actually a cleverly disguised steel support that anchors the building, while the upper floors are made of lightweight, yet durable, materials. The red lights that seem to accent the structure are solar-powered LEDs, which illuminate the building at night, creating a beacon of unconventional thought.\n\nThe Inversion House quickly became a cultural landmark. It houses a community art center, which offers classes and workshops in various creative disciplines, thereby fulfilling Eliana's vision of inspiring creativity and innovation in the community. The building is not just a structure but a living narrative, telling a story of challenging the norm, embracing change, and encouraging a community to think and live inventively. Its presence has sparked a renaissance in the area, with local businesses adopting more daring designs and a series of annual festivals celebrating avant-garde art and architecture.",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "In evaluating an image where elements are brought together, how would one discern the degree of logical harmony or discord among these elements? Consider a picture that includes a typical house pet and an object usually associated with another type of animal. What are the specific inconsistencies that can be identified, and how do these inconsistencies disrupt the logical coherency of the scene?",
+        "reference_answer": "The image depicts a cat with several hearts around it, indicating affection or interest, and a bone that is traditionally associated with dogs, not cats. This scene presents a number of logical inconsistencies.\n\nFirstly, the bone represents a classic item of interest for dogs, as they are known for chewing on bones which is both a play behavior and rooted in their instinctual desire to consume all parts of their prey, including the bones. Cats, however, are obligate carnivores and are more inclined to consume smaller prey, which does not typically leave behind large bones. They are not known to engage with bones as objects of play or food in the same manner that dogs do.\n\nSecondly, the hearts around the cat suggest a strong affection or interest towards the bone. While cats do show interest in a variety of objects as part of their playful and curious nature, a bone of this size would unlikely elicit such a response. This depiction could confuse the observer's understanding of typical feline behavior, as the emotional response indicated here is not coherent with the cat's natural instincts and behaviors.\n\nFinally, the expression on the cat's face and the position of its body do not reflect the typical cautious or investigatory posture that one might expect from a cat encountering an unusual object. Instead, the cat appears content and affectionate, which adds to the incoherence when considering the context of the object presented.\n\nIn summary, the logical inconsistencies within this image are as follows: the association of a bone with a cat, the hearts indicating an illogical level of interest or affection towards the bone, and the cat's expression and posture not matching the natural reaction expected in such a scenario. These elements together create a whimsical, yet logically incoherent scene that does not align with the realistic behaviors of cats or the natural associations between animals and their typical objects of interest.",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+    }
+]

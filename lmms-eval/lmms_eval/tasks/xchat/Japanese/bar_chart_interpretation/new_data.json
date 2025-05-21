@@ -1,0 +1,137 @@
+[
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "経済規模の減少が最大の国と、8番目に大きい減少を示した国とのGDP減少の差は何ですか？",
+        "reference_answer": "提供された画像は、さまざまな国と米ドルでの名目GDPの予測変化を示すグラフです。あなたの質問に答えるためには、GDPが最も減少した国と8番目に減少した国を特定し、これら2つの国のGDP減少率の差を計算する必要があります。\n\n画像を分析して必要なデータを抽出します。\n1. ロシア: -1530億ドル\n2. エジプト: -880億ドル\n3. カナダ: -500億ドル\n4. サウジアラビア: -460億ドル\n5. バングラデシュ: -400億ドル\n6. ノルウェー: -250億ドル\n7. クウェート: -200億ドル\n8. オマーン: -100億ドル\n\nロシアとオマーンのGDP減少率の差は1530億ドル - 100億ドル = 1430億ドルです。したがって、答えは1430億ドルです。 ",
+        "score_rubric": {
+            "criteria": "Does the response accurately identify and parse the information in the image and successfully apply the required calculation to derive the GDP reduction difference?",
+            "score1_description": "The response inaccurately extracts GDP figures from the graph, misidentifies the largest and eighth largest decreases, and/or incorrectly calculates the difference.",
+            "score2_description": "The response extracts GDP figures with minor inaccuracies, positions the countries with slight errors, and/or has a small miscalculation in the difference.",
+            "score3_description": "The response correctly extracts GDP figures and identifies the countries, but either the calculation has a minor error, or there is a slight inconsistency in units.",
+            "score4_description": "The response accurately extracts GDP figures, correctly identifies the countries, calculates the difference with minor to no errors, but may lack full clarity in interpretation.",
+            "score5_description": "The response perfectly extracts GDP figures, identifies the countries correctly, calculates the difference without errors, and clearly interprets the result in the context of the question."
+        },
+        "atomic_checklist": [
+            "Does the response accurately extract and list the GDP reduction figures from the graph for both the country with the largest decrease and the eighth largest decrease?",
+            "Does the response perform the arithmetic calculation of the difference between the GDP reductions correctly?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.visualcapitalist.com/visualizing-the-105-trillion-world-economy-in-one-chart/"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "与えられた画像から、どの国が180以上のスコアを獲得しましたか？",
+        "reference_answer": "画像に基づいて、2023年の国際数学オリンピック（IMO）で180点以上を獲得した国は以下の通りです。\n1. 中国: 240点\n2. アメリカ: 222点\n3. 韓国: 215点\n4. ルーマニア: 208点\n5. カナダ: 183点\n6. 日本: 181点\n\nこれらの国はそれぞれの棒グラフの横に示された合計得点が180点以上です。",
+        "score_rubric": {
+            "criteria": "Does the response precisely identify and report countries with scores above 180 in the IMO 2023 report?",
+            "score1_description": "The response inaccurately includes countries with scores under or equal to 180, and omits those above 180.",
+            "score2_description": "The response recognizes some countries with scores above 180, but includes Vietnam or other countries with exactly 180 points, reflecting a misunderstanding of the \"above 180\" criterion.",
+            "score3_description": "The response correctly lists several countries with scores above 180, but either mistakenly includes Vietnam or misses one other country just above the 180 mark.",
+            "score4_description": "The response identifies almost all correct countries with scores above 180, and does not include Vietnam, with at most one country incorrectly reported or omitted.",
+            "score5_description": "The response precisely identifies all countries with scores above 180 without including Vietnam or any country with exactly 180 points, showing meticulous attention to detail and full adherence to the criteria."
+        },
+        "atomic_checklist": [
+            "Does the response indicate all the countries (China, US, South Korea, Romania, Canada, Japan)?",
+            "Does the response not include Vietnam which has exactly 180 points?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.smartick.com/data/international-mathematical-olympiad-2023/"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "与えられた画像は、各モデルが生成する言語フィードバックの質を比較しています。人間のアノテーターは、ペアごとの設定でどちらが優れているかを選ぶように割り当てられています。画像に基づいて、どのモデルが最も優れているのでしょうか？",
+        "reference_answer": "画像は、3組の言語モデルを比較する棒グラフのようです：GPT-4 vs. ChatGPT、Prometheus vs. ChatGPT、そしてPrometheus vs. GPT-4。各モデルが生成する言語フィードバックの質は、ペアごとに人間のアノテーターによって評価され、どちらが優れているか、または両方が良いか悪いかが選ばれます。\n\n棒グラフは、4つの結果を色分けして表しています：\n- 青：左が勝つ\n- ピンク：右が勝つ\n- 紫：両方が良い\n- オレンジ：両方が悪い\n\n提供されたグラフから、各モデルのパフォーマンスを評価できます：\n1. **GPT-4 vs. ChatGPT**：GPT-4はChatGPTよりも多く勝利しています（74回）対してChatGPTは（19回）。これは、GPT-4がChatGPTと直接比較した場合に優れたモデルであることを示唆しています。\n2. **Prometheus vs. ChatGPT**：PrometheusはChatGPTよりも多く勝利しています（59回）対してChatGPTは（19回）。これは、PrometheusがChatGPTよりも優れていることを示しています。\n3. **Prometheus vs. GPT-4**：PrometheusはGPT-4よりも多く勝利しています（51回）対してGPT-4は（36回）。これは、PrometheusがGPT-4と比較した場合にしばしば優れたモデルと見なされることを示しています。\n\nこれらのペア比較における勝利数を考慮すると、Prometheusが最も優れたパフォーマンスを示すモデルであるようです。ChatGPTに対して最も多くの勝利を収め、またGPT-4との直接対決でも優れています。 ",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and clarity in interpreting and comparing the performance of language models as presented in the chart?",
+            "score1_description": "The response misinterprets the chart data and provides an incorrect comparison of model performance.",
+            "score2_description": "The response has significant inaccuracies in interpreting the chart, with only partial correct data comparison.",
+            "score3_description": "The response correctly interprets some of the chart data but makes errors in comparing model performance.",
+            "score4_description": "The response accurately interprets the chart data and mostly compares model performance correctly with minor errors.",
+            "score5_description": "The response accurately interprets and compares all chart data correctly, clearly identifying the best-performing model."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the colors of the bars in the chart?",
+            "Does the response correctly identify the outcomes represented by each color?",
+            "Does the response accurately count and compare the wins of the models?",
+            "Does the response correctly determine which model performs best based on the chart data?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://arxiv.org/abs/2310.08491"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "次の画像は、アメリカの一般的な教育機関の授業料を表示しています。イリノイ大学アーバナ・シャンペーン校とジョージア工科大学メインキャンパスの授業料の差はおおよそどれくらいですか？",
+        "reference_answer": "画像には、2021年までの期間における様々な大学の州内授業料を示す水平棒グラフが表示されています。\n\nグラフを視覚的に確認すると：\n- イリノイ大学アーバナ・シャンペーン校を表す棒は15,000ドル未満にわずかに届いています。\n- ジョージア工科大学メインキャンパスの棒は10,000ドルをわずかに超えています。\n\nしたがって、両大学間の授業料の差は5,000ドル未満となります。 ",
+        "score_rubric": {
+            "criteria": "Does the response accurately estimate the tuition costs from the bar chart and make a correct calculation of the difference between the two universities?",
+            "score1_description": "The response greatly misestimates tuition costs for both universities and incorrectly calculates the difference.",
+            "score2_description": "The response misestimates tuition costs for both universities with a significant error in the difference calculation.",
+            "score3_description": "The response estimates tuition costs with a moderate degree of accuracy and calculates a somewhat accurate difference.",
+            "score4_description": "The response accurately estimates tuition costs for one university but not the other, with a minor error in difference calculation.",
+            "score5_description": "The response provides a highly accurate visual estimate of tuition costs for both universities and calculates the difference correctly."
+        },
+        "atomic_checklist": [
+            "Does the response approximately estimate the tuition cost for the University of Illinois Urbana-Champaign, which is about $15,000?",
+            "Does the response approximately estimate the tuition cost for the Georgia Insitute of Technology-Main Campus, which is about $10,000?",
+            "Does the response make a good approximation of the difference, which is about $5,000?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://datausa.io/profile/cip/electrical-engineering"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "国際平均気温が現在まで一貫して上昇し、負の値を記録していないのは何年からですか？",
+        "reference_answer": "あなたが提供したチャートは、時間の経過に伴う世界の平均気温の変化を示しています。画像から判断すると、気温は1970年代後半または1980年代初頭あたりから一貫して増加し始め、負の値はありません。\n\nより具体的には、1975年のラインの後に2つの棒グラフがあるので、より正確な答えは1978年です。 ",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and specificity in identifying the year from which the global average temperature has been consistently increasing without recording any negative values up to the present, as depicted in the chart?",
+            "score1_description": "The response incorrectly identifies a year well before 1975 or after the 1980s, failing to interpret the chart as per the instruction.",
+            "score2_description": "The response identifies a year around 1875 or 1950, showing a misunderstanding of the instruction and failing to recognize the trend starting from the late 1970s or early 1980s.",
+            "score3_description": "The response correctly recognizes the trend starting from the late 1970s or early 1980s but does not specify the exact year.",
+            "score4_description": "The response correctly identifies the trend beginning in the late 1970s or early 1980s and attempts to specify the year but does not accurately identify 1978.",
+            "score5_description": "The response accurately identifies the trend beginning in the late 1970s or early 1980s and specifically mentions that the exact year when negative values stopped being shown is 1978."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the instruction and not answer the date that the first positive value was shown near 1875?",
+            "Does the response accurately interpret the instruction and not answer the date where a lot of positive values were shown near 1950?",
+            "Does the response recognize that only positive values were shown starting from the late 1970s or early 1980s?",
+            "Does the response accurately mention that the exact year where negative values were not shown is 1978?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.m.wikipedia.org/wiki/File:20210822_Global_warming_-_warming_stripes_bar_chart.svg"
+            }
+        ]
+    }
+]

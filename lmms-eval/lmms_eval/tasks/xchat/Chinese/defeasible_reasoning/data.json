@@ -1,0 +1,141 @@
+[
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在未来，地球成分发生巨大变化，一支探险队为了解地球的新元素构成，正在展开一项任务。利用一个展示当前元素分布的饼图，这支队伍需要解释元素丰度的变化以及对地球地质和生物圈的潜在影响。 ",
+        "reference_answer": "这支探险者队伍开始分析饼图，该图显示氧气虽然仍是最丰富的元素，但在地壳组成中的比例已下降至47%。这支队伍假设，一系列大规模火山喷发将大量硅和铝引入上地壳，改变了平衡。硅现在占28%，已形成广泛的新石英丰富的地质结构，从根本上改变了地貌。\n\n这些变化具有深远的影响。铝增加到8%表明粘土矿物变得更加普遍，影响了土壤肥力和水分保持。这可能导致植物群落的变化，因为在富硅土壤中繁盛的物种变得更加占主导地位。铁占5%，在维护磁场的重要矿物的形成中，铁元素继续起到关键作用，磁场可以保护生物圈免受有害太阳辐射的影响。\n\n团队还注意到钠和钾等其他元素的存在，它们对生命的进程至关重要，其轻微增加可能影响许多生物体的渗透调节。这篇短文考虑了这些元素的增加如何可能影响海洋和陆地生命，可能导致新的进化路径。\n\n探险者得出结论，虽然地壳经历了显著变化，但它仍然是一个动态系统。元素组成的变化是地球持续地质演化的一部分，反映了其生命支持地幔不断变化的特性。他们预测，研究这些变化不仅会提供对地球过去的洞察，还会对其未来提供指导，指导人类努力适应并在这个改变的世界中繁荣发展。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively use the pie chart to construct a narrative explaining shifts in Earth's elemental abundance and its impacts, including addressing the blurred part?",
+            "score1_description": "The response observes changes in the pie chart but fails to construct a narrative or explain the shifts in elemental abundance, and does not attempt to address the blurred part of the pie chart.",
+            "score2_description": "The response begins to construct a narrative and provides superficial explanations for the shifts in elemental abundance but does not clarify or make assumptions about the blurred part of the pie chart.",
+            "score3_description": "The response constructs a plausible narrative and explains some shifts in elemental abundance, including a basic attempt to address the blurred part of the pie chart, but the explanation lacks detail or is speculative.",
+            "score4_description": "The response provides a detailed narrative that explains most of the shifts in elemental abundance and includes a reasoned assumption or hypothesis about the blurred part of the pie chart, though it may not be fully substantiated.",
+            "score5_description": "The response constructs a comprehensive narrative that thoroughly explains the shifts in elemental abundance, convincingly discusses their impacts, and provides a clear and logical explanation or hypothesis for the blurred part of the pie chart."
+        },
+        "atomic_checklist": [
+            "Does the response identify a decrease in oxygen and an increase in silicon and aluminum from the pie chart?",
+            "Does the response hypothesize a geological event, like volcanic eruptions, to explain the elemental shifts?",
+            "Is the response discussing the potential formation of new quartz-rich geological formations?",
+            "Does the response consider the impact of elemental shifts on soil fertility and water retention?",
+            "Does the response evaluate the implications of changes in elemental makeup on plant communities?",
+            "Is the response contemplating the role of iron in maintaining the Earth's magnetic field?",
+            "Does the response assess the impact of sodium and potassium on osmoregulation in organisms?",
+            "Is the response contemplating potential evolutionary changes in marine and terrestrial life?",
+            "Does the response discuss the dynamic nature of Earth's geological evolution?",
+            "Is the response predicting future insights into Earth's changes from studying these shifts?",
+            "Does the response address the blurred part of the pie chart, indicating 3.6%?"
+        ],
+        "background_knowledge": [],
+        "caption": "Composition of the Earth's Crust Visualized in a Pie Chart"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在最近一次关于文化表达和职场动态的研讨会上，有人分享了一张照片，捕捉到了参与者之间的一个互动瞬间。请描述在这种环境中可能发生的文化互动和氛围。请仔细观察服装、手势、座位安排以及任何其他可能反映文化规范或职场礼仪的视觉信息。 ",
+        "reference_answer": "这张照片似乎捕捉到了一个积极互动和共同理解的时刻，发生在一组人之间，可能是在一个研讨会或团队建设的环境中。从他们微笑的面孔和拍手的动作中可以看出，参与者正在鼓掌或表示赞同。这种姿态被普遍认为是肯定的表达，通常在专业环境中用于表彰完成得很好的工作或表示对同事贡献的支持。\n\n座位安排是非正式且包容的，椅子围成一个圆圈，表明这是一个促进参与者之间平等和开放沟通的研讨会或团队活动。这种设置常用于现代协作工作场所，大家可能会重视每个团队成员的意见，并努力打破等级障碍。\n\n人们的着装是休闲且实用的，反映了一种现代的，可能是创意或技术导向的工作场所，在那里正式商务着装不是强制性的。这种着装规范可以表示公司文化优先考虑舒适和个人表达，而不是传统的企业规范。\n\n每个人都表现出投入和热情，这可能反映了这个群体或组织内的一种文化规范，重视积极参与和互相支持。这种行为可以培养积极的工作场所文化，鼓励团队合作和集体共同的成功。\n\n此外，群体的多样性，拥有不同种族背景的个人，暗示了一个多元文化的工作场所。群体成员之间明显的轻松和快乐表明在这种环境中对多样性的文化敏感性和尊重。\n\n总体而言，这张图片传达了一个拥抱文化多样性、促进开放和平等沟通、为其成员创造积极和肯定环境的工作场所。这反映了一种进步的工作场所文化，在这里多样性被庆祝，团队动态倾向于包容和相互尊重。",
+        "score_rubric": {
+            "criteria": "Does the response accurately describe the cultural interactions and dynamics taking place in the photograph?",
+            "score1_description": "The response recognizes individuals in the photograph but fails to interpret cultural interactions or dynamics, for example, noting smiles without relating to cultural expressions or workplace dynamics.",
+            "score2_description": "The response identifies basic gestures such as applause but provides a limited analysis of their cultural or workplace significance, for example, mentioning clapping without discussing its role in affirmation or support.",
+            "score3_description": "The response observes cultural interactions and begins to relate them to workplace dynamics, but the explanation is superficial and lacks insight into attire or seating arrangement, for example, not considering how these reflect cultural norms.",
+            "score4_description": "The response describes cultural interactions and dynamics with attention to gestures, attire, and seating, but may miss deeper implications or the significance of diversity, for example, not fully exploring what the observed ease among diverse individuals implies.",
+            "score5_description": "The response thoroughly analyzes the cultural interactions and dynamics, considering gestures, attire, seating, and diversity, and insightfully relates these to cultural norms and workplace etiquette, demonstrating a comprehensive understanding of the setting."
+        },
+        "atomic_checklist": [
+            "Does the response identify the gestures such as applause and relate them to cultural expressions of affirmation?",
+            "Is the response attentive to the informal and inclusive seating arrangement, suggesting open communication?",
+            "Does the response comment on the casual attire and its reflection of workplace culture?",
+            "Does the response recognize active participation and enthusiasm as valued cultural norms?",
+            "Is the response observant of the diversity of the group and implications for cultural sensitivity?",
+            "Does the response infer that the workplace embraces cultural diversity and egalitarian communication?",
+            "Does the response draw connections between visual cues and the promotion of a positive workplace environment?",
+            "Is the response comprehensive in covering all aspects of cultural interactions and dynamics visible in the photograph?"
+        ],
+        "background_knowledge": [],
+        "caption": "A group of diverse coworkers sharing a joyful moment with applause and smiles in the office."
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "考虑到动力和物理原理，请分析在照片中捕捉到的那一刻之后可能发生的事件顺序，重点是个人与环境之间的相互作用，特别是由板条箱构成的结构。 ",
+        "reference_answer": "仔细看这张照片，似乎一座绿色板条箱的塔被建到了一个危险的高度，现在正危险地向一侧倾斜。一名学生正伸手接触塔，可能是试图稳定它，而其他人则有各种反应，从被逗笑了到惊慌失措都有。\n\n鉴于塔的明显倾斜和底部附近板条箱的显著移动，可以合理预测该结构即将倒塌。靠近塔的学生有被倒下的板条箱击中的风险。板条箱本身，取决于其重量和内容物，可能在撞击时散落，可能造成伤害，或者至少造成相当大的混乱。\n\n人们的反应表明，这是在休闲或休息时的意外事件，可能是在学校或类似机构，因为他们穿着制服。箱子塔的倒塌可能会突然发生，发出巨大的噪音，吸引未在画面中的其他人的注意。这可能导致更多人聚集，增加受伤的风险，并使清理工作更加复杂。\n\n考虑到背景，这也可能为参与的学生提供一个即兴的物理和安全课程，强调结构稳定性和重心的重要性，以及在此类活动中缺乏远见的潜在后果。\n\n事后，可以预期会有关于安全和正确使用这些板条箱的讨论，可能会导致实施规则或指导方针，以防止类似事件的发生。如果事件被幽默地对待且没有严重伤害，它可能会成为学生之间分享的轶事，丰富他们的集体经历。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response logically predict the sequence of events following the moment captured in the photograph, with emphasis on the structure made of crates?",
+            "score1_description": "The response notes the falling crates but fails to predict specific interactions, for example, it mentions that the crates are toppling but does not discuss the students' likely movements or the crates' path.",
+            "score2_description": "The response predicts that the crates will fall but only provides a generic outcome, for example, it suggests students may react but does not specify how the closest student might move to avoid the fall.",
+            "score3_description": "The response predicts the immediate reaction of the student stabilizing the crates but lacks detail on others' reactions, for example, it might state the student will step back without discussing the potential chain reaction among the others.",
+            "score4_description": "The response provides a detailed prediction of the crates' fall and the students' reactions, but may not fully account for the aftermath, for example, it describes dodging actions but not the consequences of the scattered crates.",
+            "score5_description": "The response offers a comprehensive prediction, detailing the crates' trajectory, each student's likely movements, and the subsequent consequences, such as disruption and noise, reflecting a nuanced understanding of the dynamics."
+        },
+        "atomic_checklist": [
+            "Does the response predict that the student touching the crates will immediately withdraw their hands?",
+            "Is the response specific about the direction in which the crates are likely to fall?",
+            "Does the response anticipate the likely movement of the student directly in the path of the falling crates?",
+            "Does the response predict the reactions of the surrounding students, such as stepping back or trying to catch the crates?",
+            "Is the response detailed about the potential noise and disruption caused by the collapsing crates?",
+            "Does the response consider the possibility of the crates scattering and the safety risks involved?",
+            "Is the response predicting any immediate intervention by onlookers or authorities due to the incident?"
+        ],
+        "background_knowledge": [],
+        "caption": "The Great Crate Catastrophe: When a towering stunt turns into a frantic scramble"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在分析包含视觉错觉元素的图像时，请描述可能从这样的图像中产生的各种解释。请考虑到可能出现的不同视角，并详细阐述人们可以从所呈现的视觉信息中推断出的不同含义。 ",
+        "reference_answer": "所展示的图像是一个经典的多义图形示例，可以有多种解释。乍一看，剪影可以被视为即将接吻的两个侧面人脸，或是一个置于浅色背景中央的花瓶。这种类型的图像被称为鲁宾花瓶，是图形-背景知觉的一个例子。\n\n要解决这种模糊性，必须注意到在两种有效解释之间切换所需的视角变化。当专注于黑色形状时，轮廓类似于两张相对而视的人脸剪影。每张脸的中央边缘形成鼻子的等效部分，外边缘则构成头部的后部。这种解释依赖于将黑色形状视为图形（关注的对象），而白色区域为背景。\n\n相反，通过调整焦点将白色空间视为图形，黑色形状则退入背景，花瓶显现出来。花瓶的轮廓由侧面轮廓的共享边缘定义。由于对称性和图像中的中央位置，这种作为花瓶的解释得到了加强，这些是此类物体的常见特征。\n\n一个有见地的观察是，这幅图像利用了图形-背景组织的认知过程，我们的视觉系统决定图像的哪个部分是主要对象（图形），哪个是背景（背景）。这幅图像被设计为双稳态，这意味着它有意支持这两种解释，大脑可以在它们之间切换，但不能同时持有两者。\n\n对这种视错觉的全面理解在于识别和欣赏图像的双重性质。它不仅仅是两张脸或一个花瓶的图画，而是展示了大脑在不同视觉刺激解释之间切换的能力。这种理解加深了我们对视觉感知复杂性和解释感官信息所涉及的认知处理的欣赏。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response provide a comprehensive analysis of the optical illusion and its multiple interpretations?",
+            "score1_description": "The response identifies the optical illusion but offers no further interpretation, for example, it might only state the presence of black and white shapes without seeing the profiles or the vase.",
+            "score2_description": "The response recognizes one interpretation of the illusion but not the other, for example, it may describe the vase but not the profiles, or vice versa.",
+            "score3_description": "The response mentions both interpretations but does not elaborate on the figure-ground perception involved, for example, noting the profiles and the vase but not explaining the shift in perspective.",
+            "score4_description": "The response details both interpretations and touches on the cognitive processes involved but may not fully capture the bi-stable nature of the image, for example, it might explain figure-ground organization but not the inability to see both images at once.",
+            "score5_description": "The response thoroughly analyzes the optical illusion, clearly detailing both interpretations, the cognitive processes of figure-ground perception, and the bi-stable nature of the image, reflecting a deep understanding of visual perception."
+        },
+        "atomic_checklist": [
+            "Does the response identify the silhouette as a Rubin's Vase, demonstrating figure-ground perception?",
+            "Is the response clear about the two interpretations of faces and a vase?",
+            "Does the response explain the need to shift perspective to alternate between interpretations?",
+            "Is the response detailed in how the black shape can be seen as the figure with the white as the ground and vice versa?",
+            "Does the response discuss the bi-stable nature of the image, where both interpretations cannot be held simultaneously?",
+            "Does the response elaborate on the complexity of visual perception and cognitive processing in interpreting sensory information?"
+        ],
+        "background_knowledge": [],
+        "caption": "A classic play on perception: Two faces or a vase?"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "在照片中的节日聚会上，现场的人们可能有哪些潜在的情感和互动，这些又如何反映出在庆祝活动中更广泛的人类情感和社会动态？ ",
+        "reference_answer": "这幅图像散发出节日庆典特有的活力氛围，人们戴着圣诞帽，暗示着一幅欢乐友好的场景。中心人物是一男一女，他们共享着一个有趣的时刻，女人的灿烂笑容和男人微妙而满足的表情证明了这一点。他们都拿着酒杯，象征着社交祝酒和节日享受，表明了场合的欢乐精神。\n\n女人的眼睛因欢笑而明亮，反映出在这样的聚会中常感受到的快乐和放松。她开放而富有表现力的面容显示出一种归属感和享受，这些特质与温暖和愉悦的集体情绪相呼应。男人通过近距离和肢体语言与她互动，体现了人类对与他人互动和庆祝的需求。\n\n在背景中，其他聚会者同样沉浸在节日精神的精髓中。模糊的背景中闪烁的灯光象征着节日魔力的光芒，而整体的金色色调则为场景增添了一种似乎增强情感温暖的光辉。参与者不仅仅是出席，他们是这种活动所编织的共享人类体验画卷的积极贡献者。\n\n这幅图像捕捉的不仅仅是一个狂欢的时刻；它描绘的情感能在全世界引起共鸣。它提醒我们，在节日场合中可以突出这种共同的人性，能将人们聚集在一起，共同表达快乐、友谊和人类对集体庆祝的渴望。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response insightfully analyze the underlying feelings and interactions at the festive gathering?",
+            "score1_description": "The response briefly acknowledges the festive setting but fails to delve into the emotions or interactions, for example, noting the Christmas hats but not the expressions or body language of joy and camaraderie.",
+            "score2_description": "The response recognizes happiness in the gathering but does not connect it to broader social dynamics, for example, mentioning smiling faces but not the shared amusement or sense of belonging.",
+            "score3_description": "The response describes surface-level interactions and some emotions, such as laughter, but lacks depth in exploring the significance of these in the context of human connection, for example, noting the toasting but not the deeper sense of unity it signifies.",
+            "score4_description": "The response captures most of the emotional essence and social interactions, like engagement and warmth, but may not fully interpret the broader human experience, for example, recognizing close proximity but not fully discussing the collective mood it creates.",
+            "score5_description": "The response provides a comprehensive analysis of the feelings and interactions, deeply understanding the joy, belonging, and human connection present at the event, reflecting on how these elements combine to create a rich, shared human experience."
+        },
+        "atomic_checklist": [
+            "Does the response note the Christmas hats and interpret them as a sign of shared festivity?",
+            "Is the response attentive to the woman's laughter and what it signifies about the mood of the event?",
+            "Does the response discuss the man's body language and its implications for social bonding?",
+            "Does the response mention the social act of toasting and its role in festive indulgence?",
+            "Is the response descriptive of the background ambiance and how it contributes to the festive atmosphere?",
+            "Does the response connect individual expressions to collective emotional warmth and celebration?",
+            "Is the response comprehensive in covering the richness of emotional connections and their universal resonance?"
+        ],
+        "background_knowledge": [],
+        "caption": "Joyful laughter and festive cheer at a sparkling Christmas party."
+    }
+]

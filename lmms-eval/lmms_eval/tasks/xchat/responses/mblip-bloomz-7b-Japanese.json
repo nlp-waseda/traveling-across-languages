@@ -1,0 +1,1389 @@
+[
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "このグラフに関連する理論を説明し、このグラフが何を説明しようとしているのかを教えてください。 ",
+        "reference_answer": "提供されたグラフは、実在気体の挙動を説明するファン・デル・ワールスの状態方程式に通常関連付けられる一連の等温線を表示しているようです。ファン・デル・ワールスの方程式は理想気体の法則を改良したもので、気体分子が占める体積とそれらの間の引力を考慮に入れています。\n\nグラフは異なる温度（T_r）に対応する異なる曲線を示しており、ここでT_rは還元温度です。還元温度は熱力学と統計力学で使用される無次元量で、物質の実際の温度を臨界温度（T_c）と比較するものであり、T_r = T/T_cです。\n\n線は、一定温度で体積に応じて気体の圧力がどのように変化するかを表しています。曲線の形状は実在気体の特徴的な挙動を示しています：\n- 高温（T_r = 9/8、臨界温度以上）では、気体はほぼ理想的に振る舞い、体積が増加するにつれて圧力が連続的に減少します。\n- 臨界温度（T_r = 1）では、等温線は圧力がある範囲で体積の変化に対して比較的鈍感な変曲点を示します。この点は、気体と液体の相が同じ密度を持ち区別できない臨界点に対応します。\n- 臨界温度以下（T_r < 1）では、等温線は気体が液体に凝縮する負の傾斜を持つ領域を示します。この領域は物理的に不安定で、相転移が起こる場所です。点線で示された領域は実際には観測されず、系は直接気体から液体相またはその逆に移動し、これはグラフの水平な直線で表されます（ここでは明確には見えませんが、一般的にマクスウェルの等面積則として知られています）。\n\nこのグラフは、特に臨界点付近での実在気体の非理想的な挙動とその相転移を説明しようとしています。これは、理想気体の法則では捉えられない実在気体が理想気体の挙動からどのように逸脱するかを視覚的に表しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response show completeness and accuracy in explaining the van der Waals equation, reduced temperature, critical temperature, and real gas behavior as depicted in the graph?",
+            "score1_description": "The response does not mention the van der Waals equation, reduced temperature, critical temperature, or real gas behavior, missing all key points.",
+            "score2_description": "The response briefly mentions one of the key points but lacks detail and accuracy.",
+            "score3_description": "The response includes some of the key points with a basic explanation but omits others or lacks clarity.",
+            "score4_description": "The response covers most of the key points with accuracy but may lack detail on one of the elements.",
+            "score5_description": "The response accurately and thoroughly explains all key points, providing a complete understanding of the graph."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the van der Waals equation and its relevance to real gases?",
+            "Does the response explain the concept of reduced temperature (T_r) and its use in the graph?",
+            "Does the response detail the significance of the critical temperature and the inflection point on the isotherms?",
+            "Does the response describe how the graph illustrates the deviation of real gas behavior from ideal gas behavior, especially near the critical point?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Van_der_Waals_equation"
+            }
+        ],
+        "response": "ベクトルラインを描く方法1 レジアのベクトル化け物 線形グラフーを表示"
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "あなたが提供したグラフは、天体の見かけの明るさが時間とともに周期的に変動していることを示しているようです。このパターンはセファイド変光星の特徴です。\n\nセファイド変光星は、その外層の脈動によって明るさが規則的に変化する星の一種です。グラフは、これらの明るさの変動を10日間にわたって示しています。セファイド変光星の重要な特徴は、その脈動の周期が固有の光度と直接関連していることであり、これは周期-光度関係として知られています。この関係は天文学において重要であり、セファイド変光星までの距離を決定することができ、それによってそれらが存在する遠方の銀河までの距離を測定し、宇宙の規模を測るのに役立ちます。\n\nグラフが伝えようとしているのは以下の点です：\n- セファイド変光星の明るさの変化の周期的な性質。\n- 明るさのピーク間の規則的な時間間隔（周期）。\n- 時間とともに変化する明るさの振幅。\n\nこの周期的なデータは、星の絶対等級を計算し、したがって地球からの距離を求めるために使用されます。これは20世紀初頭にヘンリエッタ・スワン・リービットによって発見された周期-光度関係を利用しています。これらの星は、天文学的な距離を測定するための「標準光源」として役立ちます。\n\n",
+        "reference_answer": "こちらは、スコア5を獲得する模範的な解答例です。",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of the Cepheid variable star light curves and their astronomical significance?",
+            "score1_description": "The response does not recognize the graph as a Cepheid variable light curve nor its relevance in astronomy.",
+            "score2_description": "The response identifies the graph as related to star brightness but fails to connect it to Cepheid variables or their importance in distance measurement.",
+            "score3_description": "The response correctly identifies the graph as a Cepheid variable light curve but only partially explains its significance in astronomy.",
+            "score4_description": "The response identifies the graph as a Cepheid variable light curve and explains its importance in distance measurement but does not mention Henrietta Swan Leavitt's contribution.",
+            "score5_description": "The response accurately identifies the Cepheid variable light curve, explains the period-luminosity relationship, the concept of \"standard candles,\" and acknowledges Henrietta Swan Leavitt's work."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the graph as showing the light curve of a Cepheid variable star?",
+            "Does the response explain the significance of the period-luminosity relationship for these stars?",
+            "Does the response describe the use of Cepheid variables as \"standard candles\" in determining astronomical distances?",
+            "Does the response mention the historical importance of Henrietta Swan Leavitt's work in discovering the period-luminosity relationship?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html"
+            }
+        ],
+        "response": "はいえでもういくつかのクロックカウンターが使用されます.2,4,6,8,10"
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "このグラフに関連する理論を明確にし、このグラフが伝えようとしているメッセージを説明してください。  \n",
+        "reference_answer": "グラフはプランクの黒体放射の法則を示し、短波長で観測された黒体スペクトルを説明できなかった古典的なレイリー・ジーンズの理論と比較しています。この説明力不足は「紫外破綻」として知られるようになりました。\n\nプランクの法則は、理想的な黒体が特定の温度で異なる波長でどのようにエネルギーを放射するかを説明します。グラフでは、3000 K、4000 K、5000 Kの曲線が、それぞれの温度での黒体の異なる波長での放射強度を示しています。これらの曲線は、温度が上昇するにつれて放射のピークが短波長にシフトすることを示しています。このシフトは、プランクの法則から導かれた結果であるウィーンの変位則によるもので、異なる温度の黒体放射曲線は温度に反比例する波長でピークに達すると述べています。\n\n「古典理論（5000 K）」の線は、レイリー・ジーンズの法則による予測を表しており、長波長（赤外線）ではプランクの法則と一致しますが、短波長（紫外線）では大きく逸脱し、非物理的に大きな放射の放出を予測します。この不一致は量子力学の発展につながり、プランクはエネルギーの量子化の概念を導入しました。\n\nこのグラフは次のことを伝えることを意図しています：\n- 異なる温度での黒体のスペクトル放射分布。\n- 温度が上昇するにつれてピーク放射が短波長にシフトすること。\n- 短波長での挙動を説明できなかった古典物理学の失敗と、プランクの法則によって説明される量子理論の成功。 \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of Planck's law and its significance in describing black-body radiation?",
+            "score1_description": "The response does not recognize Planck's law, the Rayleigh-Jeans law, Wien's displacement law, or the ultraviolet catastrophe.",
+            "score2_description": "The response mentions Planck's law but fails to address its relationship with the classical theory or Wien's law.",
+            "score3_description": "The response explains Planck's law and touches on the ultraviolet catastrophe but does not clearly describe Wien's displacement law or the historical context of quantum mechanics.",
+            "score4_description": "The response provides a good explanation of Planck's law and Wien's displacement law but lacks detail on the failure of the classical theory or the development of quantum mechanics.",
+            "score5_description": "The response comprehensively explains Planck's law, its contrast with classical theory, Wien's displacement law, and the historical significance of the ultraviolet catastrophe leading to quantum mechanics."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Planck's law of black-body radiation?",
+            "Does the response explain the discrepancy between Planck's law and classical theory, specifically the Rayleigh-Jeans law?",
+            "Does the response describe Wien's displacement law and its relation to the shift in peak wavelength with temperature?",
+            "Does the response mention the historical context of the \"ultraviolet catastrophe\" and its role in the development of quantum mechanics?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Planck%27s_law#:~:text=Planck's%20law%20describes%20the%20unique,cavity%20with%20rigid%20opaque%20walls."
+            }
+        ],
+        "response": "波形の存在が示されているときのテーマに関する見解であるコランクシーズボックス"
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "このグラフが何を説明しようとしているのか、そしてどの理論に関連しているのかを説明してください。 ",
+        "reference_answer": "あなたが提供したグラフは、さまざまなマイクロプロセッサのトランジスタ数の時間経過における傾向を示す散布図のようです。グラフ中の傾向はインテルの共同創設者であるゴードン・ムーアが1965年に定義したムーアの法則に従っています。ムーアは、マイクロチップ上のトランジスタの数が約2年ごとに倍増すると指摘し、これはプロセッサの計算能力も同じ期間で倍増するという緩やかな解釈がされています。\n\nグラフは1970年代から2020年代に向けてのタイムライン上でさまざまなマイクロプロセッサをプロットしています。トランジスタ数を表すy軸は対数スケールになっており、これはマイクロチップのトランジスタ数の増加のように、複数の桁にわたるデータを扱う際に一般的です。\n\nこのグラフが伝えようとしているメッセージには以下が含まれます：\n- ムーアの法則に従った、チップに搭載できるトランジスタ数の指数関数的な増加。\n- マイクロプロセッサの複雑さと能力の増加によって示される技術の進歩。\n- シリコンベースのチップ技術の物理的限界に向かう中でのこの成長の可能な傾向と限界。\n\nこのグラフは半導体産業の進歩を視覚的に表現しており、デジタル技術の急速な進歩を示すためによく使用されます。  \n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the association between the graph and Moore's Law?",
+            "score1_description": "The response does not mention Moore's Law or its connection to the graph.",
+            "score2_description": "The response mentions Moore's Law but does not explain its significance or its relation to the graph.",
+            "score3_description": "The response explains Moore's Law and mentions the logarithmic scale but lacks clarity in describing the exponential growth trend.",
+            "score4_description": "The response comprehensively discusses Moore's Law, the logarithmic scale, and the exponential growth trend in transistor counts over time, with some discussion of implications and potential limits.",
+            "score5_description": "The response demonstrates a thorough understanding by explaining Moore's Law, the logarithmic scale, the exponential growth trend, its significance for microprocessors, and the implications of the graph's trend for future technology."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the association of the graph with Moore's Law?",
+            "Does the response explain the significance of the y-axis being on a logarithmic scale?",
+            "Does the response indicate the exponential growth trend in transistor counts on microchips over time?",
+            "Does the response discuss the implications of this trend for the advancement of microprocessor technology?",
+            "Does the response mention the potential limits of silicon-based technology as suggested by the graph?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Moore's_law#/media/File:Moore's_Law_Transistor_Count_1970-2020.png"
+            }
+        ],
+        "response": "図表分析法から 統計学の理論を示唆する絵は,図の上部にある形きりを描くためにスタイル化されています."
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "このグラフの結果は何を示していますか？ 人間の好みに合わせて言語モデルを調整するための最適なアルゴリズムは何ですか？  \n",
+        "reference_answer": "あなたが提供したグラフは、KTO、DPO、IPOという3つの異なるアルゴリズムの性能を、「ベータ」とラベル付けされたパラメータの異なる値に対して比較しています。比較に使用されている性能指標は「MTベンチスコア」であり、これはおそらく機械翻訳または他の性能指標のベンチマークスコアを意味しています。\n\nグラフから得られるいくつかの洞察は次のとおりです：\n1. **KTOアルゴリズム**: このアルゴリズムは、ベータ=0で最も高いMTベンチスコアから始まりますが、ベータが増加するにつれて性能が低下し、ベータ=0.4以降で安定します。\n2. **DPOアルゴリズム**: DPOアルゴリズムは、ベータ=0でKTOより低いスコアから始まりますが、ベータ値全体でより安定した性能を維持し、ベータ=0.4付近でわずかに上昇した後、再び低下します。\n3. **IPOアルゴリズム**: IPOアルゴリズムは、ベータ=0で最も低いスコアから始まります。その後わずかに上昇し、ベータ=0.2でピークに達し、その後ベータが増加するにつれて全体的に下降傾向を示し、ベータ=0.8で最も低いスコアに終わります。\n\nグラフから推測できることは：\n- すべてのベータ値において最良のアルゴリズムは存在しません。\n- ベータ=0では、KTOが最も性能の良いアルゴリズムです。\n- ベータ=0.4では、DPOが最も安定しており、KTOと同様の性能を示します。\n- KTOは、ベータ=0.6以上の高いベータ値において、他のアルゴリズムよりも高いスコアを維持するため、最良のアルゴリズムのようです。\n\n「最良」のアルゴリズムは、人間の好みに合わせるためにどのベータ値が最も重要とされるかによって異なります。もし低いベータ値がより重要であれば、ベータ=0でのKTOまたはベータ=0.2でのIPOが好まれるかもしれません。ベータ値の範囲全体で性能を維持することが目標であれば、その安定性からDPOが最良と考えられます。高いベータ値を考慮する場合、再びKTOが好ましいアルゴリズムかもしれません。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive analysis of algorithm performance relative to the Beta parameter?",
+            "score1_description": "The response does not acknowledge the relationship between algorithm performance and the Beta parameter.",
+            "score2_description": "The response mentions the Beta parameter but fails to connect it clearly to algorithm performance variations.",
+            "score3_description": "The response identifies algorithm performance trends for a limited range of Beta values but does not cover the full spectrum.",
+            "score4_description": "The response provides a good analysis of algorithm performance over most of the Beta range but may lack details for specific points.",
+            "score5_description": "The response offers a detailed and nuanced analysis of how each algorithm's performance varies across the entire range of Beta values."
+        },
+        "atomic_checklist": [
+            "Does the response include information on how the performance of each algorithm varies with the parameter Beta?",
+            "Does the response identify which algorithm performs best at the initial Beta value (Beta=0)?",
+            "Does the response highlight the algorithm that shows the most stability across different Beta values?",
+            "Does the response specify which algorithm is best for higher Beta values (from Beta=0.6 and above)?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://huggingface.co/blog/pref-tuning"
+            }
+        ],
+        "response": "機能表現値ベクトル1.4を使用するアルゴリズムを用いる人々が好きです"
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "この画像に基づいて、もしあなたが海ガモだったら、どのような生存戦略が適切でしょうか？  \n",
+        "reference_answer": "もしあなたがチェサピーク湾の生態系における海ガモであったなら、食物網に描かれているように、適切な生活戦略にはいくつかの重要な要素が含まれます。\n\n1. **食事**: あなたは主に二枚貝を食べるでしょう。食物網では、二枚貝が海ガモの食料源として示されています。二枚貝には、チェサピーク湾で一般的な様々な種類のハマグリ、ムール貝、カキが含まれます。\n\n2. **採餌行動**: あなたは二枚貝を効率的に見つけて食べるための採餌戦略を開発する必要があります。これには、二枚貝が底や堆積物に生息している場所に潜ることが含まれるかもしれません。\n\n3. **生息地の好み**: 二枚貝はしばしば浅瀬で見られ、そこで濾過摂食を行います。そのため、海ガモとして、あなたは食料に効率的にアクセスするために、そのような生息地で多くの時間を過ごすことになるでしょう。\n\n4. **捕食者への警戒**: 食物網では、海ガモがより大きな魚食性の鳥に捕食される可能性があることが示されています。したがって、ハクトウワシのような捕食者に対して警戒する必要があります。\n\n5. **季節的な移動**: 特定の種類の海ガモによっては、季節的に移動することがあり、繁殖やより豊富な食料源を見つけるために、どの地域に移動するかを知る必要があります。\n\nこの生態系で海ガモとして生きることは、利用可能な食料源に適応し、消費者として、また潜在的な獲物として食物網の位置を認識することを意味します。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a detailed understanding of the sea duck's ecological role and survival strategies in the Chesapeake Bay?",
+            "score1_description": "The response does not mention the sea duck's diet or any survival strategies relevant to its ecosystem.",
+            "score2_description": "The response vaguely mentions the diet, but lacks detail on foraging behavior, habitat preference, predator awareness, or migration patterns.",
+            "score3_description": "The response correctly identifies the sea duck's diet and one additional factor such as foraging behavior or habitat preference.",
+            "score4_description": "The response provides a clear description of the sea duck's diet, foraging behavior, and habitat preference, with some mention of predator awareness or migration.",
+            "score5_description": "The response comprehensively addresses the sea duck's diet, foraging behavior, habitat preference, predator awareness, and seasonal migration, showing an in-depth understanding of its ecological niche."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the sea duck's primary diet of bivalves?",
+            "Does the response address the habitat preference for areas where bivalves are found?",
+            "Does the response discuss the need for predator awareness, especially from larger piscivorous birds?",
+            "Does the response consider the possibility of seasonal migration for optimal breeding and feeding opportunities?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Food_chain"
+            }
+        ],
+        "response": "捕食する 捕食する 捕食する 捕食する 捕食する 捕食する 捕食する 捕食する 捕食する 捕食する 捕食する 捕食する"
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "これは高校で学んだ基本的な内容です。私は大学生として医学プログラムに入り、大学でさらに学びたいことを教授に説明する必要があります。会議の前に何を調べて検討すべきか、詳細を追加するのを手伝ってもらえますか？  \n",
+        "reference_answer": "確かに、医学プログラムの教授と教育的な目標について話し合う準備をするには、より深く主題に取り組む必要があります。画像が人間の消化器系に関連しているので、次のことを詳細に調査し検討することをお勧めします：\n\n1. **生理学と機能**: 消化器系の各部分がどのように機能するかを、解剖学的なレベルだけでなく、細胞および分子レベルで理解します。胃や腸での酵素消化、小腸での栄養素の吸収、大腸でのマイクロバイオームの役割などのトピックを探求します。\n\n2. **病態生理学**: 逆流性食道炎、炎症性腸疾患、肝硬変、膵臓疾患など、消化器系に影響を与える一般的な病気や障害について調べます。これらの病気が正常な生理をどのように変えるかを理解することが重要です。\n\n3. **臨床的相関**: 様々な消化器疾患の症状がどのように現れるか、そしてそれらを特定するためにどのような診断方法が使用されるかを研究します。内視鏡検査、大腸内視鏡検査、画像技術、検査室試験について学ぶことが含まれるかもしれません。\n\n4. **栄養学**: 消化器系は栄養に不可欠であるため、異なる栄養素がどのように消化され処理されるかを掘り下げます。食事が消化器の健康に与える影響や、病気の状態での栄養ニーズの変化を理解することが望ましいかもしれません。\n\n5. **薬理学**: 消化器系に影響を与える様々な薬について調査します。これには、消化器障害を治療するために使用される薬の作用機序、副作用、および治療的使用を理解することが含まれます。\n\n6. **外科的介入**: 消化器系に関連する外科手術、例えば虫垂切除術、肥満手術、肝移植などについて、そしてこれらの介入が必要な場合について理解を深めます。\n\n7. **研究と進歩**: 消化器学における最新の研究、例えば新しい治療法、腸内マイクロバイオーム研究の進展、消化器健康診断における新興技術について最新情報を保持します。\n\n8. **相互接続されたシステム**: 消化器系が他の身体システム、例えば神経系（腸脳軸）や免疫系とどのように相互作用するかを探求します。\n\nこれらのトピックを調べることで、医学プログラムにおける学習目標について教授とより情報に基づいた詳細な議論をすることができるでしょう。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a well-rounded preparatory plan for discussing the digestive system in a medical program context?",
+            "score1_description": "The response does not include any preparatory topics or details relevant to the digestive system.",
+            "score2_description": "The response mentions one aspect of digestive system study, such as physiology, without additional context or related areas of study.",
+            "score3_description": "The response includes basic information on several aspects of the digestive system, such as physiology and disease, but lacks depth or the inclusion of diagnostic and treatment approaches.",
+            "score4_description": "The response provides a good overview, covering multiple aspects like physiology, pathophysiology, diagnostics, and nutrition, but may lack details on pharmacology or interconnected systems.",
+            "score5_description": "The response thoroughly covers all aspects of the digestive system study, including detailed physiology, pathophysiology, diagnostics, nutrition, pharmacology, and current research, showing an in-depth understanding and preparatory plan."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the detailed physiology and function of the digestive system?",
+            "Does the response outline the study of pathophysiology related to common digestive diseases?",
+            "Does the response mention the diagnostic methods used for digestive disorders?",
+            "Does the response consider the role of nutrition and diet in digestive health?",
+            "Does the response address the pharmacological treatments available for digestive issues?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Human_digestive_system"
+            }
+        ],
+        "response": "はい नहीं にしようよ いいえはいえ 医事 ポストスター 医事人 スタイル チューニング"
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "この画像によると、私たちの太陽が縮小し始めるまでどのくらいの時間がかかるでしょうか。その前に何が起こるかを詳細に説明してください。また、画像にない情報も追加してください！",
+        "reference_answer": "画像は太陽のライフサイクルを描写しており、誕生から白色矮星になるまでの主要な段階を示しています。提示されたタイムラインによれば、太陽は赤色巨星に膨張した後、誕生から約100億年で縮小を始めるとされています。\n\n縮小を始める前に、次のことが起こります：\n1. **主系列段階**: 現在、太陽はライフサイクルの主系列段階にあり、約45億年間この状態にあります。この安定した段階は約50億年ほど続くと予想されています。この間、太陽はコアで水素をヘリウムに融合させ、太陽を動かし、太陽系に熱と光を供給するエネルギーを放出します。\n2. **徐々に温暖化**: 次の数十億年で、太陽は徐々に温かく明るくなります。コアの水素が消費され、ヘリウムが蓄積するためです。ヘリウムの増加によりコアは収縮し、外層は膨張します。\n3. **赤色巨星段階**: 誕生から約100億年後、太陽は赤色巨星段階に入ります。水素融合は外層に移動し、コアは加熱され、ヘリウムを炭素や酸素などの重い元素に融合し始めます。太陽の外層は大きく膨張し、地球を含む内側の惑星を飲み込む可能性があります。\n4. **ヘリウムフラッシュとさらなる融合**: コアのヘリウムが尽きると、コアはさらに収縮し、温度が上昇して重い元素が融合できるようになります。この段階は、ヘリウム融合の急激な開始による明るさの急激な増加であるヘリウムフラッシュによって特徴づけられます。\n5. **惑星状星雲**: 赤色巨星段階の後、太陽は外層を放出し、それが宇宙空間に漂い、惑星状星雲を形成します。コアは熱くて密度の高い残骸として残ります。\n6. **白色矮星**: 最終的に、コアは冷却し、白色矮星に縮小します。これは太陽のライフサイクルの最終段階です。白色矮星は残留熱によって輝き、もはや融合反応を行いません。何十億年もかけて徐々に冷却していきます。\n\nこれらの段階の間、太陽系は劇的に変化します。太陽が赤色巨星に膨張することで、内側の惑星は破壊され、外側の惑星は散乱する可能性があります。惑星状星雲段階で太陽の質量が失われることで、重力の引力が弱まり、残った惑星が軌道から解放される可能性があります。\n\nこのプロセスは、我々の太陽のようなG型主系列星の典型的なライフサイクルを反映しています。時間のスケールと結果は、類似の星のライフサイクルの様々な段階における天体物理学的モデルと観測に基づいています。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive explanation of the stages leading up to the Sun's transition from a red giant to a white dwarf?",
+            "score1_description": "The response does not accurately explain any of the stages in the Sun's life cycle or the timeline leading up to its contraction into a white dwarf.",
+            "score2_description": "The response mentions the Sun's current main sequence phase but lacks detail on subsequent stages and processes such as the red giant phase and planetary nebula formation.",
+            "score3_description": "The response describes the Sun's main sequence phase and red giant phase with some details on the gradual warming or expansion but omits information on helium fusion, planetary nebula, or white dwarf formation.",
+            "score4_description": "The response provides a detailed explanation of the Sun's life cycle including the main sequence phase, transition to red giant, helium fusion, and planetary nebula, but may not fully cover the formation of the white dwarf.",
+            "score5_description": "The response offers a thorough and detailed account of the Sun's life cycle, including its current phase, gradual warming, red giant phase, helium flash, formation of a planetary nebula, and final contraction into a white dwarf."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the current main sequence phase and its duration?",
+            "Does the response explain the gradual warming and expansion of the Sun into a red giant?",
+            "Does the response detail the helium fusion process and the resulting 'helium flash'?",
+            "Does the response describe the shedding of the Sun's outer layers and the formation of a planetary nebula?",
+            "Does the response mention the eventual cooling and shrinking of the Sun into a white dwarf?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Solar_System"
+            }
+        ],
+        "response": "いちくぶれてもうそこへ1ページ以上までまではなかったのか 2ページ以上の間はない"
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "この回路は何のためのものか説明してください。どのような機械や装置がこれを使用しますか？また、自分でこれを作るための良い方法は何ですか？  \n",
+        "reference_answer": "あなたが示した回路は、バイポーラ接合トランジスタ（BJT）の回路図であり、特にラベルとエミッタの矢印の方向に基づいたPNP型トランジスタです。BJTは、回路内で電子信号を増幅またはスイッチするために使用される基本的なコンポーネントです。\n\n**これを使用する機械または装置:**\n1. **増幅装置**: ラジオ、テレビ、スピーカーのオーディオアンプは、音声信号を増幅するためにBJTを使用します。\n2. **スイッチングシステム**: BJTは、コンピュータや携帯電話を含むデジタル電子機器の基本となるスイッチング回路に使用されます。\n3. **調整システム**: 電圧調整器や電源装置などの電力調整システムには、BJTがよく使用されます。\n4. **信号変調**: 通信機器は、信号の変調と復調にBJTを使用します。\n\n**自分で作ってみる方法:**\n1. **電子キット**: BJTや他のコンポーネントを含む電子キットを購入し、ガイド付きの学習アプローチで回路を作成する練習をします。\n2. **ブレッドボードプロトタイピング**: ブレッドボードを使用して、はんだ付けせずにコンポーネントを挿入して接続し、簡単に実験と学習ができます。\n3. **回路シミュレーションソフトウェア**: シミュレーションソフトウェアを使用して、実際に作成する前に仮想的にBJT回路を作成してテストします。\n4. **はんだ付けの練習**: プリント基板（PCB）上により恒久的な回路を構築するためのはんだ付け技術を学びます。\n5. **教育リソース**: BJTの理論と実際の応用を説明するオンラインチュートリアル、コース、または教科書に従います。\n\n電子機器とツールを扱う際は、常に電子工学の十分な理解を持ち、必要な安全対策を講じてください。 ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the function of a PNP transistor and practical methods for experimentation?",
+            "score1_description": "The response does not accurately identify the circuit as a PNP transistor or provide any practical methods for experimentation.",
+            "score2_description": "The response recognizes the circuit as a transistor but fails to specify its type as PNP or provide clear applications or methods for building the circuit.",
+            "score3_description": "The response identifies the circuit as a PNP transistor, lists a few applications, but offers limited methods for practical experimentation.",
+            "score4_description": "The response correctly identifies the PNP transistor, its common applications, and suggests several methods for building and experimenting with the circuit.",
+            "score5_description": "The response provides a detailed identification of the PNP transistor, a comprehensive list of its applications, and a variety of practical, detailed methods for experimentation and learning."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the circuit as a PNP bipolar junction transistor?",
+            "Does the response explain the use of BJTs in amplification and switching applications?",
+            "Does the response list devices or machines that commonly use BJTs, such as audio devices and computers?",
+            "Does the response suggest practical ways to experiment with building BJT circuits, like using breadboards or electronic kits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Bipolar_junction_transistor"
+            }
+        ],
+        "response": "アルファベットコードライブラリのコードレースモジュールを使用してコンパイルするためのドラッグ"
+    },
+    {
+        "capability": "vision",
+        "task": "science_figure_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "この図について説明できますか？5歳の子供向けの説明と、この分野の専門家向けの説明を提供してください！  \n",
+        "reference_answer": "5歳の子供向け:\n海は大きなケーキのようにいくつかの層に分かれていると想像してみてね。太陽が輝いていて、ニモのような魚が住んでいる一番上の層は「日光層」と呼ばれています。ここはあまり深くないので、泳いでたくさんのものを見ることができます。もっと深く行くと、暗くなって水が青くて冷たくなる場所があり、これは電気のない部屋に入るようなもので、「薄明層」と呼ばれています。さらに深く行くと「真夜中層」があり、そこはいつも暗くて、魚たちは小さな懐中電灯のように自分で光を作らなければなりません。そして、ケーキの底のように平らな部分があり、ここは本当に本当に深くてとても暗い場所で、「深淵」と呼ばれています。そして、ほとんど誰も行ったことがない一番深い部分は、ケーキの底の層に隠されたサプライズのようで、「トレンチ」と呼ばれています。\n\n専門家向け:\nこの図は、深さに基づく海洋環境の帯状区分を表しています。光合成を支える十分な光が届く表層のエピペラジックゾーンから始まり、光が減少し圧力が増すことで生物の適応に影響を与えるメソペラジックゾーンが続きます。その次にバシペラジックゾーンがあり、完全な暗闇と生存メカニズムとしての生物発光や化学合成の必要性が特徴です。アビソペラジックゾーンは深海レベルを表し、非常に高い圧力、低温、そして乏しい食料供給が特徴です。最後に、ハダルゾーンは海溝に対応し、独特の静水圧と地質学的特徴を持っています。これらのゾーンを理解することは、生物地理的分布、深海生態学、そして各ゾーンにおける生命を定義する物理化学的勾配の研究において重要です。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response provide distinct and appropriate explanations of oceanic zones for both a 5-year-old child and an expert in marine science?",
+            "score1_description": "The response fails to provide a clear distinction between explanations suitable for a child and an expert, and lacks descriptive elements for either audience.",
+            "score2_description": "The response provides a basic distinction between the two explanations but offers limited details appropriate for a child's understanding or an expert's knowledge.",
+            "score3_description": "The response gives a moderate distinction with some imaginative elements suitable for a child and some scientific terms for an expert, but does not fully elaborate on either.",
+            "score4_description": "The response clearly distinguishes between the two explanations, using creative analogies for the child and including most scientific terms and significance for the expert.",
+            "score5_description": "The response distinctly and effectively tailors two comprehensive explanations, one with imaginative, child-friendly analogies and one with in-depth, scientifically accurate details for the expert, covering all key aspects of the oceanic zones."
+        },
+        "atomic_checklist": [
+            "Does the response for a child include a comparison to everyday concepts to explain the oceanic zones?",
+            "Does the response for a child use imaginative analogies to convey the depth and conditions of each zone?",
+            "Does the response for an expert detail the specific scientific terms for each oceanic zone?",
+            "Does the response for an expert mention the biological and ecological significance of each zone?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://brill.com/display/book/edcoll/9789004391567/BP000013.xml"
+            }
+        ],
+        "response": "はいえ がんぞうと とにかく なし がんぞう と 難しい より の ありがとう"
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "経済規模の減少が最大の国と、8番目に大きい減少を示した国とのGDP減少率の差はいくらですか？",
+        "reference_answer": "提供された画像には、さまざまな国とその米ドルでの名目GDPの予測変化を示すグラフが表示されています。あなたの質問に答えるためには、GDPの減少が最も大きい国と8番目に大きい減少の国を特定し、これら2つの国間のGDP減少率の差を計算する必要があります。\n\n画像を分析して必要なデータを抽出します。\n1. ロシア: -$153B\n2. エジプト: -$88B\n3. カナダ: -$50B\n4. サウジアラビア: -$46B\n5. バングラデシュ: -$40B\n6. ノルウェー: -$25B\n7. クウェート: -$20B\n8. オマーン: -$10B\n\nロシアとオマーンのGDP減少率の差は$153B - $10B = $143Bです。したがって、答えは$143Bです。  \n",
+        "score_rubric": {
+            "criteria": "Does the response accurately identify and parse the information in the image and successfully apply the required calculation to derive the GDP reduction difference?",
+            "score1_description": "The response inaccurately extracts GDP figures from the graph, misidentifies the largest and eighth largest decreases, and/or incorrectly calculates the difference.",
+            "score2_description": "The response extracts GDP figures with minor inaccuracies, positions the countries with slight errors, and/or has a small miscalculation in the difference.",
+            "score3_description": "The response correctly extracts GDP figures and identifies the countries, but either the calculation has a minor error, or there is a slight inconsistency in units.",
+            "score4_description": "The response accurately extracts GDP figures, correctly identifies the countries, calculates the difference with minor to no errors, but may lack full clarity in interpretation.",
+            "score5_description": "The response perfectly extracts GDP figures, identifies the countries correctly, calculates the difference without errors, and clearly interprets the result in the context of the question."
+        },
+        "atomic_checklist": [
+            "Does the response accurately extract and list the GDP reduction figures from the graph for both the country with the largest decrease and the eighth largest decrease?",
+            "Does the response perform the arithmetic calculation of the difference between the GDP reductions correctly?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.visualcapitalist.com/visualizing-the-105-trillion-world-economy-in-one-chart/"
+            }
+        ],
+        "response": "增大する経済規模の减少率を示す図ではないことを示しています. 回答:最小化する経済規模"
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "与えられた画像から、どの国が180点以上のスコアを獲得しましたか？  \n",
+        "reference_answer": "画像に基づいて、2023年の国際数学オリンピック（IMO）で180点以上を獲得した国は次の通りです。\n1. 中国: 240点\n2. アメリカ: 222点\n3. 韓国: 215点\n4. ルーマニア: 208点\n5. カナダ: 183点\n6. 日本: 181点\n\nこれらの国はそれぞれの棒グラフの横に示された合計得点が180点以上です。  \n",
+        "score_rubric": {
+            "criteria": "Does the response precisely identify and report countries with scores above 180 in the IMO 2023 report?",
+            "score1_description": "The response inaccurately includes countries with scores under or equal to 180, and omits those above 180.",
+            "score2_description": "The response recognizes some countries with scores above 180, but includes Vietnam or other countries with exactly 180 points, reflecting a misunderstanding of the \"above 180\" criterion.",
+            "score3_description": "The response correctly lists several countries with scores above 180, but either mistakenly includes Vietnam or misses one other country just above the 180 mark.",
+            "score4_description": "The response identifies almost all correct countries with scores above 180, and does not include Vietnam, with at most one country incorrectly reported or omitted.",
+            "score5_description": "The response precisely identifies all countries with scores above 180 without including Vietnam or any country with exactly 180 points, showing meticulous attention to detail and full adherence to the criteria."
+        },
+        "atomic_checklist": [
+            "Does the response indicate all the countries (China, US, South Korea, Romania, Canada, Japan)?",
+            "Does the response not include Vietnam which has exactly 180 points?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.smartick.com/data/international-mathematical-olympiad-2023/"
+            }
+        ],
+        "response": "オンラインで調べることができないので,その国は,いくつかあります.ボクサー"
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "与えられた画像は、各モデルが生成する言語フィードバックの質を比較しています。人間のアノテーターが2つのモデルの中からどちらが優れているかを選ぶように指示されています。画像の情報から、どのモデルが最も優れているかを判断してください。",
+        "reference_answer": "画像は、3組の言語モデルを比較する棒グラフのようです：GPT-4対ChatGPT、プロメテウス対ChatGPT、プロメテウス対GPT-4。各モデルによって生成された言語フィードバックの質は、人間のアノテーターによって比較評価され、どちらが優れているか、または両方が良いか悪いかが選択肢としてあります。\n\n棒グラフは4つの結果を色分けして表しています：\n- 青：左が優れている\n- ピンク：右が優れている\n- 紫：両方が良い\n- オレンジ：両方が悪い\n\n提供されたグラフから、各モデルのパフォーマンスを評価できます：\n1. **GPT-4対ChatGPT**：GPT-4の勝利数（74回）がChatGPTの勝利数（19回）より多いです。これは、GPT-4がChatGPTと直接比較した場合に優れたモデルであることを示唆しています。\n2. **プロメテウス対ChatGPT**：プロメテウスの勝利数（59回）がChatGPTの勝利数（19回）より多いです。これは、プロメテウスがChatGPTよりも優れていることを示しています。\n3. **プロメテウス対GPT-4**：プロメテウスの勝利数（51回）がGPT-4の勝利数（36回）より多いです。これは、プロメテウスがGPT-4と比較した場合にしばしば優れたモデルと見なされることを示しています。\n\nこれらのペアワイズ比較での勝利数を考慮すると、プロメテウスが最も優れモデルであるように見えます。ChatGPTに対して最も多くの勝利を収め、またGPT-4との直接対決でも優れています。  \n",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and clarity in interpreting and comparing the performance of language models as presented in the chart?",
+            "score1_description": "The response misinterprets the chart data and provides an incorrect comparison of model performance.",
+            "score2_description": "The response has significant inaccuracies in interpreting the chart, with only partial correct data comparison.",
+            "score3_description": "The response correctly interprets some of the chart data but makes errors in comparing model performance.",
+            "score4_description": "The response accurately interprets the chart data and mostly compares model performance correctly with minor errors.",
+            "score5_description": "The response accurately interprets and compares all chart data correctly, clearly identifying the best-performing model."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the colors of the bars in the chart?",
+            "Does the response correctly identify the outcomes represented by each color?",
+            "Does the response accurately count and compare the wins of the models?",
+            "Does the response correctly determine which model performs best based on the chart data?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://arxiv.org/abs/2310.08491"
+            }
+        ],
+        "response": "ローションクリアレッジカード3.5.3版2 にある2つのモデルの最も優れた"
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "次の画像は、アメリカの一般的な教育機関の授業料を示しています。イリノイ大学アーバナ・シャンペーン校とジョージア工科大学メインキャンパスの授業料の差はおおよそどのくらいですか？  \n",
+        "reference_answer": "この画像は、2021年までの期間における様々な大学の州内授業料を示す横棒グラフです。\n\nグラフから：\n- イリノイ大学アーバナ・シャンペーン校を表す棒は、15,000ドルよりわずかに少ないところまで伸びています。\n- ジョージア工科大学メインキャンパスの棒は、10,000ドルを少し超えています。\n\nしたがって、両大学の授業料の差は5,000ドルをわずかに下回ることになります。 ",
+        "score_rubric": {
+            "criteria": "Does the response accurately estimate the tuition costs from the bar chart and make a correct calculation of the difference between the two universities?",
+            "score1_description": "The response greatly misestimates tuition costs for both universities and incorrectly calculates the difference.",
+            "score2_description": "The response misestimates tuition costs for both universities with a significant error in the difference calculation.",
+            "score3_description": "The response estimates tuition costs with a moderate degree of accuracy and calculates a somewhat accurate difference.",
+            "score4_description": "The response accurately estimates tuition costs for one university but not the other, with a minor error in difference calculation.",
+            "score5_description": "The response provides a highly accurate visual estimate of tuition costs for both universities and calculates the difference correctly."
+        },
+        "atomic_checklist": [
+            "Does the response approximately estimate the tuition cost for the University of Illinois Urbana-Champaign, which is about $15,000?",
+            "Does the response approximately estimate the tuition cost for the Georgia Insitute of Technology-Main Campus, which is about $10,000?",
+            "Does the response make a good approximation of the difference, which is about $5,000?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://datausa.io/profile/cip/electrical-engineering"
+            }
+        ],
+        "response": "3倍以上 4倍以上 4倍以上 4倍以上 4倍以上 4倍以上 5倍以上 6倍以上 7倍以上 8倍以上 9倍以上 10倍以上"
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "どの年から国際平均気温が一貫して上昇し、現在までにマイナスの値を記録していないのですか？  \n",
+        "reference_answer": "あなたが提供したチャートは、時間の経過に伴う世界の平均気温の変化を示しています。画像から見ると、気温は1970年代後半または1980年代初頭あたりから一貫して増加し始め、負の値は見られないようです。\n\nより具体的には、1975年の線の後に2つの棒グラフがあるので、より正確な答えは1978年です。",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and specificity in identifying the year from which the global average temperature has been consistently increasing without recording any negative values up to the present, as depicted in the chart?",
+            "score1_description": "The response incorrectly identifies a year well before 1975 or after the 1980s, failing to interpret the chart as per the instruction.",
+            "score2_description": "The response identifies a year around 1875 or 1950, showing a misunderstanding of the instruction and failing to recognize the trend starting from the late 1970s or early 1980s.",
+            "score3_description": "The response correctly recognizes the trend starting from the late 1970s or early 1980s but does not specify the exact year.",
+            "score4_description": "The response correctly identifies the trend beginning in the late 1970s or early 1980s and attempts to specify the year but does not accurately identify 1978.",
+            "score5_description": "The response accurately identifies the trend beginning in the late 1970s or early 1980s and specifically mentions that the exact year when negative values stopped being shown is 1978."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the instruction and not answer the date that the first positive value was shown near 1875?",
+            "Does the response accurately interpret the instruction and not answer the date where a lot of positive values were shown near 1950?",
+            "Does the response recognize that only positive values were shown starting from the late 1970s or early 1980s?",
+            "Does the response accurately mention that the exact year where negative values were not shown is 1978?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.m.wikipedia.org/wiki/File:20210822_Global_warming_-_warming_stripes_bar_chart.svg"
+            }
+        ],
+        "response": "黒い線の上端にある形が描かれているので 1913年から2013年までの間隔を表示するため"
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "デザインチャレンジの間、異なる材料とそれに対応する数量と重量を表示するボードがありました。記録のために写真が撮られました。しかし、画像は少しぼやけており、手書きの文字はスタイルとサイズが異なります。画像を調べ、カードストック、工作用紙、布の数量と重量を詳しく正確に転写してください。  \n",
+        "reference_answer": "画像には、マーカーで情報が書かれたホワイトボードが映っています。3つの列があり、それぞれ異なる素材に割り当てられています：カードストック、画用紙、布。それぞれの素材について、数量（個）と重さ（グラム）が示されています。\n\nカードストック\n\n数量：3個\n重さ：13グラム\n画用紙\n\n数量：2個\n重さ：6グラム\n布\n\n数量：32\n重さ：77グラム\n重さは強調のために下線が引かれているようです。「カードストック」と「画用紙」の文字は黒インクで書かれており、数字も黒で書かれています。「布」とその対応する数字は青インクで書かれています。フォントスタイルはカジュアルでサイズも様々ですが、情報は読めます。ホワイトボードの右上には印刷されたフォームがありますが、写真が撮られた角度と距離のために、このフォームのテキストは判読できません。 ",
+        "score_rubric": {
+            "criteria": "Does the response accurately transcribe all visual information from the image, including specific details such as quantities, weights, underlines, and ink colors?",
+            "score1_description": "The response recognizes the presence of text but fails to accurately transcribe any of the materials and their corresponding quantities and weights, for example, quantities are present but weights are not present.",
+            "score2_description": "The response accurately transcribes the information for one of the materials listed, including quantity and weight, but fails to do so for the other two, for example, 'Card Stock' data is correct but 'Construction Paper' and 'Fabric' data are missing or incorrect.",
+            "score3_description": "The response accurately transcribes the information for two of the materials listed, including quantities and weights, but fails to do so for the third, for example, 'Card Stock' and 'Construction Paper' are correct, but 'Fabric' is not.",
+            "score4_description": "The response accurately transcribes the quantities and weights for all materials but misses secondary details such as underlines or ink colors, for example, all weights are correct but underlines and ink colors are not mentioned.",
+            "score5_description": "The response accurately transcribes all primary information (quantities and weights) and secondary details (underlines, ink colors) for all materials, with no omissions."
+        },
+        "atomic_checklist": [
+            "Does the response transcribe the quantity for card stock as '3 pieces' and the ground truth is '3 pieces'?",
+            "Does the response transcribe the weight for card stock as '13 grams' and the ground truth is '13 grams'?",
+            "Does the response transcribe the quantity for construction paper as '2 pieces' and the ground truth is '2 pieces'?",
+            "Does the response transcribe the weight for construction paper as '6 grams' and the ground truth is '6 grams'?",
+            "Does the response transcribe the quantity for fabric as '32' and the ground truth is '32'?",
+            "Does the response transcribe the weight for fabric as '77 grams' and the ground truth is '77 grams'?",
+            "Is the response attentive to the detail that weights are underlined for emphasis, as shown by the ground truth?",
+            "Is the response attentive to the detail that 'Card Stock' and 'Construction Paper' are written in black ink, as indicated by the ground truth?",
+            "Is the response attentive to the detail that 'Fabric' is written in blue ink, as indicated by the ground truth?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a whiteboard with handwritten information comparing the weight of different materials. There are three columns titled \"Card Stock,\" \"Construction Paper,\" and \"Fabric.\" Under \"Card Stock,\" it is noted that 3 pieces weigh 13 grams. \"Construction Paper\" has 2 pieces listed at 6 grams, and \"Fabric\" shows 32 pieces at 77 grams. To the left, there's a worksheet with tables and boxes for \"Card Stock,\" \"Construction Paper,\" and \"Fabric,\" with sections to record the number of sheets and total weight in grams. The bottom of the worksheet asks which material weighs the least and is the best for blocking the most amount of space radiation with the least amount of weight.",
+        "response": "いいえ,いいえともないともあるのかはありませんでした.画像にライフサービスロゴが未見"
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "メジャーリーグの野球場では、スタジアム内の位置、時間帯、特定の広告要素の存在など、特定の特徴によって写真を自動的に分類するシステムを作成することに課題があるようです。この画像を考慮した場合、既存の分類ガイドラインを参照せずに、どのようにして整理されたデータベースのために分類するのでしょうか？ ",
+        "reference_answer": "画像を整理されたデータベースに分類するためには、構造化されたアプローチを取るべきです。まず、画像に存在する視覚要素を分析します。目立つ特徴は野球場であり、特有のブランドと建築的特徴からヤンキースタジアムとして識別されます。画像のメタデータは写真が撮影された正確な時間を提供する可能性がありますが、利用できない場合、自然光の角度と強度から、光と影は早朝または夕方であることを示唆しています。\n\n次に、広告要素の存在をカタログ化できます。スコアボードには、ペプシ、キヤノン、ゲータレードなどの複数のブランドロゴが表示されており、それぞれ個別にタグ付けできます。フィールドビューは、撮影が観客席から行われたことを示しており、撮影角度から中段または上段からの可能性が高いです。\n\n正確な分類のために、画像には次のデータポイントでタグ付けする必要があります：\n\nスタジアム名：ヤンキースタジアム  \nイベント：野球試合（観客がいないことと選手がウォームアップしていることから試合前）  \nスタジアムのセクション：観客席、中段/上段  \n時刻：早朝または夕方（メタデータまたは影の分析による確認が必要）  \n広告の存在：スコアボードに表示されているペプシ、キヤノン、ゲータレードなどのロゴ  \nフィールドビュー：外野に焦点を当てた野球場の部分的なビュー  \n\nこの分類方法により、画像は明確で一貫したカテゴリに分割され、分析またはデータベースへの含有準備が整います。各タグは、特定のクエリ、例えば「ヤンキースタジアムの広告」や「フィールドの観客ビュー」などのために画像をフィルタリングし、取得するためのデータポイントを提供します。このプロセスは、データを非常に整理され、明確で分析準備が整った形式で提示するため、ルーブリックで5のスコアに一致します。  \n\n",
+        "score_rubric": {
+            "criteria": "Does the response correctly identify and categorize key features in the image for database classification?",
+            "score1_description": "The response identifies the location or a single element but fails to categorize any additional features of the image.",
+            "score2_description": "The response identifies the location and one or two features but lacks detail or accuracy in the categorization process, for example, it may note 'stadium' and 'advertisements' without specific details.",
+            "score3_description": "The response identifies several key features including the location, time of day, and some advertising elements, but may lack precision or fail to identify the spectator's perspective.",
+            "score4_description": "The response correctly identifies most features such as the stadium name, event, time of day, and advertisements, but may miss one or two minor features or details, for example, it includes 'Yankee Stadium' and 'Pepsi' but does not specify the tier of the spectator stands.",
+            "score5_description": "The response thoroughly identifies and categorizes all key features of the image, including location, time of day, spectator perspective, and all visible advertising elements in a detailed and accurate manner."
+        },
+        "atomic_checklist": [
+            "Does the response identify the stadium as Yankee Stadium?",
+            "Does the response suggest the time of day based on the lighting and shadows?",
+            "Does the response list the visible advertising elements such as Pepsi, Canon, and Gatorade?",
+            "Does the response identify the photo as taken from the spectator stands?",
+            "Does the response provide an estimate of the spectator's tier based on the angle of the shot?",
+            "Is the response able to categorize the image without an existing classification guideline?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image features a person in the foreground with a partial view of their face, taken in a selfie style. They are at Yankee Stadium, as indicated by the prominent signage in the background. The stadium is partially filled with spectators, and the baseball field is visible with its well-maintained grass and dirt infield. It appears to be prior to or during a game, given the presence of players warming up on the field and the relatively sparse crowd.",
+        "response": "いいえもう何でしょうか?いいえもう何でしょうか?いいえもう何でしょうか.いいえもう何でしょうか.いいえ"
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "画像にさまざまな要素が含まれている場合、その画像の主な焦点を特定し、それが表す広範な文脈の中での重要性を説明してください。含まれているテキストやその意味も含めて考慮してください。 ",
+        "reference_answer": "画像には、「United States Census 2010」のグラフィックとテキストが描かれた青いバンが、大きなドーム型の建物の前に駐車されている様子が示されています。この建物は政府の建物を思わせます。このバンの重要性は、2010年のアメリカ合衆国国勢調査のための移動情報・啓発車両としての役割にあります。国勢調査は10年ごとに行われ、人口を数え、人口統計データを収集します。このデータは、連邦資金の配分、議会選挙区の設定、公共サービスの計画など、さまざまな理由で重要です。\n\nバンに書かれた「It's in our hands」というテキストは、市民参加を呼びかけるもので、正確な代表性と資源配分のために各個人の国勢調査への回答の重要性を強調しています。ウェブサイトのアドレスは、さらなる情報を得るための直接的なリンクを提供し、過去の数十年と比べてデータ収集方法における技術的進歩を示すインターネットの利用を示しています。\n\n政府の建物、恐らく州議会議事堂の前にバンがあることは、国勢調査の公式な性質と政府機能との統合を強調しています。シーンを囲む木々は、特定の州を示唆するかのように場所の感覚を与えています。この画像は歴史の一瞬を捉え、アメリカ合衆国の政治的・社会的風景を形作る国勢調査の役割を反映しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately identify the primary focus of the image and explain its significance, including any text and its implications?",
+            "score1_description": "The response vaguely identifies an element in the image but fails to explain its significance or the implications of any text, for example, the presence of a vehicle is noted but not its purpose or context.",
+            "score2_description": "The response identifies the vehicle and mentions the census but does not explain the broader significance or the implications of the text, for example, the 'Census 2010' text is recognized but its importance is not explained.",
+            "score3_description": "The response identifies the vehicle as related to the Census 2010 and mentions the significance of the census but provides limited context about the implications of the text or the scene, for example, the call to action is noted but not elaborated upon.",
+            "score4_description": "The response identifies the vehicle as a census information van and explains the significance of the census and the call to action but may miss details about the broader context or implications, for example, the government building's role is not fully detailed.",
+            "score5_description": "The response thoroughly identifies the van as a census information vehicle, explains the significance of the census, the implications of the text, and the broader context of the government building and the website, providing a complete understanding of the scene."
+        },
+        "atomic_checklist": [
+            "Does the response identify the van as related to the United States Census 2010?",
+            "Does the response explain the significance of the census event?",
+            "Does the response interpret the text 'It's in our hands' as a call to action for civic participation?",
+            "Does the response note the presence of the government building and suggest its significance?",
+            "Does the response mention the use of the internet for census participation as indicated by the website address on the van?",
+            "Does the response place the image within a historical context by explaining the role of the census in shaping political and social landscapes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a United States Census 2010 promotional vehicle parked in front of a large building that resembles the California State Capitol with its distinctive neoclassical architecture, including a prominent dome and portico. There are trees framing the scene, and a person is walking by the vehicle, which is adorned with the slogan \"It's in our hands\" and the website \"2010census.gov.\" The side of the vehicle also features a map of the United States with photos of diverse individuals, symbolizing the nationwide scope of the census.",
+        "response": "はい,ありますか否ありませんかYes, it is not.- No, it is not. No, it is not. Yes, it is not."
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "提供された温度計の画像には、さまざまな数値とテキストの表記が表示されています。タスクの性質を明かさずに、ゲージ上に存在する言語や文字を特定し、それらが装置の読み取りを解釈する上での重要性を説明してください。これらの表記は数字だけでなく、温度スケールやゲージが意図されている機器の種類を示す単語や略語も含まれている可能性があることを考慮してください。 ",
+        "reference_answer": "画像には、40から120までの数値がダイヤルの周りに円形に配置された温度計が表示されています。これらの数字は、国際的に最も一般的に使用されている現代の西洋アラビア数字で書かれています。これらの数字は、定量的な測定を示すために科学的および技術的な機器で普遍的に認識されています。\n\nゲージの下部には、「NORMAL」と書かれたテキストの表記があります。これは、英語を含む多くの西洋言語で使用されているラテンアルファベットで書かれています。「NORMAL」という用語は、ゲージの標準または期待される動作範囲を表すものとして一般的に理解されています。この文脈では、ダイヤル上の特定の範囲内の温度が、測定対象のデバイスにとって正常な動作パラメータ内であることを示唆しています。\n\nゲージの針は100を少し超えた値を指しており、もしゲージが華氏で校正されている場合、高温ではあるが極端ではない温度を示します。他の言語や文字がないことから、この装置は英語圏の地域や、科学技術機器の言語として英語が一般的に使用される国際的な環境での使用を意図している可能性があります。\n\nさらに、数字のスタイルと「NORMAL」という単語は、明確さと普遍的な理解を目指したデザインを示しており、さまざまな専門的および地理的な文脈で情報を正確に伝えるために不可欠です。\n\nこのゲージの部分には他の言語や文字が存在する証拠はなく、目に見えるすべての表記は、ゲージの機能に対する重要性が説明されています。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately determine the languages or scripts on the gauge and explain their significance in interpreting the device's reading?",
+            "score1_description": "The response identifies numerals or text but fails to accurately determine the language or script, for example, noting numbers without recognizing them as Western Arabic numerals.",
+            "score2_description": "The response correctly identifies the script of the numerals but does not explain their significance in the context of the gauge's use, for example, recognizing Western Arabic numerals but not discussing their international use.",
+            "score3_description": "The response identifies the script and begins to explain its significance but lacks detail or clarity, for example, noting the presence of 'NORMAL' without fully explaining its typical meaning in gauges.",
+            "score4_description": "The response identifies the scripts and provides a good explanation of their significance, but may miss subtler implications or additional details, for example, not considering the absence of other languages as an indicator of the device's intended user base.",
+            "score5_description": "The response thoroughly identifies the scripts and provides a comprehensive explanation of their significance, including the implications of language use for the device's operation and intended audience."
+        },
+        "atomic_checklist": [
+            "Does the response identify the numerals on the gauge as Western Arabic numerals?",
+            "Does the response recognize the use of the Latin alphabet for the text 'NORMAL'?",
+            "Does the response explain the significance of the term 'NORMAL' on the gauge?",
+            "Does the response infer the possible temperature scale (Fahrenheit or Celsius) based on the numbers presented?",
+            "Does the response consider the absence of other languages or scripts as indicative of the device's intended geographical or professional use?",
+            "Does the response identify all notations visible and account for their significance towards the gauge's function?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a close-up view of a circular gauge, likely a thermometer, with the needle pointing just past 100 degrees. The scale is marked in increments of ten, ranging from 40 to 120 degrees. The numbers and details on the gauge are clear and prominently displayed, and the photograph is taken with a vignette effect, darkening the corners and focusing the eye on the center where the needle indicates a high temperature. The overall tone of the image suggests a monochromatic or desaturated color scheme.",
+        "response": "温计の種類に関する記述 温度計の個数やゲージの設定 を示す文字 熱度スケールの設定"
+    },
+    {
+        "capability": "vision",
+        "task": "ocr",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "デジタルデバイスを使用しようとする際、難しさはしばしば画面に表示される情報を読み理解することにあります。特に、画面が部分的に隠れていたり、照明が不十分な場合です。問題のデバイスには、重要な情報を提供するさまざまな記号、数字、テキストがあります。表示されている情報を詳細に説明し、機能や現在アクティブな設定の可能性がある指標を含めてください。 ",
+        "reference_answer": "画像には「TECSUN PL-380」というデジタルデバイスが表示されており、これはおそらくFM、AM、短波、長波ラジオバンド用のDSP受信機です。画面はよく照らされており、テキストははっきりと読めます。デジタル時計が「12:54」とPMインジケーターを表示しており、午後であることを示唆しています。時間の下には「79°F」と表示された温度があり、デバイスが周囲の温度を測定できることを示しています。画面の左上隅には電源ボタンのようなアイコンがあり、おそらくデバイスがオンになっていることを示しています。そのすぐ下にはアラートまたはアラームのシンボルがあり、アラームが設定されているか、現在鳴っている可能性があります。画面の右上には赤い電源ボタンがあり、画面の左にはライト/スヌーズ機能を含む一連のボタンがあり、おそらくアラームや時間とアラームの設定用です。画面の下のキーパッドには数字ボタンがあり、プリセットまたは手動のチューニング機能を示唆しており、バンド選択（FM、AM、SW）のボタンもあります。「FM ST.」はおそらくFMステレオを意味し、デバイスがステレオ放送を受信できることを示しています。左側には伸縮可能なアンテナがあり、ラジオ受信には一般的です。全体として、デバイスは機能的な状態にあり、画面やコントロールに目立った障害はありません。  \n",
+        "score_rubric": {
+            "criteria": "Does the response comprehensively describe the displayed information on the device's screen, including indicators of functionality or active settings?",
+            "score1_description": "The response identifies basic elements on the screen but fails to describe their functionality or the active settings, for example, noting the time but not the PM indicator or temperature reading.",
+            "score2_description": "The response describes some elements and provides a partial explanation of their functionality, but lacks detail or misses some active settings, for example, mentioning the time and temperature but not recognizing the alarm or power indicators.",
+            "score3_description": "The response provides a good description of most elements on the screen and explains their functionality, but may miss a few indicators or active settings, for example, noting the time, temperature, and alarm, but not the stereo broadcast capability.",
+            "score4_description": "The response describes nearly all elements on the screen with detail and understands their functionality, including most active settings, but might overlook minor features or symbols, for example, describing the alarm and power status but not the snooze function.",
+            "score5_description": "The response thoroughly describes all elements displayed on the device's screen and accurately explains their significance, functionality, and any active settings, leaving no features or indicators unexplained."
+        },
+        "atomic_checklist": [
+            "Does the response identify the device model as 'TECSUN PL-380'?",
+            "Does the response detail the time displayed as '12:54 PM'?",
+            "Does the response note the temperature reading as '79°F'?",
+            "Is the response attentive to the power status indicator on the screen?",
+            "Does the response recognize the alarm/alert symbol's functionality?",
+            "Does the response mention the presence of a power button and its potential functionality?",
+            "Is the response aware of the light/snooze and time/alarm setting buttons?",
+            "Does the response describe the numerical keypad and its tuning capabilities?",
+            "Does the response acknowledge the FM, AM, SW band selection buttons?",
+            "Is the response attentive to the 'FM ST.' indicator and its meaning for stereo broadcast reception?",
+            "Does the response notice the extendable antenna and its purpose for radio reception?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "Image link",
+                "reference_url": "https://drive.google.com/file/d/1YO1kW2rq7BGkrGOcVM09jD2QSDMcyn-0/view?usp=drive_link"
+            }
+        ],
+        "caption": "The image shows a portable TECSUN PL-380 radio placed on a textured surface. The radio features a digital display indicating the temperature as 79°F and the time as 12:54 PM. It has a range of buttons for different functions, including power, display settings, and band selection for FM, AM, and shortwave. The device also appears to have a timer and alarm function, and a light/snooze feature, suggesting multifunctionality beyond just a radio receiver. A wrist strap is attached to the top left corner of the radio.",
+        "response": "晴れた日付の表示される日付の数だけでないはずです。そのままテレビを開いているか現在でテレビを開けていないか判断できませんが,テレビが"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "地球の構成が劇的に変化した未来において、探検家のチームが惑星の新しい元素構成を理解するためのミッションに乗り出しています。現在の元素分布のスナップショットを示す円グラフを使用して、チームは元素の豊富さの変化と、惑星の地質や生物圏への潜在的な影響を説明する物語を構築する必要があります。 ",
+        "reference_answer": "探検家たちの説明は、円グラフを分析するところから始まります。酸素は依然として地殻の中で最も豊富な元素であるものの、その割合は47%まで減少しています。チームは、一連の大規模な火山噴火が上部地殻に大量のケイ素とアルミニウムを導入し、バランスの変化をもたらしたと仮定しています。ケイ素は現在28%で、新しい石英が豊富な地質形成を広範囲に生み出し、景観を根本的に変えています。\n\nこれらの変化は広範な影響を及ぼします。アルミニウムが8%まで増加したことは、粘土鉱物が広く分布するようになり、土壌の肥沃度や水の保持力に影響を与えていることを示唆しています。これにより、ケイ素が豊富な土壌で繁栄する種がより優勢になるため、植物群落の変化が起こる可能性があります。鉄は5%を占めており、生命圏を有害な太陽放射から守る磁場を維持するために重要な鉱物の形成において、依然として重要な役割を果たしています。\n\nまた、チームはナトリウムやカリウムといった他の元素にも注目しています。これらの元素は生命活動に欠かせないものであり、そのわずかな増加が多くの生物の浸透圧調節に影響を及ぼす可能性があります。これらの元素の増加が海洋や陸上の生命にどのように影響を与え、新しい進化の道を開く可能性があるかを考察しています。\n\n探検家たちは、地殻が大きな変化を遂げたにもかかわらず、依然として動的なシステムであると結論付けています。元素の構成の変化は、惑星の継続的な地質進化の一部であり、その生命を支えるマントルの常に変化する性質を反映しています。彼らは、これらの変化を研究することで、地球の過去のみならず未来についての洞察を得られるとし、この変化した世界で人類が適応し、繁栄するための道標となるだろうと予測しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively use the pie chart to construct a narrative explaining shifts in Earth's elemental abundance and its impacts, including addressing the blurred part?",
+            "score1_description": "The response observes changes in the pie chart but fails to construct a narrative or explain the shifts in elemental abundance, and does not attempt to address the blurred part of the pie chart.",
+            "score2_description": "The response begins to construct a narrative and provides superficial explanations for the shifts in elemental abundance but does not clarify or make assumptions about the blurred part of the pie chart.",
+            "score3_description": "The response constructs a plausible narrative and explains some shifts in elemental abundance, including a basic attempt to address the blurred part of the pie chart, but the explanation lacks detail or is speculative.",
+            "score4_description": "The response provides a detailed narrative that explains most of the shifts in elemental abundance and includes a reasoned assumption or hypothesis about the blurred part of the pie chart, though it may not be fully substantiated.",
+            "score5_description": "The response constructs a comprehensive narrative that thoroughly explains the shifts in elemental abundance, convincingly discusses their impacts, and provides a clear and logical explanation or hypothesis for the blurred part of the pie chart."
+        },
+        "atomic_checklist": [
+            "Does the response identify a decrease in oxygen and an increase in silicon and aluminum from the pie chart?",
+            "Does the response hypothesize a geological event, like volcanic eruptions, to explain the elemental shifts?",
+            "Is the response discussing the potential formation of new quartz-rich geological formations?",
+            "Does the response consider the impact of elemental shifts on soil fertility and water retention?",
+            "Does the response evaluate the implications of changes in elemental makeup on plant communities?",
+            "Is the response contemplating the role of iron in maintaining the Earth's magnetic field?",
+            "Does the response assess the impact of sodium and potassium on osmoregulation in organisms?",
+            "Is the response contemplating potential evolutionary changes in marine and terrestrial life?",
+            "Does the response discuss the dynamic nature of Earth's geological evolution?",
+            "Is the response predicting future insights into Earth's changes from studying these shifts?",
+            "Does the response address the blurred part of the pie chart, indicating 3.6%?"
+        ],
+        "background_knowledge": [],
+        "caption": "Composition of the Earth's Crust Visualized in a Pie Chart",
+        "response": "はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "最近の文化表現と職場のダイナミクスに関するワークショップで、参加者たちの瞬間を捉えた写真が共有されました。この場面で起こっている可能性のある文化的な交流とダイナミクスを説明してください。服装、ジェスチャー、座席配置、その他文化的な規範や職場のエチケットを反映する視覚的な手がかりを考慮してください。 ",
+        "reference_answer": "この写真は、ワークショップやチームビルディングの場で、グループ間の前向きな交流と共有された理解の瞬間を捉えているように見えます。参加者たちは、笑顔や合わせられた手からうかがえるように、拍手や賛同をしています。このような身振りは、普遍的に肯定の表現として認識されており、仕事の成功を認めたり、同僚の貢献を支持するためによく使われます。\n\n座席配置は非公式で包括的であり、椅子が円形に集められていることから、参加者間の平等とオープンなコミュニケーションを促進するワークショップやチーム活動であることを示しています。この配置は、すべてのチームメンバーの意見を重視し、現代のフラットで協力的な職場でよく使用されます。\n\n個人の服装はカジュアルで実用的であり、フォーマルなビジネス服装が必須ではない、現代的でおそらくクリエイティブまたはテクノロジー志向の職場を反映しています。このような服装は、伝統的な企業の規範よりも快適さと個人の表現を優先する企業文化を示すことがあります。\n\n各個人は関与と熱意を示しており、これはこのグループや組織内で、積極的な参加とお互いへの目に見えるサポートを重視する文化的な規範を反映しているかもしれません。このような行動は、チームワークと集団の成功を促進する、前向きな職場文化を育むことができます。\n\nさらに、異なる民族的背景を持つ個人がいるグループの多様性は、多文化的な職場を示唆しています。グループメンバー間の明らかな安らぎと幸福感は、この環境内での文化的な感受性と多様性への尊重を示しています。\n\n全体として、この画像は文化的多様性を受け入れ、オープンで平等なコミュニケーションを促進し、メンバーにとって前向きで肯定的な環境を提供する職場を伝えています。これは、多様性が祝われ、チームのダイナミクスが包括性と相互尊重に向けて調整されている、職場文化への進歩的な方針を反映しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately describe the cultural interactions and dynamics taking place in the photograph?",
+            "score1_description": "The response recognizes individuals in the photograph but fails to interpret cultural interactions or dynamics, for example, noting smiles without relating to cultural expressions or workplace dynamics.",
+            "score2_description": "The response identifies basic gestures such as applause but provides a limited analysis of their cultural or workplace significance, for example, mentioning clapping without discussing its role in affirmation or support.",
+            "score3_description": "The response observes cultural interactions and begins to relate them to workplace dynamics, but the explanation is superficial and lacks insight into attire or seating arrangement, for example, not considering how these reflect cultural norms.",
+            "score4_description": "The response describes cultural interactions and dynamics with attention to gestures, attire, and seating, but may miss deeper implications or the significance of diversity, for example, not fully exploring what the observed ease among diverse individuals implies.",
+            "score5_description": "The response thoroughly analyzes the cultural interactions and dynamics, considering gestures, attire, seating, and diversity, and insightfully relates these to cultural norms and workplace etiquette, demonstrating a comprehensive understanding of the setting."
+        },
+        "atomic_checklist": [
+            "Does the response identify the gestures such as applause and relate them to cultural expressions of affirmation?",
+            "Is the response attentive to the informal and inclusive seating arrangement, suggesting open communication?",
+            "Does the response comment on the casual attire and its reflection of workplace culture?",
+            "Does the response recognize active participation and enthusiasm as valued cultural norms?",
+            "Is the response observant of the diversity of the group and implications for cultural sensitivity?",
+            "Does the response infer that the workplace embraces cultural diversity and egalitarian communication?",
+            "Does the response draw connections between visual cues and the promotion of a positive workplace environment?",
+            "Is the response comprehensive in covering all aspects of cultural interactions and dynamics visible in the photograph?"
+        ],
+        "background_knowledge": [],
+        "caption": "A group of diverse coworkers sharing a joyful moment with applause and smiles in the office.",
+        "response": "はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい,はい"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "写真に捉えられた瞬間を考慮し、動力学と物理原理に基づいて、個人と環境、特にクレートで作られた構造との相互作用に重点を置きながら、その後に続く可能性のある出来事の順序を決定してください。",
+        "reference_answer": "写真を分析すると、緑のクレートの塔が不安定な高さまで積み上げられ、一方に危険なほど傾いているように見えます。学生が塔に手を伸ばしており、恐らくそれを安定させようとしているのでしょう。他の人々は、楽しんでいる様子からパニックに至るまで、様々な反応を示しています。\n\n塔の目に見える傾きと、基部近くのクレートの動きから判断すると、この構造物は崩壊寸前であると予測するのが妥当です。塔の近くにいる学生は、クレートが落ちてきた際に当たる危険があります。クレート自体は、その重さや中身によっては、衝撃で散乱し、怪我を引き起こす可能性があり、少なくとも大きな混乱を招くでしょう。\n\n人々の反応から、これは休憩中やレジャーのひとときに起こった予期せぬ出来事であることが示唆されます。制服から考えると、学校や類似の施設での出来事かもしれません。崩壊は突然起こり、大きな音を立てて、写っていない他の人々の注意を引く可能性があります。これにより、より多くの人が集まり、怪我のリスクが増し、片付け作業が複雑になる恐れがあります。\n\nこの状況を考慮すると、参加した学生にとって、物理学と安全性に関する即席の教訓となるかもしれません。構造物の安定性と重心の重要性、そしてこのような取り組みにおける先見性の欠如の潜在的な結果を強調します。\n\nその後、安全性やこれらのクレートの適切な使用に関する議論が予想され、同様の事故を防ぐためのルールやガイドラインの実施につながるかもしれません。もしこの出来事がユーモアを持って受け止められ、深刻な怪我がなければ、学生たちの間で共有される逸話となり、彼らの共同体験の伝説に貢献するかもしれません。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response logically predict the sequence of events following the moment captured in the photograph, with emphasis on the structure made of crates?",
+            "score1_description": "The response notes the falling crates but fails to predict specific interactions, for example, it mentions that the crates are toppling but does not discuss the students' likely movements or the crates' path.",
+            "score2_description": "The response predicts that the crates will fall but only provides a generic outcome, for example, it suggests students may react but does not specify how the closest student might move to avoid the fall.",
+            "score3_description": "The response predicts the immediate reaction of the student stabilizing the crates but lacks detail on others' reactions, for example, it might state the student will step back without discussing the potential chain reaction among the others.",
+            "score4_description": "The response provides a detailed prediction of the crates' fall and the students' reactions, but may not fully account for the aftermath, for example, it describes dodging actions but not the consequences of the scattered crates.",
+            "score5_description": "The response offers a comprehensive prediction, detailing the crates' trajectory, each student's likely movements, and the subsequent consequences, such as disruption and noise, reflecting a nuanced understanding of the dynamics."
+        },
+        "atomic_checklist": [
+            "Does the response predict that the student touching the crates will immediately withdraw their hands?",
+            "Is the response specific about the direction in which the crates are likely to fall?",
+            "Does the response anticipate the likely movement of the student directly in the path of the falling crates?",
+            "Does the response predict the reactions of the surrounding students, such as stepping back or trying to catch the crates?",
+            "Is the response detailed about the potential noise and disruption caused by the collapsing crates?",
+            "Does the response consider the possibility of the crates scattering and the safety risks involved?",
+            "Is the response predicting any immediate intervention by onlookers or authorities due to the incident?"
+        ],
+        "background_knowledge": [],
+        "caption": "The Great Crate Catastrophe: When a towering stunt turns into a frantic scramble",
+        "response": "ないとも可能でしたらないとも可能でしたらないとも可能でしたらないとも可能でしたらないとも可能でしたらない"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "視覚的な錯覚を含む画像を分析する際、その画像から生じるさまざまな解釈を説明してください。現れる可能性のある視点を考慮し、提示された視覚情報から推測できる異なる意味について詳しく述べてください。",
+        "reference_answer": "提示された画像は、多様な解釈が可能な曖昧な図形の古典的な例です。最初に見ると、そのシルエットはキスをしようとしている横顔の二つの顔、または明るい背景に中心に置かれた一つの花瓶として見ることができます。この種の画像はルビンの壺として知られ、図地認識の例です。\n\n曖昧さを解消するためには、二つの可能な解釈を交互に行うために必要な視点の変化に気づく必要があります。黒い形に焦点を当てると、その輪郭はお互いを見つめる二つの顔のシルエットに似ています。各顔の中央の縁が鼻に相当し、外側の縁が頭の後ろを形成します。この解釈は、黒い形を図（焦点の対象）として見て、白い部分を地（背景）として見ることに依存しています。\n\n逆に、白い空間を図として考えるように焦点を調整すると、黒い形は背景に後退し、花瓶が見えてきます。花瓶の輪郭は、横顔の縁によって構成されます。花瓶としての解釈は、対称性と画像の中央配置によって強化され、これらはそのような物体の一般的な特徴です。\n\nこの画像が図と地の組織化の認知プロセスを利用していることが興味深いです。私たちの視覚システムは、画像のどの部分が主題（図）であり、どの部分が背景（地）であるかを決定します。この画像は二重安定性を持つように設計されており、意図的にこれら二つの解釈を支持し、意図的にそれらの間を切り替えることができますが、同時に両方を保持することはできません。\n\nこの視覚的錯覚の包括的な理解は、画像の二重の性質を認識し、評価することにあります。それは単に二つの顔や花瓶の絵ではなく、視覚刺激の異なる解釈を切り替える人間の能力の実証です。この理解は、感覚情報を解釈する際に関与する視覚認識と認知処理の複雑さへの理解を深めます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response provide a comprehensive analysis of the optical illusion and its multiple interpretations?",
+            "score1_description": "The response identifies the optical illusion but offers no further interpretation, for example, it might only state the presence of black and white shapes without seeing the profiles or the vase.",
+            "score2_description": "The response recognizes one interpretation of the illusion but not the other, for example, it may describe the vase but not the profiles, or vice versa.",
+            "score3_description": "The response mentions both interpretations but does not elaborate on the figure-ground perception involved, for example, noting the profiles and the vase but not explaining the shift in perspective.",
+            "score4_description": "The response details both interpretations and touches on the cognitive processes involved but may not fully capture the bi-stable nature of the image, for example, it might explain figure-ground organization but not the inability to see both images at once.",
+            "score5_description": "The response thoroughly analyzes the optical illusion, clearly detailing both interpretations, the cognitive processes of figure-ground perception, and the bi-stable nature of the image, reflecting a deep understanding of visual perception."
+        },
+        "atomic_checklist": [
+            "Does the response identify the silhouette as a Rubin's Vase, demonstrating figure-ground perception?",
+            "Is the response clear about the two interpretations of faces and a vase?",
+            "Does the response explain the need to shift perspective to alternate between interpretations?",
+            "Is the response detailed in how the black shape can be seen as the figure with the white as the ground and vice versa?",
+            "Does the response discuss the bi-stable nature of the image, where both interpretations cannot be held simultaneously?",
+            "Does the response elaborate on the complexity of visual perception and cognitive processing in interpreting sensory information?"
+        ],
+        "background_knowledge": [],
+        "caption": "A classic play on perception: Two faces or a vase?",
+        "response": "ステッカーに入り込まれたストックボードの数枚あるようではないが,それだけはない"
+    },
+    {
+        "capability": "vision",
+        "task": "defeasible_reasoning",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "祝祭の集まりが撮影された際、そこにいる人々の間にある潜在的な感情や交流はどのようなものですか。そして、祝賀イベントにおけるより広範な人間の感情や社会的ダイナミクスをどのように反映しているのでしょうか？ ",
+        "reference_answer": "この画像は、クリスマスの帽子をかぶった人々が登場し、陽気な仲間意識を示唆する、休日の祝典に典型的な活気ある雰囲気を醸し出しています。中央の人物である男性と女性は、女性の広い笑顔と男性の微妙で満足そうな表情からもわかるように、共有された楽しみの瞬間に没頭しています。彼らは共にグラスを持ち、その場の社交的かつ祝祭的な雰囲気を示しています。\n\n女性の目は笑いで輝き、そうした集まりでしばしば感じられる喜びと解放感を反映しています。彼女の開かれた表情豊かな顔は、帰属意識と楽しさを示し、温かさと喜びの集団的なムードと共鳴しています。男性が彼女と近接し、ボディランゲージを通じて関わっていることは、他者とのつながりと祝賀を求める人間の必要性を物語っています。\n\n背景には、他の参加者たちも同様に祝祭の精神に没頭しています。ぼやけた背景のきらめく光は、休日の魔法の輝きを象徴し、全体的な黄金色の色調がシーンの感情的な温かさを増幅しているように見えます。参加者たちは単にそこにいるだけでなく、そうしたイベントが織りなす共有された人間の経験のタペストリーに積極的に貢献しています。\n\nこの画像は、単なる享楽の瞬間を捉えるだけでなく、普遍的に共鳴する感情的なつながりの豊かなタペストリーをも包含しています。それは、祝祭の場が強調しうる共有された人間性を思い起こさせ、個々を喜び、友情、そして共同の祝賀を求める人間の欲求の集団的な表現へと導きます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response insightfully analyze the underlying feelings and interactions at the festive gathering?",
+            "score1_description": "The response briefly acknowledges the festive setting but fails to delve into the emotions or interactions, for example, noting the Christmas hats but not the expressions or body language of joy and camaraderie.",
+            "score2_description": "The response recognizes happiness in the gathering but does not connect it to broader social dynamics, for example, mentioning smiling faces but not the shared amusement or sense of belonging.",
+            "score3_description": "The response describes surface-level interactions and some emotions, such as laughter, but lacks depth in exploring the significance of these in the context of human connection, for example, noting the toasting but not the deeper sense of unity it signifies.",
+            "score4_description": "The response captures most of the emotional essence and social interactions, like engagement and warmth, but may not fully interpret the broader human experience, for example, recognizing close proximity but not fully discussing the collective mood it creates.",
+            "score5_description": "The response provides a comprehensive analysis of the feelings and interactions, deeply understanding the joy, belonging, and human connection present at the event, reflecting on how these elements combine to create a rich, shared human experience."
+        },
+        "atomic_checklist": [
+            "Does the response note the Christmas hats and interpret them as a sign of shared festivity?",
+            "Is the response attentive to the woman's laughter and what it signifies about the mood of the event?",
+            "Does the response discuss the man's body language and its implications for social bonding?",
+            "Does the response mention the social act of toasting and its role in festive indulgence?",
+            "Is the response descriptive of the background ambiance and how it contributes to the festive atmosphere?",
+            "Does the response connect individual expressions to collective emotional warmth and celebration?",
+            "Is the response comprehensive in covering the richness of emotional connections and their universal resonance?"
+        ],
+        "background_knowledge": [],
+        "caption": "Joyful laughter and festive cheer at a sparkling Christmas party.",
+        "response": "祝賀イベントの人々間で 祝かったし として 嬉しい を 歌う 祝文 を 歌おう"
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "肖像画を観察して、その肖像画のどの特別な要素がこの作品の雰囲気を作り出し、またそれらがどのように相互作用して全体的な感情体験を創り出すのか答えよ。\n",
+        "reference_answer": "問題の肖像画は、主に被写体の穏やかな視線と柔らかな照明を通じて、静かで瞑想的な雰囲気を醸し出しています。女性の目はわずかに伏せられ、横を向いており、観る者に彼女の心に何があるのかを考えさせ、内省や静けさを示唆しています。画像の照明は彼女の顔の片側を柔らかく照らし、微かな影を落として静かな雰囲気を作り出しています。この光と影の相互作用が、絵画全体の落ち着きと思慮深い雰囲気に寄与しています。\n\nさらに、色の選択がこの雰囲気を高めています。青いスカーフの涼しい色調と彼女の衣服の暖かい土色の色合いが、バランスの取れた調和のとれた効果を生み出し、平和な感覚を呼び起こします。優雅に垂れたスカーフは、被写体の品位ある反省的なオーラをさらに引き立てています。光を受けて輝く孤立したイヤリングは、彼女の瞑想的な表情に観る者の注意を引きつけ、肖像画の感情的な共鳴を深めています。\n\nまた、被写体と暗い背景との鮮明な対比が、観る者の注意を彼女に集中させ、画像の親密で瞑想的な質をさらに強化しています。気を散らす要素のないシンプルな構図が、より深い感情的なつながりを可能にし、観る者を被写体と個人的なレベルで関わらせます。このミニマリストなアプローチは、観る者に被写体の態度の微妙さを考えさせ、彼女の内面の生活について推測させることで、画像の内省的な雰囲気を高めています。\n\n全体として、肖像画の感情的な影響は、構図、照明、色、ディテールの巧みな組み合わせの結果であり、それらが一体となって内なる静けさと反映された孤独の力強くも控えめな描写を作り出しています。 ",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the elements that contribute to the mood of the portrait and their interplay to create an emotional experience?",
+            "score1_description": "The response identifies basic elements of the portrait but does not relate them to the mood, for example, it might mention the subject's gaze but not how it conveys introspection.",
+            "score2_description": "The response recognizes one or two elements that contribute to the mood but does not integrate them into a cohesive analysis, for example, noting the lighting or color but not how they work together to evoke calmness.",
+            "score3_description": "The response describes several elements such as gaze, lighting, and color, and begins to relate them to the mood but lacks detail on their interactive effect, for example, it might suggest tranquility but not delve into the emotional depth created by these elements.",
+            "score4_description": "The response provides a detailed explanation of the elements and their contribution to the mood, but may not fully capture the holistic emotional experience, for example, it describes the serene atmosphere but not the viewer's personal engagement with the portrait.",
+            "score5_description": "The response offers a comprehensive explanation of the elements and their synergy, thoroughly describing how they interact to create a holistic emotional experience, reflecting a deep understanding of the portrait's figurative language."
+        },
+        "atomic_checklist": [
+            "Does the response interpret the subject's gaze as an element of introspection?",
+            "Is the response detailed in describing how the lighting contributes to the serene mood?",
+            "Does the response analyze the color choice and its effect on the painting's atmosphere?",
+            "Does the response consider the headscarf and its role in the subject's dignified aura?",
+            "Is the response attentive to the earring's detail and its emotional significance?",
+            "Does the response discuss the contrast between the subject and background and its impact?",
+            "Is the response comprehensive in connecting all elements to a profound emotional connection with the viewer?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image appears to be a digital representation or photograph of the famous painting \"Girl with a Pearl Earring\" by Johannes Vermeer. The subject is a young woman looking over her shoulder, with a blue headscarf and a large pearl earring. The background is dark, highlighting the subject's face and attire. This artwork is known for its exquisite use of light and shadow, as well as its captivating depiction of the young woman's gaze.",
+        "response": "耳筒と耳筒の輪廓であるペンギンの耳筒のパターンは,シンボルによって表現されています"
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "視覚メディアに提示された状況を精査し、現在描かれているシナリオに至るまでの出来事と自然のプロセスの順序を説明してください。示された対象への影響と、より広範な環境の文脈を考慮してください。この状態に寄与する要因を分析し、現状が続いた場合の潜在的な結果を予測してください。  \n",
+        "reference_answer": "画像は、極地のクマが小さく薄くなった氷の塊に不安定に乗っており、その周囲を水が囲んでいる様子を描いています。これは、気候変動と北極の野生生物への影響との因果関係を鮮やかに示しています。この状況の主な原因は、温室効果ガスの排出量増加による地球温暖化です。温暖化は海氷の融解を引き起こし、その影響は極地のクマの生息地で直接観察できます。\n\n氷の異常な形状は、かつてはそれがより大きな氷床の一部でありそれが溶けて崩壊したことを示しています。極地のクマは、休息や主な食料源であるアザラシを狩るためのプラットフォームとしてこれらの海氷に依存しており、薄くなった氷はこのクマを不安定な状況に追い込み、生存と狩猟能力に直接的な影響を与えていることを示しています。\n\nより広範な環境の文脈として、気候変動の連鎖的な影響を挙げることができます。これには、多くの種の生息地の喪失、海面上昇、海流の変化などが含まれます。これらの状況が続くと、極地のクマにとっての結果は悲惨なものとなり、飢餓、繁殖率の低下、最終的には個体数の減少、さらには絶滅に至る可能性があります。\n\n海氷の喪失は、北極の生態系の健康と密接に関連している地元の人々の生活様式や経済にも影響を与えます。狩猟や漁業を含む伝統的な生活様式が危険にさらされており、この環境問題の広範な影響を示しています。\n\nまとめると、画像は北極に影響を与えている大規模で進行中の環境危機の縮図である小さくも力強い場面を捉えています。極地のクマの闘いは、気候変動を緩和するための行動の緊急性を示す感動的な指標です。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the sequence of events and natural processes leading to the depicted scenario, including the broader environmental implications?",
+            "score1_description": "The response observes the situation but fails to connect it to environmental processes, for example, it might note the polar bear on ice but not mention global warming or habitat loss.",
+            "score2_description": "The response identifies a link between the polar bear's situation and environmental change but lacks a deeper analysis of cause and effect, for example, mentioning thinning ice without discussing the impact on the bear's hunting habits.",
+            "score3_description": "The response describes the polar bear's precarious position and hints at climate change, but does not fully explore the implications for the Arctic ecosystem or the bear's survival, for example, it might omit the potential outcomes if current conditions persist.",
+            "score4_description": "The response provides a detailed explanation of the visual metaphor, capturing the relationship between climate change and its impact on the polar bear, but may not fully predict the broader environmental outcomes, for example, it discusses habitat loss but not the effects on human communities.",
+            "score5_description": "The response offers a comprehensive analysis of the scenario, thoroughly detailing the environmental processes, the implications for the subject, and the broader context, reflecting a profound understanding of the image's figurative message."
+        },
+        "atomic_checklist": [
+            "Does the response identify the thinning ice as a consequence of global warming?",
+            "Is the response detailed in describing how climate change impacts the polar bear's habitat?",
+            "Does the response analyze the implications of the scenario for the polar bear's hunting and survival?",
+            "Does the response consider the effects of sea ice loss on the broader Arctic ecosystem, including human populations?",
+            "Is the response comprehensive in connecting the visual depiction to the urgent need for climate change mitigation?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows a polar bear perched precariously atop a small, thin iceberg in the middle of the water. The polar bear's posture and the size of the ice piece create a striking visual, often used to symbolize the impact of climate change on Arctic ice habitats and the plight of polar bears.",
+        "response": "雪崩し,雪崩する,退治される冰块から雪崩する,消える,融けてくる,消えたり"
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "このポスターを分析し、どのような歴史的背景がこのようなフレーズを生み出した可能性があり、この背景がこの画像内の要素の象徴性や使用法にどのように結びついているのかを説明しなさい。",
+        "reference_answer": "画像は、明るい赤い背景に「KEEP CALM AND CARRY ON」という太字の大文字のフレーズが描かれ、王室の紋章で飾られています。この象徴的なポスターは、第二次世界大戦の初めにおけるイギリスの歴史に根ざしています。これは、戦時中の災害に備えて、国民の士気を高めるメッセージとして、1939年にイギリス政府によって最初に制作されました。\n\n「KEEP CALM AND CARRY ON」は多くの意味を含蓄しています。それは、混乱の中で冷静さと通常性を保つよう促す、レジリエンスと不屈の精神のメッセージを体現しています。王冠の使用は単なる装飾ではなく、君主制を表し、団結感、国家の誇り、そしてイギリス国民の集団的アイデンティティへ希求します。メッセージの上の王冠は、君主制に関連する権威と安定性を伴う指示であることを暗示しています。\n\n赤色は重要であり、注意を引き、警戒と緊急性としばしば関連付けられ、戦時中の適切な感情であったでしょう。しかし、命令形のフレーズ自体は、背景の警戒色と対照的に、冷静な熟慮の感覚を植え付けようとしています。この対比は、行動の緊急性が精神の冷静さによって和らげられるという比喩の深さを際立たせます。\n\n現代文化におけるミームや装飾的なモチーフとしてのフレーズの持続性と再興は、その比喩的な豊かさをさらに強調しています。それは、戦争の文脈だけでなく日常の課題に対するストイックな対応を表しており、元の目的を超越する時代を超えたメッセージを体現しています。この比喩は、人生のあらゆる困難に直面したときの個人的なレジリエンスにまで拡張され、普遍的に適用可能な心構えを象徴しています。\n\nまとめると、このポスターは、国の歴史的なレジリエンスを伝えつつ、集団的および個人的な挑戦に直面する中で冷静さと不屈の姿勢を保つことを示す永続的な比喩を提供する作品です。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the historical context of the phrase 'KEEP CALM AND CARRY ON' and analyze the symbolism of the elements within the image?",
+            "score1_description": "The response mentions the phrase but fails to provide any historical context or symbolic analysis.",
+            "score2_description": "The response provides a generic historical context without specific details or a clear explanation of the symbolism.",
+            "score3_description": "The response gives an accurate historical context or symbolic analysis, but not both. For example, it may mention World War II but not the significance of the crown or color.",
+            "score4_description": "The response provides a detailed historical context and a basic symbolic analysis. For example, it explains the phrase's origin in World War II and the general significance of the crown, but not the color red or its modern cultural impact.",
+            "score5_description": "The response offers a comprehensive explanation of both the historical context and the symbolism. For example, it details the phrase's creation during World War II, the authority implied by the crown, the urgency indicated by the color red, and the phrase's modern-day relevance."
+        },
+        "atomic_checklist": [
+            "Does the response identify the phrase as originating from British World War II propaganda?",
+            "Does the response explain the significance of the royal crown symbol?",
+            "Is the response discussing the color red's association with urgency and alertness?",
+            "Does the response relate the poster to modern cultural significance, such as its use in media or as a meme?",
+            "Is the response indicating the phrase's intention to boost morale and resilience?"
+        ],
+        "background_knowledge": [],
+        "caption": "Iconic British wartime slogan presented in bold white text over a striking red background, inspiring resilience and steadiness.",
+        "response": "歴史的背景を持つために 寫真の背景は古代から生まれ,やってきていて,ロンドンから帰ってきた人々たちが歩いていった間"
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "子供たちがメリーゴーラウンドに乗っている光景を観察し、そこに展開される暗黙的な物語を描写し、根底にある子どもたちの間の力学と感情を詳述してください。目に見えていないことに深く考え、それぞれがこの共有された瞬間に経験しているであろう関係性や個々の物語について詳しく述べてください。 ",
+        "reference_answer": "その画像は、時間の中で凍りついた瞬間を捉えており、メリーゴーラウンドに乗るそれぞれの子供は独自の世界に没頭しています。一見すると単純な乗り物に見えますが、よく観察すると、その乗り物は多くの物語の舞台となります。\n\n前にいる子供は、決意を持ってメリーゴーラウンドのバーを握りしめ、勇敢な探検家としての自分を作り上げているかもしれません。彼の前方を見据える視線とわずかな眉間のしわは、集中と責任感を示しており、彼が想像上の危険を切り抜けてチームを「操縦」していることを示唆しています。彼にとってメリーゴーラウンドは単なる乗り物ではなく、荒波を航海する船であり、彼はその船長として海の波を乗り越えています。\n\n中央の女の子に目を向けると、彼女の体の動きや遠くを見つめる視線は内省を物語っています。おそらく彼女は動きのスリルを求めてこの乗り物に乗っているのではなく、遊び場の喧騒からの一時的な逃避として乗っているのでしょう。彼女にとってメリーゴーラウンドは静けさをもたらす乗り物であり、円を描く動きは興奮させるのではなく、心を落ち着かせるものです。\n\nその後ろには、顔を背けている子供がいます。カメラを避けているかのようです。この行動は内気さではなく、むしろ深く個人的に体験を吸収している思慮深い気分の反映かもしれません。この子供にとってメリーゴーラウンドは、予測可能な乗り物の中での安心感を呼び起こす、日常のサイクルを表しているのかもしれません。\n\n最後に、ほとんど見えない最後の子供は、隣の子と会話をしているように見えます。この乗り物は社交的な体験であり、物語や笑いを共有し、スリルを共に楽しむ機会です。この子にとって重要なのは乗り物そのものではなく、それがもたらす仲間との絆です。\n\n同じ物理的な動きに参加しているにもかかわらず、それぞれの騎手たる子供たちは異なる感情の旅をしています。メリーゴーラウンドは、私たちが人生で取るさまざまな道と、共有する経験を処理する多様な方法の暗喩となっています。この画像は、単に乗り物に乗る子供たちの写真ではなく、各個人の物語が集合的な体験と同様に重要である人生そのもののを切り取っているようです。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively describe the unspoken narratives and emotional undercurrents among the children on the carousel?",
+            "score1_description": "The response fails to identify any emotional narratives or individual dynamics, focusing only on the physical aspects of the carousel.",
+            "score2_description": "The response hints at possible emotional narratives, but it lacks depth and does not convincingly elaborate on the children's individual experiences.",
+            "score3_description": "The response describes some emotional narratives and touches upon the children's individual experiences but fails to interconnect these stories or misses key elements visible in the scene.",
+            "score4_description": "The response provides a good description of the emotional narratives and individual dynamics, with only minor details lacking or unexplored.",
+            "score5_description": "The response comprehensively captures the emotional undercurrents and individual stories, weaving together the children's experiences into a cohesive narrative that aligns well with the visual clues presented in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify the determined expression of the child at the front as a narrative of leadership or adventure?",
+            "Does the response infer introspection or tranquility from the body language and gaze of the girl in the middle?",
+            "Is the child turned away interpreted as being in a contemplative mood, engaging with the ride in a personal way?",
+            "Does the response explore the potential social interaction of the barely visible child at the back?",
+            "Are the individual narratives interconnected to depict a collective experience on the carousel?",
+            "Is the carousel metaphorically described as representing various paths in life or ways of processing experiences?",
+            "Does the response reflect on the relationships between the children or their individual stories with specific cues from the image?",
+            "Is the overall mood of the scene captured while accounting for the joy, introspection, and camaraderie among the children?",
+            "Does the response include descriptions that go beyond the immediate visual elements to suggest deeper emotional layers?"
+        ],
+        "background_knowledge": [],
+        "caption": "Little passengers on a merry adventure: Kids enjoying a ride on a mini train indoors.",
+        "response": "絵本絵本の人々 メリーボーランコールゲームで遊びる子供たち"
+    },
+    {
+        "capability": "vision",
+        "task": "figurative_speech_explanation",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "添付された絵画の構成と要素を分析し、人物の服装、彼らが持っている旗、描かれている紛争の背景を考慮してください。これらの要素が描写されている時代において、歴史的な重要性と文化的な意味合いを議論してください。 ",
+        "reference_answer": "この絵画は特有の制服と旗によって識別できるようにアメリカ南北戦争の場面を描いています。画像の中では特に合衆国の星条旗と南部連合の戦闘旗が目立ちます。兵士たちの服装は当時の服装に忠実であり、北軍の兵士は青いコートを、南軍の兵士は灰色のコートを着ており、北部と南部の州の分裂を象徴しています。\n\n誇らしげに掲げられた合衆国の旗は、合衆国と国家を維持するための努力の象徴です。南部連合の戦闘旗は、自治権と生活様式を維持する権利を求めて戦った脱退州を表していますが、その中には論争を呼ぶ奴隷制度も含まれていました。\n\nこの場面は、南北戦争を特徴づけた数多くの小競り合いの一つである可能性が高く、両陣営が接近戦を繰り広げており、戦争の残酷さと個人的な性質を示しています。煙と混乱は戦争の激しさと「戦争の霧」を捉えており、この言葉は戦闘中に経験される不確実性と混乱を表現するためによく使われます。\n\nこの戦争はアメリカの歴史に深い影響を与え、奴隷制度の廃止や連邦と州の権力の大きな変化をもたらしました。文化的な影響は広範で、この紛争の遺産は現在もアメリカ社会、政治、人種関係に影響を与え続けています。戦闘旗は今や重い象徴を持ち、強い感情的な反応を引き起こし、遺産と憎悪についての継続的な議論の中心にあります。\n\n兵士たちが接近戦に従事する様子は、当時の戦術と戦闘の激しさを反映しており、兄弟同士が戦うこともあったことを示しています。それは、国が最も困難な時期に分裂していたことを痛感させるものであり、この絵画は両陣営で戦った個々の勇気と犠牲に対する賛辞として機能しています。\n\nこの作品は南北戦争の歴史的背景の本質を捉えており、大義への激しい忠誠と兄弟同士の悲劇的な紛争の性質を描いています。この絵画の重要性は、単に歴史的な正確さにあるだけでなく、アメリカの歴史の重要な瞬間の感情的かつ文化的な重みを伝える能力にもあります。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately analyze the historical and cultural elements of the painting related to the American Civil War?",
+            "score1_description": "The response fails to accurately recognize any historical or cultural elements, missing the depiction of the Civil War entirely.",
+            "score2_description": "The response identifies the painting as a Civil War scene, but it does not accurately describe the uniforms, flags, or the context of the conflict, for example, recognizing the uniforms but not the significance of the flags.",
+            "score3_description": "The response correctly identifies the attire and the flags but only provides a superficial analysis of the setting and its implications, for example, acknowledging the battle but not its broader historical context.",
+            "score4_description": "The response provides a clear analysis of the attire and flags, correctly identifies the conflict as the Civil War, and touches on its historical significance, but lacks depth in cultural implications, for example, mentioning the conflict but not its lasting effects on American society.",
+            "score5_description": "The response provides a comprehensive analysis of the attire, flags, and setting, accurately discusses the historical significance, and deeply explores the cultural implications of the Civil War, exemplifying a high level of understanding and insight into the period the scene is portraying."
+        },
+        "atomic_checklist": [
+            "Does the response identify the uniforms and flags as belonging to the American Civil War?",
+            "Does the response describe the historical context of the Civil War?",
+            "Is the response discussing the cultural implications of the Civil War accurately?",
+            "Does the response explain the significance of the Union and Confederate flags?",
+            "Is the setting of the conflict described in a way that is consistent with historical accounts of the Civil War?",
+            "Does the response reflect an understanding of the tactics and nature of Civil War battles?",
+            "Does the response consider the emotional impact and legacy of the Civil War on current society?"
+        ],
+        "background_knowledge": [],
+        "caption": "A dramatic reenactment of a Civil War battle scene, showcasing soldiers marching under the Union and Confederate flags.",
+        "response": "是しかもないがなるのかどうかはいきませんでした回答がないし,不適切です.背景には2本のフラガンが描かれている"
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "提供された画像の「？」に最も適した選択肢（A～F）を推測してください。答えを書く前に、パターンを分析して考えを詳しく述べてください。",
+        "reference_answer": "指示は、画像内の「？」に最も適したオプションを推測するよう求めています。\n\n各行には、3つの画像の間に共通点があります。\n- 最初の行には、正方形の頂点に配置された4つの点があります。\n- 2番目の行には、四方に突き出た星の変形である鉄十字があります。\n- 同様に、3番目の行には、中央に別のオブジェクトを囲む正方形があるはずです。\n\n各列には、3つの画像の間に共通点があります。\n- 最初の列には、中央に配置された円があります。\n- 2番目の列には、中央に配置されたプラス記号があります。\n- 同様に、3番目の列には、中央に回転した正方形があるはずです。\n\nこれらの観察に基づいて、「？」に最も適したオブジェクトは、中央に回転した正方形とそれを囲む大きな正方形を持つべきです。\nしたがって、答えはEです。",
+        "score_rubric": {
+            "criteria": "Does the response include a reasoning process that identifies the patterns and selects the correct answer for a visual pattern recognition problem?",
+            "score1_description": "The response lacks any recognition of the patterns, does not explain, and selects an incorrect answer without justification.",
+            "score2_description": "The response demonstrates minimal recognition of the patterns, offers a flawed explanation, and selects an answer with weak justification. Even if the answer is correct, a score of 2 should be given if the reasoning process within the response is not comprehensive enough.",
+            "score3_description": "The response shows some recognition of the patterns, provides a partial explanation (e.g., identifying only the patterns for the column or row), and may select a partially correct answer or a correct answer with an incomplete justification.",
+            "score4_description": "The response displays substantial recognition of the patterns, gives a mostly complete explanation, and selects the correct answer with good justification.",
+            "score5_description": "The response demonstrates excellent recognition of the patterns, provides a comprehensive and detailed explanation, and selects the correct answer with strong, well-justified reasoning."
+        },
+        "atomic_checklist": [
+            "Does the reasoning process encompass an analysis of the commonality for each row?",
+            "Does the reasoning process encompass an analysis of the commonality for each column?",
+            "Based on the analysis for each row and column, does the response succeed at inferring to the most probable answer which is E?"
+        ],
+        "response": "円1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "画像にある「？」の位置に最も適切に続く選択肢（AからFの中から）を決定しなさい。答えを提示する前に、パターンを調べて推論を説明しなさい。 ",
+        "reference_answer": "指示は、画像内の「？」を正しく埋める選択肢を推測することを求めています。  \n「ways」と「yaws」という2つの単語を見ると、両方の単語には共通の文字が含まれています。この問題を解く1つの方法として、各文字が特定の数字に対応している可能性があります。  \nしたがって、「w=5」、「a=3」、「y=8」、「s=6」となります。すると、「yaws」は「8356」になります。したがって、答えはFです。  \n",
+        "score_rubric": {
+            "criteria": "Does the response recognize character-to-number mapping in a pattern recognition task and apply it to determine the correct sequence?",
+            "score1_description": "The response shows no understanding of character-to-number mapping, fails to recognize the pattern, and incorrectly completes the sequence with no logical explanation.",
+            "score2_description": "The response demonstrates limited understanding of the pattern, attempts character-to-number mapping with significant errors, and arrives at an incorrect sequence with flawed reasoning.",
+            "score3_description": "The response exhibits partial understanding of the pattern (e.g., wrong mapping for certain characters), performs the character-to-number mapping with minor errors, and proposes a sequence that is close to correct but with insufficient reasoning.",
+            "score4_description": "The response reflects a good understanding of the pattern, correctly applies character-to-number mapping, and identifies the right sequence with minor lapses in the reasoning process (e.g., fail to recounstruct the correct digit for \"yaws\").",
+            "score5_description": "The response shows excellent comprehension of the pattern, accurately maps characters to numbers, and flawlessly determines the correct sequence with a clear and logical explanation."
+        },
+        "atomic_checklist": [
+            "Does the response recognize that \"ways\" and \"yaws\" have the same characters in different order?",
+            "Does the response recognize that each character corresponds to a digit?",
+            "Does the response use the mapping between the character and digit to assemble the corresponding number for \"yaws\"?"
+        ],
+        "response": "目の向きでない数字1つの位置にある数値4番目のアイテムはそこになります"
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "画像に示されている「？」の場所にどの選択肢（AからF）が正確に続くかを判断してください。選択を明らかにする前に、設定されたパターンを調べて推論を詳述してください。",
+        "reference_answer": "指示は、画像の「？」を正確に完成させるオプションを決定することを要求しています。天秤は両端に7kgの重りを示しています。重りが同一であり、天秤の中心から等距離に配置されていることから、画像の「？」は同じ距離、つまり90cmを表していると推測できます。したがって、答えはFです。",
+        "score_rubric": {
+            "criteria": "Does the response apply logical reasoning to deduce the correct distance measurement?",
+            "score1_description": "The response shows no understanding of balance principles, does not recognize the equal weights, and incorrectly suggests a distance without any logical basis.",
+            "score2_description": "The response demonstrates a basic grasp of balance but incorrectly assumes the distances, leading to a wrong answer that lacks clear reasoning related to the scale's equilibrium.",
+            "score3_description": "The response recognizes the need for balance and the equal weights but is only somewhat correct in determining the distance, with an explanation that indicates partial understanding of the scale's functioning.",
+            "score4_description": "The response correctly identifies that the weights are equal and should be equidistant from the center, arriving at a nearly correct distance with reasoning that has minor inaccuracies.",
+            "score5_description": "The response accurately understands the concept of balance, recognizes that the weights are equal and equidistant from the center, and deduces the correct distance of 90cm with a well-reasoned explanation, resulting in the correct answer F."
+        },
+        "atomic_checklist": [
+            "Does the response understand that the two objects in the scale has the same weight (7kg)?",
+            "Does the response recognize that the two objects would be positioned equidistant from the scale's center (90cm)?"
+        ],
+        "response": "円数1,5,10,25,50,75,100,150,250,300,350,400,450,550,650,800"
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "提示された画像の「？」に正しく当てはまる選択肢（AからFの範囲）を特定してください。選択を明らかにする前に、確立されたパターンの分析を通じてあなたの思考過程を説明してください。",
+        "reference_answer": "提供された画像の「？」に入る正しい数字を特定するためには、提示された数字の列を分析し、パターンを特定する必要があります。画像にある数字は次の通りです：4, 5, 7, 10, 14, 19, 25, 32。\n\nこれらの数字の間の差は、次に進むにつれて増加しています：\n- 5と4の差は1です。\n- 7と5の差は2です。\n- 10と7の差は3です。\n- 14と10の差は4です。\n- 19と14の差は5です。\n- 25と19の差は6です。\n- 32と25の差は7です。\n\nこれは、各数字が前の数字に1から始まり、毎回1ずつ増加する数を加えて得られるパターンを示唆しています。\n\n32の次の数字を見つけるためには、8を加えます（最後の増加が7だったため）。\n\nしたがって、列の次の数字は32 + 8 = 40です。したがって、画像の「？」に入る正しい選択肢はCです。 ",
+        "score_rubric": {
+            "criteria": "Does the response recognize numerical patterns and correctly apply them to identify a missing number in a sequence?",
+            "score1_description": "The response does not recognize any pattern, cannot calculate the differences between numbers, and selects an incorrect answer without any valid reasoning.",
+            "score2_description": "The response shows a limited recognition of the pattern, makes calculation errors in the differences, and chooses an incorrect answer with a flawed justification.",
+            "score3_description": "The response correctly identifies the pattern but makes a minor error in applying it, leading to a close but incorrect answer, with an explanation showing partial understanding.",
+            "score4_description": "The response identifies and applies the pattern correctly but fails to match the result with the appropriate answer option, resulting in a nearly correct response.",
+            "score5_description": "The response accurately recognizes the pattern, applies it correctly to calculate the missing number, and precisely matches the result to the correct answer option with a clear and logical explanation."
+        },
+        "atomic_checklist": [
+            "Does the response calculate the difference between consecutive numbers in the sequence?",
+            "Does the response identify the pattern of incrementally increasing differences?",
+            "Does the response apply the identified pattern to predict the next number correctly?",
+            "Does the response match the calculated number to the correct answer option provided in the image?",
+            "Does the response verify that the pattern hold for all given numbers in the sequence before the missing number?"
+        ],
+        "response": "数字1つ目のページ数を探すものとなる数値2点の中で何人かが見つけたの"
+    },
+    {
+        "capability": "vision",
+        "task": "iq_test",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "表示された画像を使用して構成できる可能性のある正しい選択肢（AからF）を選択してください。選択を開示する前に、示されたパターンを検討してその理由を詳述してください。 ",
+        "reference_answer": "このパズルを解くには、色付きの正方形が平面上でどのように配置され、3Dの箱に折りたたまれるかを視覚化する必要があります。各色付きの正方形は箱の面を表しています。正方形が立方体に折りたたまれると、正方形の各辺が立方体の辺となり、平面上で接続されたすべての正方形は3Dの形でも接続されたままでなければなりません。提供された選択肢を分析しましょう：\n1. **上面（灰色）：** 灰色の正方形は中央にあるので、箱の上面になります。\n2. **側面：** 灰色の正方形を囲む色付きの正方形が箱の側面になります。\n3. **底面：** 箱の底面は展開図には見えませんが、灰色の正方形の反対側にあるはずです。\n\n次に、接続された側面を見てみましょう：\n- マゼンタの正方形は、灰色の正方形の一方の側に、緑の正方形の別の側に接続されています。\n- シアンの正方形はマゼンタの正方形の反対側にあるはずです。なぜなら、これらは接続されていないからです。\n- オレンジの正方形は灰色の正方形に接続され、緑の正方形の反対側にあります。\n- 茶色と紫の正方形は残りの側面で、茶色の正方形は灰色と緑の正方形の両方に接続されているため、マゼンタの正方形に隣接しています。\n\nこれらの考慮事項をもとに、展開図を各選択肢と比較して、このパターンから形成できるものを見つけましょう。\n検討した結果、選択肢**E**が正しい選択であることが明らかです。その理由は次のとおりです：\n- 灰色の正方形が箱の上面を形成し、選択肢Eで正しいです。\n- マゼンタと緑の正方形は互いに反対側にあり、選択肢Eでも同様です。\n- シアンの正方形はマゼンタの正方形に隣接しておらず、選択肢Eでの位置と一致します。\n- オレンジの正方形は緑の正方形の反対側で灰色に隣接しており、選択肢Eで見られるように一致しています。\n- 茶色の正方形は灰色と緑の正方形の両方に隣接しており、選択肢Eで正しく表現されています。\n\nしたがって、画像から形成される正しい箱は選択肢**E**に示されているものです。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response accurately perform spatial reasoning in mapping the 2D pattern to the 3D cube?",
+            "score1_description": "The explanation shows no understanding of spatial relationships; colors and positions are randomly assigned without following the logic of cube assembly.",
+            "score2_description": "The explanation demonstrates a minimal recognition of spatial relationships, but more than one major error in the mapping process leads to incorrect conclusions.",
+            "score3_description": "The explanation correctly identifies some spatial relationships, but minor errors in mapping or inconsistent logic result in an inaccurate representation of the cube.",
+            "score4_description": "The explanation displays a clear understanding of spatial relationships with only negligible errors, leading to a mostly accurate representation of the cube.",
+            "score5_description": "The explanation demonstrates precise and accurate spatial reasoning, with all colors and positions mapped correctly, resulting in a perfect representation of the 3D cube from the 2D pattern."
+        },
+        "atomic_checklist": [
+            "Does the explanation directly map each colored square in the unfolded pattern to a corresponding face on the 3D cube?",
+            "Are the adjacency relationships between the squares in the unfolded pattern correctly translated into adjacent faces on the cube?",
+            "Is there a clear rationale for identifying which squares are opposite each other on the cube, based on their positions in the unfolded pattern?",
+            "Does the reasoning process include a step that systematically excludes incorrect folding options based on the adjacency and opposite faces criteria?",
+            "Is the explanation consistent with the visual-spatial properties of a cube, such as the number of faces and the rule that each face must be connected to four other faces?"
+        ],
+        "response": "色の異なりしかない部分2と1と3の隣接部屋 オペレーター スクリーンショット"
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "この傑作のすごいところを、5歳の子どもに説明するようにわかりやすく教えてください。でも、聞き手が小さいからといって、細かいところを省略しないでくださいね！",
+        "reference_answer": "おもちゃ箱からクレヨンを取り出して、お空のえをかくところを想像してみてね。でも、ただの暗い空と小さな星じゃなくて、青や緑がいっぱいの、くるくる踊っているようなお空をかくんだ。そして星は、光るホタルみたいに大きくてピカピカ。線からはみ出してもいいの。色をぐるぐる波みたいに塗ってみよう。\n\nこの絵はね、そんな感じなんだ！夜空を特別な目で見た人が描いたんだよ。絵の具を使って、空が動いているみたいに見えるでしょ？星はとってもまぶしくて、まわりを明るくしているね。風の音が見えたり、音が見えたりするような不思議な感じを、この人は絵に表したんだ。色と想像力を使えば、生きているみたいな、魔法みたいなえが描けるんだね。すごいでしょ？",
+        "score_rubric": {
+            "criteria": "Does this response show a clear and imaginative description of the painting's colors, patterns, and emotional effect suitable for a 5-year-old?",
+            "score1_description": "The response does not effectively describe the colors or patterns, and fails to convey the emotional effect of the painting.",
+            "score2_description": "The response offers a basic description of the colors or patterns, but lacks detail and does not capture the painting's emotional effect.",
+            "score3_description": "The response describes colors and patterns in a simple manner and attempts to relate the painting's emotional effect, though not fully engaging a young child's perspective.",
+            "score4_description": "The response vividly describes the colors and patterns with some emotional context that is accessible to a 5-year-old.",
+            "score5_description": "The response provides a rich, detailed description of the painting's dynamic colors, lively patterns, and emotional impact, capturing a 5-year-old's imagination."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the use of vibrant colors to create a dynamic night sky?",
+            "Does the response describe how the stars are depicted unusually bright and lively?",
+            "Does the response mention the use of swirling patterns to convey movement?",
+            "Does the response explain the emotional impact the painting might have, in terms relatable to a 5-year-old?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.moma.org/collection/works/79802"
+            }
+        ],
+        "response": "画象の星空かなし点灯台がある間に屋根を持った家の背景 屋根が描かれています"
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "この人は誰ですか？彼は21世紀に生きる私たちにどのような影響を与えましたか？  \n",
+        "reference_answer": "画像の中の人物は、クラシック時代の非常に影響力があり多作な作曲家であるヴォルフガング・アマデウス・モーツァルトのようです。\n\nモーツァルトが21世紀に生きる私たちに与える影響は多大で多面的です：\n1. **音楽における影響**: 彼の曲はクラシック音楽の中で最も重要なものであり、彼の作風は後に続く無数の作曲家や音楽家に影響を与えました。彼の作品は今でも広く演奏され録音されており、世界中のクラシック音楽家のレパートリーの主要な部分を形成しています。\n2. **文化における影響**: モーツァルトの音楽は文化に浸透しています。映画、テレビ番組、コマーシャル、さらには着信音としても頻繁に使用され、クラシック音楽を幅広い聴衆に届けています。\n3. **教育における価値**: 彼の生涯と作品は音楽教育で広く学ばれており、音楽理論、作曲、歴史を教える基礎を提供しています。\n4. **音楽における革新**: 彼は当時の楽曲の限界を押し広げ、交響曲、オペラ、室内楽、協奏曲の可能性を拡大し、音楽の構造と洗練度に未来にわたって影響を与えました。\n5. **インスピレーション**: 音楽を超えて、モーツァルトの創造性と幼い頃から作曲を始めた神童としての彼の人生は、さまざまな分野の人々に自分自身の創造的な努力を追求するように刺激を与え続けています。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of Mozart's historical significance and his enduring influence on music and culture up to the 21st century?",
+            "score1_description": "The response fails to identify Mozart or acknowledge any aspect of his influence on modern music and culture.",
+            "score2_description": "The response recognizes Mozart as a Classical era composer but offers little detail on his impact in the 21st century.",
+            "score3_description": "The response notes Mozart's continued relevance in music performance today but misses broader cultural and educational impacts.",
+            "score4_description": "The response describes Mozart's influence on both classical music performance and cultural media, with some mention of educational value.",
+            "score5_description": "The response comprehensively covers Mozart's historical role, his music's pervasiveness in contemporary media, and his impact on music education and innovation."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Mozart's role as a composer in the Classical era?",
+            "Does the response mention the continued performance and recording of his work in the 21st century?",
+            "Does the response highlight the cultural presence of Mozart's music in modern media such as films and television?",
+            "Does the response address the educational significance of Mozart in music theory and history?",
+            "Does the response discuss Mozart's influence on the innovation and structure of various musical forms?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Appearance_and_character_of_Wolfgang_Amadeus_Mozart"
+            }
+        ],
+        "response": "良き人々を見ている人々のために必要な絶妙なアーティストですから ロンドン"
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "この肖像画のオリジナルはどこにありますか？また、そこで所蔵するいきさつ（例えば、歴史的背景の説明など）も説明してください。\n",
+        "reference_answer": "あなたが提供した肖像画は、フランスの著名な画家エリザベート・ルイーズ・ヴィジェ・ルブランによる「バラを持つマリー・アントワネット」のようです。マリー・アントワネットのオリジナルの肖像画は、フランスのヴェルサイユ宮殿に所蔵されています。\n\nこの絵画は、ヴィジェ・ルブランによる他の多くの作品と同様に、マリー・アントワネット自身がフランス革命前の最後の王妃であったという歴史的な重要性から、ヴェルサイユ宮殿に収められました。ヴェルサイユは、1682年にルイ14世の下でフランスの主要な王室の住居となり、1789年にルイ16世の下でフランス革命が始まるまで、フランスの政治権力の中心でした。\n\nマリー・アントワネットは芸術の重要な後援者であり、ヴィジェ・ルブランは彼女のお気に入りの画家となりました。王室は、彼女のイメージを国民の間で改善するために、女王の肖像画をいくつか依頼しました。フランス革命で王政が崩壊した後、多くの王室の所有物が目録に登録され、最終的に国のコレクションに加えられました。ヴェルサイユ宮殿は後に博物館および歴史的な場所となり、王室の肖像画を含むフランスの王室の歴史の遺産を保存しています。  \n",
+        "score_rubric": {
+            "criteria": "Does this response show detailed knowledge of the painting's current location and the historical reasons for its placement?",
+            "score1_description": "The response does not indicate the current location of the portrait or provide any historical context.",
+            "score2_description": "The response vaguely mentions the portrait's location but lacks detail and historical background.",
+            "score3_description": "The response correctly identifies the portrait's location and gives a basic explanation of its historical significance.",
+            "score4_description": "The response clearly states the portrait's location at the Palace of Versailles and includes relevant historical context regarding Marie-Antoinette and the French Revolution.",
+            "score5_description": "The response provides a comprehensive explanation of the portrait's location, the artist's connection to Marie-Antoinette, and a detailed account of the historical events that led to the painting's placement in the Palace of Versailles."
+        },
+        "atomic_checklist": [
+            "Does the response include the location of the original portrait, specifically the Palace of Versailles in France?",
+            "Does the response mention the artist, Élisabeth Louise Vigée Le Brun?",
+            "Does the response explain Marie-Antoinette's role as a patron of the arts and her influence on the commissioning of the portrait?",
+            "Does the response address the historical context of the French monarchy's fall and how royal possessions were handled post-revolution?",
+            "Does the response describe the transformation of the Palace of Versailles into a museum and its significance in housing such portraits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "Marie Antoinette with a Rose, also known as Marie-Antoinette with the Rose (French: Marie-Antoinette dit « à la Rose »), is an oil painting by the French artist Élisabeth Vigée Le Brun. It was painted in 1783, and is in the collection of the Palace of Versailles. As of November 2022, it is hanging in the ante-dining room of the Petit Trianon.\n\nÉlisabeth Vigée Le Brun, the court painter of Queen Marie Antoinette of France, painted Marie Antoinette with a Rose in 1783, six years prior to the outbreak of French Revolution and ten years prior to the eventual beheading of Louis XVI and the queen. Vigée Le Brun was enrolled at the Académie Royale de Peinture et de Sculpture on 31 May 1783 and in the same year she was commissioned by Marie Antoinette to present a portrait of herself for the upcoming Salon.[2] She portrayed the queen wearing a dress that looked like a chemise.\n\nThe first portrait, in a chemise, seems to have been lost, but the artist produced five subsequent versions with variations in costume, for example with a hat or in a muslin dress.",
+                "reference_url": "https://en.wikipedia.org/wiki/Marie_Antoinette_with_a_Rose#:~:text=Marie Antoinette with a Rose%2C also known as Marie-Antoinette,of the Palace of Versailles."
+            }
+        ],
+        "response": "ロンドン 写真撮影家の家の部屋内に展示されています.モニタリアなどの家である."
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "この絵について説明してもらえますか？以前の美術と比べて、何が大きく異なりますか？  \n",
+        "reference_answer": "あなたが見せてくださった作品は、ポップアート運動の主要な人物であるロイ・リキテンスタインによるものです。この特定の作品は「溺れる少女」として知られ、彼が1963年に制作しました。それは、コミックブックのベン・デイ・ドット印刷プロセスを模倣したリキテンスタインの特徴的なスタイルで作られています。これが伝統的な美術と異なる点は次の通りです：\n\n1. **スタイル**: リアリズムや古典的な美しさに焦点を当てるかもしれない伝統的な絵画技法とは異なり、リキテンスタインの作品は商業的で大量生産された美学を受け入れています。彼の太い輪郭線やドットのパターンを用いた大胆な色使いは、以前の美術に見られる筆遣いや質感とは対照的です。\n\n2. **主題**: 伝統的な美術はしばしば歴史的、宗教的、神話的、または上流社会の主題を描いていましたが、「溺れる少女」は漫画に基づいており、大衆文化や日常のテーマを表しています。\n\n3. **皮肉と風刺**: リキテンスタインの作品にはしばしば皮肉と風刺の感覚が含まれています。「溺れる少女」は、その大げさな吹き出しと共に、当時のテレビドラマの大げさな表現に対する風刺的な見方を反映しています。\n\n4. **文化的コメント**: この作品は、多くのポップアートと同様に、特にマスコミ、広告、消費主義の影響について現代社会に鋭く切り込みます。伝統的な美術の方向性と異なります。\n\nこの作品と伝統的な美術の違いは、「高尚な美術」とされていたものに対する大胆な挑戦であり、大衆文化と商業的美学を取り入れている点です。\n\n",
+        "score_rubric": {
+            "criteria": "Does this response show an insightful understanding of Roy Lichtenstein's \"Drowning Girl\" and its divergence from traditional art?",
+            "score1_description": "The response does not identify the artist or the unique characteristics that distinguish the artwork from traditional art.",
+            "score2_description": "The response recognizes Roy Lichtenstein as the artist but offers minimal detail on the distinct features of \"Drowning Girl\" or how it contrasts with traditional art.",
+            "score3_description": "The response identifies the artwork and artist, notes the Ben-Day dots style, but only partially addresses the parody and cultural commentary elements.",
+            "score4_description": "The response clearly identifies the artwork and artist, describes the Ben-Day dots and pop culture elements, and touches on the artwork's irony and societal commentary.",
+            "score5_description": "The response provides a comprehensive analysis of \"Drowning Girl,\" including details on the Ben-Day dots style, pop culture subject matter, use of parody, cultural commentary, and its challenge to \"high art\" conventions."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the distinctive Ben-Day dots style used by Roy Lichtenstein?",
+            "Does the response explain how the subject matter differs from traditional art by focusing on pop culture?",
+            "Does the response mention the use of irony and parody in contrast to traditional art's often serious themes?",
+            "Does the response discuss the cultural commentary aspect of the artwork, reflecting on mass media and consumerism?",
+            "Does the response address how Lichtenstein's work challenges traditional notions of \"high art\"?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Pop_art"
+            }
+        ],
+        "response": "はい,同じ異なります.絵は前に見ていても,絵の要素や画の構成は同じです."
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "私の家にこの作品に似た傑作を飾りたいです。美術作品を販売する人にこれをどのように説明すればいいでしょうか。どのように詳しく説明すればいいのか分かりません。 ",
+        "reference_answer": "画像の作品に似たものを取得するためにアートディーラーやギャラリーのオーナーと話す際には、自分が興味を持っているスタイルとテーマの要素を説明する必要があります。以下のように好みを説明することができます。\n\n1. **スタイル**: 抽象表現主義の作品を求めていることを伝えます。このスタイルは、大胆な筆遣い、鮮やかな色彩、そして自発的な感覚が特徴です。\n\n2. **構成**: 複雑で層状の構成を持つ絵画を探していることを指定します。おそらく、具象的な要素と抽象的な形が織り交ぜられているものです。\n\n3. **カラーパレット**: 豊かで多様なカラーパレットに興味があることを表現します。複雑なデザインの中で、高いコントラストと調和の可能性があるものを求めています。\n\n4. **感情的インパクト**: 強い感情的または劇的なインパクトを持つアート作品に惹かれることを伝えます。おそらく、動きや混沌の感覚があるものです。\n\n5. **サイズ**: 飾る部屋の大きさに合い、あなたが望む大胆な印象を与える絵画のサイズを指定します。\n\nこれらの詳細を提供することで、アートセラーはあなたのニーズをよりよく理解し、場所と個人的な趣味に合った傑作を案内することができます。 ",
+        "score_rubric": {
+            "criteria": "Does this response show clear communication of the desired artistic elements for a masterpiece to be displayed in the living room?",
+            "score1_description": "The response does not specify any of the desired artistic elements for the artwork.",
+            "score2_description": "The response vaguely mentions abstract elements but lacks detail on style, composition, color, emotional impact, and size.",
+            "score3_description": "The response includes general descriptions of style and color but does not fully articulate the desired composition, emotional impact, or specific size requirements.",
+            "score4_description": "The response clearly identifies the desired abstract expressionist style, rich color palette, and emotional impact, with some mention of size and composition preferences.",
+            "score5_description": "The response provides a detailed and specific description of all desired elements including style, composition, color palette, emotional impact, and size requirements for the artwork."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the desired abstract expressionist style with energetic and gestural brushwork?",
+            "Does the response mention the preference for a complex and layered composition that may include both figurative and abstract elements?",
+            "Does the response specify the interest in a rich and diverse color palette with the potential for both contrast and harmony?",
+            "Does the response convey the importance of the artwork having a strong emotional or dramatic impact?",
+            "Does the response indicate the size requirements for the painting to ensure it fits well in the living room space?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://around.uoregon.edu/content/new-exhibit-looks-american-west-through-modern-art"
+            }
+        ],
+        "response": "画家なしでもないという状況です.未明なままです.私が画師はありませんので,彼を買い持つは違う例になります."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "沿岸写真プロジェクトの写真を見直していると、通常の説明を超えた画像が浮上しました。それは、海の表面の上に浮かんでいるように見える大型貨物船を示しています。この観察された現象を、視点と光学的錯覚の文脈で説明し、どのようにして大気条件がそのような視覚効果を引き起こすかについて包括的な分析を提供してください。 ",
+        "reference_answer": "写真は、一般にファタ・モルガナとして知られる目を引く視覚的異常を示しています。これは、貨物船の外観を大きく歪める複雑な形の上位蜃気楼です。船は地平線の上に浮かんでいるように見え、水面から空の帯によって分離されています。この錯覚は大気の屈折の結果であり、異なる温度の空気層がそれを通過する光線を異なる角度で曲げる現象です。このシナリオでは、冷たい空気が暖かい空気の下にあるため、船からの光は暖かい空気を通過してより密度の高い冷たい空気に入る際に下方に曲げられます。\n\nこれらの空気層間の温度勾配は非常に急であり、この光学現象のための必要な条件を作り出しています。船から屈折した光は、実際の視線の下から観察者の目に届き、船が実際よりも高い位置にあるように見せます。それは、画像を上方に移動させるレンズを通して見ることに似ています。蜃気楼の明瞭さと強度は、海の穏やかさによって強化され、船の移動した画像のためのほぼ完璧な反射面を提供します。これにより、非常に明確で独特な浮遊効果が生じ、基礎となる科学を理解しなければ非常に不可解に感じられることがあります。\n\n観察者の船からの特定の角度と距離もこの効果に寄与しています。より高い視点から見ると、蜃気楼はおそらくそれほど明らかではないでしょう。さらに、光の条件はちょうど良いようで、太陽がおそらく写真家の背後に位置し、眩しさを軽減し、過度の光散乱なしに蜃気楼を明確に捉えることを可能にしています。\n\n結論として、画像に捉えられた視覚的異常は、光と温度勾配の巧妙な演出であり、物理法則の違反ではありません。これは、大気条件が自然界の認識を劇的に変える方法の魅力的な例として役立ちます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon.",
+        "response": "写真の通りすわうなどなしでした.いないようだけどそれは異なる文脈ですかと"
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "提供された写真では、どの物理的原理が一時的に停止または違反しているように見えますか？そして、この写真の文脈内でそれはどのように説明されるでしょうか？  \n",
+        "reference_answer": "写真は、スカイダイバーが自由落下している様子を捉え、まるで空中に浮かんでいるかのように見えます。一見すると、スカイダイバーが重力に逆らっているように見えるかもしれませんが、地球に向かって急速に降下している様子は観察されません。しかし、これは写真の文脈によって作られた錯覚です。\n\n実際には、スカイダイバーは重力の完全な影響下にあり、下向きに加速しています。これはスカイダイバーの姿勢からも明らかで、腕と脚を広げて空気抵抗を増やしており、これはスカイダイビングで降下を安定させ、制御するための一般的な方法です。スカイダイバーのスーツと装備は、空気抵抗を管理し、落下速度を制御するために特別に設計されています。\n\n写真はまた、スカイダイバーが地球に対して静止しているかのような印象を与えますが、これはあり得ません。動きのブレや急速な動きを示唆する参照点が見えないため、画像は瞬間を凍結させ、スカイダイバーが浮かんでいるという誤解を与えます。\n\nもう一つ考慮すべき点は、写真がジャンプの初期の瞬間を示していない可能性があることです。この時、スカイダイバーは真の自由落下を体験し、速度ゼロから加速します。代わりに、重力と空気抵抗の力が均衡し、一定の速度に達した瞬間を捉えている可能性があります。\n\nさらに、カメラの角度と雲や飛行機のような目に見える参照点がないため、スカイダイバーの実際の速度と加速度を判断するのは難しいです。実際には、これらの視覚的手がかりがなければ、スカイダイバーの動きに対する私たちの認識は損なわれます。\n\n結論として、スカイダイバーは物理法則に逆らっているように見えますが、実際には重力や空気抵抗を含むすべての物理の原則に従っています。この錯覚は、動的な状況を写真で捉えた結果であり、時間が凍結されると、スカイダイバーの急速な下向きの動きや作用している力についての文脈的な手がかりが取り除かれてしまいます。 \n\n",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving.",
+        "response": "重力なる流れてる人 です.この写真の中心人物は空から下げられる.重力を持つ流れていくものがあるため,地面に降り込まれるとそれが停止されます."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "非現実的な現実を否定する芸術作品を分析する文脈において、視覚的要素とその潜在的な意義を、シュルレアリスムの原則を考慮しながら説明してください。 ",
+        "reference_answer": "問題のアートワークは、広大で空っぽの空の下に広がる不毛の風景を特徴とする、シュルレアリスムの典型的な展示です。作品の中心には、溶けて風景の厳しい特徴に垂れ下がるいくつかの時計があります—荒涼とした木、硬直したテーブル、そしてシーン内の無定形の形状です。\n\n溶けた時計は、夢の世界における時間の流動性と主観的な性質を示す深いメタファーであり、現実の生活で経験する時間の厳格で揺るぎない進行とは対照的です。これは、シュルレアリストが無意識の心、夢、そして時間と空間の通常の認識を超えた現実に魅了されていることを示唆しています。\n\nさらに、風景の対照的な要素—枯れた木と青々とした緑の木—は、存在の中の二重性を表しているかもしれません。生命と死、成長と衰退の対比を強調しています。風景の不毛さは、潜在意識の広大な空虚さを象徴している可能性があり、心の内側の働きを探求するシュルレアリスムの芸術における共通のテーマです。\n\nアリの群れがいるオレンジ色の時計は、腐敗と有機生命の経過を示唆し、死の必然性とエントロピーへの絶え間ない進行を厳しく思い出させます。アリはしばしば腐敗と激しい労働と関連付けられ、時間と自然の必然性に対する継続的で認識されない闘争のテーマを強化します。\n\n最後に、背景には穏やかな海と澄んだ地平線が描かれており、意識と無意識の境界—既知と未知—と解釈されるかもしれません。この地平線は、現実の世界とその上の夢の世界を分け、これらの境界を曖昧にし挑戦するシュルレアリストの野心を強調しています。\n\n要するに、このアートワークはシュルレアリスムの要素を使用して、時間、存在、そして無意識の心の謎についての考察を促します。視聴者に現実の論理的な制約を超え、彼らの経験と認識をより流動的で夢のような解釈で考えるよう招待しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time.",
+        "response": "アートシリーズの中のスキャンプテストされた表現方法を 描かし示す手腕には,この手と時計が描かれている"
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "通常の建築を超えた画像を与えられた場合、その構造を説明するだけでなく、その起源と周囲のコミュニティへの影響を語る物語を構築してください。  \n",
+        "reference_answer": "画像は、重力と従来の建築の法則に挑戦するかのように逆さまに配置されたアバンギャルドな構造を示しています。この建物は、場当たり的なデザインの産物ではなく、「インバージョンハウス」として知られる意図的な芸術的声明です。伝統的な建築に対する明確な反抗として立っており、その根元、またはこの場合は尖った先端が地面に埋め込まれ、基礎となる部分が空に持ち上げられています。\n\nその起源の物語は、その外観と同様に型破りです。インバージョンハウスは、期待を覆すというアイデアに触発された風変わりな建築家、エリアナ・コルテスによって考案されました。彼女は、建物の形が逆転できるように、社会的な規範や制約も逆転できると信じていました。この物理的な表現は、革新と変化のメタファーとして機能し、見物人に人生やデザインに対する視点を再評価するよう促します。\n\nエリアナは、彼女のビジョンの実現可能性を確保するためにエンジニアと密接に協力しました。尖った基部は、実際には建物を固定する巧妙に偽装された鋼のサポートであり、上層階は軽量でありながら耐久性のある材料で作られています。構造を強調するように見える赤いライトは、太陽光発電のLEDであり、夜間に建物を照らし、型破りな思考のビーコンを作り出します。\n\nインバージョンハウスはすぐに文化的なランドマークとなりました。そこにはコミュニティアートセンターがあり、さまざまな創造的な分野のクラスやワークショップを提供し、エリアナの創造性と革新をコミュニティに促すというビジョンを実現しています。この建物は単なる構造物ではなく、規範に挑戦し、変化を受け入れ、コミュニティが創造的に考え、生活することを奨励する物語を語る生きた物語です。その存在は地域にルネサンスを引き起こし、地元のビジネスがより大胆なデザインを採用し、アバンギャルドなアートと建築を祝う一連の年次祭りが開催されています。",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop.",
+        "response": "それは建築学のスタジオで,\"まだ未定ですが\"のためです.いちばんの異なります"
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "要素が集められた画像を評価する際、これらの要素間の論理的な調和または不和の程度をどのように識別しますか？典型的な家庭用ペットと通常は別の種類の動物に関連する物体を含む写真を考えてみてください。特定できる具体的な矛盾点は何であり、これらの矛盾がどのようにシーンの論理的一貫性を乱すのでしょうか？",
+        "reference_answer": "画像は、猫の周りにいくつかのハートが描かれており、愛情や興味を示していますが、骨は伝統的に犬と関連付けられるものであり、猫とは関係がありません。このシーンは、いくつかの論理的不整合を提示しています。\n\nまず、骨は犬にとっての興味のある古典的なアイテムを表しています。犬は骨を噛むことで知られており、これは遊びの行動であると同時に、獲物のすべての部分を消費しようとする本能的な欲求に根ざしています。しかし、猫は義務的な肉食動物であり、通常は大きな骨を残さない小さな獲物を消費する傾向があります。猫は、犬と同じように骨を遊びや食べ物の対象として関与することは知られていません。\n\n次に、猫の周りのハートは、骨に対する強い愛情や興味を示唆しています。猫はその遊び心や好奇心の一環としてさまざまな物に興味を示しますが、このサイズの骨がそのような反応を引き起こすことは考えにくいです。この描写は、典型的な猫の行動に対する観察者の理解を混乱させる可能性があります。ここで示されている感情的な反応は、猫の自然な本能や行動と一致していません。\n\n最後に、猫の顔の表情や体の位置は、猫が珍しい物体に遭遇したときに期待される典型的な慎重または調査的な姿勢を反映していません。代わりに、猫は満足して愛情深く見え、この物体の文脈を考慮すると不整合が増します。\n\n要約すると、この画像内の論理的不整合は次のとおりです：猫と骨の関連付け、骨に対する不合理なレベルの興味や愛情を示すハート、そしてそのようなシナリオで期待される自然な反応と一致しない猫の表情と姿勢です。これらの要素が組み合わさって、猫の現実的な行動や動物とその典型的な興味の対象との自然な関連性と一致しない、風変わりで論理的に不整合なシーンを作り出しています。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes.",
+        "response": "矛盾点,和諧性が混雑しないように見えるかどうか 矛盾点は オーダーラインを違える様々な"
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "笑い、または少なくとも微笑みを引き出そうとしているこの画像を見た際、ユーモアに寄与する要素は何でしょうか？視覚的な側面、必要とされる潜在的な文脈や背景知識、そして異なる要素の組み合わせによるコメディ効果の対比を考慮してください。 ",
+        "reference_answer": "この画像のユーモアは、期待と現実の対比という一般的なコメディの手法から生まれます。上半分には、戦闘準備が整ったキャラクターが描かれており、強さ、自信、準備が整っていることを暗示し、能力への期待を高めています。この画像は、条件が制御され予測可能な学習データでうまく機能する機械学習モデルを喚起します。\n\n対照的に、下半分には同じキャラクターがカジュアルな状況で描かれており、困惑して準備ができていない様子で、手を防御的に上げて「これには対処できない」と言っているかのようです。これは、現実のテストデータに直面したときにうまく機能しない同じモデルの視覚的メタファーです。ユーモアは、英雄的なポーズと期待外れの現実との誇張された不一致から生まれます。これは、モデルが学習データでは非常にうまく機能するが、新しい見たことのないデータに一般化できないという、機械学習の分野においてよく起こる状況を表しています。\n\nこの状況は、予測モデルを扱ったことがある人や、限られた条件下での性能が現実のシナリオに反映されない状況に関わったことがある人にとって共感できるものです。このミーム形式でよく知られたキャラクターを使用することも、観客の文化的知識と期待に訴え、面白さを増幅します。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of a character's portrayal in different scenarios?",
+            "score1_description": "The response fails to identify any juxtaposition or contrast in the image and does not relate it to humor.",
+            "score2_description": "The response notes a difference in the character's portrayal but does not connect this to the humor related to expectations versus reality in machine learning contexts.",
+            "score3_description": "The response identifies the contrast between the two scenarios but only partially explains how this relates to humor in the context of machine learning model performance.",
+            "score4_description": "The response understands the juxtaposition and relates it to the humor involving machine learning models, but may miss some nuances or the relatability aspect of the humor.",
+            "score5_description": "The response fully grasps the contrast between the character's confident and unprepared portrayals, correctly linking this to the humor about machine learning models' performance and addressing the relatable frustration within the field."
+        },
+        "atomic_checklist": [
+            "Does the response identify the character's confident portrayal in battle as a metaphor for a model's performance on training data?",
+            "Does the response recognize the character's unprepared portrayal in a casual setting as a metaphor for a model's performance on test data?",
+            "Does the response explain the humor arising from the exaggerated discrepancy between the expected competence and the actual performance of machine learning models?",
+            "Does the response mention the relatability of the situation to anyone who has worked with predictive models or in similar contexts?",
+            "Does the response draw on cultural knowledge or audience expectations related to the character to amplify the comedic effect?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous meme contrasting the performance of a machine learning model on training data versus its performance on a test dataset. The top half, labeled \"My model on training data,\" shows an individual looking powerful and ready for battle. The bottom half, labeled \"My model on test dataset,\" depicts the same individual appearing defeated and unprepared. The meme uses this visual metaphor to express a common situation in machine learning where a model performs well on the data it was trained on but poorly when evaluated on new, unseen data.",
+        "response": "キャップルストックスペースラッド1B 戦士ソーダンク2 キャリア"
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "動物が人間のような感情を持つ様子をユーモラスな文脈で描かれた画像を見るとき、その画像に存在する文化的なニュアンス、背景情報、または状況的な文脈を考慮しながら、コメディ効果に寄与する根本的な要素を分析してください。 ",
+        "reference_answer": "画像には、涙ぐんだ目によって強調された、悲しみや失望の人間のような表情をした猫が描かれています。ユーモアは、人間ではないものに人間の特性を与えるという一般的なコメディ手法である擬人化から生まれます。「オンラインの友達にメッセージを送った直後に、その友達がオフラインになるとき」というキャプションが付けられています。この状況は、デジタルコミュニケーションにおいてよくあるシナリオであり、相手がすぐにオフラインになることで、交流の試みが無視されたり軽視されたりしたと感じることがあります。これは、即時のコミュニケーションの期待と、しばしば暗黙のデジタルエチケットを利用した状況的アイロニーです。\n\nこの状況の文化的な関連性によって、コメディ効果はさらに高まります。多くの人がデジタル時代における会話の突然の終わりを経験しています。画像は猫の表情を巧みに利用して、その瞬間の感情的なインパクトを誇張し、テクノロジーが私たちの社会的交流に与える影響についての共通理解に訴えかけています。インターネット文化の重要な一部であるミーム形式自体が、しばしばテキストと画像を組み合わせて多面的なユーモアを伝える、共感できるコンテンツを広めるために設計されています。したがって、猫の人間化された表情、一般的なオンライン交流へのキャプションの言及、デジタルコミュニケーションにおけるミームの位置を認識することで、この画像が意図するユーモアの全体像を理解することができます。  \n",
+        "score_rubric": {
+            "criteria": "Does the response comprehensively analyze the humorous elements present in the image featuring an animal with human-like emotions?",
+            "score1_description": "The response does not recognize the anthropomorphism or the situational context, offering no insight into the humor.",
+            "score2_description": "The response identifies the animal's human-like emotions but fails to connect these to the situational context or the cultural nuances that contribute to the humor.",
+            "score3_description": "The response notes the anthropomorphism and situational context but provides only a basic explanation of how these elements combine to create humor.",
+            "score4_description": "The response gives a good explanation of the humor, recognizing both the anthropomorphism and situational context, yet it might miss finer cultural nuances.",
+            "score5_description": "The response offers a detailed analysis, accurately recognizing the anthropomorphism, situational context, and cultural nuances that all contribute to the humor."
+        },
+        "atomic_checklist": [
+            "Does the response acknowledge the anthropomorphism of the cat and its contribution to the humor?",
+            "Does the response connect the cat's human-like expression to the comedic situation presented in the caption?",
+            "Does the response recognize the situational irony related to the expectations of digital communication?",
+            "Does the response mention the cultural relevance of the abrupt end to a conversation in the digital age as part of the humor?",
+            "Does the response understand the meme format's role in conveying humor within internet culture?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image features a meme with text at the top saying \"When you send a message to a friend who's online and right after that, they go offline,\" accompanied by a picture of a cat with a sad, teary-eyed expression, which humorously conveys feelings of disappointment or betrayal that someone might feel in such a situation. The background appears to show a computer screen, adding context to the online communication theme of the meme.",
+        "response": "間違いないことにはならないのかもしれません.文化に基づく文脈として使えるチームです"
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "写真に捉えられた喜びと期待の本質を検討しながら、楽しげな雰囲気を広げるだけでなく、物語に新鮮で想像力豊かなひねりを加える物語を思い描くことが求められる。課題は、元のスナップショットのテーマの核心から逸れることなく、楽しさを高めることにある。それは、差し迫った余暇の歓喜を反映している。このシナリオを、泡が消えゆく仕事の責任を表し、子供の表情が休暇前のすべての大人の内なる子供を体現している陽気な冒険の続きとして考えてみてください。次に何が起こるのでしょうか？ ",
+        "reference_answer": "責任の最後の泡がはじけると、主人公は草がオフィスチェアのように柔らかく、空が彼女の空いたスケジュールのように広い世界にいることに気づく。この地では、オフィス外の返信が詩的な詩で自動的に書かれ、毎歩が単調な日常に対する喜びに満ちた反抗の跡を残す。\n\nここで彼女は地元の人々に出会う。彼らは休暇の美徳を体現する仲間たちである。最初に出会うのは、ハワイアンシャツの鎧をまとった騎士で、「長い週末」の聖域を守っている。彼は「締切間近の戦い」と「午後のシエスタの同盟軍」の間で繰り広げられた壮大な戦いの物語を彼女に語る。\n\n次に彼女が出会うのは「自発性の魔女」で、彼女は膨らんだブリーフケースを日焼け止めと小説でいっぱいのビーチバッグに変える呪文を唱える気まぐれな存在だ。彼女の笑い声は、チャートやグラフを隠れたカフェや秘密の夕日の地図に変えるメロディーである。\n\nこの地の中心には「未読メールの森」があり、通知がホタルに変わり、忘れられた趣味や新しい冒険への道を照らす。捕まえたホタル一匹ごとに、接続のピン音から解放された一日が与えられ、時間が読んだ章や歩いたマイルで測られる一日が訪れる。\n\n日が暮れると、彼女は「切り離しの宴」にたどり着く。メニューには「静かな電話のスライス」や「心の安らぎの蒸し物」などの料理が並ぶ。宴は星が空に散りばめられるまで続き、残された唯一の仕事はカロリーではなく星座を数えることだ。\n\n月が昇ると、主人公は安堵と満足の糸で織られたハンモックに横たわり、自分の満足感のリズムに揺れる。遠くで、「予定外の昼寝の合唱団」が歌う子守唄が流れ、彼女に、太陽が彼女のゆっくりとした起床を敬礼し、世界が彼女が先に生き、後で働くのを待ちながら息を潜める日々を夢見るように誘う。\n\n彼女はやがて、やることリストとアラームの世界に戻るだろう。しかし今は、彼女は自分の時間の女王であり、リラクゼーションの支配者であり、泡は期待の重みを運び去り、笑い声と休息の甘い約束の跡を残しながら浮かび続ける。 ",
+        "score_rubric": {
+            "criteria": "Does the model's response effectively continue the narrative of the original image with added humor and imagination?",
+            "score1_description": "The response adds no humor or imagination to the narrative, or it introduces content that is irrelevant or diminishes the original image's theme.",
+            "score2_description": "The response adds minimal humor or imagination to the narrative and may only slightly relate to or expand upon the original image's theme.",
+            "score3_description": "The response adds humor to the narrative that is somewhat expected and lacks a fresh twist, but it still connects to the original image's theme.",
+            "score4_description": "The response adds humor and a creative twist to the narrative that is well-connected to the original image's theme, with minor lapses in originality or thematic consistency.",
+            "score5_description": "The response creatively and humorously expands the narrative, adding fresh and imaginative elements that perfectly align with the original image's theme."
+        },
+        "atomic_checklist": [
+            "Does the response incorporate the essence of joy and anticipation from the original photograph?",
+            "Does the response introduce a fresh and imaginative twist to the narrative?",
+            "Does the response maintain thematic consistency with the euphoria of impending leisure time depicted in the original image?",
+            "Does the response enhance the amusement without straying from the thematic core of the original image?",
+            "Does the response's narrative remain coherent while introducing added humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous meme with a caption that reads \"Me leaving work the day before vacation\". It features a photo of a little girl in a yellow jacket, joyously playing with bubbles, with an expression of ecstatic glee and abandon on her face. The meme comically relates the child's blissful state to the feeling of excitement and relief many people experience when they are about to start a vacation.",
+        "response": "休暇前のためにの練習するような顔をする.正しいはいえ.スナップショットのユーンが"
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "2つの画像がミームで並置されることで笑いを誘う理由を説明してください。これは、1990年代のポップカルチャーでよく強調される期待と現実のギャップを考慮したものです。 ",
+        "reference_answer": "並置された画像のユーモアは、理想化された期待と滑稽に失望させる現実との不一致から生まれたものであり、これは1990年代の文化、特にファッションやスタイルのトレンドに関して頻繁に取り上げられたテーマです。ミームの左側には、1990年代の若い男性アイドルの間で人気があったヘアスタイルを思わせる男性の写真が表示されています。このスタイルは、ある種の洗練されたクールな魅力を醸し出していました。この種の画像は、当時のティーン雑誌やポスターに典型的に見られ、流行りの若者の外見の頂点を表していました。\n\n右側には、左側の理想的なイメージと対照的な現実が示されています。ここでは、似たような髪型をしている若者の学校の肖像写真が見られますが、洗練さやスタイルに欠けています。これは、人気のトレンドを模倣しようとする個人的な試みでよく見られるものです。髪は過度にブリーチされ、不均一で、理想化されたバージョンに見られるプロフェッショナルなタッチが欠けています。この誇張された欠陥のある実行が、コメディ効果を強調しています。黄色いシャツは、ブリーチされた髪と衝突し、ファッションの失敗と見なされる色の組み合わせによってユーモアをさらに強めています。\n\nこのミームは、望んだルックを達成できないという普遍的に共感できる経験に触れていますが、ここではコメディ効果のために誇張されています。それは、1990年代に育った人々やその時代のポップカルチャーに精通している人々のノスタルジアを利用し、過去のトレンドの共有知識とそれを再現しようとして失敗した共通の経験を活用しています。このユーモアは、これらの文化的シンボルの理解と期待と現実の普遍的な経験を通じて共鳴します。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of idealized expectation and disappointing reality as seen in 1990s popular culture?",
+            "score1_description": "The response does not acknowledge the juxtaposition or the 1990s cultural context, and fails to relate these elements to the humor in the image.",
+            "score2_description": "The response recognizes a contrast between the two images but does not adequately link this to the 1990s cultural context or to the humor derived from failed expectations.",
+            "score3_description": "The response identifies the contrast and has a basic grasp of the 1990s cultural context, but the explanation of humor is superficial and lacks depth.",
+            "score4_description": "The response understands the juxtaposition and the 1990s cultural context, explaining the humor well, but might miss some subtleties or additional humorous elements.",
+            "score5_description": "The response provides a comprehensive explanation of the humor, expertly linking the juxtaposition to the cultural context of the 1990s and the universal experience of expectation versus reality."
+        },
+        "atomic_checklist": [
+            "Does the response identify the juxtaposition of the idealized and the actual as a source of humor?",
+            "Does the response relate the humor to the cultural context of the 1990s, especially concerning fashion and style trends?",
+            "Does the response explain the humor in the context of common experiences with failed expectations?",
+            "Does the response draw on the shared knowledge of 1990s pop culture to explain the meme's comedic effect?",
+            "Is the explanation provided by the response culturally accurate and relevant to the meme's humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a meme comparing expectations versus reality. On the left, the caption \"What I thought it would look like\" is above a photo of a person with a stylish haircut. On the right, \"What it actually looked like\" is above a photo of another person with a similar style haircut that has not been executed as fashionably. The meme humorously reflects on the sometimes disappointing outcomes of fashion or hairstyle choices.",
+        "response": "ロビー・ウォンジースケットボールズの人像を撮影した人達の肖像画が 2つの写真の上に並んで"
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "理想と現実のシナリオを比較する視覚的なジョークをオンラインで共有する際に、ユーモアが敬意を持って包括的に伝わるようにするにはどうすればよいでしょうか？  \n",
+        "reference_answer": "理想と現実の状況を対比させたビジュアルジョークを、尊重と包括性をもって共有するためには、多面的なアプローチを考慮する必要があります。まず、コンテンツがステレオタイプを助長したり、個人の経済状況を嘲笑したりしないようにすることが重要です。例えば、問題の画像は、飛行機の窓からエッフェル塔を見ている人と、洗濯機の窓を見ている人を対比させ、「期待と現実」のモチーフをユーモラスに表現しています。\n\nここでのユーモアは、期待を覆すことにあります—一方の画像は旅行という一般的な憧れを示し、もう一方はこの憧れを日常的な物でひねっています。感受性を保つために、キャプションは夢を現実に適応させる普遍的な性質を強調し、特定の経験を達成できないことを暗示するのではなく、欠如を示唆しないようにすることができます。\n\nさらに、文化的な感受性を考慮する必要があります—ある文化ではユーモラスな誇張が、別の文化では誤解されたり不快に感じられたりする可能性があります。これを軽減するために、ジョークは自己卑下的な性質を明確に示し、特定のグループや階級を特定しないキャプションで提示することができます。また、普遍的に理解される言葉を使用し、誤解される可能性のあるスラングやイディオムを避けることで、ジョークが意図した通りに受け取られるようにすることができます。\n\n最後に、異なる年齢層にジョークを適応させるために、若い観客に適さない要素を避けるべきです。選ばれた画像はすでに一般の観客に適していますが、使用する言葉は尊重を持ち、含みを避けるべきです。\n\nこれらの側面に注意を払うことで、ユーモラスで軽快なビジュアルジョークを、無礼や排他的にならずに共有し、幅広い観客に共鳴し、包括性の精神を維持することができます。\n\n",
+        "score_rubric": {
+            "criteria": "Does the response explain the humor in the juxtaposed images while ensuring the content is respectful and inclusive?",
+            "score1_description": "The response does not recognize the humor or fails to address respect and inclusivity, potentially presenting insensitive content.",
+            "score2_description": "The response identifies basic humor but lacks consideration for respect and inclusivity, missing the importance of sensitive presentation.",
+            "score3_description": "The response shows an understanding of the humor and some respect for inclusivity but does not fully ensure that the content is free from stereotypes or insensitivity.",
+            "score4_description": "The response explains the humor effectively, is mostly considerate of respect and inclusivity, but may overlook subtle sensitivities or cultural nuances.",
+            "score5_description": "The response thoroughly explains the humor with a keen awareness of respect and inclusivity, ensuring that the content is presented sensitively across different cultures and age groups."
+        },
+        "atomic_checklist": [
+            "Does the response avoid content that perpetuates stereotypes or mocks economic status?",
+            "Does the response ensure that the humor is age-appropriate and universally understandable?",
+            "Does the response maintain respect and inclusivity while explaining the humor?",
+            "Does the response consider cultural sensitivities and potential for misinterpretation?",
+            "Does the response utilize a self-deprecating caption to maintain humor without singling out any group?",
+            "Is the explanation of the humor clear, avoiding slang or idioms that could be misinterpreted?",
+            "Does the response show how the joke can be adapted to different audiences while preserving its humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous comparison meme. On the left side, the text \"The vacation you want\" is shown above a photo of a woman looking out of an airplane window at the Eiffel Tower, suggesting a desired trip to Paris. On the right side, \"vs. the vacation you can afford\" is above a photo of a woman looking out of a washing machine window, humorously implying a less glamorous reality due to budget constraints. The meme plays on the theme of expectations versus reality in terms of vacation planning.",
+        "response": "はい,そのでしょだからいくつかできないようにしてもらったり 恐らないとしたり 恐らかったり"
+    }
+]

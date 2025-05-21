@@ -1,0 +1,127 @@
+[
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Saat meninjau foto-foto dari proyek fotografi pesisir, muncul sebuah gambar yang menantang penjelasan biasa. Gambar tersebut menampilkan sebuah kapal kargo besar yang tampak melayang di atas permukaan laut. Jelaskan fenomena yang diamati dalam konteks perspektif dan ilusi optik, dan berikan analisis menyeluruh tentang bagaimana kondisi atmosfer dapat menyebabkan efek visual seperti itu. ",
+        "reference_answer": "Foto tersebut menampilkan anomali visual mencolok yang umumnya dikenal sebagai Fata Morgana, sebuah bentuk kompleks dari fatamorgana superior yang secara signifikan mendistorsi penampilan kapal kargo. Kapal tersebut tampak melayang di atas cakrawala, terpisah dari air oleh pita langit. Ilusi ini adalah hasil dari refraksi atmosfer, di mana lapisan udara pada suhu yang berbeda membelokkan sinar cahaya yang melewati mereka pada sudut yang berbeda. Karena udara dingin berada di bawah udara yang lebih hangat dalam skenario ini, cahaya dari kapal dibelokkan ke bawah saat melewati udara yang lebih hangat ke udara yang lebih padat dan lebih dingin.\n\nGradien suhu antara lapisan udara ini cukup curam, menciptakan kondisi yang diperlukan untuk fenomena optik ini. Cahaya yang dibiaskan dari kapal mencapai mata pengamat dari bawah garis pandang yang sebenarnya, membuat kapal tampak berada di posisi yang lebih tinggi daripada yang sebenarnya. Ini mirip dengan melihat melalui lensa yang menggeser gambar ke atas. Kejelasan dan intensitas fatamorgana ditingkatkan oleh ketenangan laut, memberikan permukaan reflektif yang hampir sempurna untuk gambar kapal yang tergeser. Ini menghasilkan efek melayang yang sangat jelas dan berbeda, yang bisa cukup membingungkan tanpa memahami ilmu di baliknya.\n\nSudut tertentu dan jarak pengamat dari kapal juga berkontribusi pada efek tersebut. Jika dilihat dari titik pandang yang lebih tinggi, fatamorgana kemungkinan tidak akan terlihat jelas. Selain itu, kondisi cahaya tampaknya tepat, dengan matahari mungkin berada di belakang fotografer, mengurangi silau dan memungkinkan pengambilan gambar fatamorgana dengan jelas tanpa terlalu banyak penyebaran cahaya.\n\nSebagai kesimpulan, anomali visual yang tertangkap dalam gambar adalah permainan cahaya dan gradien suhu yang mahir, dan bukan pelanggaran hukum fisika. Ini berfungsi sebagai contoh menarik tentang bagaimana kondisi atmosfer dapat secara dramatis mengubah persepsi kita terhadap dunia alam. ",
+        "score_rubric": {
+            "criteria": "Does the response identify and explain visual anomalies or irregularities present in the image, which may include surreal elements, improbable scenarios, or violations of physical laws?",
+            "score1_description": "The response fails to identify any visual anomalies or inaccuracies in the image.",
+            "score2_description": "The response recognizes only the most obvious visual anomaly without providing an explanation.",
+            "score3_description": "The response identifies a visual anomaly and attempts an explanation, but the explanation is incomplete or lacks detail.",
+            "score4_description": "The response accurately identifies and provides a well-reasoned explanation for most of the visual anomalies present in the image.",
+            "score5_description": "The response expertly identifies and thoroughly explains all significant visual anomalies, demonstrating a deep understanding of the image's unusual aspects."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify the visual anomaly (cargo ship appearing to float above the ocean's surface) as an unusual or surreal element in the image?",
+            "Does the answer explain the concept of Fata Morgana or a similar optical illusion?",
+            "Does the response discuss the role of temperature gradients between different air layers?",
+            "Is there a mention of how the observer's angle and distance affect the perception of the mirage?",
+            "Does the response provide a comprehensive and scientifically accurate explanation, avoiding supernatural or implausible reasons?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an optical illusion of a large ship appearing to float above the water's surface, against a clear blue sky, as seen from a rocky shoreline covered with greenery. This phenomenon, known as a \"Fata Morgana,\" occurs when layers of warm and cold air cause light to bend, creating a mirage on the horizon."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Dalam foto yang disediakan, prinsip fisika mana yang tampaknya sementara ditangguhkan atau dilanggar, dan bagaimana hal ini dapat dijelaskan dalam konteks foto tersebut? ",
+        "reference_answer": "Foto tersebut menangkap seorang penerjun payung dalam keadaan jatuh bebas, tampak seolah-olah melayang di udara. Sekilas, mungkin terlihat bahwa penerjun payung tersebut menentang gravitasi, karena kita tidak mengamati penurunan cepat yang diharapkan menuju Bumi. Namun, ini adalah ilusi yang diciptakan oleh konteks foto tersebut.\n\nPada kenyataannya, penerjun payung berada di bawah pengaruh penuh gravitasi dan sedang mempercepat ke bawah. Hal ini dibuktikan oleh postur penerjun payung, dengan tangan dan kaki yang terbuka untuk meningkatkan hambatan udara, yang merupakan praktik umum untuk menstabilkan dan mengontrol penurunan dalam terjun payung. Pakaian dan peralatan penerjun payung dirancang khusus untuk mengelola hambatan udara dan mengontrol kecepatan jatuh.\n\nFoto tersebut juga memberikan kesan bahwa penerjun payung mungkin diam relatif terhadap Bumi di bawahnya, tetapi ini tidak mungkin. Karena tidak adanya blur gerakan yang terlihat atau titik referensi yang dapat menunjukkan gerakan cepat, gambar tersebut membekukan momen dalam waktu, memberikan persepsi yang menyesatkan bahwa penerjun payung sedang melayang.\n\nPoin lain yang perlu dipertimbangkan adalah bahwa foto tersebut mungkin tidak menunjukkan momen awal lompatan ketika penerjun payung akan mengalami jatuh bebas sejati dan mempercepat dari kecepatan nol. Sebaliknya, kemungkinan besar menangkap momen ketika kecepatan terminal telah tercapai, di mana gaya gravitasi dan hambatan udara berada dalam keseimbangan, menghasilkan kecepatan konstan.\n\nSelain itu, sudut kamera dan kurangnya titik referensi yang terlihat (seperti awan atau pesawat) membuat sulit untuk mengukur kecepatan dan percepatan sebenarnya dari penerjun payung. Pada kenyataannya, tanpa petunjuk visual ini, persepsi kita tentang gerakan penerjun payung menjadi terganggu.\n\nKesimpulannya, meskipun penerjun payung tampak menentang hukum fisika, mereka sebenarnya mematuhi semua prinsip fisika, termasuk gravitasi dan hambatan udara. Ilusi ini adalah hasil dari tangkapan fotografi dari situasi dinamis, yang ketika dibekukan dalam waktu, menghilangkan petunjuk kontekstual yang seharusnya memberi tahu kita tentang gerakan cepat ke bawah penerjun payung dan gaya yang berperan. ",
+        "score_rubric": {
+            "criteria": "Does the response recognize and explain instances in the image where physical laws appear to be defied or are highly improbable?",
+            "score1_description": "The response does not recognize or explain any instances of improbable physics in the image.",
+            "score2_description": "The response identifies basic instances of improbable physics but lacks a meaningful explanation.",
+            "score3_description": "The response recognizes some instances of improbable physics and provides a partial explanation, but lacks depth or accuracy.",
+            "score4_description": "The response accurately identifies and explains most instances of improbable physics in the image with a well-reasoned analysis.",
+            "score5_description": "The response demonstrates an excellent understanding of physics, identifying and expertly explaining all instances of improbability with insightful detail."
+        },
+        "atomic_checklist": [
+            "Does the response correctly identify instances where physical laws appear to be defied or highly improbable in the photograph?",
+            "Does the explanation delve into why these instances appear improbable, using relevant physics concepts?",
+            "Does the response consider the context of the photograph (e.g., camera angle, absence of reference points) in explaining the perceived improbability?",
+            "Is there an accurate explanation of how skydiving mechanics (e.g., air resistance, terminal velocity) relate to the photograph?",
+            "Is the response well-structured and easy to follow?",
+            "Does the answer cover all aspects mentioned in the score descriptions of the rubric?",
+            "Are there any factual errors or misinterpretations in the response?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image captures a skydiver in freefall, clad in a red and white jumpsuit and a white helmet, against a backdrop of a sprawling landscape below, illustrating the thrilling sport of skydiving."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Dalam konteks menganalisis sebuah karya seni yang menentang realitas konvensional, deskripsikan komponen visual dan potensi signifikansinya, dengan mempertimbangkan prinsip-prinsip surealisme. ",
+        "reference_answer": "Karya seni yang dimaksud adalah tampilan khas surealisme, menampilkan lanskap tandus di bawah langit yang luas dan kosong. Pusat dari karya ini adalah beberapa jam, masing-masing meleleh dan terhampar di atas fitur-fitur mencolok lanskap—sebuah pohon gersang, meja kaku, dan bentuk-bentuk amorf dalam adegan tersebut.\n\nJam-jam yang meleleh adalah metafora mendalam untuk fluiditas dan sifat subyektif waktu dalam dunia mimpi, bertentangan dengan perjalanan waktu yang kaku dan tak kenal lelah yang dialami dalam kehidupan nyata. Ini merujuk pada ketertarikan surealis terhadap pikiran bawah sadar, mimpi, dan realitas di luar persepsi waktu dan ruang yang biasa.\n\nSelain itu, elemen-elemen kontras dari lanskap—sebuah pohon mati di samping yang hijau dan subur—mungkin mewakili dualitas dalam keberadaan, menyoroti perbandingan antara kehidupan dan kematian, pertumbuhan dan pembusukan. Ketandusan lanskap dapat melambangkan kekosongan luas dari alam bawah sadar, tema umum dalam seni surealis di mana kerja batin pikiran dieksplorasi.\n\nJam oranye, dengan sekumpulan semut, menyiratkan pembusukan dan perjalanan kehidupan organik, pengingat yang mencolok akan kematian dan kemajuan yang tak kenal henti menuju entropi. Semut, yang sering diasosiasikan dengan pembusukan dan kerja keras yang intens, memperkuat tema perjuangan yang terus-menerus dan tak terlihat melawan waktu dan keniscayaan alam.\n\nTerakhir, latar belakang menampilkan laut yang tenang dan cakrawala yang jelas, yang mungkin diartikan sebagai batas antara sadar dan bawah sadar—yang dikenal dan yang tidak dikenal. Garis cakrawala ini memisahkan dunia realitas dari dunia mimpi di atasnya, menekankan ambisi surealis untuk mengaburkan dan menantang batas-batas ini.\n\nSingkatnya, karya seni ini menggunakan elemen surealis untuk memprovokasi perenungan tentang konsep waktu, keberadaan, dan misteri pikiran bawah sadar. Ini mengundang penonton untuk melangkah melampaui batas logis dari realitas dan mempertimbangkan interpretasi pengalaman dan persepsi mereka yang lebih cair dan seperti mimpi. ",
+        "score_rubric": {
+            "criteria": "Does the response interpret surreal elements in the image, understanding their possible symbolic meanings or artistic intentions?",
+            "score1_description": "The response shows no recognition or understanding of the surreal elements in the image.",
+            "score2_description": "The response recognizes surreal elements but fails to offer any interpretation or symbolic meaning.",
+            "score3_description": "The response identifies surreal elements and provides a basic interpretation, but lacks depth or insight.",
+            "score4_description": "The response effectively interprets surreal elements in the image, offering insightful meanings or artistic intentions with minor gaps.",
+            "score5_description": "The response demonstrates an exceptional understanding of surrealism, providing deep and insightful interpretations of the surreal elements and their symbolic meanings."
+        },
+        "atomic_checklist": [
+            "Does the response accurately identify key surreal elements present in the artwork?",
+            "Does the response show an understanding of surrealism as an artistic movement?",
+            "Is there an attempt to interpret the possible artistic intentions behind the surreal elements?",
+            "Does the response cover all major aspects of the artwork?",
+            "Does the answer offer unique or original insights, or does it rely on common interpretations?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image depicts a surreal landscape with melting clocks draped over various objects, set against a barren desert background, embodying the fluidity and distorted perception of time."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Diberikan sebuah gambar yang menentang arsitektur konvensional, buatlah narasi yang tidak hanya menjelaskan strukturnya tetapi juga menceritakan asal-usulnya dan dampaknya terhadap komunitas sekitarnya. ",
+        "reference_answer": "Gambar tersebut menampilkan sebuah struktur avant-garde, terbalik, yang tampaknya menantang hukum gravitasi dan arsitektur konvensional. Bangunan ini bukan hasil desain sembarangan tetapi pernyataan artistik yang disengaja, dikenal sebagai \"The Inversion House.\" Bangunan ini berdiri dalam penentangan yang jelas terhadap bangunan tradisional, dengan akarnya - atau dalam hal ini, ujung runcingnya - tertanam di tanah, dan yang seharusnya menjadi fondasi terangkat ke langit.\n\nNarasi asal-usulnya sama tidak konvensionalnya dengan penampilannya. The Inversion House dirancang oleh seorang arsitek eksentrik, Eliana Cortez, yang terinspirasi oleh ide membalikkan harapan. Dia percaya bahwa sama seperti bentuk bangunan dapat dibalik, begitu juga norma dan batasan sosial. Representasi fisik ini berfungsi sebagai metafora untuk inovasi dan perubahan, mendorong para pengamat untuk mengevaluasi kembali perspektif mereka tentang kehidupan dan desain.\n\nEliana bekerja sama dengan insinyur untuk memastikan kelayakan visinya. Dasar yang runcing sebenarnya adalah penyangga baja yang disamarkan dengan cerdik yang menambatkan bangunan, sementara lantai atas terbuat dari bahan yang ringan namun tahan lama. Lampu merah yang tampak menonjolkan struktur adalah LED bertenaga surya, yang menerangi bangunan di malam hari, menciptakan mercusuar pemikiran yang tidak konvensional.\n\nThe Inversion House dengan cepat menjadi tengara budaya. Bangunan ini menampung pusat seni komunitas, yang menawarkan kelas dan lokakarya dalam berbagai disiplin kreatif, sehingga memenuhi visi Eliana untuk menginspirasi kreativitas dan inovasi dalam komunitas. Bangunan ini bukan hanya sebuah struktur tetapi narasi hidup, menceritakan kisah menantang norma, merangkul perubahan, dan mendorong komunitas untuk berpikir dan hidup secara inventif. Kehadirannya telah memicu kebangkitan di daerah tersebut, dengan bisnis lokal mengadopsi desain yang lebih berani dan serangkaian festival tahunan merayakan seni dan arsitektur avant-garde. ",
+        "score_rubric": {
+            "criteria": "Does the response creatively contextualize unusual elements in the image, suggesting imaginative scenarios or narratives that coherently explain the image?",
+            "score1_description": "The response fails to provide any creative contextualization for the unusual elements in the image.",
+            "score2_description": "The response offers a basic and unimaginative contextualization that lacks coherence or narrative flow.",
+            "score3_description": "The response provides a moderately creative contextualization, forming a coherent narrative but with limited imagination or detail.",
+            "score4_description": "The response presents a creative and coherent narrative that effectively contextualizes most unusual elements in the image.",
+            "score5_description": "The response excels in creativity, weaving a compelling and imaginative narrative that coherently contextualizes all unusual elements in the image."
+        },
+        "atomic_checklist": [
+            "Does the response identify and creatively explain the unconventional aspects of the architecture in the image?",
+            "Does the response go beyond basic descriptions to offer imaginative scenarios or explanations?",
+            "Does the response include detailed descriptions that enrich the narrative?",
+            "Does the response show exceptional creativity, with a compelling and imaginative narrative that contextualizes all unusual elements effectively?",
+            "Does the response effectively connect the architectural design with broader societal or cultural themes?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image shows an architecturally unique building designed to look like an upside-down structure, creating a visually striking and playful juxtaposition against a peaceful park and mountainous backdrop."
+    },
+    {
+        "capability": "vision",
+        "task": "unusual_images",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "Dalam mengevaluasi sebuah gambar di mana elemen-elemen digabungkan, bagaimana seseorang dapat membedakan tingkat harmoni logis atau ketidakselarasan di antara elemen-elemen ini? Pertimbangkan sebuah gambar yang mencakup hewan peliharaan rumah yang khas dan sebuah objek yang biasanya diasosiasikan dengan jenis hewan lain. Apa saja ketidakkonsistenan spesifik yang dapat diidentifikasi, dan bagaimana ketidakkonsistenan ini mengganggu koherensi logis dari adegan tersebut? ",
+        "reference_answer": "Gambar tersebut menggambarkan seekor kucing dengan beberapa hati di sekelilingnya, menunjukkan kasih sayang atau ketertarikan, dan sebuah tulang yang secara tradisional diasosiasikan dengan anjing, bukan kucing. Adegan ini menghadirkan sejumlah ketidakkonsistenan logis.\n\nPertama, tulang mewakili benda yang klasik bagi anjing, karena mereka dikenal suka mengunyah tulang yang merupakan perilaku bermain dan berakar pada keinginan naluriah mereka untuk mengonsumsi semua bagian dari mangsanya, termasuk tulang. Namun, kucing adalah karnivora obligat dan lebih cenderung mengonsumsi mangsa yang lebih kecil, yang biasanya tidak meninggalkan tulang besar. Mereka tidak dikenal berinteraksi dengan tulang sebagai objek permainan atau makanan dengan cara yang sama seperti anjing.\n\nKedua, hati di sekitar kucing menunjukkan kasih sayang atau ketertarikan yang kuat terhadap tulang. Meskipun kucing menunjukkan ketertarikan pada berbagai objek sebagai bagian dari sifat bermain dan penasaran mereka, tulang sebesar ini tidak mungkin menimbulkan respons seperti itu. Penggambaran ini dapat membingungkan pemahaman pengamat tentang perilaku kucing yang khas, karena respons emosional yang ditunjukkan di sini tidak sesuai dengan naluri dan perilaku alami kucing.\n\nAkhirnya, ekspresi wajah kucing dan posisi tubuhnya tidak mencerminkan postur hati-hati atau investigatif yang biasanya diharapkan dari kucing yang menemui objek yang tidak biasa. Sebaliknya, kucing tampak puas dan penuh kasih sayang, yang menambah ketidakkonsistenan ketika mempertimbangkan konteks objek yang disajikan.\n\nSingkatnya, ketidakkonsistenan logis dalam gambar ini adalah sebagai berikut: asosiasi tulang dengan kucing, hati yang menunjukkan tingkat ketertarikan atau kasih sayang yang tidak logis terhadap tulang, dan ekspresi serta postur kucing yang tidak sesuai dengan reaksi alami yang diharapkan dalam skenario semacam itu. Elemen-elemen ini bersama-sama menciptakan adegan yang aneh, namun secara logis tidak konsisten yang tidak selaras dengan perilaku realistis kucing atau asosiasi alami antara hewan dan objek ketertarikan mereka yang khas. ",
+        "score_rubric": {
+            "criteria": "Does the response analyze the logical consistency of elements within the image, considering the feasibility and coherency of the depicted scenario?",
+            "score1_description": "The response shows no understanding of the logical inconsistencies in the image.",
+            "score2_description": "The response identifies minor logical inconsistencies but lacks a comprehensive analysis of the image as a whole.",
+            "score3_description": "The response recognizes some logical inconsistencies and attempts a reasonable analysis, but misses key elements or connections.",
+            "score4_description": "The response provides a solid analysis of the logical inconsistencies, identifying most key elements and offering coherent explanations.",
+            "score5_description": "The response excels in analyzing the image, identifying all logical inconsistencies and providing a thorough, insightful explanation of the entire scenario."
+        },
+        "atomic_checklist": [
+            "Does the response identify the presence of a bone traditionally associated with dogs in the context of a cat?",
+            "Does the response analyze why a bone, typically associated with dogs, is logically inconsistent in the context of a cat?",
+            "Does the answer discuss the depiction of the cat's affection or interest towards the bone, considering the typical behavior of cats?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image portrays a whimsical drawing of a striped cat with a happy expression, surrounded by hearts and sparkles, humorously looking at a floating bone, typically a treat for dogs, not cats, adding a playful twist on animal stereotypes."
+    }
+]

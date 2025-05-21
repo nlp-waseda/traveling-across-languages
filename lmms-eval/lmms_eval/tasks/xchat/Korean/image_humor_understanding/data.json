@@ -1,0 +1,129 @@
+[
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 0,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "웃음을 유발하거나 적어도 미소를 짓게 하려는 이미지를 살펴볼 때, 그 안의 어떤 요소들이 유머에 기여하나요? 시각적 측면, 필요한 암시적 맥락이나 배경 지식, 그리고 코미디 효과를 만들어내기 위해 함께 작용하는 다양한 요소들의 병치를 고려해보세요.",
+        "reference_answer": "해당 이미지는 기대와 현실의 대조를 보여주고 있으며, 이는 일반적으로 코미디 장치로 많이 사용됩니다. 상단 절반은 전투 준비가 된 캐릭터를 보여주며, 이는 강함, 자신감, 준비성을 암시하여 능력에 대한 기대를 설정합니다. 이 이미지는 조건이 통제되고 예측 가능한 훈련 데이터에서 기계 학습 모델이 잘 수행하는 아이디어를 불러일으킵니다.\n\n반면, 하단 절반은 같은 캐릭터가 캐주얼한 환경에서 당황하고 준비되지 않은 모습으로, \"이건 못 하겠어\"라고 말하는 듯 방어적으로 손을 들고 있는 모습을 보여줍니다. 이는 현실 세계의 데이터—테스트 데이터셋—에 직면했을 때 성능을 발휘하지 못하는 동일한 모델에 대한 시각적 은유입니다. 유머는 영웅적인 포즈와 실망스러운 현실 사이의 과장된 불일치에서 발생하며, 이는 기계 학습 분야에서 모델이 훈련 데이터에서는 뛰어난 성능을 보이지만 새로운, 보지 못한 데이터에 일반화하지 못하는 일반적인 좌절감을 반영합니다.\n\n이 상황은 예측 모델을 다뤄본 사람이나 통제된 조건에서의 성능이 현실 세계 시나리오로 이어지지 않는 상황을 경험한 사람에게 공감할 수 있는 것입니다. 이 밈 형식에서 잘 알려진 캐릭터의 사용은 관객의 문화적 지식과 기대를 활용하여 코미디 효과를 증폭시킵니다.",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of a character's portrayal in different scenarios?",
+            "score1_description": "The response fails to identify any juxtaposition or contrast in the image and does not relate it to humor.",
+            "score2_description": "The response notes a difference in the character's portrayal but does not connect this to the humor related to expectations versus reality in machine learning contexts.",
+            "score3_description": "The response identifies the contrast between the two scenarios but only partially explains how this relates to humor in the context of machine learning model performance.",
+            "score4_description": "The response understands the juxtaposition and relates it to the humor involving machine learning models, but may miss some nuances or the relatability aspect of the humor.",
+            "score5_description": "The response fully grasps the contrast between the character's confident and unprepared portrayals, correctly linking this to the humor about machine learning models' performance and addressing the relatable frustration within the field."
+        },
+        "atomic_checklist": [
+            "Does the response identify the character's confident portrayal in battle as a metaphor for a model's performance on training data?",
+            "Does the response recognize the character's unprepared portrayal in a casual setting as a metaphor for a model's performance on test data?",
+            "Does the response explain the humor arising from the exaggerated discrepancy between the expected competence and the actual performance of machine learning models?",
+            "Does the response mention the relatability of the situation to anyone who has worked with predictive models or in similar contexts?",
+            "Does the response draw on cultural knowledge or audience expectations related to the character to amplify the comedic effect?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous meme contrasting the performance of a machine learning model on training data versus its performance on a test dataset. The top half, labeled \"My model on training data,\" shows an individual looking powerful and ready for battle. The bottom half, labeled \"My model on test dataset,\" depicts the same individual appearing defeated and unprepared. The meme uses this visual metaphor to express a common situation in machine learning where a model performs well on the data it was trained on but poorly when evaluated on new, unseen data."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 1,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "동물의 이미지를 인간과 같은 감정으로 유머러스하게 묘사한 것을 볼 때, 이미지에 존재하는 문화적 뉘앙스, 배경 정보 또는 상황적 맥락을 고려하여 그림이 웃긴 이유에 대해서 설명해줘",
+        "reference_answer": "이미지는 눈물이 그렁그렁한 눈으로 강조된 슬픔이나 실망의 인간적인 표정을 가진 고양이를 보여줍니다. 유머는 고양이의 의인화에서 비롯되며, 이는 동물에게 인간의 특성을 부여하여 관객이 공감할 수 있도록 하는 일반적인 코미디 기법입니다. 이 고양이의 표정은 \"온라인 상태인 친구에게 메시지를 보냈는데 바로 그 후에 그 친구가 오프라인이 될 때\"라는 캡션과 함께 있습니다. 이 상황은 디지털 커뮤니케이션에서 흔히 볼 수 있는 시나리오로, 상호작용을 시도할 때 상대방이 즉시 오프라인 상태가 되어 무시당하거나 소외감을 느끼는 경우를 나타냅니다. 이는 즉각적인 소통에 대한 기대와 종종 암묵적인 디지털 예절을 활용한 상황적 아이러니입니다.\n\n코미디 효과는 많은 사람들이 디지털 시대에 대화가 갑자기 끝나는 경험을 했다는 문화적 관련성으로 더욱 강화됩니다. 이미지는 고양이의 표정을 통해 그러한 순간의 감정적 영향을 과장하여 기술이 우리의 사회적 상호작용에 미치는 영향을 공유된 이해로 활용합니다. 밈 형식 자체는 인터넷 문화의 중요한 부분으로, 종종 텍스트와 이미지를 결합하여 다층적인 유머를 전달하는 공감할 수 있는 콘텐츠를 확산시키기 위해 설계되었습니다. 따라서 고양이의 인간화된 표정, 일반적인 온라인 상호작용에 대한 캡션의 언급, 그리고 디지털 커뮤니케이션 내에서 밈의 위치를 인식함으로써 이 이미지가 의도한 유머의 전체 스펙트럼을 감상할 수 있습니다. ",
+        "score_rubric": {
+            "criteria": "Does the response comprehensively analyze the humorous elements present in the image featuring an animal with human-like emotions?",
+            "score1_description": "The response does not recognize the anthropomorphism or the situational context, offering no insight into the humor.",
+            "score2_description": "The response identifies the animal's human-like emotions but fails to connect these to the situational context or the cultural nuances that contribute to the humor.",
+            "score3_description": "The response notes the anthropomorphism and situational context but provides only a basic explanation of how these elements combine to create humor.",
+            "score4_description": "The response gives a good explanation of the humor, recognizing both the anthropomorphism and situational context, yet it might miss finer cultural nuances.",
+            "score5_description": "The response offers a detailed analysis, accurately recognizing the anthropomorphism, situational context, and cultural nuances that all contribute to the humor."
+        },
+        "atomic_checklist": [
+            "Does the response acknowledge the anthropomorphism of the cat and its contribution to the humor?",
+            "Does the response connect the cat's human-like expression to the comedic situation presented in the caption?",
+            "Does the response recognize the situational irony related to the expectations of digital communication?",
+            "Does the response mention the cultural relevance of the abrupt end to a conversation in the digital age as part of the humor?",
+            "Does the response understand the meme format's role in conveying humor within internet culture?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image features a meme with text at the top saying \"When you send a message to a friend who's online and right after that, they go offline,\" accompanied by a picture of a cat with a sad, teary-eyed expression, which humorously conveys feelings of disappointment or betrayal that someone might feel in such a situation. The background appears to show a computer screen, adding context to the online communication theme of the meme."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 2,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "사진에 담긴 기쁨과 기대의 본질을 살펴보면서, 사람은 즐거운 분위기를 확장할 뿐만 아니라 서사에 신선하고 창의적인 반전을 도입하는 이야기를 만들어내야 한다. 다가오는 여가 시간의 환희를 반영하는 원본 스냅샷의 주제적 핵심에서 벗어나지 않고 재미를 높이는 데 있다. 이 시나리오를 즐거운 모험의 연속으로 생각해보라. 여기서 비눗방울은 사라지는 일시적인 업무 책임을 나타내고, 아이의 표정은 휴식을 앞둔 모든 성인의 내면 아이를 상징한다. 다음에는 무슨 일이 일어날까?",
+        "reference_answer": "책임의 마지막 거품이 터지면서, 우리의 주인공은 잔디가 사무실 의자처럼 부드럽고 하늘이 그녀의 비어 있는 일정처럼 넓은 세계에 자신을 발견합니다. 이 땅에서는 부재 중 회신이 시적인 운문으로 스스로 작성되고, 매 걸음마다 단조로운 일상에 대한 기쁨의 반항의 흔적을 남깁니다.\n\n여기서 그녀는 현지인들을 만납니다: 휴가의 미덕을 구현한 동지들의 유쾌한 무리입니다. 첫 번째로, 하와이안 셔츠 갑옷을 입은 기사로, '긴 주말'의 신성한 영역을 지키고 있습니다. 그는 '마감 기한의 군대'와 '오후 낮잠의 동맹' 사이의 서사적인 전투 이야기를 그녀에게 들려줍니다.\n\n다음으로, 그녀는 '즉흥성의 마녀'를 만납니다. 이 변덕스러운 존재는 부풀어 오른 서류 가방을 선크림과 소설로 가득 찬 해변 가방으로 변신시키는 주문을 겁니다. 그녀의 웃음소리는 차트와 그래프를 숨겨진 카페와 비밀스러운 일몰로 이끄는 지도으로 바꾸는 멜로디입니다.\n\n이 땅의 중심에는 '읽지 않은 이메일의 숲'이 있습니다. 여기서 알림은 반딧불이로 변하여 잊혀진 취미와 새로운 모험으로 가는 길을 밝힙니다. 잡힌 각 반딧불이는 그녀에게 연결의 알림음에서 벗어난 하루를 선사하며, 그 하루는 읽은 장과 걸은 마일로 시간이 측정됩니다.\n\n날이 저물어 갈 때, 그녀는 '분리의 연회'에 자신을 발견합니다. 메뉴에는 '조용한 전화의 조각'과 '마음의 평화 찜'과 같은 다양한 요리가 제공됩니다. 연회는 별이 하늘을 뿌릴 때까지 계속되고, 남은 유일한 임무는 칼로리가 아닌 별자리를 세는 것입니다.\n\n달이 오르면서, 우리의 주인공은 안도와 만족의 실로 짜인 해먹에 기대어 그녀 자신의 만족의 리듬에 맞춰 부드럽게 흔들립니다. 멀리서 '계획되지 않은 낮잠의 합창단'이 부르는 자장가가 들려오며, 그녀에게 태양이 그녀의 느긋한 기상을 경례하고 세상이 숨을 죽이며 그녀가 먼저 살고 나중에 일하기를 기다리는 날들을 꿈꾸게 합니다.\n\n그녀는 할 일 목록과 알람의 영역으로 돌아가겠지만, 지금은 그녀의 시간의 여왕이자 휴식의 지배자이며, 거품은 계속 떠다니며 기대의 무게를 가져가고 웃음과 달콤한 휴식의 약속을 남깁니다.",
+        "score_rubric": {
+            "criteria": "Does the model's response effectively continue the narrative of the original image with added humor and imagination?",
+            "score1_description": "The response adds no humor or imagination to the narrative, or it introduces content that is irrelevant or diminishes the original image's theme.",
+            "score2_description": "The response adds minimal humor or imagination to the narrative and may only slightly relate to or expand upon the original image's theme.",
+            "score3_description": "The response adds humor to the narrative that is somewhat expected and lacks a fresh twist, but it still connects to the original image's theme.",
+            "score4_description": "The response adds humor and a creative twist to the narrative that is well-connected to the original image's theme, with minor lapses in originality or thematic consistency.",
+            "score5_description": "The response creatively and humorously expands the narrative, adding fresh and imaginative elements that perfectly align with the original image's theme."
+        },
+        "atomic_checklist": [
+            "Does the response incorporate the essence of joy and anticipation from the original photograph?",
+            "Does the response introduce a fresh and imaginative twist to the narrative?",
+            "Does the response maintain thematic consistency with the euphoria of impending leisure time depicted in the original image?",
+            "Does the response enhance the amusement without straying from the thematic core of the original image?",
+            "Does the response's narrative remain coherent while introducing added humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous meme with a caption that reads \"Me leaving work the day before vacation\". It features a photo of a little girl in a yellow jacket, joyously playing with bubbles, with an expression of ecstatic glee and abandon on her face. The meme comically relates the child's blissful state to the feeling of excitement and relief many people experience when they are about to start a vacation."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 3,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": " 1990년대 대중문화에서 자주 강조되는 기대와 현실 사이의 괴리를 고려하여 두 이미지의 병치가 웃음을 유발할 수 있는 이유를 설명해보세요.",
+        "reference_answer": "나란히 놓인 이미지의 유머는 이상화된 기대와 우스꽝스럽게 실망스러운 현실 사이의 불일치에서 비롯되며, 이는 1990년대 문화, 특히 패션과 스타일 트렌드와 관련하여 자주 다루어진 주제입니다. 밈의 왼쪽에는 1990년대 젊은 하트트로브들 사이에서 인기 있었던 헤어스타일을 연상시키는 남성의 사진이 있습니다. 이 스타일은 어느 정도 세련되고 멋진 남자의 매력을 발산했습니다. 이러한 유형의 이미지는 당시 청소년 잡지나 포스터에서 흔히 볼 수 있었으며, 유행하는 젊은이의 외모의 정점을 나타냈습니다.\n\n오른쪽에는 왼쪽의 이상적인 이미지와 극명하게 대조되는 현실이 나타납니다. 여기에는 비슷한 헤어스타일을 하고 있지만 덜 세련되고 스타일리시한 학교 사진이 있습니다. 이는 인기 있는 트렌드를 모방하려는 개인적인 시도에서 흔히 볼 수 있는 모습입니다. 머리는 과도하게 탈색되어 있고 고르지 않으며, 이상화된 버전에서 보이는 전문가의 손길이 부족합니다. 이 과장된 결함 있는 실행은 코믹한 효과를 강조합니다. 노란 셔츠는 탈색된 머리와 충돌하여 시각적 충격을 강화하며, 패션 실수로 여겨질 색상 조합을 통해 유머를 더합니다.\n\n이 밈은 원하는 외모를 달성하지 못한 실망감을 보편적으로 공감할 수 있는 경험으로 활용하며, 여기서는 코믹한 효과를 위해 과장되어 있습니다. 이는 1990년대에 성장했거나 그 시대의 대중문화를 잘 아는 사람들의 향수를 자극하며, 과거 트렌드에 대한 공유된 지식과 이를 복제하려는 실패한 시도의 공통점을 활용합니다. 이러한 문화적 상징에 대한 이해와 기대와 현실 사이의 보편적인 경험을 통해 공감을 자아낼 수 있습니다.",
+        "score_rubric": {
+            "criteria": "Does the response effectively explain the humor in the image based on the juxtaposition of idealized expectation and disappointing reality as seen in 1990s popular culture?",
+            "score1_description": "The response does not acknowledge the juxtaposition or the 1990s cultural context, and fails to relate these elements to the humor in the image.",
+            "score2_description": "The response recognizes a contrast between the two images but does not adequately link this to the 1990s cultural context or to the humor derived from failed expectations.",
+            "score3_description": "The response identifies the contrast and has a basic grasp of the 1990s cultural context, but the explanation of humor is superficial and lacks depth.",
+            "score4_description": "The response understands the juxtaposition and the 1990s cultural context, explaining the humor well, but might miss some subtleties or additional humorous elements.",
+            "score5_description": "The response provides a comprehensive explanation of the humor, expertly linking the juxtaposition to the cultural context of the 1990s and the universal experience of expectation versus reality."
+        },
+        "atomic_checklist": [
+            "Does the response identify the juxtaposition of the idealized and the actual as a source of humor?",
+            "Does the response relate the humor to the cultural context of the 1990s, especially concerning fashion and style trends?",
+            "Does the response explain the humor in the context of common experiences with failed expectations?",
+            "Does the response draw on the shared knowledge of 1990s pop culture to explain the meme's comedic effect?",
+            "Is the explanation provided by the response culturally accurate and relevant to the meme's humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a meme comparing expectations versus reality. On the left, the caption \"What I thought it would look like\" is above a photo of a person with a stylish haircut. On the right, \"What it actually looked like\" is above a photo of another person with a similar style haircut that has not been executed as fashionably. The meme humorously reflects on the sometimes disappointing outcomes of fashion or hairstyle choices."
+    },
+    {
+        "capability": "vision",
+        "task": "image_humor_understanding",
+        "instance_idx": 4,
+        "system_prompt": "You are helpful visual-language assistant.",
+        "input": "온라인에서 이상적인 시나리오와 현실적인 시나리오를 비교하는 시각적 농담을 공유할 때, 어떻게 하면 유머가 존중적이고 포괄적으로 전달될 수 있을까요? ",
+        "reference_answer": "이상적인 상황과 현실적인 상황을 대조하여 시각적인 농담을 공유할 때, 존중과 포용성을 유지하기 위해 다각적인 접근이 필요하다. 먼저, 콘텐츠가 고정관념을 강화하거나 개인의 경제적 지위를 조롱하지 않도록 해야 한다. 예를 들어, 문제의 이미지는 비행기 창문을 통해 에펠탑을 바라보는 사람과 세탁기 창문을 바라보는 사람을 대조하여 \"기대와 현실\"이라는 주제를 유머러스하게 표현한다.\n\n여기서 유머는 기대의 전복에 있다. 한 이미지는 여행이라는 일반적인 열망을 보여주고, 다른 이미지는 이 열망을 일상적인 물건으로 비튼다. 감수성을 유지하기 위해, 캡션은 특정 경험을 달성할 수 없는 결핍을 암시하기보다는 꿈을 현실에 맞추는 보편적인 성격을 강조할 수 있다.\n\n또한, 문화적 민감성을 고려해야 한다. 한 문화에서는 유머러스한 과장이 다른 문화에서는 오해를 사거나 불쾌감을 줄 수 있다. 이를 완화하기 위해, 농담은 특정 그룹이나 계층을 지목하지 않고 자기 비하적인 성격이 명확한 캡션과 함께 제시될 수 있다. 또한, 보편적으로 이해되는 언어를 사용하고 오해의 소지가 있는 속어나 관용어구를 피함으로써 농담이 의도한 대로 받아들여질 수 있도록 할 수 있다.\n\n마지막으로, 농담을 다양한 연령대에 맞추기 위해, 젊은 관객에게 적합하지 않을 수 있는 요소를 피해야 한다. 선택된 이미지는 이미 일반 대중에게 적합하지만, 사용되는 언어는 존중을 유지하고 암시를 피해야 한다.\n\n이러한 측면을 염두에 두면, 존중과 포용성을 잃지 않으면서 유머러스하고 가벼운 시각적 농담을 공유할 수 있으며, 넓은 관객층과 공감대를 형성하고 포용성을 유지할 수 있다. ",
+        "score_rubric": {
+            "criteria": "Does the response explain the humor in the juxtaposed images while ensuring the content is respectful and inclusive?",
+            "score1_description": "The response does not recognize the humor or fails to address respect and inclusivity, potentially presenting insensitive content.",
+            "score2_description": "The response identifies basic humor but lacks consideration for respect and inclusivity, missing the importance of sensitive presentation.",
+            "score3_description": "The response shows an understanding of the humor and some respect for inclusivity but does not fully ensure that the content is free from stereotypes or insensitivity.",
+            "score4_description": "The response explains the humor effectively, is mostly considerate of respect and inclusivity, but may overlook subtle sensitivities or cultural nuances.",
+            "score5_description": "The response thoroughly explains the humor with a keen awareness of respect and inclusivity, ensuring that the content is presented sensitively across different cultures and age groups."
+        },
+        "atomic_checklist": [
+            "Does the response avoid content that perpetuates stereotypes or mocks economic status?",
+            "Does the response ensure that the humor is age-appropriate and universally understandable?",
+            "Does the response maintain respect and inclusivity while explaining the humor?",
+            "Does the response consider cultural sensitivities and potential for misinterpretation?",
+            "Does the response utilize a self-deprecating caption to maintain humor without singling out any group?",
+            "Is the explanation of the humor clear, avoiding slang or idioms that could be misinterpreted?",
+            "Does the response show how the joke can be adapted to different audiences while preserving its humor?"
+        ],
+        "background_knowledge": [],
+        "caption": "The image is a humorous comparison meme. On the left side, the text \"The vacation you want\" is shown above a photo of a woman looking out of an airplane window at the Eiffel Tower, suggesting a desired trip to Paris. On the right side, \"vs. the vacation you can afford\" is above a photo of a woman looking out of a washing machine window, humorously implying a less glamorous reality due to budget constraints. The meme plays on the theme of expectations versus reality in terms of vacation planning."
+    }
+]

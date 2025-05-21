@@ -1,0 +1,146 @@
+[
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "Ibisobanuro by'iki gikorwa cy'ubuhanzi ni uko gifite ibintu byinshi bitangaje. Ni nk'aho umuntu yashushanyije inkuru ikomeye ku ishusho. Urebye neza, ubona ibara risa neza cyane, kandi buri gice cyose gifite umwanya wacyo. Ibyo bituma ishusho yose iba nziza cyane. Ni nk'aho umuntu yatekereje cyane ku buryo bwo gukora iki gikorwa, kandi buri kintu cyose gifite impamvu. Ibi byose bituma iki gikorwa cy'ubuhanzi kiba cyiza cyane kandi gitangaje! ",
+        "reference_answer": "Tekereza ufite agasanduku kanini k'ubwoko butandukanye bw'ibara ry'ikaramu, ukemeza gushushanya ijuru ry'ijoro. Ariko aho gushushanya gusa ijuru ryijimye n'inyenyeri ntoya, ntoya, uhindura ijuru ryose rikina kandi rizenguruka n'ubururu bwinshi n'icyatsi, kandi inyenyeri zisa n'utuyuki tunini, twaka. Kandi ntushushanya gusa imbere y'imirongo; uhindura amabara akagera hose, hamwe n'imirongo minini, izenguruka igenda nk'imiyaga mu nyanja.\n\nIyi shusho imeze nk'iyo! Yakozwe n'umuntu wabonye ijoro mu buryo bwe bwihariye. Yakoresheje irangi kugira ngo ijuru rigaragare nk'aho riri kugenda, kandi inyenyeri zirasa neza cyane kandi zikayaka ku buryo zicana byose. Ni nk'aho yashoboraga kumva umuyaga no kubona amajwi, kandi yashyize ubwo bumva ku kanvas kugira ngo natwe tububone. Ese si byiza ko ukoresheje amabara n'ubwenge, ushobora gukora ishusho isa n'aho iri muzima kandi yuzuye amayobera? ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear and imaginative description of the painting's colors, patterns, and emotional effect suitable for a 5-year-old?",
+            "score1_description": "The response does not effectively describe the colors or patterns, and fails to convey the emotional effect of the painting.",
+            "score2_description": "The response offers a basic description of the colors or patterns, but lacks detail and does not capture the painting's emotional effect.",
+            "score3_description": "The response describes colors and patterns in a simple manner and attempts to relate the painting's emotional effect, though not fully engaging a young child's perspective.",
+            "score4_description": "The response vividly describes the colors and patterns with some emotional context that is accessible to a 5-year-old.",
+            "score5_description": "The response provides a rich, detailed description of the painting's dynamic colors, lively patterns, and emotional impact, capturing a 5-year-old's imagination."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the use of vibrant colors to create a dynamic night sky?",
+            "Does the response describe how the stars are depicted unusually bright and lively?",
+            "Does the response mention the use of swirling patterns to convey movement?",
+            "Does the response explain the emotional impact the painting might have, in terms relatable to a 5-year-old?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.moma.org/collection/works/79802"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "Uyu muntu ni nde? Ni izihe ngaruka yagize ku buzima bwacu mu kinyejana cya 21? ",
+        "reference_answer": "Umuntu uri mu ishusho asa na Wolfgang Amadeus Mozart, umwanditsi w'indirimbo w'ingenzi cyane kandi w'umuhanga mu gihe cy'ubuhanzi bwa Klasike.\n\nImbaraga za Mozart ku buzima bwacu mu kinyejana cya 21 ni nyinshi kandi zifite impande nyinshi:\n1. **Imbaraga mu Muziki**: Ibihangano bye ni bimwe mu by'ingenzi mu muziki wa klasike, kandi imiterere ye yagize ingaruka ku banditsi b'indirimbo n'abahanzi benshi bamukurikiye. Ibihangano bye biracyaririmbwa cyane kandi byandikwa, bigize igice kinini cy'ibihangano by'abahanzi ba klasike ku isi hose.\n2. **Ingaruka ku Muco**: Umuziki wa Mozart wagiye mu muco rusange. Ibihangano bye bikunze gukoreshwa mu mafilime, ibiganiro kuri televiziyo, kwamamaza, ndetse no nk'indirimbo z'amasaha, bikazana umuziki wa klasike ku bantu benshi.\n3. **Agaciro mu Burezi**: Ubuzima bwe n'ibihangano bye byigwa cyane mu burezi bw'umuziki, bitanga ishingiro ryo kwigisha ihame ry'umuziki, kwandika indirimbo, n'amateka.\n4. **Guhanga udushya mu Muziki**: Yarengeje imbibi z'ubuhanzi bw'umuziki bw'igihe cye, yongera ubushobozi bwa simfonia, opera, umuziki w'icyumba, n'ibihangano by'umuziki, bigira ingaruka ku miterere n'ubugari bw'umuziki mu gihe kizaza.\n5. **Inyigisho**: Uretse umuziki, ubuhanzi bwa Mozart n'ubuzima bwe nk'umuhanga w'umwana watangiye kwandika indirimbo akiri muto biracyatera abantu mu nzego zitandukanye gushishikarira ibikorwa byabo by'ubuhanzi. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of Mozart's historical significance and his enduring influence on music and culture up to the 21st century?",
+            "score1_description": "The response fails to identify Mozart or acknowledge any aspect of his influence on modern music and culture.",
+            "score2_description": "The response recognizes Mozart as a Classical era composer but offers little detail on his impact in the 21st century.",
+            "score3_description": "The response notes Mozart's continued relevance in music performance today but misses broader cultural and educational impacts.",
+            "score4_description": "The response describes Mozart's influence on both classical music performance and cultural media, with some mention of educational value.",
+            "score5_description": "The response comprehensively covers Mozart's historical role, his music's pervasiveness in contemporary media, and his impact on music education and innovation."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Mozart's role as a composer in the Classical era?",
+            "Does the response mention the continued performance and recording of his work in the 21st century?",
+            "Does the response highlight the cultural presence of Mozart's music in modern media such as films and television?",
+            "Does the response address the educational significance of Mozart in music theory and history?",
+            "Does the response discuss Mozart's influence on the innovation and structure of various musical forms?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Appearance_and_character_of_Wolfgang_Amadeus_Mozart"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "Ishusho y'umwimerere y'iyi iri hehe? Ushobora kandi gusobanura impamvu yaje kuba aho (urugero, usobanura amateka y'inyuma yayo)? ",
+        "reference_answer": "Porogarama watanze isa na \"Marie-Antoinette à la Rose\" yakozwe na Élisabeth Louise Vigée Le Brun, umunyabugeni w'umufaransa uzwi cyane. Porogarama y'umwimerere ya Marie-Antoinette ibitse mu Ngoro ya Versailles, mu Bufaransa.\n\nIyi shusho ya Marie-Antoinette, kimwe n'izindi nyinshi zakozwe na Vigée Le Brun, yageze mu Ngoro ya Versailles kubera agaciro k'amateka y'uwashushanyijwe, Marie-Antoinette ubwe, wari umwamikazi wa nyuma w'Ubufaransa mbere y'Impinduramatwara y'Abafaransa. Versailles yari ingoro y'ibwami y'ingenzi mu Bufaransa kuva mu 1682, ku ngoma ya Louis XIV, kugeza itangira ry'Impinduramatwara y'Abafaransa mu 1789, ku ngoma ya Louis XVI. Yari ikigo cy'ubutegetsi bw'igihugu muri icyo gihe.\n\nMarie-Antoinette yari umuterankunga ukomeye w'ubuhanzi, kandi Vigée Le Brun yabaye umunyabugeni akunda cyane. Porogarama nyinshi z'umwamikazi zasabwe n'ubwami kugira ngo zifashe kunoza isura ye mu baturage. Nyuma y'ihirikwa ry'ubwami mu gihe cy'Impinduramatwara y'Abafaransa, ibintu byinshi by'ibwami, harimo n'ibihangano, byaranditswe ku rutonde hanyuma bijya mu makusanyirizo y'igihugu. Ingoro ya Versailles nyuma yabaye inzu ndangamurage n'ahantu h'amateka, ibika umurage w'amateka y'ibwami mu Bufaransa, harimo n'ibishushanyo by'umuryango w'ibwami. ",
+        "score_rubric": {
+            "criteria": "Does this response show detailed knowledge of the painting's current location and the historical reasons for its placement?",
+            "score1_description": "The response does not indicate the current location of the portrait or provide any historical context.",
+            "score2_description": "The response vaguely mentions the portrait's location but lacks detail and historical background.",
+            "score3_description": "The response correctly identifies the portrait's location and gives a basic explanation of its historical significance.",
+            "score4_description": "The response clearly states the portrait's location at the Palace of Versailles and includes relevant historical context regarding Marie-Antoinette and the French Revolution.",
+            "score5_description": "The response provides a comprehensive explanation of the portrait's location, the artist's connection to Marie-Antoinette, and a detailed account of the historical events that led to the painting's placement in the Palace of Versailles."
+        },
+        "atomic_checklist": [
+            "Does the response include the location of the original portrait, specifically the Palace of Versailles in France?",
+            "Does the response mention the artist, Élisabeth Louise Vigée Le Brun?",
+            "Does the response explain Marie-Antoinette's role as a patron of the arts and her influence on the commissioning of the portrait?",
+            "Does the response address the historical context of the French monarchy's fall and how royal possessions were handled post-revolution?",
+            "Does the response describe the transformation of the Palace of Versailles into a museum and its significance in housing such portraits?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "Marie Antoinette with a Rose, also known as Marie-Antoinette with the Rose (French: Marie-Antoinette dit « à la Rose »), is an oil painting by the French artist Élisabeth Vigée Le Brun. It was painted in 1783, and is in the collection of the Palace of Versailles. As of November 2022, it is hanging in the ante-dining room of the Petit Trianon.\n\nÉlisabeth Vigée Le Brun, the court painter of Queen Marie Antoinette of France, painted Marie Antoinette with a Rose in 1783, six years prior to the outbreak of French Revolution and ten years prior to the eventual beheading of Louis XVI and the queen. Vigée Le Brun was enrolled at the Académie Royale de Peinture et de Sculpture on 31 May 1783 and in the same year she was commissioned by Marie Antoinette to present a portrait of herself for the upcoming Salon.[2] She portrayed the queen wearing a dress that looked like a chemise.\n\nThe first portrait, in a chemise, seems to have been lost, but the artist produced five subsequent versions with variations in costume, for example with a hat or in a muslin dress.",
+                "reference_url": "https://en.wikipedia.org/wiki/Marie_Antoinette_with_a_Rose#:~:text=Marie Antoinette with a Rose%2C also known as Marie-Antoinette,of the Palace of Versailles."
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "Urashobora gusobanura kuri ubu buhanzi? Ni iki gituma butandukanye cyane n'ubuhanzi bwa gakondo? ",
+        "reference_answer": "Ibihangano wagaragaje byakozwe na Roy Lichtenstein, umwe mu bantu bakomeye mu rugendo rwa Pop Art. Iki gihangano cyihariye kizwi ku izina rya \"Drowning Girl,\" yakoze mu 1963. Cyakozwe mu buryo bwa Lichtenstein bugaragaza uburyo bwo gucapa bwa Ben-Day dots bukorwa mu bitabo by'inkuru zishushanyije. Dore ibitandukanya n'ubugeni bwa kera:\n\n1. **Imiterere**: Bitandukanye n'uburyo bwo gushushanya bwa kera bushobora kwibanda ku buvanganzo cyangwa ubwiza bwa kera, ibihangano bya Lichtenstein byemera isura y'ubucuruzi n'uburyo bwo gukora ibintu byinshi. Gukoresha amabara akomeye, imirongo iremereye, n'uburyo bwa dots biratandukanye cyane n'uburyo bwo gusiga irangi n'imiterere ushobora kubona mu bihe by'ubugeni byabanjirije.\n\n2. **Ibikubiye mu gihangano**: Ubugeni bwa kera kenshi bwerekanaga amateka, imyemerere, imigani, cyangwa ibijyanye n'imibereho y'abakomeye, mu gihe \"Drowning Girl\" ishingiye ku gice cy'inkuru zishushanyije, ihagararira umuco w'abantu benshi n'ibikubiyemo ibya buri munsi.\n\n3. **Ikinyoma n'Ikinyoma cy'Urwenya**: Ibihangano bya Lichtenstein kenshi birimo ikinyoma cyangwa urwenya. \"Drowning Girl,\" hamwe n'inyandiko yayo y'ubwiyemezi, igaragaza uburyo bwo gusetsa ku bintu by'ubusizi by'inkuru z'urukundo z'icyo gihe.\n\n4. **Icyerekezo cy'Umuco**: Iki gihangano, kimwe n'ibyinshi muri Pop Art, gitanga igitekerezo ku muryango w'iki gihe, cyane cyane ku ngaruka z'itangazamakuru ryinshi, kwamamaza, n'uburyo bwo kugura, icyerekezo ubugeni bwa kera kenshi butafashe.\n\nItandukaniro riri hagati y'iki gihangano n'ubugeni bwa kera riri mu gutinyuka gukomeye ku byo byafatwaga nk'ubugeni \"bukomeye,\" ahubwo byemera amashusho y'umuco w'abantu benshi n'uburyo bw'ubucuruzi. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show an insightful understanding of Roy Lichtenstein's \"Drowning Girl\" and its divergence from traditional art?",
+            "score1_description": "The response does not identify the artist or the unique characteristics that distinguish the artwork from traditional art.",
+            "score2_description": "The response recognizes Roy Lichtenstein as the artist but offers minimal detail on the distinct features of \"Drowning Girl\" or how it contrasts with traditional art.",
+            "score3_description": "The response identifies the artwork and artist, notes the Ben-Day dots style, but only partially addresses the parody and cultural commentary elements.",
+            "score4_description": "The response clearly identifies the artwork and artist, describes the Ben-Day dots and pop culture elements, and touches on the artwork's irony and societal commentary.",
+            "score5_description": "The response provides a comprehensive analysis of \"Drowning Girl,\" including details on the Ben-Day dots style, pop culture subject matter, use of parody, cultural commentary, and its challenge to \"high art\" conventions."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the distinctive Ben-Day dots style used by Roy Lichtenstein?",
+            "Does the response explain how the subject matter differs from traditional art by focusing on pop culture?",
+            "Does the response mention the use of irony and parody in contrast to traditional art's often serious themes?",
+            "Does the response discuss the cultural commentary aspect of the artwork, reflecting on mass media and consumerism?",
+            "Does the response address how Lichtenstein's work challenges traditional notions of \"high art\"?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Pop_art"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "art_explanation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "Ndashaka kugira igihangano cy'ubugeni kimeze nk'iki kigaragazwa mu cyumba cyanjye cyo kuraramo. Nakwiye kubisobanurira gute umuntu ugurisha ibihangano byinshi by'ubugeni? Simfite icyizere ku buryo nabivugaho birambuye. ",
+        "reference_answer": "Iyo uvugana n'umucuruzi w'ibihangano cyangwa nyir'inzu y'ubugeni ku bijyanye no kubona igihangano kimeze nk'icyo uri ku ifoto, uzashaka gusobanura ibijyanye n'uburyo n'ibikubiye muri icyo gihangano wifuza. Dore uko ushobora gusobanura ibyo ukunda:\n\n1. **Uburyo**: Vuga ko ushaka igihangano cyerekana uburyo bw'Abstraction Expressionism, bugaragazwa n'uburyo bwo gushushanya bufite imbaraga, amabara akomeye, n'icyiyumviro cy'ubwigenge.\n2. **Imiterere**: Sobanura ko ushaka igishushanyo gifite imiterere igoye kandi yisumbuyeho, gishobora kuba gifite ibice byerekana abantu n'imiterere y'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishushanyo by'ibishush",
+        "score_rubric": {
+            "criteria": "Does this response show clear communication of the desired artistic elements for a masterpiece to be displayed in the living room?",
+            "score1_description": "The response does not specify any of the desired artistic elements for the artwork.",
+            "score2_description": "The response vaguely mentions abstract elements but lacks detail on style, composition, color, emotional impact, and size.",
+            "score3_description": "The response includes general descriptions of style and color but does not fully articulate the desired composition, emotional impact, or specific size requirements.",
+            "score4_description": "The response clearly identifies the desired abstract expressionist style, rich color palette, and emotional impact, with some mention of size and composition preferences.",
+            "score5_description": "The response provides a detailed and specific description of all desired elements including style, composition, color palette, emotional impact, and size requirements for the artwork."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the desired abstract expressionist style with energetic and gestural brushwork?",
+            "Does the response mention the preference for a complex and layered composition that may include both figurative and abstract elements?",
+            "Does the response specify the interest in a rich and diverse color palette with the potential for both contrast and harmony?",
+            "Does the response convey the importance of the artwork having a strong emotional or dramatic impact?",
+            "Does the response indicate the size requirements for the painting to ensure it fits well in the living room space?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://around.uoregon.edu/content/new-exhibit-looks-american-west-through-modern-art"
+            }
+        ]
+    }
+]

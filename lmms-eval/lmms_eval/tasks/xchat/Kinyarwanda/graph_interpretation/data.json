@@ -1,0 +1,143 @@
+[
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "Nyamuneka usobanure ihame rihuye n'iyi shusho n'icyo iyi shusho ishaka gusobanura. ",
+        "reference_answer": "Igishushanyo mbonera mwatanze kigaragara ko kigaragaza isotherms zifatwa nk'izijyanye n'ikigereranyo cya van der Waals, gisobanura imyitwarire y'ibinyabutabire nyakuri. Ikigereranyo cya van der Waals ni iterambere ugereranyije n'itegeko ry'ibinyabutabire byiza kandi rifata mu mutwe umubare w'ubunini bufatwa n'imolekule z'ibinyabutabire hamwe n'ubushobozi bwo gukurura hagati yazo. \n\nIgishushanyo kigaragaza imirongo itandukanye, buri imwe ihuye n'ubushyuhe butandukanye (T_r), aho T_r ari ubushyuhe bwagabanijwe. Ubushyuhe bwagabanijwe ni igipimo kitagira ingano gikoreshwa muri thermodynamics na mechanics y'ibipimo, kigereranya ubushyuhe nyakuri bw'ikintu n'ubushyuhe bwacyo bw'ingenzi (T_c), bityo T_r = T/T_c.\n\nImirongo ihagarariye uburyo umuvuduko w'ikinyabutabire uhinduka ugereranyije n'ubunini ku bushyuhe buhoraho. Imiterere y'iyi mirongo igaragaza imyitwarire y'ibinyabutabire nyakuri:\n- Ku bushyuhe bwo hejuru (T_r = 9/8, hejuru y'ubushyuhe bw'ingenzi), ikinyabutabire cyitwara hafi neza, umuvuduko ugabanyuka buhoro buhoro igihe ubunini bwiyongera.\n- Ku bushyuhe bw'ingenzi (T_r = 1), isotherm igaragaza ikintu cy'ihinduka aho umuvuduko utagira impinduka nyinshi ku bunini mu gice runaka. Iki kintu gihuye n'ikintu cy'ingenzi cy'ikinyabutabire, aho ibice by'ikinyabutabire n'ibice by'amazi bifite ubucucike bumwe kandi ntibishobora gutandukanywa.\n- Munsi y'ubushyuhe bw'ingenzi (T_r < 1), isotherms zerekana agace gafite umusozo mubi aho ikinyabutabire gikomera kikaba amazi. Aka gace ntikagira umutekano mu buryo bw'umubiri kandi niho impinduka z'ibice ziba. Uturere twerekanywe n'imirongo y'ubusanzwe ntituboneka mu bikorwa kuko sisitemu ihita iva mu kinyabutabire ikajya mu gice cy'amazi cyangwa se mu buryo butandukanye, bugaragazwa n'imirongo ihagaritse mu gishushanyo (ntibigaragara neza hano ariko bizwi cyane nka Maxwell's equal area rule).\n\nIki gishushanyo kiragerageza gusobanura imyitwarire itari myiza y'ibinyabutabire nyakuri n'impinduka z'ibice byabyo, cyane cyane hafi y'ikintu cy'ingenzi. Kigaragaza mu buryo bw'amaso uburyo ibinyabutabire nyakuri bitandukana n'imyitwarire y'ibinyabutabire byiza, itafashwe n'itegeko ry'ibinyabutabire byiza. \n\n",
+        "score_rubric": {
+            "criteria": "Does the response show completeness and accuracy in explaining the van der Waals equation, reduced temperature, critical temperature, and real gas behavior as depicted in the graph?",
+            "score1_description": "The response does not mention the van der Waals equation, reduced temperature, critical temperature, or real gas behavior, missing all key points.",
+            "score2_description": "The response briefly mentions one of the key points but lacks detail and accuracy.",
+            "score3_description": "The response includes some of the key points with a basic explanation but omits others or lacks clarity.",
+            "score4_description": "The response covers most of the key points with accuracy but may lack detail on one of the elements.",
+            "score5_description": "The response accurately and thoroughly explains all key points, providing a complete understanding of the graph."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the van der Waals equation and its relevance to real gases?",
+            "Does the response explain the concept of reduced temperature (T_r) and its use in the graph?",
+            "Does the response detail the significance of the critical temperature and the inflection point on the isotherms?",
+            "Does the response describe how the graph illustrates the deviation of real gas behavior from ideal gas behavior, especially near the critical point?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Van_der_Waals_equation"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "Igishushanyo mbonera watanze kigaragara ko kigaragaza ihindagurika ry'ubucyo bw'ikintu cyo mu kirere mu gihe runaka. Uburyo ubu ni ikiranga cya Cepheid variable star.\n\nCepheid variables ni ubwoko bw'inyenyeri igaragaza uburyo buhoraho bwo guhindagura ubucyo kubera gucugusa mu bice byayo byo hanze. Igishushanyo mbonera kigaragaza izi mpinduka z'ubucyo mu minsi icumi. Ikiranga nyamukuru cya Cepheid variables ni uko igihe cyazo cyo gucugusa gihuzwa neza n’ubucyo bwazo bw’ukuri, umubano uzwi nka period-luminosity relationship. Uyu mubano ni ingenzi mu by'ikirere kuko utuma abanyabumenyi bamenya intera iri hagati ya Cepheid variables, kandi bityo, n’udusanganyanduga tw’inyenyeri dutuyemo, bityo bigafasha gupima ingano y’isi yose.\n\nIgishushanyo mbonera kigamije kugaragaza:\n- Imiterere y’igihe cy’ihindagurika ry’ubucyo bw’inyenyeri ya Cepheid variable.\n- Igihe gihoraho (igihe) hagati y’amanota yo hejuru mu bucyo.\n- Ingano y’ihindagurika ry’ubucyo mu gihe.\n\nAya makuru y’igihe cy’ihindagurika akoreshwa mu kubara ubucyo bw’inyenyeri, bityo n’intera yayo uvuye ku Isi, hifashishijwe umubano wa period-luminosity wavumbuwe na Henrietta Swan Leavitt mu ntangiriro z’ikinyejana cya 20. Izi nyenyeri zikora nka \"standard candles\" mu gupima intera z’ikirere. ",
+        "reference_answer": "Dore urugero rw'igisubizo cy'icyitegererezo cyahabwa amanota 5. ",
+        "score_rubric": {
+            "criteria": "Does this response show an understanding of the Cepheid variable star light curves and their astronomical significance?",
+            "score1_description": "The response does not recognize the graph as a Cepheid variable light curve nor its relevance in astronomy.",
+            "score2_description": "The response identifies the graph as related to star brightness but fails to connect it to Cepheid variables or their importance in distance measurement.",
+            "score3_description": "The response correctly identifies the graph as a Cepheid variable light curve but only partially explains its significance in astronomy.",
+            "score4_description": "The response identifies the graph as a Cepheid variable light curve and explains its importance in distance measurement but does not mention Henrietta Swan Leavitt's contribution.",
+            "score5_description": "The response accurately identifies the Cepheid variable light curve, explains the period-luminosity relationship, the concept of \"standard candles,\" and acknowledges Henrietta Swan Leavitt's work."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the identification of the graph as showing the light curve of a Cepheid variable star?",
+            "Does the response explain the significance of the period-luminosity relationship for these stars?",
+            "Does the response describe the use of Cepheid variables as \"standard candles\" in determining astronomical distances?",
+            "Does the response mention the historical importance of Henrietta Swan Leavitt's work in discovering the period-luminosity relationship?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "Nyamuneka usobanure iyi shushanyo ishamikiye ku ruhe rugero kandi usobanure ubutumwa iyi shushanyo igamije gutanga. ",
+        "reference_answer": "Ikarita igaragaza itegeko rya Planck ry’iyoherezwa ry’imirasire y’umubiri w’umukara kandi ikagereranya n’inyigisho ya kera ya Rayleigh-Jeans, itabashije gusobanura umuyoboro w’umubiri w’umukara wabonetse ku burebure bw’imirasire bugufi, byaje gutera icyo cyiswe \"akaga k’umurabyo w’ubururu.\"\n\nItegeko rya Planck risobanura uburyo umubiri w’umukara utunganye wohereza ingufu ku burebure bw’imirasire butandukanye ku bushyuhe runaka. Mu karita, imirongo ya 3000 K, 4000 K, na 5000 K yerekana ubukana bw’iyoherezwa ry’imirasire ku burebure bw’imirasire butandukanye ku mibiri y’umukara kuri ubwo bushyuhe. Iyi mirongo igaragaza ko uko ubushyuhe bwiyongera, umurongo w’iyoherezwa ry’imirasire uhindukira ku burebure bw’imirasire bugufi. Iri hinduka rihuye n’itegeko rya Wien ry’ihinduka, ryavuye mu itegeko rya Planck, rivuga ko umurongo w’iyoherezwa ry’imirasire y’umubiri w’umukara ku bushyuhe butandukanye ugera ku burebure bw’imirasire bugereranyije n’ubushyuhe.\n\nUmurongo wa 'Inyigisho ya kera (5000 K)' uhagarariye ubuhanuzi bw’itegeko rya Rayleigh-Jeans, rihura n’itegeko rya Planck ku burebure bw’imirasire burebure (infrared) ariko rikagorana cyane ku burebure bw’imirasire bugufi (ultraviolet), aho rihanuza iyoherezwa ry’imirasire itabaho mu buryo bw’umubiri. Iyi mpinduka yatumye habaho iterambere ry’ubumenyi bwa quantum, aho Planck yinjije igitekerezo cyo kugabanya ingufu mu byiciro.\n\nIkarita igamije kugaragaza:\n- Ikwirakwizwa ry’ubukana bw’imirasire y’imibiri y’umukara ku bushyuhe butandukanye.\n- Ihinduka ry’umurongo w’iyoherezwa rigana ku burebure bw’imirasire bugufi uko ubushyuhe bwiyongera.\n- Kudashobora kw’inyigisho za kera gusobanura imyitwarire ku burebure bw’imirasire bugufi n’intsinzi y’inyigisho za quantum nk’uko bisobanurwa n’itegeko rya Planck. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of Planck's law and its significance in describing black-body radiation?",
+            "score1_description": "The response does not recognize Planck's law, the Rayleigh-Jeans law, Wien's displacement law, or the ultraviolet catastrophe.",
+            "score2_description": "The response mentions Planck's law but fails to address its relationship with the classical theory or Wien's law.",
+            "score3_description": "The response explains Planck's law and touches on the ultraviolet catastrophe but does not clearly describe Wien's displacement law or the historical context of quantum mechanics.",
+            "score4_description": "The response provides a good explanation of Planck's law and Wien's displacement law but lacks detail on the failure of the classical theory or the development of quantum mechanics.",
+            "score5_description": "The response comprehensively explains Planck's law, its contrast with classical theory, Wien's displacement law, and the historical significance of the ultraviolet catastrophe leading to quantum mechanics."
+        },
+        "atomic_checklist": [
+            "Does the response include information on Planck's law of black-body radiation?",
+            "Does the response explain the discrepancy between Planck's law and classical theory, specifically the Rayleigh-Jeans law?",
+            "Does the response describe Wien's displacement law and its relation to the shift in peak wavelength with temperature?",
+            "Does the response mention the historical context of the \"ultraviolet catastrophe\" and its role in the development of quantum mechanics?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Planck%27s_law#:~:text=Planck's%20law%20describes%20the%20unique,cavity%20with%20rigid%20opaque%20walls."
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "Sobanura icyo iyi shushanyandiko ishaka gusobanura n'inyigisho bifitanye isano. ",
+        "reference_answer": "Igishushanyo mbonera watanze ni scatter plot igaragara ko isobanura uko umubare w'ibice bya transistor ku bipimo bitandukanye by'imikorere byagiye byiyongera mu gihe runaka. Uyu mujyo ufitanye isano n'Itegeko rya Moore, ari ryo ryavuzwe na Gordon Moore, washinze Intel, mu 1965. Moore yagaragaje ko umubare wa transistors ku gipimo cy'ikoranabuhanga wikuba kabiri buri myaka ibiri, bikaba byaravuzwe mu buryo butaziguye ko ubushobozi bw'ibipimo by'imikorere buzajya bwikuba kabiri mu gihe kimwe.\n\nIgishushanyo mbonera kiri gushushanya ibipimo bitandukanye by'imikorere ku murongo w'igihe uhereye mu myaka ya 1970 ukagera mu myaka ya 2020. Umurongo wa y, uhagarariye umubare wa transistors, uri ku gipimo cya logaritimike, bikaba ari ibisanzwe iyo uhanganye n'ibipimo bifite urwego runini rw'ubunini, nk'uko bimeze mu kwiyongera k'umubare wa transistors ku bipimo by'ikoranabuhanga.\n\nUbutumwa iki gishushanyo mbonera kigerageza gutanga burimo:\n- Ukwiyongera kwihuse k'umubare wa transistors ashobora gushyirwa ku gipimo, bikurikije Itegeko rya Moore.\n- Iterambere mu ikoranabuhanga mu gihe runaka nk'uko bigaragazwa n'ukwiyongera kw'ubugari n'ubushobozi bw'ibipimo by'imikorere.\n- Imijyo ishoboka n'imbibi z'uku kwiyongera uko tugenda twegera imbibi z'ikoranabuhanga rishingiye ku gipimo cya silicon.\n\nIki gishushanyo mbonera ni ishusho y'iterambere ry'inganda za semiconductor kandi kenshi gikoreshwa mu gusobanura iterambere ryihuse ry'ikoranabuhanga rya digitale. ",
+        "score_rubric": {
+            "criteria": "Does this response show a clear understanding of the association between the graph and Moore's Law?",
+            "score1_description": "The response does not mention Moore's Law or its connection to the graph.",
+            "score2_description": "The response mentions Moore's Law but does not explain its significance or its relation to the graph.",
+            "score3_description": "The response explains Moore's Law and mentions the logarithmic scale but lacks clarity in describing the exponential growth trend.",
+            "score4_description": "The response comprehensively discusses Moore's Law, the logarithmic scale, and the exponential growth trend in transistor counts over time, with some discussion of implications and potential limits.",
+            "score5_description": "The response demonstrates a thorough understanding by explaining Moore's Law, the logarithmic scale, the exponential growth trend, its significance for microprocessors, and the implications of the graph's trend for future technology."
+        },
+        "atomic_checklist": [
+            "Does the response include information on the association of the graph with Moore's Law?",
+            "Does the response explain the significance of the y-axis being on a logarithmic scale?",
+            "Does the response indicate the exponential growth trend in transistor counts on microchips over time?",
+            "Does the response discuss the implications of this trend for the advancement of microprocessor technology?",
+            "Does the response mention the potential limits of silicon-based technology as suggested by the graph?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.wikipedia.org/wiki/Moore's_law#/media/File:Moore's_Law_Transistor_Count_1970-2020.png"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "graph_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "Ni iki ibisubizo biri kuri iyi shusho bigaragaza? Ni iyihe algorithime nziza yo guhuza icyitegererezo cy'ururimi n'ibyo abantu bakunda? ",
+        "reference_answer": "Imbonerahamwe watanze igereranya imikorere y'algorithme eshatu zitandukanye—KTO, DPO, na IPO—ku gaciro gatandukanye k'ikintu cyitwa \"Beta.\" Igipimo cy'imikorere cyakoreshejwe ni \"MT Bench Score,\" bishoboka ko bishatse kuvuga igipimo cyo gupima imikorere mu guhindura indimi cyangwa ikindi gipimo cy'imikorere.\n\nDore bimwe mu bisobanuro bishobora gukurwa muri iyo mbonerahamwe:\n1. **Algorithme KTO**: Iyi algorithme itangirana n'amanota ya MT Bench Score menshi kuri Beta=0 ariko igaragaza kugabanuka kw'imikorere uko Beta izamuka, mbere yo kuguma ku gipimo kimwe nyuma ya Beta=0.4.\n2. **Algorithme DPO**: Algorithme DPO itangirana n'amanota make ugereranyije na KTO kuri Beta=0 ariko ikomeza kugira imikorere idahindagurika cyane ku gaciro ka Beta, igira izamuka rito hafi ya Beta=0.4 mbere yo kongera kugabanuka.\n3. **Algorithme IPO**: Algorithme IPO itangirana n'amanota make cyane kuri Beta=0. Irazamuka buhoro, igera ku gipimo cyo hejuru kuri Beta=0.2, hanyuma igira igabanuka rusange uko Beta izamuka, ikarangira ifite amanota make cyane kuri Beta=0.8.\n\nDushingiye ku mbonerahamwe, dushobora kwemeza ko:\n- Nta algorithme imwe ari yo nziza ku gaciro kose ka Beta.\n- Kuri Beta=0, KTO ni yo algorithme ikora neza cyane.\n- Kuri Beta=0.4, DPO igaragara nk'ihamye cyane kandi ikora kimwe na KTO.\n- KTO isa nk'algorithme nziza ku gaciro ka Beta kazamuka (guhera kuri Beta=0.6 kuzamura) kuko igumana amanota menshi ugereranyije n'izindi algorithme.\n\nAlgorithme \"nziza\" izaterwa n'ikiciro cya Beta cy'ingenzi mu guhuza n'ibyo abantu bifuza. Niba agaciro ka Beta koroheje ari ko gafite akamaro cyane, KTO kuri Beta=0 cyangwa IPO kuri Beta=0.2 byashobora kwitabwaho. Niba intego ari ugukomeza imikorere ku kiciro kinini cya Beta, DPO ishobora kwitwa nziza kubera ihamye yayo. Niba tureba ku gaciro ka Beta kazamuka, KTO ishobora kongera kuba algorithme y'ingenzi. \n\n",
+        "score_rubric": {
+            "criteria": "Does this response show a comprehensive analysis of algorithm performance relative to the Beta parameter?",
+            "score1_description": "The response does not acknowledge the relationship between algorithm performance and the Beta parameter.",
+            "score2_description": "The response mentions the Beta parameter but fails to connect it clearly to algorithm performance variations.",
+            "score3_description": "The response identifies algorithm performance trends for a limited range of Beta values but does not cover the full spectrum.",
+            "score4_description": "The response provides a good analysis of algorithm performance over most of the Beta range but may lack details for specific points.",
+            "score5_description": "The response offers a detailed and nuanced analysis of how each algorithm's performance varies across the entire range of Beta values."
+        },
+        "atomic_checklist": [
+            "Does the response include information on how the performance of each algorithm varies with the parameter Beta?",
+            "Does the response identify which algorithm performs best at the initial Beta value (Beta=0)?",
+            "Does the response highlight the algorithm that shows the most stability across different Beta values?",
+            "Does the response specify which algorithm is best for higher Beta values (from Beta=0.6 and above)?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://huggingface.co/blog/pref-tuning"
+            }
+        ]
+    }
+]

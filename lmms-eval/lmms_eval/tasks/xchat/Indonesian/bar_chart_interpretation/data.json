@@ -1,0 +1,137 @@
+[
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 0,
+        "system_prompt": "You are a multi-modal AI assistant responsible for writing a helpful response based on the given text instruction and image.",
+        "input": "Berapa persentase selisih pengurangan PDB antara negara dengan penurunan ukuran ekonomi terbesar dan negara dengan penurunan terbesar kedelapan? ",
+        "reference_answer": "Gambar yang disediakan menunjukkan grafik dengan berbagai negara dan perubahan yang diproyeksikan dalam PDB nominal mereka dalam dolar AS. Untuk menjawab pertanyaan Anda, saya perlu mengidentifikasi negara dengan penurunan PDB terbesar dan negara dengan penurunan terbesar kedelapan, lalu menghitung selisih persentase pengurangan PDB antara kedua negara ini.\n\nBiarkan saya menganalisis gambar untuk mendapatkan data yang diperlukan.\n1. Rusia: -$153M\n2. Mesir: -$88M\n3. Kanada: -$50M\n4. Arab Saudi: -$46M\n5. Bangladesh: -$40M\n6. Norwegia: -$25M\n7. Kuwait: -$20M\n8. Oman: -$10M\n\nPerbedaan antara persentase pengurangan PDB Rusia dan Oman adalah $153M - $10M = $143M. Jadi, jawabannya adalah $143M. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately identify and parse the information in the image and successfully apply the required calculation to derive the GDP reduction difference?",
+            "score1_description": "The response inaccurately extracts GDP figures from the graph, misidentifies the largest and eighth largest decreases, and/or incorrectly calculates the difference.",
+            "score2_description": "The response extracts GDP figures with minor inaccuracies, positions the countries with slight errors, and/or has a small miscalculation in the difference.",
+            "score3_description": "The response correctly extracts GDP figures and identifies the countries, but either the calculation has a minor error, or there is a slight inconsistency in units.",
+            "score4_description": "The response accurately extracts GDP figures, correctly identifies the countries, calculates the difference with minor to no errors, but may lack full clarity in interpretation.",
+            "score5_description": "The response perfectly extracts GDP figures, identifies the countries correctly, calculates the difference without errors, and clearly interprets the result in the context of the question."
+        },
+        "atomic_checklist": [
+            "Does the response accurately extract and list the GDP reduction figures from the graph for both the country with the largest decrease and the eighth largest decrease?",
+            "Does the response perform the arithmetic calculation of the difference between the GDP reductions correctly?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.visualcapitalist.com/visualizing-the-105-trillion-world-economy-in-one-chart/"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 1,
+        "system_prompt": "You are an AI assistant with multi-modal capabilities tasked with crafting a useful response using the provided image and text instructions.",
+        "input": "Dari gambar yang diberikan, negara mana yang memperoleh skor di atas 180? ",
+        "reference_answer": "Berdasarkan gambar yang disediakan, negara-negara yang memperoleh skor di atas 180 dalam Olimpiade Matematika Internasional (IMO) 2023 adalah:\n1. China: 240 poin\n2. AS: 222 poin\n3. Korea Selatan: 215 poin\n4. Rumania: 208 poin\n5. Kanada: 183 poin\n6. Jepang: 181 poin\n\nMasing-masing negara ini memiliki total skor yang ditunjukkan di samping batang mereka masing-masing pada grafik, yang berada di atas 180 poin. ",
+        "score_rubric": {
+            "criteria": "Does the response precisely identify and report countries with scores above 180 in the IMO 2023 report?",
+            "score1_description": "The response inaccurately includes countries with scores under or equal to 180, and omits those above 180.",
+            "score2_description": "The response recognizes some countries with scores above 180, but includes Vietnam or other countries with exactly 180 points, reflecting a misunderstanding of the \"above 180\" criterion.",
+            "score3_description": "The response correctly lists several countries with scores above 180, but either mistakenly includes Vietnam or misses one other country just above the 180 mark.",
+            "score4_description": "The response identifies almost all correct countries with scores above 180, and does not include Vietnam, with at most one country incorrectly reported or omitted.",
+            "score5_description": "The response precisely identifies all countries with scores above 180 without including Vietnam or any country with exactly 180 points, showing meticulous attention to detail and full adherence to the criteria."
+        },
+        "atomic_checklist": [
+            "Does the response indicate all the countries (China, US, South Korea, Romania, Canada, Japan)?",
+            "Does the response not include Vietnam which has exactly 180 points?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://www.smartick.com/data/international-mathematical-olympiad-2023/"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 2,
+        "system_prompt": "You are an AI assistant with the ability to process visual information, tasked with providing a helpful answer based on the text instructions and the accompanying single image.",
+        "input": "Gambar yang diberikan membandingkan kualitas umpan balik bahasa yang dihasilkan setiap model. Pemberi anotasi manusia ditugaskan untuk memilih mana yang lebih baik dalam pengaturan berpasangan. Tentukan model mana yang berkinerja terbaik! ",
+        "reference_answer": "Gambar tersebut tampaknya merupakan diagram batang yang membandingkan tiga pasang model bahasa: GPT-4 vs. ChatGPT, Prometheus vs. ChatGPT, dan Prometheus vs. GPT-4. Kualitas umpan balik bahasa yang dihasilkan oleh setiap model dievaluasi dalam pengaturan berpasangan oleh penilai manusia, yang memilih mana yang lebih baik, atau apakah keduanya baik atau keduanya buruk.\n\nBatang-batang tersebut diberi kode warna untuk mewakili empat hasil:\n- Biru: Kiri Menang\n- Merah Muda: Kanan Menang\n- Ungu: Keduanya Baik\n- Oranye: Keduanya Buruk\n\nDari diagram yang disediakan, kita dapat mengevaluasi kinerja setiap model:\n1. **GPT-4 vs. ChatGPT**: GPT-4 lebih sering menang (74 hitungan) dibandingkan dengan ChatGPT (19 hitungan). Ini menunjukkan bahwa GPT-4 adalah model yang lebih unggul ketika dibandingkan langsung dengan ChatGPT.\n2. **Prometheus vs. ChatGPT**: Prometheus lebih sering menang (59 hitungan) dibandingkan dengan ChatGPT (19 hitungan). Ini menunjukkan bahwa Prometheus berkinerja lebih baik daripada ChatGPT.\n3. **Prometheus vs. GPT-4**: Prometheus lebih sering menang (51 hitungan) dibandingkan dengan GPT-4 (36 hitungan). Ini menunjukkan bahwa Prometheus sering dianggap sebagai model yang lebih baik ketika dibandingkan dengan GPT-4.\n\nDengan mempertimbangkan jumlah kemenangan dalam perbandingan berpasangan ini, Prometheus tampaknya menjadi model dengan kinerja terbaik. Ia memiliki jumlah kemenangan tertinggi melawan ChatGPT dan juga mengungguli GPT-4 dalam perbandingan langsung. ",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and clarity in interpreting and comparing the performance of language models as presented in the chart?",
+            "score1_description": "The response misinterprets the chart data and provides an incorrect comparison of model performance.",
+            "score2_description": "The response has significant inaccuracies in interpreting the chart, with only partial correct data comparison.",
+            "score3_description": "The response correctly interprets some of the chart data but makes errors in comparing model performance.",
+            "score4_description": "The response accurately interprets the chart data and mostly compares model performance correctly with minor errors.",
+            "score5_description": "The response accurately interprets and compares all chart data correctly, clearly identifying the best-performing model."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the colors of the bars in the chart?",
+            "Does the response correctly identify the outcomes represented by each color?",
+            "Does the response accurately count and compare the wins of the models?",
+            "Does the response correctly determine which model performs best based on the chart data?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://arxiv.org/abs/2310.08491"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 3,
+        "system_prompt": "As an AI assistant capable of interpreting images, your role is to offer a useful response guided by the text directions and the single image provided.",
+        "input": "Gambar berikut menampilkan biaya kuliah untuk institusi pada umumnya di AS. Berapakah perkiraan perbedaan antara University of Illinois Urbana-Champaign dan Georgia Institute of Technology-Main Campus? ",
+        "reference_answer": "Gambar tersebut menampilkan diagram batang horizontal yang menunjukkan biaya kuliah negara bagian untuk berbagai universitas selama periode yang berakhir pada tahun 2021.\n\nDari inspeksi visual diagram tersebut:\n- Batang yang mewakili University of Illinois Urbana-Champaign memanjang hingga sedikit kurang dari $15,000.\n- Batang untuk Georgia Institute of Technology-Main Campus sedikit di atas $10,000.\n\nOleh karena itu, perbedaan biaya kuliah antara kedua institusi tersebut akan sedikit kurang dari $5,000. ",
+        "score_rubric": {
+            "criteria": "Does the response accurately estimate the tuition costs from the bar chart and make a correct calculation of the difference between the two universities?",
+            "score1_description": "The response greatly misestimates tuition costs for both universities and incorrectly calculates the difference.",
+            "score2_description": "The response misestimates tuition costs for both universities with a significant error in the difference calculation.",
+            "score3_description": "The response estimates tuition costs with a moderate degree of accuracy and calculates a somewhat accurate difference.",
+            "score4_description": "The response accurately estimates tuition costs for one university but not the other, with a minor error in difference calculation.",
+            "score5_description": "The response provides a highly accurate visual estimate of tuition costs for both universities and calculates the difference correctly."
+        },
+        "atomic_checklist": [
+            "Does the response approximately estimate the tuition cost for the University of Illinois Urbana-Champaign, which is about $15,000?",
+            "Does the response approximately estimate the tuition cost for the Georgia Insitute of Technology-Main Campus, which is about $10,000?",
+            "Does the response make a good approximation of the difference, which is about $5,000?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://datausa.io/profile/cip/electrical-engineering"
+            }
+        ]
+    },
+    {
+        "capability": "vision",
+        "task": "bar_chart_interpretation",
+        "instance_idx": 4,
+        "system_prompt": "As an AI assistant adept at analyzing visual content, it's your task to generate a helpful reply based on the instructions in the text and the image that's been supplied.",
+        "input": "Dari tahun berapa suhu rata-rata internasional terus meningkat tanpa mencatat nilai negatif hingga saat ini? ",
+        "reference_answer": "Grafik yang Anda berikan menunjukkan perubahan suhu rata-rata global dari waktu ke waktu. Dari gambar tersebut, tampaknya suhu mulai meningkat secara konsisten tanpa nilai negatif dari sekitar akhir 1970-an atau awal 1980-an.\n\nLebih spesifik lagi, ada 2 grafik batang setelah garis 1975, jadi jawaban yang lebih tepat adalah 1978. ",
+        "score_rubric": {
+            "criteria": "Does the response show accuracy and specificity in identifying the year from which the global average temperature has been consistently increasing without recording any negative values up to the present, as depicted in the chart?",
+            "score1_description": "The response incorrectly identifies a year well before 1975 or after the 1980s, failing to interpret the chart as per the instruction.",
+            "score2_description": "The response identifies a year around 1875 or 1950, showing a misunderstanding of the instruction and failing to recognize the trend starting from the late 1970s or early 1980s.",
+            "score3_description": "The response correctly recognizes the trend starting from the late 1970s or early 1980s but does not specify the exact year.",
+            "score4_description": "The response correctly identifies the trend beginning in the late 1970s or early 1980s and attempts to specify the year but does not accurately identify 1978.",
+            "score5_description": "The response accurately identifies the trend beginning in the late 1970s or early 1980s and specifically mentions that the exact year when negative values stopped being shown is 1978."
+        },
+        "atomic_checklist": [
+            "Does the response accurately interpret the instruction and not answer the date that the first positive value was shown near 1875?",
+            "Does the response accurately interpret the instruction and not answer the date where a lot of positive values were shown near 1950?",
+            "Does the response recognize that only positive values were shown starting from the late 1970s or early 1980s?",
+            "Does the response accurately mention that the exact year where negative values were not shown is 1978?"
+        ],
+        "background_knowledge": [
+            {
+                "information": "",
+                "reference_url": "https://en.m.wikipedia.org/wiki/File:20210822_Global_warming_-_warming_stripes_bar_chart.svg"
+            }
+        ]
+    }
+]
