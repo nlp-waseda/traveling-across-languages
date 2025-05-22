@@ -5,10 +5,9 @@
 <img src="icons/top.png" width="50%"/>
 <br />
 
-<a href="https://arxiv.org/abs/xxxx" target="_blank">
+<a href="https://arxiv.org/abs/2505.15075" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-traveling--across--languages-red?logo=arxiv" height="20" />
 </a>
-FIXME
 <a href="https://huggingface.co/datasets/nlp-waseda/KnowRecall" target="_blank">
     <img alt="HF Dataset: VSI-Bench" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Benchmark-KnowRecall-ffc107?color=ffc107&logoColor=white" height="20" />
 </a>
@@ -161,4 +160,14 @@ python evaluate.py --prediction_file predictions/Qwen2.5-VL-7B-Instruct_translat
 KnowRecall's evaluation code is build upon [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval). We acknowledge their team for providing this excellent toolkit for evaluating multimodal large language models.
 
 ## Citation
-FIXME
+```bibtext
+@misc{wang2025travelinglanguagesbenchmarkingcrosslingual,
+      title={Traveling Across Languages: Benchmarking Cross-Lingual Consistency in Multimodal LLMs}, 
+      author={Hao Wang and Pinzhi Huang and Jihan Yang and Saining Xie and Daisuke Kawahara},
+      year={2025},
+      eprint={2505.15075},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.15075}, 
+}
+```
